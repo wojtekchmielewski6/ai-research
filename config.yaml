@@ -1,0 +1,142 @@
+# AI Infrastructure Financing Effectiveness Analysis
+# Configuration file
+
+project:
+  name: "AI Funding Efficiency Analysis"
+  version: "0.1.0"
+  description: "Comparative analysis of AI infrastructure financing effectiveness across USA, EU, and China"
+
+# Analysis parameters
+analysis:
+  regions:
+    - USA
+    - EU
+    - China
+
+  time_period:
+    start_year: 2015
+    end_year: 2025
+
+  financing_types:
+    - public
+    - private
+
+# Input variables (for DEA/SFA)
+inputs:
+  - name: public_investment
+    description: "Public R&D investment in AI (billion USD)"
+    source: "OECD, national statistics"
+
+  - name: private_investment
+    description: "Private investment in AI (VC, corporate) (billion USD)"
+    source: "Crunchbase, PitchBook"
+
+  - name: researchers
+    description: "Number of AI researchers"
+    source: "OECD, LinkedIn data"
+
+  - name: compute_capacity
+    description: "Compute infrastructure (petaflops)"
+    source: "Top500, industry reports"
+
+# Output variables
+outputs:
+  - name: patents
+    description: "AI-related patents (citation-weighted)"
+    source: "USPTO, EPO, CNIPA"
+
+  - name: publications
+    description: "AI research publications (top venues)"
+    source: "Semantic Scholar, arXiv"
+
+  - name: startups
+    description: "Number of AI startups"
+    source: "Crunchbase"
+
+  - name: foundation_models
+    description: "Number of frontier AI models released"
+    source: "Stanford HAI"
+
+  - name: adoption_rate
+    description: "AI adoption rate in enterprises"
+    source: "McKinsey, national surveys"
+
+# Environmental variables (for Tobit second stage)
+environmental:
+  - name: regulatory_index
+    description: "Regulatory strictness index (0-1)"
+
+  - name: gdp_per_capita
+    description: "GDP per capita (USD)"
+
+  - name: stem_graduates
+    description: "Annual STEM graduates"
+
+# Key policy events for DiD analysis
+policy_events:
+  EU:
+    - year: 2024
+      name: "EU AI Act"
+      description: "World's first comprehensive AI regulation"
+
+    - year: 2021
+      name: "EU AI Act Proposal"
+      description: "Initial proposal by European Commission"
+
+  USA:
+    - year: 2023
+      name: "Executive Order on AI Safety"
+      description: "Biden administration AI safety order"
+
+    - year: 2020
+      name: "National AI Initiative Act"
+      description: "Federal AI coordination act"
+
+  China:
+    - year: 2023
+      name: "Generative AI Regulations"
+      description: "Interim measures for GenAI services"
+
+    - year: 2017
+      name: "New Generation AI Plan"
+      description: "National AI development strategy"
+
+# Model configurations
+models:
+  dea:
+    type: "BCC"  # or "CCR"
+    orientation: "input"  # or "output"
+
+  sfa:
+    distribution: "half_normal"  # or "exponential", "truncated_normal"
+    frontier_type: "production"  # or "cost"
+
+  panel:
+    preferred_model: "auto"  # "fe", "re", or "auto" (Hausman test)
+
+  did:
+    baseline_period: 2020  # Reference period for pre-treatment
+
+  two_stage:
+    dea_type: "BCC"
+    tobit_bounds: [0, 1]
+
+# Data sources
+data_sources:
+  stanford_hai:
+    url: "https://hai.stanford.edu/ai-index"
+    description: "AI Index Report"
+
+  oecd:
+    url: "https://oecd.ai/"
+    description: "OECD AI Policy Observatory"
+
+  wipo:
+    url: "https://www.wipo.int/gii/"
+    description: "Global Innovation Index"
+
+# Output settings
+output:
+  format: "csv"  # or "excel", "json"
+  directory: "reports"
+  include_visualizations: true
