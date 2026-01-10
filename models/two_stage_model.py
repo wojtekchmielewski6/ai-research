@@ -437,16 +437,35 @@ def run_two_stage_analysis(data: pd.DataFrame) -> TwoStageResult:
     Returns:
         TwoStageResult
     """
-    # Przygotowanie zmiennych srodowiskowych
+    # Przygotowanie danych
     data = data.copy()
 
-    # Przykladowe zmienne srodowiskowe
-    # (w praktyce: indeksy regulacyjne, PKB, edukacja, itp.)
-    data['regulatory_index'] = data['region'].map({
-        'USA': 0.3,  # Luźne regulacje
-        'EU': 0.9,   # Scisle regulacje (AI Act)
-        'China': 0.7 # Srednie, ale scentralizowane
-    })
+    # Mapowanie nazw kolumn (obsluga roznych formatow danych)
+    col_mapping = {
+        'ai_researchers': 'researchers',
+        'public_rd_investment': 'public_investment',
+        'ai_adoption_rate': 'adoption_rate'
+    }
+    for old_col, new_col in col_mapping.items():
+        if old_col in data.columns and new_col not in data.columns:
+            data[new_col] = data[old_col]
+
+    # Uzupelnienie brakujacych kolumn
+    if 'researchers' not in data.columns:
+        data['researchers'] = 100000
+
+    if 'startups' not in data.columns:
+        # Szacunek na podstawie notable_models
+        data['startups'] = data.get('notable_models', 10) * 15 + 100
+
+    # Zmienne srodowiskowe - uzyj istniejacych lub stworz nowe
+    if 'regulatory_index' not in data.columns:
+        data['regulatory_index'] = data['region'].map({
+            'USA': 0.3,
+            'EU': 0.9,
+            'China': 0.7,
+            'UK': 0.4
+        }).fillna(0.5)
 
     # Trend czasowy
     data['time_trend'] = data['year'] - data['year'].min()

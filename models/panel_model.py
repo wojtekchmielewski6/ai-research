@@ -257,9 +257,11 @@ class PanelDataModel:
         beta_between = np.linalg.lstsq(X_between, y_between, rcond=None)[0]
         residuals_between = y_between - X_between @ beta_between
 
-        sigma2_between = np.sum(residuals_between**2) / (self.n_groups - self.k - 1)
+        # Zabezpieczenie przed dzieleniem przez zero
+        between_df = max(1, self.n_groups - self.k - 1)
+        sigma2_between = np.sum(residuals_between**2) / between_df
         T_mean = self.n / self.n_groups
-        sigma2_u = max(0, sigma2_between - sigma2_epsilon / T_mean)
+        sigma2_u = max(0.001, sigma2_between - sigma2_epsilon / T_mean)
 
         # Krok 2: GLS transformation
         theta = 1 - np.sqrt(sigma2_epsilon / (T_mean * sigma2_u + sigma2_epsilon)) if sigma2_u > 0 else 0
