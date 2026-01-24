@@ -39,9 +39,9 @@
 
 ---
 
-### Wniosek 2: Ryzyko rentowności ma strukturę warstwową
+### Wniosek 2: Ryzyko rentowności ma strukturę warstwową (Model Warstwowy Rentowności)
 
-**Model Stosu Rentowności** identyfikuje cztery odrębne warstwy ryzyka:
+**Model Warstwowy Rentowności** identyfikuje cztery odrębne warstwy ryzyka:
 
 **Warstwa 1 — Projekt:**
 - Źródło ryzyka: Unit economics, technologia, utilization
@@ -343,9 +343,9 @@ Luka bankowalności = Wymagany zwrot finansujących − IRR projektu (przy danym
 
 ---
 
-### Trzy cytowalne artefakty
+### Trzy kluczowe narzędzia analityczne
 
-**1. Stos Rentowności**
+**1. Model Warstwowy Rentowności**
 - Zastosowanie: Framework diagnostyczny — mapowanie 4 warstw ryzyka
 
 **2. Taksonomia Risk Wrappers**

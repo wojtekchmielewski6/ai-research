@@ -46,7 +46,7 @@ Książka proponuje alternatywne ramy analityczne. Centralna teza brzmi:
 
 Książka rozwija ten argument poprzez trzy oryginalne wkłady:
 
-**1. Stos Rentowności: Model Czterech Warstw.** Ryzyko rentowności w sektorach CAPEX-intensywnych działa na czterech odrębnych warstwach: (1) ekonomika projektu (koszty jednostkowe, krzywe uczenia, wykorzystanie mocy, parametry techniczne); (2) ekonomika branży (cykliczność, nadpodaż, siła cenowa); (3) ekonomika kontraktów (warunki offtake, indeksacja cen, renegocjacje); (4) pomiar korporacyjny (spread ROIC-WACC, konwersja gotówki, capex utrzymaniowy vs. rozwojowy). Każda warstwa generuje inne ryzyka wymagające innych odpowiedzi finansowych. Ten model systematyzuje „rentowność" jako kategorię analityczną, łącząc ekonomię branżową, teorię inwestycji i kontrakty finansowe.
+**1. Model Warstwowy Rentowności.** Ryzyko rentowności w sektorach CAPEX-intensywnych działa na czterech odrębnych warstwach: (1) ekonomika projektu (koszty jednostkowe, krzywe uczenia, wykorzystanie mocy, parametry techniczne); (2) ekonomika branży (cykliczność, nadpodaż, siła cenowa); (3) ekonomika kontraktów (warunki offtake, indeksacja cen, renegocjacje); (4) pomiar korporacyjny (spread ROIC-WACC, konwersja gotówki, capex utrzymaniowy vs. rozwojowy). Każda warstwa generuje inne ryzyka wymagające innych odpowiedzi finansowych. Ten model systematyzuje „rentowność" jako kategorię analityczną, łącząc ekonomię branżową, teorię inwestycji i kontrakty finansowe.
 
 **2. Taksonomia Risk Wrappers.** Risk wrapper to mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy, który przekształca specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych. Książka rozwija systematyczną taksonomię obejmującą pięć kategorii wrapperów: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii książka określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi downside, jak zwiększa bankowalność i kiedy zawodzi.
 
@@ -103,7 +103,7 @@ Ta krytyczna analiza pokazuje, że proponowany framework jest falsyfikowalny, ni
 
 Książka wnosi trzy cytowalne wkłady:
 
-1. **Stos Rentowności** — czterowarstwowy model analizy ryzyka rentowności
+1. **Model Warstwowy Rentowności** — czterowarstwowy model analizy ryzyka rentowności
 2. **Taksonomia Risk Wrappers** — systematyczna klasyfikacja tworząca wspólny język dla finansów, polityki i przemysłu
 3. **Architektura Dostawcy–Wrappers–Platformy** — model nowego systemu finansowania
 
@@ -123,7 +123,7 @@ Książka wnosi trzy cytowalne wkłady:
 
 ### CZĘŚĆ II: NOWA TEORIA
 
-**Rozdział 3: Stos Rentowności — Model Czterech Warstw**
+**Rozdział 3: Model Warstwowy Rentowności**
 
 **Rozdział 4: Risk Wrappers — Teoria i Taksonomia**
 
@@ -174,9 +174,9 @@ Rozdział krytycznie bada, dlaczego dominujące teorie corporate finance nie pot
 ### Rozdział 3: Stos Rentowności — Model Czterech Warstw
 **~35 stron | ~9 500 słów**
 
-Rozdział wprowadza pierwszy oryginalny wkład książki: Stos Rentowności, czterowarstwowy model analizy ryzyka rentowności w sektorach CAPEX-intensywnych. Warstwa 1 (Ekonomika projektu) adresuje koszty jednostkowe, krzywe uczenia, wskaźniki wykorzystania mocy i parametry techniczne. Warstwa 2 (Ekonomika branży) obejmuje cykliczność, dynamikę nadpodaży, siłę cenową i koncentrację rynku. Warstwa 3 (Ekonomika kontraktów) bada umowy offtake, mechanizmy indeksacji cen, ryzyko renegocjacji i skuteczność hedgingu. Warstwa 4 (Pomiar korporacyjny) analizuje spread ROIC-WACC, konwersję gotówki, alokację między capex utrzymaniowy i rozwojowy oraz ujęcie aktywów niematerialnych. Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od poziomu projektu przez branżę i kontrakty do poziomu korporacyjnego — i dlaczego każda warstwa wymaga innych odpowiedzi finansowych. Diagram Stosu Rentowności stanowi wizualną kotwicę powracającą przez całą książkę.
+Rozdział wprowadza pierwszy oryginalny wkład książki: Model Warstwowy Rentowności, czterowarstwowy model analizy ryzyka rentowności w sektorach CAPEX-intensywnych. Warstwa 1 (Ekonomika projektu) adresuje koszty jednostkowe, krzywe uczenia, wskaźniki wykorzystania mocy i parametry techniczne. Warstwa 2 (Ekonomika branży) obejmuje cykliczność, dynamikę nadpodaży, siłę cenową i koncentrację rynku. Warstwa 3 (Ekonomika kontraktów) bada umowy offtake, mechanizmy indeksacji cen, ryzyko renegocjacji i skuteczność hedgingu. Warstwa 4 (Pomiar korporacyjny) analizuje spread ROIC-WACC, konwersję gotówki, alokację między capex utrzymaniowy i rozwojowy oraz ujęcie aktywów niematerialnych. Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od poziomu projektu przez branżę i kontrakty do poziomu korporacyjnego — i dlaczego każda warstwa wymaga innych odpowiedzi finansowych. Diagram Modelu Warstwowego Rentowności stanowi wizualną kotwicę powracającą przez całą książkę.
 
-**Kluczowy artefakt:** Framework Stosu Rentowności; fundamentalne narzędzie analityczne dla kolejnych rozdziałów.
+**Kluczowe narzędzie analityczne:** Framework Modelu Warstwowego Rentowności; fundamentalne narzędzie dla kolejnych rozdziałów.
 
 ---
 
@@ -185,14 +185,14 @@ Rozdział wprowadza pierwszy oryginalny wkład książki: Stos Rentowności, czt
 
 Rozdział wprowadza drugi oryginalny wkład książki: teorię i taksonomię risk wrappers. Risk wrapper jest definiowany jako mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy przekształcający specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych, tym samym zwiększając bankowalność. Rozdział najpierw rozwija teorię projektowania wrapperów: wrappers powstają, gdy spełnione są trzy warunki — kontraktowalność (ryzyko może być określone), asymetryczna zdolność (jedna strona może ponieść ryzyko niższym kosztem) i weryfikowalność (wyniki mogą być obserwowane przez strony trzecie). Następnie rozdział prezentuje systematyczną taksonomię obejmującą pięć kategorii wrapperów: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe, credit enhancement), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii rozdział określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi rezydualny downside, jak zwiększa bankowalność i warunki, w których zawodzi.
 
-**Kluczowy artefakt:** Taksonomia Risk Wrappers; teoretyczne podstawy analizy wrapperów.
+**Kluczowe narzędzie analityczne:** Taksonomia Risk Wrappers; teoretyczne podstawy analizy wrapperów.
 
 ---
 
 ### Rozdział 5: Od ryzyka do bankowalności
 **~25 stron | ~7 000 słów**
 
-Rozdział łączy koncepcje Stosu Rentowności i Risk Wrappers, wprowadzając „bankowalność" jako centralną zmienną zależną. Bankowalność jest definiowana jako stopień, w jakim oczekiwane przepływy pieniężne inwestycji mogą być sfinansowane kapitałem trzecich stron na akceptowalnych warunkach. Rozdział wprowadza pojęcie „luki bankowalności" — różnicy między wewnętrznym IRR projektu a zwrotem wymaganym przez finansujących przy danym postrzeganym ryzyku. Risk wrappers zamykają tę lukę poprzez redukcję postrzeganego ryzyka, tym samym obniżając wymagane zwroty. Rozdział formalizuje warunki progowe bankowalności: jaka konfiguracja wrapperów czyni projekt finansowalnym? Wyjaśnia również, dlaczego bankowalność nie jest równoznaczna z rentownością — projekt może być rentowny, ale niebankowalny (jeśli ryzyka nie mogą być opakowane), lub bankowalny, ale ostatecznie nierentowny (jeśli wrappers tworzą moral hazard lub błędną wycenę).
+Rozdział łączy koncepcje Modelu Warstwowego Rentowności i Risk Wrappers, wprowadzając „bankowalność" jako centralną zmienną zależną. Bankowalność jest definiowana jako stopień, w jakim oczekiwane przepływy pieniężne inwestycji mogą być sfinansowane kapitałem trzecich stron na akceptowalnych warunkach. Rozdział wprowadza pojęcie „luki bankowalności" — różnicy między wewnętrznym IRR projektu a zwrotem wymaganym przez finansujących przy danym postrzeganym ryzyku. Risk wrappers zamykają tę lukę poprzez redukcję postrzeganego ryzyka, tym samym obniżając wymagane zwroty. Rozdział formalizuje warunki progowe bankowalności: jaka konfiguracja wrapperów czyni projekt finansowalnym? Wyjaśnia również, dlaczego bankowalność nie jest równoznaczna z rentownością — projekt może być rentowny, ale niebankowalny (jeśli ryzyka nie mogą być opakowane), lub bankowalny, ale ostatecznie nierentowny (jeśli wrappers tworzą moral hazard lub błędną wycenę).
 
 **Kluczowy output:** Koncepcja „luki bankowalności"; pomost między analizą ryzyka a wynikami finansowania.
 
@@ -203,7 +203,7 @@ Rozdział łączy koncepcje Stosu Rentowności i Risk Wrappers, wprowadzając �
 
 Rozdział prezentuje trzeci oryginalny wkład książki: Stos Finansowania CAPEX, trzypozioową architekturę wyjaśniającą, jak projekty CAPEX-intensywne są finansowane. Poziom 1 (Dostawcy) identyfikuje źródła kapitału: banki, fundusze private credit, VC/PE, fundusze infrastrukturalne, państwowe fundusze majątkowe, instytucje finansowania rozwoju, kapitał publiczny i publiczne rynki akcji. Każdy typ dostawcy ma odmienne: apetyt na ryzyko, horyzont czasowy, wymagania zwrotu i ograniczenia regulacyjne. Poziom 2 (Wrappers) podsumowuje mechanizmy transformacji ryzyka (z Rozdziału 4) umożliwiające udział różnorodnych dostawców. Poziom 3 (Platformy) wyjaśnia struktury organizacyjne — SPV, aranżacje syndykacyjne, struktury holdingowe, wehikuły blended finance, korporacyjne struktury project-like — które przekładają wrappers na warunki finansowania (senioralność, tenor, kowenanty, pricing, governance). Diagram Stosu Finansowania CAPEX integruje wszystkie trzy poziomy w jedne ramy wizualne stanowiące kluczowy wkład książki.
 
-**Kluczowy artefakt:** Stos Finansowania CAPEX; integracyjne ramy wizualne; diagram do cytowania.
+**Kluczowe narzędzie analityczne:** Model Finansowania CAPEX; integracyjne ramy wizualne; diagram do cytowania.
 
 ---
 
@@ -313,7 +313,7 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 | Wkład | Nowość | Wypełniona luka |
 |-------|--------|-----------------|
-| **Stos Rentowności** | Systematyzuje „ryzyko rentowności" jako kategorię z 4 warstwami | Łączy ekonomię branżową, teorię inwestycji i kontrakty finansowe |
+| **Model Warstwowy Rentowności** | Systematyzuje „ryzyko rentowności" jako kategorię z 4 warstwami | Łączy ekonomię branżową, teorię inwestycji i kontrakty finansowe |
 | **Taksonomia Risk Wrappers** | Pierwsza systematyczna klasyfikacja mechanizmów wrapper | Tworzy wspólny język dla finansów, polityki i przemysłu |
 | **Architektura Dostawcy–Wrappers–Platformy** | Wyjaśnia współinwestowanie heterogenicznego kapitału | Wypełnia lukę między opisem instytucjonalnym a wyjaśnieniem funkcjonalnym |
 | **Luka Bankowalności** | Formalizuje lukę między IRR a wymaganym zwrotem | Łączy analizę inwestycji z wynikami finansowania |
@@ -356,7 +356,7 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 | # | Nazwa | Rozdział | Opis |
 |---|-------|----------|------|
-| 1 | **Stos Rentowności** | 3 | Cztery warstwy: Projekt → Branża → Kontrakt → Korporacja |
+| 1 | **Model Warstwowy Rentowności** | 3 | Cztery warstwy: Projekt → Branża → Kontrakt → Korporacja |
 | 2 | **Taksonomia Risk Wrappers** | 4 | Tabela-matryca: typ ryzyka × typ wrappera × warunki |
 | 3 | **Stos Finansowania CAPEX** | 6 | Trzy poziomy: Dostawcy → Wrappers → Platformy |
 
@@ -400,7 +400,7 @@ Zwracam się z propozycją wydania książki pt. **„Finansowanie CAPEX-Shock: 
 
 Książka adresuje fundamentalne pytanie: dlaczego sektory CAPEX-intensywne — infrastruktura AI, transformacja energetyczna, półprzewodniki, technologie podwójnego zastosowania — rozwijają zupełnie odmienne wzorce finansowania niż przewiduje standardowa teoria corporate finance? Odpowiedź, którą proponuję, brzmi: w tych sektorach finansowanie wymaga „architektury alokacji ryzyka", nie optymalizacji struktury kapitału.
 
-Książka wnosi trzy oryginalne wkłady: Model Czterech Warstw Ryzyka Rentowności, Taksonomię Risk Wrappers oraz architekturę Dostawcy–Wrappers–Platformy. Te artefakty koncepcyjne tworzą wspólny język dla badaczy, praktyków i decydentów politycznych analizujących finansowanie transformacji przemysłowej.
+Książka wnosi trzy oryginalne wkłady: Model Czterech Warstw Ryzyka Rentowności, Taksonomię Risk Wrappers oraz architekturę Dostawcy–Wrappers–Platformy. Te narzędzia analityczne tworzą wspólny język dla badaczy, praktyków i decydentów politycznych analizujących finansowanie transformacji przemysłowej.
 
 Uważam, że książka dobrze wpisuje się w profil Edward Elgar Publishing, szczególnie w tradycję wydawnictwa publikowania prac oferujących alternatywy dla ortodoksji ekonomicznej. Struktura „reverse" — rozpoczynająca od empirycznych zagadek, poprzez krytykę standardowych teorii, do nowego frameworku — odpowiada podejściu „put core arguments up front" rekomendowanemu przez wydawnictwo.
 
