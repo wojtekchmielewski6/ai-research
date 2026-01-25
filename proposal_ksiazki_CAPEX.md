@@ -22,23 +22,56 @@ Książka dostarcza przedsiębiorstwom mapę nowego krajobrazu: kto dostarcza ka
 
 ## 2. SZCZEGÓŁOWY OPIS
 
-### Cel książki: Co czytelnik zyska?
+### Cel książki: Dwuczęściowa struktura
 
-Książka jest napisana z perspektywy przedsiębiorstwa, które stoi przed decyzją: jak sfinansować dużą inwestycję przemysłową? Po przeczytaniu czytelnik będzie wiedział:
+Książka realizuje dwa komplementarne cele:
 
-**1. Gdzie szukać kapitału i dlaczego stare źródła wysychają.**
-Banki, które przez dekady finansowały przemysł, wycofują się z długoterminowego kredytowania. Regulacje kapitałowe (Bazylea III/IV) sprawiają, że 15-letni kredyt na fabrykę jest dla banku zbyt „drogi" kapitałowo. Kto zajął ich miejsce? Fundusze private credit, inwestorzy infrastrukturalni, państwowe agencje rozwoju. Każdy z nich ma inne wymagania, inne horyzonty, inne oczekiwania — książka dostarcza mapę.
+---
 
-**2. Jakie instrumenty są potrzebne, żeby projekt był „finansowalny".**
-Dlaczego bank odmówił finansowania projektu z IRR 12%? Bo IRR to nie wszystko. Finansujący patrzą na ryzyko — a ryzyko można „opakować" kontraktami (PPA, offtake, take-or-pay), gwarancjami (ECA, państwo), ubezpieczeniami (political risk, construction). Książka pokazuje, które instrumenty działają dla jakich ryzyk i gdzie je znaleźć.
+**CZĘŚĆ I: DIAGNOZA — Zmiana paradygmatu finansowania**
 
-**3. Kto zyska, a kto straci w nowym systemie.**
-Przedsiębiorstwa, które rozumieją nową logikę finansowania, zrealizują projekty szybciej i taniej. Te, które nadal myślą kategoriami „pójdę do banku po kredyt", będą czekać latami lub w ogóle nie zamkną finansowania. Książka pokazuje, jak być po właściwej stronie tej zmiany.
+Pierwsza część książki ustala, że w sektorach CAPEX-intensywnych dokonała się fundamentalna zmiana paradygmatu finansowania. Nie chodzi o cykliczne wahania ani przejściowe trendy — to strukturalna transformacja sposobu, w jaki kapitał płynie do dużych projektów przemysłowych.
 
-**4. Jak się przygotować na przyszłe zmiany.**
-Private credit może się skurczyć. Państwo może zmienić priorytety. Regulacje mogą się zaostrzyć. Książka analizuje scenariusze i pokazuje, jak budować odporność finansową projektu na zmiany w otoczeniu.
+*Co się zmieniło?*
+- Banki przestały być głównymi kredytodawcami — stały się aranżerami ryzyka
+- Private credit i fundusze infrastrukturalne przejęły funkcje, które banki pełniły przez dekady
+- Państwo wróciło jako kluczowy aktor — nie jako inwestor, lecz jako dostawca gwarancji i wrapperów
+- Kluczem do finansowania nie jest już zdolność kredytowa firmy, lecz umiejętność „opakowania" ryzyka w kontrakty
 
-**Cel praktyczny:** Przedsiębiorstwo, które przeczyta tę książkę, będzie w stanie zrealizować swój projekt CAPEX-intensywny szybciej, taniej i z większą pewnością sukcesu — bo będzie rozumiało, jak działa system finansowania i jak go wykorzystać.
+*Dlaczego to się stało?*
+- Regulacje kapitałowe (Bazylea III/IV) uczyniły długoterminowe kredytowanie zbyt kosztownym dla banków
+- Skala inwestycji (CAPEX-shock) przekroczyła możliwości tradycyjnych struktur
+- Nowe ryzyka (technologiczne, geopolityczne, klimatyczne) wymagają nowych mechanizmów alokacji
+
+Książka dostarcza teorię wyjaśniającą tę transformację: Model Warstwowy Rentowności, Taksonomię Risk Wrappers i Architekturę Dostawcy–Wrappers–Platformy.
+
+---
+
+**CZĘŚĆ II: IMPLIKACJE — Co z tego wynika?**
+
+Druga część książki odpowiada na pytanie: skoro paradygmat się zmienił, jakie są tego konsekwencje?
+
+**1. Dla przedsiębiorstw szukających finansowania:**
+- Jak zmienić podejście do strukturyzowania projektów?
+- Jakich instrumentów szukać i gdzie?
+- Jak rozmawiać z nowymi typami finansujących (private credit, państwo)?
+- Jak budować odporność na dalsze zmiany w systemie?
+
+**2. Dla instytucji finansujących — zmiana oferty:**
+- Banki: jak przebudować model biznesowy wokół aranżowania, nie kredytowania?
+- Private credit: jak zarządzać ryzykami płynności i rollover?
+- Fundusze infrastrukturalne: jak skalować w obliczu CAPEX-shock?
+- Instytucje rozwoju: jak projektować efektywne blended finance?
+
+**3. Dla regulatorów — kierunek zmian:**
+- Jak regulacje ostrożnościowe (Bazylea, Solvency) nieintencjonalnie kształtują przepływy kapitału?
+- Czy wzrost NBFI wymaga nowych ram nadzorczych?
+- Jak projektować politykę przemysłową opartą na wrappers, nie dotacjach?
+- Jak unikać moral hazard i przechwycenia politycznego?
+
+---
+
+**Cel praktyczny:** Czytelnik — niezależnie czy jest CFO, bankowcem, zarządzającym funduszem czy regulatorem — zrozumie, jak zmienił się paradygmat finansowania i co z tego wynika dla jego decyzji.
 
 ---
 
@@ -155,13 +188,17 @@ Książka wnosi trzy cytowalne wkłady:
 
 ## 3. SPIS TREŚCI
 
-### CZĘŚĆ I: ZAGADKA
+---
+
+## CZĘŚĆ I: DIAGNOZA — ZMIANA PARADYGMATU FINANSOWANIA
+
+### Sekcja A: Problem i luka teoretyczna
 
 **Rozdział 1: Cztery anomalie, których teoria corporate finance nie potrafi wyjaśnić**
 
 **Rozdział 2: Dlaczego standardowa teoria corporate finance zawodzi**
 
-### CZĘŚĆ II: NOWA TEORIA
+### Sekcja B: Nowa teoria
 
 **Rozdział 3: Model Warstwowy Rentowności**
 
@@ -171,7 +208,7 @@ Książka wnosi trzy cytowalne wkłady:
 
 **Rozdział 6: Stos Finansowania CAPEX — Dostawcy, Wrappers, Platformy**
 
-### CZĘŚĆ III: NOWI AKTORZY
+### Sekcja C: Nowi aktorzy
 
 **Rozdział 7: Banki po transformacji — Od kredytodawców do aranżerów ryzyka**
 
@@ -179,15 +216,25 @@ Książka wnosi trzy cytowalne wkłady:
 
 **Rozdział 9: Państwo jako wrapper ostatniej instancji**
 
-### CZĘŚĆ IV: ROZWIĄZANIE ZAGADEK
+### Sekcja D: Weryfikacja empiryczna
 
 **Rozdział 10: Rozwiązanie czterech zagadek — Archetypy sektorowe**
 
-### CZĘŚĆ V: GRANICE I IMPLIKACJE
-
 **Rozdział 11: Kiedy architektura zawodzi — Warunki brzegowe**
 
-**Rozdział 12: Implikacje i agenda badawcza**
+---
+
+## CZĘŚĆ II: IMPLIKACJE — CO Z TEGO WYNIKA?
+
+**Rozdział 12: Implikacje dla przedsiębiorstw, instytucji finansowych i regulatorów**
+
+---
+
+## APPENDIXY
+
+**Appendix A: Bankability Assessment Framework**
+
+**Appendix B: Mapa dostawców kapitału**
 
 ---
 
