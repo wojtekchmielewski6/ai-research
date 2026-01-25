@@ -70,16 +70,32 @@ Książka krytycznie konfrontuje się z istniejącą teorią corporate finance, 
 
 ### Zakres i metoda
 
-Książka koncentruje się na czterech archetypach sektorowych, wybranych ze względu na odmienne profile ryzyka rentowności:
+**Uzasadnienie wyboru sektorów: kryteria teoretyczne.** Dobór czterech archetypów sektorowych nie jest arbitralny, lecz wynika z systematycznej analizy opartej na trzech kryteriach teoretycznych:
 
-1. **AI i infrastruktura cyfrowa** (compute, centra danych, zasilanie): wysokie ryzyko obsolescencji, zmienność kosztów energii, niepewność wykorzystania mocy
-2. **Energetyka i sieci** (wytwarzanie, przesył, magazynowanie): ryzyko regulacyjne, długie horyzonty, naturalna kontraktowalność
-3. **Półprzewodniki**: mega-CAPEX, cykliczność, ryzyko nadpodaży, ekspozycja geopolityczna
-4. **Technologie podwójnego zastosowania i przestrzeń kosmiczna**: popyt kontraktowy, ryzyko polityczne, wymogi compliance
+1. **Kryterium intensywności CAPEX** (Dixit & Pindyck, 1994; Abel & Eberly, 1994): sektory, w których inwestycje są (a) duże względem przepływów operacyjnych, (b) nieodwracalne (sunk costs), (c) długoterminowe (>10 lat życia aktywów). Te cechy tworzą warunki, w których standardowa teoria struktury kapitału (trade-off, pecking order) oferuje ograniczone predykcje.
 
-Dla każdego archetypu książka stosuje identyczny szablon analityczny: stos rentowności → relevantne wrappers → racjonalny capital stack → warunki brzegowe.
+2. **Kryterium heterogeniczności ryzyka rentowności**: sektory muszą różnić się profilem ryzyka w czterech warstwach Modelu Warstwowego, aby umożliwić comparative institutional analysis. Dobór zapewnia wariancję:
+   - *AI/cyfrowe*: dominuje ryzyko Warstwy 1 (obsolescencja technologiczna)
+   - *Energetyka*: dominuje ryzyko Warstwy 3 (kontraktowalność przychodów)
+   - *Półprzewodniki*: dominuje ryzyko Warstwy 2 (cykliczność branżowa) + Warstwy 4 (geopolityka)
+   - *Dual-use/space*: dominuje ryzyko polityczne + technologiczne jednocześnie
 
-**Podejście metodologiczne.** Książka jest budowaniem teorii, nie testowaniem hipotez. Stosuje trzy komplementarne metody: (1) *structured literature synthesis* — systematyczny przegląd literatury corporate finance, project finance, ekonomii kontraktów i NBFI z identyfikacją luk i mechanizmów; (2) *comparative institutional analysis* — porównanie struktur finansowania między sektorami i jurysdykcjami w celu identyfikacji wspólnych wzorców; (3) *evidence mapping* — przyporządkowanie przewidywań teoretycznych do dostępnych dowodów empirycznych. Materiał empiryczny pełni trzy funkcje: (1) dane agregatowe z IEA, BIS, OECD i źródeł branżowych dokumentują CAPEX-shock i zmiany finansowania; (2) strukturyzowane ilustracje transakcyjne demonstrują, jak framework działa w praktyce; (3) przypadki porażek (Britishvolt, Northvolt, cleantech SPACs, renegocjacje PPA) ilustrują warunki brzegowe.
+3. **Kryterium transformacji finansowania** (Chernenko et al., 2022; FSB, 2024): sektory, w których empirycznie obserwowana jest zmiana struktury finansowania (spadek udziału banków, wzrost private credit/państwa) w okresie 2010-2024.
+
+**Dlaczego te sektory, a nie inne?** Książka explicite wyklucza sektory CAPEX-intensywne, które nie spełniają wszystkich trzech kryteriów: (a) nieruchomości komercyjne — dominuje ryzyko cykliczne, ale finansowanie pozostaje tradycyjnie bankowe; (b) górnictwo/wydobycie — intensywne CAPEX, ale ryzyko surowcowe jest dobrze opakowane przez rynki terminowe; (c) infrastruktura transportowa — długie horyzonty, ale dominuje finansowanie publiczne bez znaczącej roli private credit. Wybrane cztery sektory reprezentują „czyste przypadki" transformacji paradygmatu finansowania.
+
+**Archetypowe profile ryzyka:**
+
+| Sektor | Warstwa 1 (Projekt) | Warstwa 2 (Branża) | Warstwa 3 (Kontrakt) | Warstwa 4 (Korporacja) |
+|--------|---------------------|--------------------|-----------------------|------------------------|
+| AI/cyfrowe | **Wysoka** (obsolescencja) | Średnia | Niska | Średnia |
+| Energetyka | Niska | Średnia | **Wysoka** (PPA) | Niska |
+| Półprzewodniki | Średnia | **Wysoka** (cykliczność) | Niska | **Wysoka** (geopolityka) |
+| Dual-use/space | **Wysoka** (tech) | Średnia | Średnia (gov contracts) | **Wysoka** (polityczne) |
+
+Dla każdego archetypu książka stosuje identyczny szablon analityczny: Model Warstwowy Rentowności → relevantne wrappers → racjonalny capital stack → warunki brzegowe. Ta standaryzacja umożliwia porównanie i generalizację.
+
+**Podejście metodologiczne.** Książka jest budowaniem teorii, nie testowaniem hipotez. Stosuje trzy komplementarne metody: (1) *structured literature synthesis* — systematyczny przegląd literatury corporate finance, project finance, ekonomii kontraktów i NBFI z identyfikacją luk i mechanizmów; (2) *comparative institutional analysis* (Whitley, 1999; Hall & Soskice, 2001) — porównanie struktur finansowania między sektorami i jurysdykcjami w celu identyfikacji wspólnych wzorców; (3) *evidence mapping* — przyporządkowanie przewidywań teoretycznych do dostępnych dowodów empirycznych. Materiał empiryczny pełni trzy funkcje: (1) dane agregatowe z IEA, BIS, OECD i źródeł branżowych dokumentują CAPEX-shock i zmiany finansowania; (2) strukturyzowane ilustracje transakcyjne demonstrują, jak framework działa w praktyce; (3) przypadki porażek (Britishvolt, Northvolt, cleantech SPACs, renegocjacje PPA) ilustrują warunki brzegowe.
 
 Zakres geograficzny to przede wszystkim gospodarki rozwinięte (USA, UE, UK, Japonia, Korea), gdzie infrastruktura instytucjonalna dla risk wrappers jest dojrzała. Chiny są omawiane selektywnie, ale nie stanowią głównego przypadku ze względu na odmienną rolę kapitału państwowego.
 
@@ -266,45 +282,50 @@ Rozdział bada rolę państwa w finansowaniu CAPEX-intensywnym — nie jako bezp
 ### Rozdział 10: Rozwiązanie czterech zagadek — Archetypy sektorowe
 **~70 stron | ~25 000 słów**
 
-Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framework książki je rozwiązuje. Każda sekcja stosuje identyczny szablon analityczny: (1) mapuj Model Warstwowy Rentowności sektora; (2) zidentyfikuj wrappers tworzące bankowalność; (3) wyjaśnij racjonalny capital stack; (4) określ tryby awarii. Każdy archetyp zawiera pełne case study (~2000 słów):
+Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framework książki je rozwiązuje. Każda sekcja stosuje identyczny szablon analityczny: (1) mapuj Model Warstwowy Rentowności sektora; (2) zidentyfikuj wrappers tworzące bankowalność; (3) wyjaśnij racjonalny capital stack; (4) określ tryby awarii.
+
+**Osadzenie teoretyczne case studies.** Każde case study jest explicite powiązane z teoretycznym mechanizmem wyjaśniającym zmianę paradygmatu finansowania:
+
+| Case Study | Mechanizm teoretyczny | Literatura bazowa |
+|------------|----------------------|-------------------|
+| Blackstone DC | Asymetria horyzontu czasowego: banki ograniczone przez Basel III nie mogą ponosić 15-letniego ryzyka obsolescencji | Greenwood et al. (2022), Diamond & Rajan (2001) |
+| Dogger Bank | Niekompletność kontraktów: PPA transformuje niestabilne przychody w bankowe cash flows | Williamson (1985), Hart & Moore (1990) |
+| TSMC Arizona | Ryzyka nieubezpieczalne: geopolityka przekracza zdolność wyceny rynków prywatnych | Knight (1921), Dixit & Pindyck (1994) |
+| SpaceX | Adverse selection + moral hazard: tylko equity z monitoring rights może ponosić ryzyko technologiczne | Jensen & Meckling (1976), Holmström & Tirole (1997) |
 
 **Case Study 1: AI i infrastruktura cyfrowa — Blackstone Data Centers (2023)**
+- **Mechanizm teoretyczny:** Teoria maturity transformation (Diamond & Dybvig, 1983) wyjaśnia, dlaczego banki — finansujące się krótkoterminowymi depozytami — nie mogą efektywnie ponosić 15-20-letniego ryzyka obsolescencji technologicznej. Fundusze PE z zamkniętą strukturą (closed-end) mają dopasowanie horyzontów.
 - Projekt: centrum danych 2 mld USD
-- Warstwa 1: PUE, construction risk, tech obsolescence
-- Warstwa 2: konkurencja hyperscale, overcapacity risk
-- Warstwa 3: Power contracts, lease agreements
+- Model Warstwowy: Warstwa 1 dominuje (PUE, tech obsolescence); Warstwa 3 słaba (brak długoterminowych offtake)
 - Wrappers: equity (40%), private credit (40%), bank debt (20%)
-- Dlaczego Blackstone, nie banki: zdolność do ponoszenia 15-letniego ryzyka obsolescencji
+- **Predykcja frameworku:** Gdy ryzyko Warstwy 1 dominuje i Warstwa 3 jest słaba, equity/PE musi dominować capital stack. ✓ Potwierdzone.
 
 **Case Study 2: Energetyka — Dogger Bank Offshore Wind (ScottishPower/SSE, 2024)**
+- **Mechanizm teoretyczny:** Teoria kontraktów niekompletnych (Williamson, 1985) wyjaśnia, dlaczego długoterminowe PPA są niezbędne: bez kontraktowej stabilizacji przychodów, ryzyko Warstwy 2 (ceny energii) uniemożliwia finansowanie dłużne. PPA „kompletyzuje" kontrakt poprzez określenie stanów natury ex ante.
 - Projekt: 3,6 GW, ~5 mld EUR CAPEX
-- Warstwa 1: turbine performance, wind variability
-- Warstwa 2: electricity prices, curtailment
-- Warstwa 3: 15-letnie PPA jako kluczowy wrapper
-- Wrappers: senior debt (65%), mezzanine (20%), equity (15%)
-- Dlaczego PPA jest sine qua non: bez stabilizacji przychodów IRR 8-12% jest „floppy"
+- Model Warstwowy: Warstwa 3 dominuje (kontraktowalność); Warstwa 1 niska (dojrzała technologia)
+- Wrappers: 15-letnie PPA jako kluczowy wrapper; senior debt (65%), mezzanine (20%), equity (15%)
+- **Predykcja frameworku:** Gdy Warstwa 3 jest silna (PPA dostępne), project finance z dominacją długu jest możliwe. ✓ Potwierdzone.
 
 **Case Study 3: Półprzewodniki — TSMC Arizona Fab 21 (2024)**
+- **Mechanizm teoretyczny:** Knightowska niepewność (Knight, 1921) vs ryzyko: ryzyka geopolityczne (US-China decoupling, export controls) nie są probabilistycznie mierzalne, więc nie mogą być wycenione przez rynki prywatne. Państwo musi dostarczyć wrapper dla „true uncertainty", nie tylko „calculable risk".
 - Projekt: 40 mld USD, 3nm node
-- Warstwa 1: yield rates, learning curve, capex phase-in
-- Warstwa 2: cykliczność, geopolityka, nadpodaż
-- Warstwa 3: soft customer agreements (nie PPA-like)
+- Model Warstwowy: Warstwa 2 + 4 dominują (cykliczność + geopolityka); Warstwa 3 słaba (brak PPA-like contracts)
 - Wrappers: CHIPS Act grants (6,6 mld USD), parent guarantee, equity (55%)
-- Dlaczego państwo: ryzyka geopolityczne przekraczają zdolność rynków prywatnych
+- **Predykcja frameworku:** Gdy Warstwa 4 (ryzyka nieubezpieczalne) dominuje, państwo musi być wrapper provider. ✓ Potwierdzone.
 
 **Case Study 4: Space/Dual-use — SpaceX Starship (2024)**
+- **Mechanizm teoretyczny:** Teoria agencji (Jensen & Meckling, 1976) i monitoring costs: przy wysokim ryzyku technologicznym (Warstwa 1) i asymetrii informacyjnej, tylko inwestorzy z prawami kontroli (board seats, monitoring rights) mogą efektywnie ponosić ryzyko. Dług jest nieefektywny, bo wierzyciele nie mają narzędzi do redukcji moral hazard.
 - Projekt: mega-rakieta, mixed financing
-- Warstwa 1: manufacturing yield, launch success rate
-- Warstwa 2: competition (China, ULA), demand uncertainty
-- Warstwa 3: NASA + DoD contracts jako wrapper przychodowy
+- Model Warstwowy: Warstwa 1 + 4 dominują (tech + polityka); Warstwa 3 średnia (gov contracts jako anchor)
 - Wrappers: venture equity (40%), gov contracts (35%), minimal debt
-- Dlaczego ta struktura: ryzyka techniczne + polityczne = tylko equity + gov
+- **Predykcja frameworku:** Gdy Warstwa 1 dominuje i asymetria informacyjna jest wysoka, equity z monitoring rights musi dominować. ✓ Potwierdzone.
 
-**AI compute financing: NVIDIA i OpenAI.** Dodatkowa sekcja analizuje finansowanie AI compute — przypadek hybrydowy między data centers a półprzewodnikami. Jak Microsoft finansuje compute dla OpenAI? Jak NVIDIA strukturyzuje supply chain financing?
+**AI compute financing: NVIDIA i OpenAI.** Dodatkowa sekcja analizuje finansowanie AI compute — przypadek hybrydowy między data centers a półprzewodnikami. Mechanizm teoretyczny: vertical integration jako substytut kontraktów (Coase, 1937; Klein et al., 1978). Microsoft finansuje compute dla OpenAI poprzez quasi-integrację pionową, eliminując hold-up problem.
 
-Rozdział kończy się wnioskami przekrojowymi: różne sektory wymagają różnych konfiguracji wrapperów, ale logika jest wspólna.
+**Wnioski przekrojowe i generalizacja.** Rozdział kończy się syntezą: cztery case studies potwierdzają predykcje frameworku — dominujący profil ryzyka w Modelu Warstwowym determinuje optymalną konfigurację wrapperów i capital stack. To nie jest korelacja, lecz mechanizm przyczynowy zakotwiczony w teorii.
 
-**Kluczowy output:** Demonstracja, że framework „działa"; 4 pełne case studies; rozwiązanie zagadek otwierających.
+**Kluczowy output:** Demonstracja, że framework „działa" i jest teoretycznie ugruntowany; 4 case studies z explicite powiązaniem teoria→predykcja→weryfikacja.
 
 ---
 
@@ -331,9 +352,32 @@ Rozdział bada warunki, w których architektura finansowania opisana w książce
 ### Rozdział 12: Implikacje i agenda badawcza
 **~25 stron | ~7 000 słów**
 
-Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców i proponuje agendę badawczą. Dla decydentów politycznych rozdział argumentuje, że skuteczna polityka przemysłowa wymaga projektowania wrapperów, nie tylko alokacji kapitału; że regulacje ostrożnościowe (Bazylea, Solvency) mogą nieintencjonalnie ograniczać finansowanie CAPEX; i że wzrost private credit odzwierciedla funkcjonalną konieczność, nie arbitraż regulacyjny. Dla praktyków rozdział proponuje przeformułowanie due diligence wokół czterowarstwowego stosu rentowności; przeprojektowanie strategii bankowej wokół aranżowania ryzyka zamiast kredytowania; i rozwinięcie zestawu narzędzi CFO do negocjowania wrapperów. Dla badaczy rozdział identyfikuje luki danych (granularne warunki wrapperów, ekspozycje private credit, kontyngencje gwarancji państwowych), proponuje testowalne hipotezy (czy wrappers redukują koszt kapitału? czy wpływają na timing inwestycji? czy tworzą moral hazard?) i sugeruje podejścia metodologiczne. Rozdział kończy się pytaniem, czy „CAPEX-intensywne corporate finance" powinno stać się uznaną subdyscypliną.
+Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców i proponuje agendę badawczą.
 
-**Kluczowy output:** Praktyczne implikacje; agenda badawcza; domknięcie intelektualne.
+**Implikacje dla decydentów politycznych:** skuteczna polityka przemysłowa wymaga projektowania wrapperów, nie tylko alokacji kapitału; regulacje ostrożnościowe (Bazylea, Solvency) mogą nieintencjonalnie ograniczać finansowanie CAPEX; wzrost private credit odzwierciedla funkcjonalną konieczność, nie arbitraż regulacyjny.
+
+**Implikacje dla praktyków:** przeformułowanie due diligence wokół czterowarstwowego Modelu Warstwowego; przeprojektowanie strategii bankowej wokół aranżowania ryzyka zamiast kredytowania; rozwinięcie zestawu narzędzi CFO do negocjowania wrapperów.
+
+**Implikacje dla badaczy:** luki danych (granularne warunki wrapperów, ekspozycje private credit, kontyngencje gwarancji państwowych), testowalne hipotezy (czy wrappers redukują koszt kapitału? czy wpływają na timing inwestycji? czy tworzą moral hazard?) i sugerowane podejścia metodologiczne.
+
+**Co dalej? Dokąd zmierzamy? — Cztery scenariusze ewolucji.** Rozdział zamyka się analizą prospektywną: jak architektura finansowania CAPEX-intensywnego może ewoluować w horyzoncie 10-20 lat?
+
+| Scenariusz | Opis | Implikacje dla frameworku |
+|------------|------|---------------------------|
+| **1. Konsolidacja** | Private credit i państwo stabilizują się jako trwałe komponenty capital stack; banki akceptują rolę „aranżerów ryzyka" | Framework staje się nowym mainstreamem; teoria corporate finance wymaga rewizji |
+| **2. Rewersja** | Szok płynności w NBFI (np. kryzys private credit) prowadzi do powrotu dominacji banków; regulacje ograniczają NBFI | Warunki brzegowe z Rozdziału 11 materializują się; część wrapperów staje się niedostępna |
+| **3. Fragmentacja geopolityczna** | US-China decoupling prowadzi do dwóch równoległych systemów finansowania z odmiennymi wrapperami | Model wymaga rozszerzenia o zmienną „reżim geopolityczny"; Chiny stają się osobnym przypadkiem |
+| **4. Innowacja wrapperów** | Nowe technologie (blockchain, smart contracts, parametric insurance) tworzą nowe kategorie wrapperów | Taksonomia wymaga aktualizacji; możliwe obniżenie luki bankowalności przez innowacje |
+
+**Najważniejsze trendy strukturalne:**
+- *Wzrost znaczenia państwa:* Powrót polityki przemysłowej (CHIPS Act, IRA, Net Zero Industry Act) sugeruje trwałe zwiększenie roli państwa jako wrapper provider
+- *Koncentracja private credit:* Konsolidacja funduszy może prowadzić do oligopolu w finansowaniu CAPEX, z implikacjami dla pricing i warunków
+- *Climate transition jako megatrend:* Dekarbonizacja wymaga ~$4 bln CAPEX rocznie do 2030 (IEA) — architektura wrapperów będzie testowana na bezprecedensową skalę
+- *AI jako game-changer:* Finansowanie compute infrastructure może przekształcić sektor data centers i stworzyć nowe wzorce finansowania
+
+**Otwarte pytanie końcowe:** Czy „CAPEX-intensywne corporate finance" powinno stać się uznaną subdyscypliną finansów? Ta książka argumentuje, że tak — i dostarcza fundamenty pojęciowe do jej budowy.
+
+**Kluczowy output:** Praktyczne implikacje; agenda badawcza; analiza prospektywna; domknięcie intelektualne z otwarciem na przyszłość.
 
 ---
 
