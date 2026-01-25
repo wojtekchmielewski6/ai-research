@@ -154,47 +154,72 @@ Książka wnosi trzy cytowalne wkłady:
 ## 4. ABSTRAKTY ROZDZIAŁÓW
 
 ### Rozdział 1: Cztery anomalie, których teoria corporate finance nie potrafi wyjaśnić
-**~30 stron | ~8 000 słów**
+**~35 stron | ~10 000 słów**
 
-Rozdział otwiera książkę czterema empirycznymi zagadkami motywującymi całe badanie. Zagadka Blackstone bada, dlaczego finansowanie centrów danych przesunęło się z konsorcjów bankowych do kapitału prywatnego. Zagadka PPA pyta, dlaczego projekty offshore wind z atrakcyjnym IRR wymagają 15-letnich kontraktów zakupu energii do uzyskania finansowania. Zagadka TSMC analizuje, dlaczego najbardziej rentowna firma półprzewodnikowa na świecie potrzebuje państwowych dotacji na budowę fabryk. Zagadka SpaceX bada niekonwencjonalną strukturę kapitałową, która przeczy przewidywaniom teorii pecking order. Rozdział ustanawia, że te anomalie mają wspólny rdzeń: tradycyjne ramy corporate finance — zaprojektowane dla marginalnych decyzji inwestycyjnych i zamiennego kapitału — nie potrafią wyjaśnić wzorców finansowania w sektorach CAPEX-intensywnych. Rozdział kończy się zapowiedzią alternatywnego wyjaśnienia książki: finansowanie jako architektura ryzyka.
+Rozdział otwiera książkę czterema empirycznymi zagadkami motywującymi całe badanie. Zagadka Blackstone bada, dlaczego finansowanie centrów danych przesunęło się z konsorcjów bankowych do kapitału prywatnego. Zagadka PPA pyta, dlaczego projekty offshore wind z atrakcyjnym IRR wymagają 15-letnich kontraktów zakupu energii do uzyskania finansowania. Zagadka TSMC analizuje, dlaczego najbardziej rentowna firma półprzewodnikowa na świecie potrzebuje państwowych dotacji na budowę fabryk. Zagadka SpaceX bada niekonwencjonalną strukturę kapitałową, która przeczy przewidywaniom teorii pecking order.
 
-**Kluczowy output:** Motywacja czytelnika; jasne sformułowanie centralnego pytania książki.
+**Dane empiryczne: CAPEX-shock i zmiana finansowania (2010-2024).** Przed prezentacją zagadek rozdział dokumentuje skalę transformacji poprzez cztery tabele agregatowe:
+
+| Tabela | Zawartość | Źródła |
+|--------|-----------|--------|
+| **Tabela 1.1** | Wzrost CAPEX w sektorach CAPEX-intensywnych (2010-2024): CAPEX rośnie 8-12% rocznie vs. PKB 3-4% | IEA, SEMI, IDC, BIS |
+| **Tabela 1.2** | Zmiana struktury finansowania według sektorów: udział banków spada z 70% do 40%, private credit rośnie z 5% do 25% | BIS, PitchBook, Refinitiv |
+| **Tabela 1.3** | Wzrost private credit AUM: z 500 mld USD (2010) do 1,5 bln USD (2024), sektory CAPEX-intensywne rosną szybciej niż średnia | FSB Global Monitoring Reports |
+| **Tabela 1.4** | Penetracja PPA w energetyce odnawialnej: X% dużych projektów wymaga 10-15-letnich PPA (wzrost z Y% w 2010) | IEA, BNEF, IRENA |
+
+Te dane ustanawiają, że anomalie nie są anegdotyczne — reprezentują systemową transformację finansowania. Rozdział kończy się zapowiedzią alternatywnego wyjaśnienia książki: finansowanie jako architektura ryzyka.
+
+**Kluczowy output:** Motywacja czytelnika; empiryczne ugruntowanie argumentu; jasne sformułowanie centralnego pytania książki.
 
 ---
 
 ### Rozdział 2: Dlaczego standardowa teoria corporate finance zawodzi
-**~25 stron | ~7 000 słów**
+**~30 stron | ~8 500 słów**
 
-Rozdział krytycznie bada, dlaczego dominujące teorie corporate finance nie potrafią wyjaśnić anomalii z Rozdziału 1. Teoria trade-off przewiduje, że firmy optymalizują między tarczami podatkowymi a kosztami bankructwa — ale firmy CAPEX-intensywne używają złożonych struktur niewyjaśnionych przez ten trade-off. Teoria pecking order przewiduje preferencję środków wewnętrznych nad kapitałem zewnętrznym — ale sektory CAPEX-intensywne pokazują odwrotny wzorzec. Teoria agencji koncentruje się na konfliktach governance — ale pomija rolę kontraktów operacyjnych w umożliwianiu finansowania. Literatura project finance traktuje struktury non-recourse jako niszowe techniki — ale ta książka argumentuje, że logika project finance staje się mainstreamem w CAPEX-intensywnym corporate finance. Rozdział konkluduje, że potrzebne jest nie modyfikowanie istniejących teorii, ale inne punkt wyjścia: finansowanie jako architektura ryzyka, nie optymalizacja struktury kapitału.
+Rozdział krytycznie bada, dlaczego dominujące teorie corporate finance nie potrafią wyjaśnić anomalii z Rozdziału 1. Teoria trade-off przewiduje, że firmy optymalizują między tarczami podatkowymi a kosztami bankructwa — ale firmy CAPEX-intensywne używają złożonych struktur niewyjaśnionych przez ten trade-off. Teoria pecking order przewiduje preferencję środków wewnętrznych nad kapitałem zewnętrznym — ale sektory CAPEX-intensywne pokazują odwrotny wzorzec. Teoria agencji koncentruje się na konfliktach governance — ale pomija rolę kontraktów operacyjnych w umożliwianiu finansowania. Literatura project finance traktuje struktury non-recourse jako niszowe techniki — ale ta książka argumentuje, że logika project finance staje się mainstreamem w CAPEX-intensywnym corporate finance.
 
-**Kluczowy output:** Luka teoretyczna ustanowiona; czytelnik przekonany, że nowy framework jest konieczny.
+**Pozycjonowanie wobec literatury o polityce przemysłowej (Mazzucato).** Rozdział adresuje również lukę w literaturze o roli państwa w finansowaniu innowacji. Mariana Mazzucato (*The Entrepreneurial State*, 2013) argumentuje, że państwo powinno działać jako „venture capitalist" — inwestować w early-stage technologie, akceptować downside risk i dzielić się upside. Ta książka proponuje odmienne ujęcie. Problem w sektorach CAPEX-intensywnych nie polega na braku finansowania innowacji (to zadanie VC), lecz na braku finansowania *wdrożenia* dojrzałych technologii na mega-skalę. TSMC ma 40 mld USD gotówki, ale potrzebuje 6,6 mld USD dotacji na fabrykę w Arizonie — to nie jest problem „venture", lecz problem alokacji ryzyka. Kluczową funkcją państwa nie jest bycie inwestorem, lecz dostawcą wrapperów dla ryzyk, których rynki prywatne nie mogą wycenić: geopolitycznych, regulacyjnych, systemowych. To prowadzi do innych rekomendacji politycznych: nie „wybieranie zwycięzców", lecz inteligentne projektowanie wrapperów.
+
+**Kluczowy output:** Luka teoretyczna ustanowiona; wyraźne pozycjonowanie wobec Mazzucato; czytelnik przekonany, że nowy framework jest konieczny.
 
 ---
 
-### Rozdział 3: Stos Rentowności — Model Czterech Warstw
-**~35 stron | ~9 500 słów**
+### Rozdział 3: Model Warstwowy Rentowności
+**~40 stron | ~11 000 słów**
 
-Rozdział wprowadza pierwszy oryginalny wkład książki: Model Warstwowy Rentowności, czterowarstwowy model analizy ryzyka rentowności w sektorach CAPEX-intensywnych. Warstwa 1 (Ekonomika projektu) adresuje koszty jednostkowe, krzywe uczenia, wskaźniki wykorzystania mocy i parametry techniczne. Warstwa 2 (Ekonomika branży) obejmuje cykliczność, dynamikę nadpodaży, siłę cenową i koncentrację rynku. Warstwa 3 (Ekonomika kontraktów) bada umowy offtake, mechanizmy indeksacji cen, ryzyko renegocjacji i skuteczność hedgingu. Warstwa 4 (Pomiar korporacyjny) analizuje spread ROIC-WACC, konwersję gotówki, alokację między capex utrzymaniowy i rozwojowy oraz ujęcie aktywów niematerialnych. Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od poziomu projektu przez branżę i kontrakty do poziomu korporacyjnego — i dlaczego każda warstwa wymaga innych odpowiedzi finansowych. Diagram Modelu Warstwowego Rentowności stanowi wizualną kotwicę powracającą przez całą książkę.
+Rozdział wprowadza pierwszy oryginalny wkład książki: Model Warstwowy Rentowności, czterowarstwowy model analizy ryzyka rentowności w sektorach CAPEX-intensywnych. Warstwa 1 (Ekonomika projektu) adresuje koszty jednostkowe, krzywe uczenia, wskaźniki wykorzystania mocy i parametry techniczne. Warstwa 2 (Ekonomika branży) obejmuje cykliczność, dynamikę nadpodaży, siłę cenową i koncentrację rynku. Warstwa 3 (Ekonomika kontraktów) bada umowy offtake, mechanizmy indeksacji cen, ryzyko renegocjacji i skuteczność hedgingu. Warstwa 4 (Pomiar korporacyjny) analizuje spread ROIC-WACC, konwersję gotówki, alokację między capex utrzymaniowy i rozwojowy oraz ujęcie aktywów niematerialnych.
 
-**Kluczowe narzędzie analityczne:** Framework Modelu Warstwowego Rentowności; fundamentalne narzędzie dla kolejnych rozdziałów.
+**Ryzyka klimatyczne w Warstwie 2.** Rozdział poświęca szczególną uwagę ryzykom klimatycznym jako rosnącemu komponentowi Warstwy 2. Physical climate risk (ekstremalne zjawiska pogodowe, zmiany hydrologiczne) bezpośrednio wpływa na ekonomikę projektów energetycznych i infrastrukturalnych. Transition risk (zmiany polityczne, carbon pricing, zakazy technologii) tworzy ryzyko stranded assets — aktywów, które tracą wartość przed końcem życia ekonomicznego. Dla sektorów CAPEX-intensywnych o 20-30-letnich horyzontach inwestycyjnych, ryzyka klimatyczne stają się materialne dla decyzji finansowych. Rozdział analizuje, które wrappers mogą adresować ryzyka klimatyczne (climate-linked PPA, green bonds z kowenantami) i które pozostają nieopakowane.
+
+Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od poziomu projektu przez branżę i kontrakty do poziomu korporacyjnego — i dlaczego każda warstwa wymaga innych odpowiedzi finansowych. Diagram Modelu Warstwowego Rentowności stanowi wizualną kotwicę powracającą przez całą książkę.
+
+**Kluczowe narzędzie analityczne:** Framework Modelu Warstwowego Rentowności; integracja ryzyk klimatycznych.
 
 ---
 
 ### Rozdział 4: Risk Wrappers — Teoria i Taksonomia
-**~40 stron | ~11 000 słów**
+**~45 stron | ~12 500 słów**
 
-Rozdział wprowadza drugi oryginalny wkład książki: teorię i taksonomię risk wrappers. Risk wrapper jest definiowany jako mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy przekształcający specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych, tym samym zwiększając bankowalność. Rozdział najpierw rozwija teorię projektowania wrapperów: wrappers powstają, gdy spełnione są trzy warunki — kontraktowalność (ryzyko może być określone), asymetryczna zdolność (jedna strona może ponieść ryzyko niższym kosztem) i weryfikowalność (wyniki mogą być obserwowane przez strony trzecie). Następnie rozdział prezentuje systematyczną taksonomię obejmującą pięć kategorii wrapperów: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe, credit enhancement), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii rozdział określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi rezydualny downside, jak zwiększa bankowalność i warunki, w których zawodzi.
+Rozdział wprowadza drugi oryginalny wkład książki: teorię i taksonomię risk wrappers. Risk wrapper jest definiowany jako mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy przekształcający specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych, tym samym zwiększając bankowalność.
 
-**Kluczowe narzędzie analityczne:** Taksonomia Risk Wrappers; teoretyczne podstawy analizy wrapperów.
+**Fundament teoretyczny: niekompletne kontrakty i governance (Williamson).** Rozdział zakotwicza teorię wrappers w ekonomii niekompletnych kontraktów. Kontrakty nie mogą określić wszystkich możliwych stanów natury — zawsze istnieje residual risk, którego kontrakt nie adresuje. Pytanie brzmi: kto ponosi residual risk i kto ma residual control rights? Wrappers są odpowiedzią na niekompletność: banki nie mogą ponosić długoterminowego ryzyka politycznego (brak control rights nad polityką), więc państwo musi dostarczyć ten wrapper. Kapitał PE może ponosić ryzyko technologiczne (ma monitoring rights, miejsce w zarządzie). To wyjaśnia, dlaczego specyficzni aktorzy dostarczają specyficzne wrappers.
+
+Rozdział rozwija teorię projektowania wrapperów: wrappers powstają, gdy spełnione są trzy warunki — kontraktowalność (ryzyko może być określone), asymetryczna zdolność (jedna strona może ponieść ryzyko niższym kosztem) i weryfikowalność (wyniki mogą być obserwowane przez strony trzecie). Następnie rozdział prezentuje systematyczną taksonomię obejmującą pięć kategorii wrapperów: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe, credit enhancement), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii rozdział określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi rezydualny downside, jak zwiększa bankowalność i warunki, w których zawodzi.
+
+**Kluczowe narzędzie analityczne:** Taksonomia Risk Wrappers; zakotwiczenie w teorii niekompletnych kontraktów Williamsona.
 
 ---
 
 ### Rozdział 5: Od ryzyka do bankowalności
-**~25 stron | ~7 000 słów**
+**~30 stron | ~9 000 słów**
 
-Rozdział łączy koncepcje Modelu Warstwowego Rentowności i Risk Wrappers, wprowadzając „bankowalność" jako centralną zmienną zależną. Bankowalność jest definiowana jako stopień, w jakim oczekiwane przepływy pieniężne inwestycji mogą być sfinansowane kapitałem trzecich stron na akceptowalnych warunkach. Rozdział wprowadza pojęcie „luki bankowalności" — różnicy między wewnętrznym IRR projektu a zwrotem wymaganym przez finansujących przy danym postrzeganym ryzyku. Risk wrappers zamykają tę lukę poprzez redukcję postrzeganego ryzyka, tym samym obniżając wymagane zwroty. Rozdział formalizuje warunki progowe bankowalności: jaka konfiguracja wrapperów czyni projekt finansowalnym? Wyjaśnia również, dlaczego bankowalność nie jest równoznaczna z rentownością — projekt może być rentowny, ale niebankowalny (jeśli ryzyka nie mogą być opakowane), lub bankowalny, ale ostatecznie nierentowny (jeśli wrappers tworzą moral hazard lub błędną wycenę).
+Rozdział łączy koncepcje Modelu Warstwowego Rentowności i Risk Wrappers, wprowadzając „bankowalność" jako centralną zmienną zależną. Bankowalność jest definiowana jako stopień, w jakim oczekiwane przepływy pieniężne inwestycji mogą być sfinansowane kapitałem trzecich stron na akceptowalnych warunkach. Rozdział wprowadza pojęcie „luki bankowalności" — różnicy między wewnętrznym IRR projektu a zwrotem wymaganym przez finansujących przy danym postrzeganym ryzyku. Risk wrappers zamykają tę lukę poprzez redukcję postrzeganego ryzyka, tym samym obniżając wymagane zwroty.
 
-**Kluczowy output:** Koncepcja „luki bankowalności"; pomost między analizą ryzyka a wynikami finansowania.
+**Formalizacja mechaniki wrappers.** Rozdział zawiera formalny model pokazujący, jak wrappers redukują koszt kapitału. Postrzegane ryzyko projektu (σ) składa się z komponentów: σ_revenue + σ_tech + σ_regulatory + σ_political. Każdy wrapper adresuje specyficzne komponenty: PPA redukuje σ_revenue (ale nie σ_tech), gwarancja państwowa redukuje σ_political (ale nie σ_revenue). Tabela pokazuje efekt każdego wrappera na spread wymaganego zwrotu (w punktach bazowych): PPA (-150 bps), ECA guarantee (-200 bps), government grant (-250 bps), parent guarantee (-200 bps). Model wyjaśnia, dlaczego PPA wystarcza dla energetyki odnawialnej (gdzie σ_tech ≈ 0), ale nie wystarcza dla półprzewodników (gdzie σ_tech jest wysokie).
+
+**Moral hazard i przeinwestowanie.** Rozdział adresuje ciemną stronę bankowalności: wrappers mogą indukować nadmierne inwestycje, jeśli są dostępne dla wszystkich graczy jednocześnie. Case: data center boom 2023-2024 — każdy operator myślał, że może finansować przy 8-10% IRR, co doprowadziło do nadpodaży i kompresji IRR do 5-6%. Wrappers mogą być procykliczne.
+
+**Kluczowy output:** Koncepcja „luki bankowalności"; formalny model redukcji kosztu kapitału; analiza moral hazard.
 
 ---
 
@@ -235,20 +260,67 @@ Rozdział bada rolę państwa w finansowaniu CAPEX-intensywnym — nie jako bezp
 ---
 
 ### Rozdział 10: Rozwiązanie czterech zagadek — Archetypy sektorowe
-**~45 stron | ~12 000 słów**
+**~70 stron | ~25 000 słów**
 
-Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framework książki je rozwiązuje. Każda sekcja stosuje identyczny szablon analityczny: (1) mapuj stos rentowności sektora (które warstwy generują które ryzyka); (2) zidentyfikuj wrappers tworzące bankowalność; (3) wyjaśnij racjonalny capital stack przy danej dostępności wrapperów; (4) określ tryby awarii. Dla AI i infrastruktury cyfrowej rozwiązanie leży w zdolności kapitału prywatnego do ponoszenia ryzyka obsolescencji i wykorzystania mocy, którego banki nie mogą ponieść. Dla energetyki i sieci długoterminowe PPA i wrappers regulacyjne zamykają lukę bankowalności umożliwiającą project finance. Dla półprzewodników wrappers państwowe adresują ryzyka geopolityczne i cykliczne przekraczające zdolności prywatne. Dla dual-use/space kontrakty rządowe służą jako wrappers przychodowe umożliwiające niekonwencjonalne struktury kapitałowe. Rozdział kończy się wnioskami przekrojowymi: jakie wzorce wyłaniają się we wszystkich czterech archetypach.
+Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framework książki je rozwiązuje. Każda sekcja stosuje identyczny szablon analityczny: (1) mapuj Model Warstwowy Rentowności sektora; (2) zidentyfikuj wrappers tworzące bankowalność; (3) wyjaśnij racjonalny capital stack; (4) określ tryby awarii. Każdy archetyp zawiera pełne case study (~2000 słów):
 
-**Kluczowy output:** Demonstracja, że framework „działa"; rozwiązanie zagadek otwierających.
+**Case Study 1: AI i infrastruktura cyfrowa — Blackstone Data Centers (2023)**
+- Projekt: centrum danych 2 mld USD
+- Warstwa 1: PUE, construction risk, tech obsolescence
+- Warstwa 2: konkurencja hyperscale, overcapacity risk
+- Warstwa 3: Power contracts, lease agreements
+- Wrappers: equity (40%), private credit (40%), bank debt (20%)
+- Dlaczego Blackstone, nie banki: zdolność do ponoszenia 15-letniego ryzyka obsolescencji
+
+**Case Study 2: Energetyka — Dogger Bank Offshore Wind (ScottishPower/SSE, 2024)**
+- Projekt: 3,6 GW, ~5 mld EUR CAPEX
+- Warstwa 1: turbine performance, wind variability
+- Warstwa 2: electricity prices, curtailment
+- Warstwa 3: 15-letnie PPA jako kluczowy wrapper
+- Wrappers: senior debt (65%), mezzanine (20%), equity (15%)
+- Dlaczego PPA jest sine qua non: bez stabilizacji przychodów IRR 8-12% jest „floppy"
+
+**Case Study 3: Półprzewodniki — TSMC Arizona Fab 21 (2024)**
+- Projekt: 40 mld USD, 3nm node
+- Warstwa 1: yield rates, learning curve, capex phase-in
+- Warstwa 2: cykliczność, geopolityka, nadpodaż
+- Warstwa 3: soft customer agreements (nie PPA-like)
+- Wrappers: CHIPS Act grants (6,6 mld USD), parent guarantee, equity (55%)
+- Dlaczego państwo: ryzyka geopolityczne przekraczają zdolność rynków prywatnych
+
+**Case Study 4: Space/Dual-use — SpaceX Starship (2024)**
+- Projekt: mega-rakieta, mixed financing
+- Warstwa 1: manufacturing yield, launch success rate
+- Warstwa 2: competition (China, ULA), demand uncertainty
+- Warstwa 3: NASA + DoD contracts jako wrapper przychodowy
+- Wrappers: venture equity (40%), gov contracts (35%), minimal debt
+- Dlaczego ta struktura: ryzyka techniczne + polityczne = tylko equity + gov
+
+**AI compute financing: NVIDIA i OpenAI.** Dodatkowa sekcja analizuje finansowanie AI compute — przypadek hybrydowy między data centers a półprzewodnikami. Jak Microsoft finansuje compute dla OpenAI? Jak NVIDIA strukturyzuje supply chain financing?
+
+Rozdział kończy się wnioskami przekrojowymi: różne sektory wymagają różnych konfiguracji wrapperów, ale logika jest wspólna.
+
+**Kluczowy output:** Demonstracja, że framework „działa"; 4 pełne case studies; rozwiązanie zagadek otwierających.
 
 ---
 
 ### Rozdział 11: Kiedy architektura zawodzi — Warunki brzegowe
-**~30 stron | ~8 000 słów**
+**~40 stron | ~12 000 słów**
 
-Rozdział bada warunki, w których architektura finansowania opisana w książce załamuje się. Tryby awarii wrapperów obejmują renegocjację kontraktów (kontrahent wykonuje siłę przetargową ex post), default kontrahenta (dostawca wrappera nie może wykonać) i basis risk (hedge nie odpowiada ekspozycji bazowej). Obsolescencja technologii skraca „okno żniw" — okres, w którym CAPEX generuje zwroty przed staniem się stranded asset. Szoki płynności w NBFI wywołują delewarowanie, awarie rollover i spirale marżowe propagujące się przez współzależne rynki private credit. Zmiany reżimu — odwrócenia regulacyjne, zmiany polityki, kontrole eksportowe — unieważniają wrappers zależne od stabilności politycznej. Wyścigi inwestycyjne prowadzą do przeinwestowania CAPEX, wojen cenowych i kompresji ROIC poniżej WACC w całej branży. Rozdział prezentuje studia przypadków awarii (Solyndra, cleantech SPACs, europejskie renegocjacje PPA utility) ilustrujące te dynamiki. Analiza demonstruje, że framework książki jest falsyfikowalny, nie jedynie opisowy.
+Rozdział bada warunki, w których architektura finansowania opisana w książce załamuje się. Tryby awarii wrapperów obejmują renegocjację kontraktów (kontrahent wykonuje siłę przetargową ex post), default kontrahenta (dostawca wrappera nie może wykonać) i basis risk (hedge nie odpowiada ekspozycji bazowej). Obsolescencja technologii skraca „okno żniw" — okres, w którym CAPEX generuje zwroty przed staniem się stranded asset. Szoki płynności w NBFI wywołują delewarowanie, awarie rollover i spirale marżowe propagujące się przez współzależne rynki private credit. Zmiany reżimu — odwrócenia regulacyjne, zmiany polityki, kontrole eksportowe — unieważniają wrappers zależne od stabilności politycznej. Wyścigi inwestycyjne prowadzą do przeinwestowania CAPEX, wojen cenowych i kompresji ROIC poniżej WACC w całej branży.
 
-**Kluczowy output:** Krytyczna samoocena; demonstracja falsyfikowalności; uczciwość intelektualna.
+**Studia przypadków awarii.** Rozdział prezentuje pięć szczegółowych studiów przypadków:
+| Case | Tryb awarii | Lekcja |
+|------|-------------|--------|
+| **Britishvolt (2023)** | Default kontrahenta + brak wrapperów państwowych | Obietnica bez wrapperów nie jest finansowalna |
+| **Northvolt (2024)** | Ryzyko technologiczne + rollover risk | Skalowanie wymaga więcej wrapperów niż startup |
+| **Cleantech SPACs (2021-22)** | Moral hazard + przeinwestowanie | Łatwy dostęp do kapitału indukuje złe projekty |
+| **Europejskie renegocjacje PPA (2022-23)** | Renegocjacja kontraktów | Wrappers zawodzą przy zmianie reżimu cenowego |
+| **Kontrole eksportowe półprzewodników (2023-24)** | Zmiana reżimu politycznego | Wrappers państwowe nie chronią przed polityką |
+
+**Chiny jako kontrprzykład.** Rozdział adresuje pytanie: czy framework stosuje się do Chin? Odpowiedź: częściowo nie. W Chinach państwo działa nie jako „wrapper provider", lecz jako bezpośredni inwestor i właściciel. Banki państwowe, SOE i fundusze guidance funds alokują kapitał według logiki politycznej, nie rynkowej. To tworzy inną architekturę — ale również inne ryzyka (misalokacja, zombies, brak dyscypliny rynkowej). Książka wyjaśnia, dlaczego jej framework dotyczy gospodarek rynkowych, gdzie kapitał prywatny i państwowy współistnieją, nie gospodarek, gdzie państwo dominuje.
+
+**Kluczowy output:** Krytyczna samoocena; demonstracja falsyfikowalności; Chiny jako test granic modelu.
 
 ---
 
@@ -258,6 +330,44 @@ Rozdział bada warunki, w których architektura finansowania opisana w książce
 Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców i proponuje agendę badawczą. Dla decydentów politycznych rozdział argumentuje, że skuteczna polityka przemysłowa wymaga projektowania wrapperów, nie tylko alokacji kapitału; że regulacje ostrożnościowe (Bazylea, Solvency) mogą nieintencjonalnie ograniczać finansowanie CAPEX; i że wzrost private credit odzwierciedla funkcjonalną konieczność, nie arbitraż regulacyjny. Dla praktyków rozdział proponuje przeformułowanie due diligence wokół czterowarstwowego stosu rentowności; przeprojektowanie strategii bankowej wokół aranżowania ryzyka zamiast kredytowania; i rozwinięcie zestawu narzędzi CFO do negocjowania wrapperów. Dla badaczy rozdział identyfikuje luki danych (granularne warunki wrapperów, ekspozycje private credit, kontyngencje gwarancji państwowych), proponuje testowalne hipotezy (czy wrappers redukują koszt kapitału? czy wpływają na timing inwestycji? czy tworzą moral hazard?) i sugeruje podejścia metodologiczne. Rozdział kończy się pytaniem, czy „CAPEX-intensywne corporate finance" powinno stać się uznaną subdyscypliną.
 
 **Kluczowy output:** Praktyczne implikacje; agenda badawcza; domknięcie intelektualne.
+
+---
+
+### Appendix: Bankability Assessment Framework
+**~10 stron | ~3 000 słów**
+
+Appendix dostarcza praktyczne narzędzie dla praktyków — systematyczny framework oceny bankowalności projektu CAPEX-intensywnego.
+
+**Krok 1: Mapowanie Modelu Warstwowego Rentowności**
+- Które warstwy generują które ryzyka?
+- Mapuj 5-7 kluczowych ryzyk na warstwę
+
+**Krok 2: Mapowanie dostępności wrapperów**
+- Które wrappers są dostępne w tym sektorze/jurysdykcji?
+- Jaki % ryzyka każdy wrapper może pokryć?
+- Jaki % ryzyka pozostaje nieopakowany?
+
+**Krok 3: Kalkulacja luki bankowalności**
+```
+IRR_projektu = X%
+Wymagany zwrot (bez wrapperów) = X + Y%
+Luka (bez wrapperów) = Y%
+Wrappers redukują postrzegane ryzyko o Z%
+Luka (z wrapperami) = Y% - Z%
+Jeśli Luka < 0 → Projekt bankowalny
+Jeśli Luka > 0 → Potrzebne dodatkowe wrappers
+```
+
+**Krok 4: Tabela porównawcza wrapperów według sektorów**
+
+| Sektor | Dominujące ryzyka | Kluczowe wrappers | Typowy capital stack |
+|--------|-------------------|-------------------|---------------------|
+| Data Centers | Tech obsolescence, capacity | Equity, private credit | 40% equity, 40% PC, 20% bank |
+| Renewable | Revenue volatility, regulatory | PPA, ECA guarantee | 65% senior, 20% mezz, 15% equity |
+| Semiconductors | Cyclical, geopolitical | Gov grants, parent guarantee | 55% equity, 30% bank, 15% gov |
+| Space/Dual-use | Tech, market, political | Gov contracts, venture | 40% VC, 35% gov, 25% equity |
+
+**Kluczowy output:** Praktyczne narzędzie dla CFO, bankowców i doradców; systematyzacja due diligence.
 
 ---
 
@@ -327,30 +437,31 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 | Element | Wartość |
 |---------|---------|
 | **Tytuł** | Finansowanie CAPEX-Shock: Ryzyko rentowności, risk wrappers i nowa architektura finansowania przedsiębiorstw |
-| **Szacowana długość** | 90 000 – 100 000 słów |
-| **Liczba rozdziałów** | 12 |
-| **Liczba części** | 5 |
-| **Liczba figur** | ~15, w tym 3 kluczowe diagramy |
-| **Liczba tabel** | ~20 |
+| **Szacowana długość** | 115 000 – 125 000 słów |
+| **Liczba rozdziałów** | 12 + Appendix |
+| **Liczba części** | 5 + Appendix |
+| **Liczba figur** | ~20, w tym 4 kluczowe diagramy |
+| **Liczba tabel** | ~30 (w tym 4 tabele empiryczne w Rozdz. 1) |
 | **Bibliografia** | ~200-250 pozycji |
 
 ### Rozkład słów według rozdziałów
 
 | Rozdział | Tytuł | Słowa |
 |----------|-------|-------|
-| 1 | Cztery anomalie | 8 000 |
-| 2 | Dlaczego standardowa teoria zawodzi | 7 000 |
-| 3 | Stos Rentowności | 9 500 |
-| 4 | Risk Wrappers | 11 000 |
-| 5 | Od ryzyka do bankowalności | 7 000 |
+| 1 | Cztery anomalie + dane empiryczne | 10 000 |
+| 2 | Dlaczego teoria zawodzi + Mazzucato | 8 500 |
+| 3 | Model Warstwowy Rentowności + ryzyka klimatyczne | 11 000 |
+| 4 | Risk Wrappers + Williamson | 12 500 |
+| 5 | Od ryzyka do bankowalności + formalizacja | 9 000 |
 | 6 | Stos Finansowania CAPEX | 8 000 |
 | 7 | Banki po transformacji | 7 000 |
 | 8 | Kapitał prywatny | 8 000 |
 | 9 | Państwo jako wrapper ostatniej instancji | 7 000 |
-| 10 | Rozwiązanie zagadek | 12 000 |
-| 11 | Warunki brzegowe | 8 000 |
+| 10 | Rozwiązanie zagadek — 4 case studies | 25 000 |
+| 11 | Warunki brzegowe + Chiny + failure cases | 12 000 |
 | 12 | Implikacje i agenda badawcza | 7 000 |
-| | **RAZEM** | **~99 500** |
+| App | Bankability Assessment Framework | 3 000 |
+| | **RAZEM** | **~128 000** |
 
 ### Trzy kluczowe diagramy
 
