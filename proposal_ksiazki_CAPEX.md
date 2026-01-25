@@ -362,12 +362,24 @@ Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców i proponuje ag
 
 **Co dalej? Dokąd zmierzamy? — Cztery scenariusze ewolucji.** Rozdział zamyka się analizą prospektywną: jak architektura finansowania CAPEX-intensywnego może ewoluować w horyzoncie 10-20 lat?
 
-| Scenariusz | Opis | Implikacje dla frameworku |
-|------------|------|---------------------------|
-| **1. Konsolidacja** | Private credit i państwo stabilizują się jako trwałe komponenty capital stack; banki akceptują rolę „aranżerów ryzyka" | Framework staje się nowym mainstreamem; teoria corporate finance wymaga rewizji |
-| **2. Rewersja** | Szok płynności w NBFI (np. kryzys private credit) prowadzi do powrotu dominacji banków; regulacje ograniczają NBFI | Warunki brzegowe z Rozdziału 11 materializują się; część wrapperów staje się niedostępna |
-| **3. Fragmentacja geopolityczna** | US-China decoupling prowadzi do dwóch równoległych systemów finansowania z odmiennymi wrapperami | Model wymaga rozszerzenia o zmienną „reżim geopolityczny"; Chiny stają się osobnym przypadkiem |
-| **4. Innowacja wrapperów** | Nowe technologie (blockchain, smart contracts, parametric insurance) tworzą nowe kategorie wrapperów | Taksonomia wymaga aktualizacji; możliwe obniżenie luki bankowalności przez innowacje |
+**Scenariusz 1: Konsolidacja.** Private credit i państwo stabilizują się jako trwałe komponenty capital stack; banki akceptują rolę „aranżerów ryzyka". Framework książki staje się nowym mainstreamem; teoria corporate finance wymaga rewizji uwzględniającej logikę wrapperów.
+
+**Scenariusz 2: Rewersja — szczegółowa analiza.** Ten scenariusz zakłada, że obecna transformacja finansowania CAPEX odwraca się i wracamy do dominacji banków. Mechanizm przebiega w czterech fazach:
+
+| Faza | Opis | Mechanizm |
+|------|------|-----------|
+| **1. Trigger** | Szok płynności w sektorze NBFI | Fala defaultów w private credit, run na fundusze (inwestorzy żądają redemptions), margin calls, fire sales niepłynnych aktywów |
+| **2. Zarażenie** | Spirala spadków cen i płynności | Fundusze PE/PC oferują redemptions, ale aktywa są niepłynne → wymuszony deleveraging → spadek cen aktywów → kolejne margin calls → spirala (podobna do 2008, ale w segmencie NBFI) |
+| **3. Reakcja regulacyjna** | Zaostrzenie regulacji NBFI | Nowe wymogi kapitałowe dla funduszy, limity leverage, obowiązkowy reporting, stress testing — private credit staje się droższy i mniej elastyczny |
+| **4. Powrót banków** | Rekonsolidacja systemu bankowego | Banki odzyskują przewagę (mają infrastrukturę compliance); państwo zwiększa gwarancje dla banków finansujących CAPEX; model „konsorcjum bankowe + gwarancje państwowe" wraca jako dominujący |
+
+*Implikacje dla frameworku:* Warunki brzegowe z Rozdziału 11 materializują się w praktyce. Część wrapperów (dostarczanych przez fundusze PE/PC) staje się niedostępna lub znacznie droższa. Niektóre projekty CAPEX-intensywne przestają być bankowe — szczególnie te z dominującym ryzykiem Warstwy 1 (obsolescencja technologiczna), dla których banki nie mają odpowiedniego horyzontu.
+
+*Prawdopodobieństwo i drivers:* Scenariusz rewersji jest bardziej prawdopodobny, jeśli: (a) stopy procentowe pozostają wysokie przez dłuższy okres (presja na wyceny w private credit); (b) materializują się ukryte straty w portfelach NBFI (evergreening, mark-to-model); (c) regulatorzy działają proaktywnie przed kryzysem (FSB, EBC już sygnalizują obawy w raportach 2023-2024).
+
+**Scenariusz 3: Fragmentacja geopolityczna.** US-China decoupling prowadzi do dwóch równoległych systemów finansowania z odmiennymi wrapperami. Model wymaga rozszerzenia o zmienną „reżim geopolityczny"; Chiny stają się osobnym przypadkiem z logiką „state as investor", nie „state as wrapper provider".
+
+**Scenariusz 4: Innowacja wrapperów.** Nowe technologie (blockchain, smart contracts, parametric insurance) tworzą nowe kategorie wrapperów. Taksonomia wymaga aktualizacji; możliwe obniżenie luki bankowalności przez innowacje technologiczne w obszarze kontraktowania i hedgingu.
 
 **Najważniejsze trendy strukturalne:**
 - *Wzrost znaczenia państwa:* Powrót polityki przemysłowej (CHIPS Act, IRA, Net Zero Industry Act) sugeruje trwałe zwiększenie roli państwa jako wrapper provider
