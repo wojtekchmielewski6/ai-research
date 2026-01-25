@@ -56,13 +56,13 @@ Książka rozwija ten argument poprzez trzy oryginalne wkłady:
 
 ### Dlaczego standardowe teorie zawodzą
 
-Książka krytycznie konfrontuje się z istniejącą teorią corporate finance:
+Książka krytycznie konfrontuje się z istniejącą teorią corporate finance, argumentując nie że teorie te są błędne, lecz że wyjaśniają jedynie część obserwowanych zjawisk, pomijając kluczowy kanał: kontraktowe konstruowanie przepływów pieniężnych i explicite alokację ryzyka:
 
-**Teoria trade-off** (Kraus-Litzenberger i następne rozwinięcia) przewiduje, że firmy balansują tarcze podatkowe z kosztami bankructwa. Ale firmy CAPEX-intensywne rutynowo używają złożonych struktur — SPV, private credit, gwarancje państwowe — których ten trade-off nie wyjaśnia.
+**Teoria trade-off** (Kraus-Litzenberger i następne rozwinięcia) przewiduje, że firmy balansują tarcze podatkowe z kosztami bankructwa. Teoria ta wyjaśnia część decyzji o dźwigni finansowej, ale firmy CAPEX-intensywne rutynowo używają złożonych struktur — SPV, private credit, gwarancje państwowe — których optymalizacja tarczy podatkowej nie tłumaczy.
 
-**Teoria pecking order** (Myers-Majluf) przewiduje, że firmy preferują środki wewnętrzne, potem dług, potem kapitał własny. Ale w sektorach CAPEX-intensywnych obserwujemy odwrotność: kapitał zewnętrzny jako pierwszy, często z cechami equity-like, a środki wewnętrzne zachowywane jako bufory.
+**Teoria pecking order** (Myers-Majluf) przewiduje, że firmy preferują środki wewnętrzne, potem dług, potem kapitał własny. Teoria ta wyjaśnia zachowania w warunkach asymetrii informacyjnej, ale w sektorach CAPEX-intensywnych obserwujemy odwrotność: kapitał zewnętrzny jako pierwszy, często z cechami equity-like, a środki wewnętrzne zachowywane jako bufory.
 
-**Teoria agencji** (Jensen-Meckling) koncentruje się na konfliktach między menedżerami, akcjonariuszami i wierzycielami. Ale nie wyjaśnia krytycznej roli kontraktów *operacyjnych* (offtake, EPC, O&M) w umożliwianiu finansowania.
+**Teoria agencji** (Jensen-Meckling) koncentruje się na konfliktach między menedżerami, akcjonariuszami i wierzycielami. Teoria ta wyjaśnia struktury governance i mechanizmy motywacyjne, ale pomija krytyczną rolę kontraktów *operacyjnych* (offtake, EPC, O&M) w umożliwianiu finansowania.
 
 **Literatura project finance** (Esty, Blanc-Brude, Gatti) traktuje struktury non-recourse jako wyspecjalizowaną technikę dla dyskretnych aktywów infrastrukturalnych. Ta książka argumentuje, że logika project finance — kontraktowe ring-fencing, explicite alokacja ryzyka, bankowalność oparta na wrappers — staje się szablonem dla corporate finance w sektorach CAPEX-intensywnych w ogóle.
 
@@ -79,7 +79,7 @@ Książka koncentruje się na czterech archetypach sektorowych, wybranych ze wzg
 
 Dla każdego archetypu książka stosuje identyczny szablon analityczny: stos rentowności → relevantne wrappers → racjonalny capital stack → warunki brzegowe.
 
-Książka jest budowaniem teorii, nie testowaniem hipotez. Materiał empiryczny pełni trzy funkcje: (1) dane agregatowe z IEA, BIS, OECD i źródeł branżowych dokumentują CAPEX-shock i zmiany finansowania; (2) strukturyzowane ilustracje transakcyjne demonstrują, jak framework działa w praktyce; (3) przypadki porażek (Solyndra, cleantech SPACs, renegocjacje PPA) ilustrują warunki brzegowe.
+**Podejście metodologiczne.** Książka jest budowaniem teorii, nie testowaniem hipotez. Stosuje trzy komplementarne metody: (1) *structured literature synthesis* — systematyczny przegląd literatury corporate finance, project finance, ekonomii kontraktów i NBFI z identyfikacją luk i mechanizmów; (2) *comparative institutional analysis* — porównanie struktur finansowania między sektorami i jurysdykcjami w celu identyfikacji wspólnych wzorców; (3) *evidence mapping* — przyporządkowanie przewidywań teoretycznych do dostępnych dowodów empirycznych. Materiał empiryczny pełni trzy funkcje: (1) dane agregatowe z IEA, BIS, OECD i źródeł branżowych dokumentują CAPEX-shock i zmiany finansowania; (2) strukturyzowane ilustracje transakcyjne demonstrują, jak framework działa w praktyce; (3) przypadki porażek (Britishvolt, Northvolt, cleantech SPACs, renegocjacje PPA) ilustrują warunki brzegowe.
 
 Zakres geograficzny to przede wszystkim gospodarki rozwinięte (USA, UE, UK, Japonia, Korea), gdzie infrastruktura instytucjonalna dla risk wrappers jest dojrzała. Chiny są omawiane selektywnie, ale nie stanowią głównego przypadku ze względu na odmienną rolę kapitału państwowego.
 
@@ -202,6 +202,8 @@ Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od p
 
 Rozdział wprowadza drugi oryginalny wkład książki: teorię i taksonomię risk wrappers. Risk wrapper jest definiowany jako mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy przekształcający specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych, tym samym zwiększając bankowalność.
 
+**Co nowego vs klasyczne project finance?** Pojęcie risk wrappers nie jest po prostu nową etykietą dla technik znanych z project finance. Trzy różnice są kluczowe: (1) *zakres stosowania* — klasyczne PF dotyczy dyskretnych aktywów infrastrukturalnych, podczas gdy risk wrappers stosują się również do corporate finance firm CAPEX-intensywnych (TSMC, NVIDIA, SpaceX); (2) *włączenie aktywów niematerialnych* — klasyczne PF koncentruje się na aktywach fizycznych z przewidywalnymi przepływami, podczas gdy ta książka adresuje również obsolescencję technologiczną, wartość IP i ryzyka platformowe; (3) *integracja NBFI* — klasyczne PF zakłada dominację banków, podczas gdy ta książka explicite modeluje rolę private credit, funduszy infrastrukturalnych i kapitału państwowego jako komplementarnych dostawców wrapperów.
+
 **Fundament teoretyczny: niekompletne kontrakty i governance (Williamson).** Rozdział zakotwicza teorię wrappers w ekonomii niekompletnych kontraktów. Kontrakty nie mogą określić wszystkich możliwych stanów natury — zawsze istnieje residual risk, którego kontrakt nie adresuje. Pytanie brzmi: kto ponosi residual risk i kto ma residual control rights? Wrappers są odpowiedzią na niekompletność: banki nie mogą ponosić długoterminowego ryzyka politycznego (brak control rights nad polityką), więc państwo musi dostarczyć ten wrapper. Kapitał PE może ponosić ryzyko technologiczne (ma monitoring rights, miejsce w zarządzie). To wyjaśnia, dlaczego specyficzni aktorzy dostarczają specyficzne wrappers.
 
 Rozdział rozwija teorię projektowania wrapperów: wrappers powstają, gdy spełnione są trzy warunki — kontraktowalność (ryzyko może być określone), asymetryczna zdolność (jedna strona może ponieść ryzyko niższym kosztem) i weryfikowalność (wyniki mogą być obserwowane przez strony trzecie). Następnie rozdział prezentuje systematyczną taksonomię obejmującą pięć kategorii wrapperów: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe, credit enhancement), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii rozdział określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi rezydualny downside, jak zwiększa bankowalność i warunki, w których zawodzi.
@@ -244,7 +246,9 @@ Rozdział bada transformację roli banków w finansowaniu CAPEX-intensywnym. Tra
 ### Rozdział 8: Kapitał prywatny — VC, PE i credit jako warstwy bankowalności
 **~30 stron | ~8 000 słów**
 
-Rozdział analizuje rosnącą rolę kapitału prywatnego w finansowaniu CAPEX-intensywnym. Rozdział otwierają dane agregatowe pokazujące wzrost kapitału prywatnego: AUM private credit wzrosło z 500 miliardów dolarów w 2010 do ponad 1,5 biliona dolarów w 2024, przy czym sektory CAPEX-intensywne rosną szybciej niż średnia. Następnie rozdział rozwija wyjaśnienie funkcjonalne. VC i PE pełnią rolę „inżynierów bankowalności": inwestują wcześnie, strukturyzują projekty, negocjują kontrakty i tworzą konfiguracje wrapperów umożliwiające późniejsze finansowanie dłużne. Private credit zapewnia „skalowalną warstwę długu", której banki nie mogą dostarczyć: dłuższe tenory, elastyczniejsze kowenanty, gotowość do ponoszenia ryzyka budowy i rozruchu. Fundusze infrastrukturalne oferują długoterminowy kapitał dopasowany do życia aktywów. Rozdział prowokacyjnie argumentuje, że private credit to nie „shadow banking" czy zagrożenie systemowe, lecz funkcjonalna konieczność wypełniająca luki, których regulowane banki nie mogą obsłużyć. Kończy się analizą ryzyk: niedopasowanie płynności, ryzyko rollover, współzależności.
+Rozdział analizuje rosnącą rolę kapitału prywatnego w finansowaniu CAPEX-intensywnym. Rozdział otwierają dane agregatowe pokazujące wzrost kapitału prywatnego: AUM private credit wzrosło z 500 miliardów dolarów w 2010 do ponad 1,5 biliona dolarów w 2024, przy czym sektory CAPEX-intensywne rosną szybciej niż średnia. Następnie rozdział rozwija wyjaśnienie funkcjonalne. VC i PE pełnią rolę „inżynierów bankowalności": inwestują wcześnie, strukturyzują projekty, negocjują kontrakty i tworzą konfiguracje wrapperów umożliwiające późniejsze finansowanie dłużne. Private credit zapewnia „skalowalną warstwę długu", której banki nie mogą dostarczyć: dłuższe tenory, elastyczniejsze kowenanty, gotowość do ponoszenia ryzyka budowy i rozruchu. Fundusze infrastrukturalne oferują długoterminowy kapitał dopasowany do życia aktywów.
+
+**Interpretacja funkcjonalna vs ryzyka systemowe.** Rozdział argumentuje, że wzrost private credit w sektorach CAPEX-intensywnych odzwierciedla funkcjonalną odpowiedź na luki regulowanych banków — nie jest wyłącznie arbitrażem regulacyjnym. Jednak ta funkcjonalna rola nie eliminuje ryzyk: rozdział explicite analizuje zagrożenia wynikające z niedopasowania płynności (fundusze oferują redemptions, ale aktywa są niepłynne), ryzyka rollover (refinansowanie w niekorzystnych warunkach rynkowych), współzależności z systemem bankowym (bank-NBFI linkages) oraz nieprzejrzystości wycen. Konkluzja jest zniuansowana: private credit rozwiązuje realny problem, ale tworzy nowe ryzyka wymagające nadzoru makroostrożnościowego.
 
 **Kluczowy output:** Funkcjonalne wyjaśnienie wzrostu kapitału prywatnego; koncepcja „inżyniera bankowalności".
 
@@ -379,7 +383,9 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 #### 1. Teoria corporate finance
 
-**Kluczowe prace:** Modigliani & Miller (1958, 1963); Kraus & Litzenberger (1973); Myers & Majluf (1984); Jensen & Meckling (1976); Tirole (2006)
+**Prace klasyczne:** Modigliani & Miller (1958, 1963); Kraus & Litzenberger (1973); Myers & Majluf (1984); Jensen & Meckling (1976); Tirole (2006)
+
+**Najnowsze rozwinięcia (2020-2024):** Graham (2022, *Journal of Finance* — przegląd 40 lat badań nad strukturą kapitału); Greenwood et al. (2022, *Review of Financial Studies* — maturity transformation); Erel et al. (2021, *Journal of Financial Economics* — debt capacity constraints)
 
 **Co ta literatura robi:** Rozwija ramy optymalnej struktury kapitału oparte na tarczach podatkowych, kosztach bankructwa, asymetriach informacyjnych i konfliktach agencyjnych.
 
@@ -387,7 +393,9 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 #### 2. Project finance
 
-**Kluczowe prace:** Esty (2004); Gatti (2013); Blanc-Brude & Strange (2007); Brealey, Cooper & Habib (1996)
+**Prace klasyczne:** Esty (2004); Gatti (2013); Blanc-Brude & Strange (2007); Brealey, Cooper & Habib (1996)
+
+**Najnowsze rozwinięcia (2020-2024):** Blanc-Brude et al. (2023, EDHEC Infrastructure Institute — performance i risk data); Steffen (2021, *Energy Policy* — renewable energy project finance); Polzin et al. (2021, *Nature Energy* — financing energy transition)
 
 **Co ta literatura robi:** Analizuje struktury finansowania non-recourse dla dyskretnych projektów infrastrukturalnych.
 
@@ -411,11 +419,13 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 #### 5. Private credit i NBFI
 
-**Kluczowe prace:** FSB Global Monitoring Reports; BIS Quarterly Reviews; Chernenko, Erel & Prilmeier (2022)
+**Prace klasyczne:** FSB Global Monitoring Reports; BIS Quarterly Reviews; Chernenko, Erel & Prilmeier (2022, *Journal of Finance*)
+
+**Najnowsze rozwinięcia (2020-2024):** Ivashina & Vallée (2023, working paper — private credit vs bank lending); Jiang et al. (2024, *Journal of Financial Economics* — institutional investors in private markets); IMF Global Financial Stability Report (2024, Chapter 2 — NBFI risks); Elliott et al. (2023, *Review of Finance* — bank-NBFI interconnections)
 
 **Co ta literatura robi:** Dokumentuje wzrost pośrednictwa finansowego pozabankowego i analizuje ryzyka systemowe.
 
-**Luka adresowana przez tę książkę:** Ta literatura nie wyjaśnia, dlaczego private credit rośnie szybciej w sektorach CAPEX-intensywnych. Ta książka dostarcza wyjaśnienia funkcjonalnego.
+**Luka adresowana przez tę książkę:** Ta literatura koncentruje się na ryzykach systemowych i arbitrażu regulacyjnym, ale nie wyjaśnia funkcjonalnie, dlaczego private credit rośnie szybciej w sektorach CAPEX-intensywnych. Ta książka argumentuje, że private credit stanowi funkcjonalną odpowiedź na luki w zdolności banków do finansowania długoterminowego ryzyka rentowności — choć jednocześnie generuje nowe ryzyka (płynności, wyceny, rollover).
 
 ---
 
