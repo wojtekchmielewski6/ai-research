@@ -12,15 +12,35 @@
 
 ## 1. KRÓTKI OPIS (150 słów)
 
-Dlaczego centra danych finansuje Blackstone, a nie konsorcja bankowe? Dlaczego TSMC — z 40 miliardami dolarów gotówki — potrzebuje państwowych dotacji na budowę nowych fabryk? Dlaczego farmy wiatrowe offshore są niefinansowalne bez 15-letnich kontraktów PPA? Standardowa teoria corporate finance — modele trade-off, pecking order, teoria agencji — nie potrafi wyjaśnić tych anomalii.
+Przedsiębiorstwo planuje inwestycję za 500 milionów euro. CFO pyta: gdzie szukać finansowania? Jakie instrumenty są dostępne? Kto dziś udziela kredytów na duże projekty przemysłowe — i na jakich warunkach? Co zrobić, żeby projekt był „bankowalny"?
 
-Książka argumentuje, że w sektorach CAPEX-intensywnych (infrastruktura AI, transformacja energetyczna, półprzewodniki, technologie podwójnego zastosowania) obowiązuje fundamentalnie odmienna logika finansowania. Kapitał płynie nie do „sektorów", lecz do projektów i firm, które potrafią przekształcić ryzyko rentowności w bankowalne przepływy pieniężne poprzez „risk wrappers" — mechanizmy kontraktowe, ubezpieczeniowe i hedgingowe realokujące ryzyko.
+Ta książka odpowiada na te pytania. W sektorach CAPEX-intensywnych (infrastruktura AI, transformacja energetyczna, półprzewodniki, technologie przemysłowe) krajobraz finansowania zmienił się fundamentalnie. Banki wycofały się z długoterminowego kredytowania. Ich miejsce zajęły fundusze private credit, inwestorzy infrastrukturalni i państwo. Kluczem do uzyskania finansowania nie jest już zdolność kredytowa firmy, lecz umiejętność „opakowania" ryzyka projektu w kontrakty, gwarancje i hedgingi — tak zwane risk wrappers.
 
-Książka wnosi trzy oryginalne wkłady: Model Czterech Warstw Ryzyka Rentowności, Taksonomię Risk Wrappers oraz architekturę Dostawcy–Wrappers–Platformy wyjaśniającą interakcje banków, kapitału prywatnego i państwa w tym nowym systemie.
+Książka dostarcza przedsiębiorstwom mapę nowego krajobrazu: kto dostarcza kapitał, jakie instrumenty są dostępne, jak strukturyzować projekt pod wymagania finansujących, jak przygotować się na zmiany w systemie finansowania. To praktyczny przewodnik oparty na solidnych podstawach teoretycznych.
 
 ---
 
 ## 2. SZCZEGÓŁOWY OPIS
+
+### Cel książki: Co czytelnik zyska?
+
+Książka jest napisana z perspektywy przedsiębiorstwa, które stoi przed decyzją: jak sfinansować dużą inwestycję przemysłową? Po przeczytaniu czytelnik będzie wiedział:
+
+**1. Gdzie szukać kapitału i dlaczego stare źródła wysychają.**
+Banki, które przez dekady finansowały przemysł, wycofują się z długoterminowego kredytowania. Regulacje kapitałowe (Bazylea III/IV) sprawiają, że 15-letni kredyt na fabrykę jest dla banku zbyt „drogi" kapitałowo. Kto zajął ich miejsce? Fundusze private credit, inwestorzy infrastrukturalni, państwowe agencje rozwoju. Każdy z nich ma inne wymagania, inne horyzonty, inne oczekiwania — książka dostarcza mapę.
+
+**2. Jakie instrumenty są potrzebne, żeby projekt był „finansowalny".**
+Dlaczego bank odmówił finansowania projektu z IRR 12%? Bo IRR to nie wszystko. Finansujący patrzą na ryzyko — a ryzyko można „opakować" kontraktami (PPA, offtake, take-or-pay), gwarancjami (ECA, państwo), ubezpieczeniami (political risk, construction). Książka pokazuje, które instrumenty działają dla jakich ryzyk i gdzie je znaleźć.
+
+**3. Kto zyska, a kto straci w nowym systemie.**
+Przedsiębiorstwa, które rozumieją nową logikę finansowania, zrealizują projekty szybciej i taniej. Te, które nadal myślą kategoriami „pójdę do banku po kredyt", będą czekać latami lub w ogóle nie zamkną finansowania. Książka pokazuje, jak być po właściwej stronie tej zmiany.
+
+**4. Jak się przygotować na przyszłe zmiany.**
+Private credit może się skurczyć. Państwo może zmienić priorytety. Regulacje mogą się zaostrzyć. Książka analizuje scenariusze i pokazuje, jak budować odporność finansową projektu na zmiany w otoczeniu.
+
+**Cel praktyczny:** Przedsiębiorstwo, które przeczyta tę książkę, będzie w stanie zrealizować swój projekt CAPEX-intensywny szybciej, taniej i z większą pewnością sukcesu — bo będzie rozumiało, jak działa system finansowania i jak go wykorzystać.
+
+---
 
 ### Problem: Cztery anomalie, których teoria corporate finance nie potrafi wyjaśnić
 
@@ -123,7 +143,11 @@ Książka wnosi trzy cytowalne wkłady:
 2. **Taksonomia Risk Wrappers** — systematyczna klasyfikacja tworząca wspólny język dla finansów, polityki i przemysłu
 3. **Architektura Dostawcy–Wrappers–Platformy** — model nowego systemu finansowania
 
-**Odbiorcy docelowi**: badacze i doktoranci w dziedzinie corporate finance, project finance, ekonomii branżowej i ekonomii energetyki/technologii; praktycy w finansowaniu infrastruktury, private credit i finansowaniu rozwoju; decydenci w polityce przemysłowej, transformacji energetycznej i regulacji finansowej.
+**Odbiorcy docelowi**:
+- **Przedsiębiorstwa (główny odbiorca)**: CFO, dyrektorzy finansowi, zespoły M&A i corporate development w firmach planujących duże inwestycje przemysłowe — książka dostarcza praktyczną mapę finansowania i narzędzia do strukturyzowania transakcji
+- **Praktycy finansowi**: bankowcy inwestycyjni, doradcy w finansowaniu infrastruktury, fundusze private credit i PE, instytucje rozwoju — książka systematyzuje wiedzę o transformacji rynku
+- **Decydenci polityczni**: ministerstwa gospodarki, agencje rozwoju, regulatorzy — książka dostarcza ramy do projektowania interwencji państwa
+- **Badacze**: akademicy w dziedzinie corporate finance, project finance, ekonomii branżowej — książka wypełnia lukę teoretyczną między klasycznym corporate finance a rzeczywistością sektorów CAPEX-intensywnych
 
 **Tytuły konkurencyjne**: Książka wypełnia lukę między teoretycznym corporate finance (Tirole, *Theory of Corporate Finance*) a zorientowanymi na praktyków tekstami o project finance (Esty, Gatti). Żadna istniejąca monografia nie dostarcza zunifikowanych ram teoretycznych dla finansowania sektorów CAPEX-intensywnych obejmujących AI, energetykę, półprzewodniki i technologie podwójnego zastosowania.
 
@@ -187,6 +211,8 @@ Te dane ustanawiają, że anomalie nie są anegdotyczne — reprezentują system
 
 **Kluczowy output:** Motywacja czytelnika; empiryczne ugruntowanie argumentu; jasne sformułowanie centralnego pytania książki.
 
+**Co to oznacza dla przedsiębiorstwa?** Jeśli planujesz dużą inwestycję i myślisz, że „pójdziesz do banku po kredyt" tak jak 10 lat temu — ten rozdział pokaże ci, dlaczego to już nie działa. Zrozumiesz, że zmiana nie dotyczy tylko twojej branży — to systemowa transformacja finansowania przemysłu.
+
 ---
 
 ### Rozdział 2: Dlaczego standardowa teoria corporate finance zawodzi
@@ -197,6 +223,8 @@ Rozdział krytycznie bada, dlaczego dominujące teorie corporate finance nie pot
 **Pozycjonowanie wobec literatury o polityce przemysłowej (Mazzucato).** Rozdział adresuje również lukę w literaturze o roli państwa w finansowaniu innowacji. Mariana Mazzucato (*The Entrepreneurial State*, 2013) argumentuje, że państwo powinno działać jako „venture capitalist" — inwestować w early-stage technologie, akceptować downside risk i dzielić się upside. Ta książka proponuje odmienne ujęcie. Problem w sektorach CAPEX-intensywnych nie polega na braku finansowania innowacji (to zadanie VC), lecz na braku finansowania *wdrożenia* dojrzałych technologii na mega-skalę. TSMC ma 40 mld USD gotówki, ale potrzebuje 6,6 mld USD dotacji na fabrykę w Arizonie — to nie jest problem „venture", lecz problem alokacji ryzyka. Kluczową funkcją państwa nie jest bycie inwestorem, lecz dostawcą wrapperów dla ryzyk, których rynki prywatne nie mogą wycenić: geopolitycznych, regulacyjnych, systemowych. To prowadzi do innych rekomendacji politycznych: nie „wybieranie zwycięzców", lecz inteligentne projektowanie wrapperów.
 
 **Kluczowy output:** Luka teoretyczna ustanowiona; wyraźne pozycjonowanie wobec Mazzucato; czytelnik przekonany, że nowy framework jest konieczny.
+
+**Co to oznacza dla przedsiębiorstwa?** Standardowe podejście do finansowania („mamy dobry projekt, więc znajdziemy finansowanie") nie działa w sektorach CAPEX-intensywnych. Sukces zależy nie od jakości projektu samego w sobie, lecz od tego, jak projekt jest ustrukturyzowany pod kątem ryzyka. Ten rozdział wyjaśnia, dlaczego doradcy finansowi stosujący stare modele prowadzą na manowce.
 
 ---
 
@@ -210,6 +238,8 @@ Rozdział wprowadza pierwszy oryginalny wkład książki: Model Warstwowy Rentow
 Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od poziomu projektu przez branżę i kontrakty do poziomu korporacyjnego — i dlaczego każda warstwa wymaga innych odpowiedzi finansowych. Diagram Modelu Warstwowego Rentowności stanowi wizualną kotwicę powracającą przez całą książkę.
 
 **Kluczowe narzędzie analityczne:** Framework Modelu Warstwowego Rentowności; integracja ryzyk klimatycznych.
+
+**Co to oznacza dla przedsiębiorstwa?** Zanim pójdziesz szukać finansowania, musisz wiedzieć, jakie ryzyka ma twój projekt. Ten rozdział daje ci narzędzie do systematycznej analizy: czy twój główny problem to technologia (Warstwa 1), cykliczność rynku (Warstwa 2), brak kontraktów (Warstwa 3), czy sytuacja korporacyjna (Warstwa 4)? Od tej diagnozy zależy, jakich instrumentów finansowych potrzebujesz i gdzie ich szukać.
 
 ---
 
@@ -226,6 +256,8 @@ Rozdział rozwija teorię projektowania wrapperów: wrappers powstają, gdy spe�
 
 **Kluczowe narzędzie analityczne:** Taksonomia Risk Wrappers; zakotwiczenie w teorii niekompletnych kontraktów Williamsona.
 
+**Co to oznacza dla przedsiębiorstwa?** To jest praktyczny katalog instrumentów, których potrzebujesz do zamknięcia finansowania. Masz ryzyko przychodowe? Potrzebujesz PPA lub kontraktu offtake. Masz ryzyko polityczne? Szukaj gwarancji ECA lub państwowej. Masz ryzyko budowlane? Potrzebujesz ubezpieczenia construction i kontraktu EPC. Ten rozdział pokazuje, które instrumenty adresują które ryzyka — i gdzie je znaleźć.
+
 ---
 
 ### Rozdział 5: Od ryzyka do bankowalności
@@ -239,6 +271,8 @@ Rozdział łączy koncepcje Modelu Warstwowego Rentowności i Risk Wrappers, wpr
 
 **Kluczowy output:** Koncepcja „luki bankowalności"; formalny model redukcji kosztu kapitału; analiza moral hazard.
 
+**Co to oznacza dla przedsiębiorstwa?** Twój projekt ma IRR 10%, ale bank chce 14% — to jest „luka bankowalności". Ten rozdział pokazuje, jak ją zmierzyć i jak ją zamknąć. Każdy wrapper redukuje postrzegane ryzyko o określoną liczbę punktów bazowych. Możesz policzyć: czy PPA + gwarancja ECA wystarczą, żeby zamknąć lukę? Czy potrzebujesz jeszcze czegoś? To pozwala prowadzić rozmowy z finansującymi na podstawie konkretnych liczb, nie intuicji.
+
 ---
 
 ### Rozdział 6: Stos Finansowania CAPEX — Dostawcy, Wrappers, Platformy
@@ -248,6 +282,8 @@ Rozdział prezentuje trzeci oryginalny wkład książki: Stos Finansowania CAPEX
 
 **Kluczowe narzędzie analityczne:** Model Finansowania CAPEX; integracyjne ramy wizualne; diagram do cytowania.
 
+**Co to oznacza dla przedsiębiorstwa?** To jest mapa terenu — kto dostarcza kapitał na projekty CAPEX-intensywne i na jakich warunkach. Banki dają krótsze tenory i wymagają więcej zabezpieczeń. Private credit jest droższy, ale elastyczniejszy. Fundusze infrastrukturalne mają długi horyzont, ale konserwatywne kryteria. Państwo może zamknąć najtrudniejsze luki, ale wymaga zgodności z polityką przemysłową. Ten rozdział pokazuje, jak dopasować źródła kapitału do profilu twojego projektu.
+
 ---
 
 ### Rozdział 7: Banki po transformacji — Od kredytodawców do aranżerów ryzyka
@@ -256,6 +292,8 @@ Rozdział prezentuje trzeci oryginalny wkład książki: Stos Finansowania CAPEX
 Rozdział bada transformację roli banków w finansowaniu CAPEX-intensywnym. Tradycyjny model — banki jako główni kredytodawcy zapewniający kredyt hold-to-maturity w oparciu o relacje i monitoring — jest coraz bardziej nieadekwatny dla sektorów CAPEX-intensywnych. Wymogi kapitałowe Basel III/IV, długie horyzonty inwestycyjne i ryzyka technologiczno-rynkowe czynią tradycyjne kredytowanie bankowe nieekonomicznym. Zamiast tego banki repozycjonują się jako „aranżerzy ryzyka": originują i strukturyzują transakcje, projektują pakiety kowenantowe, zapewniają hedging i instrumenty płynnościowe, zarządzają syndykacją, ale utrzymują mniejsze udziały w końcowej ekspozycji. Rozdział analizuje, co banki nadal robią dobrze (zapewnianie płynności, hedging, projektowanie kowenantów, zarządzanie relacjami) i czego coraz bardziej nie mogą robić (ponosić długoterminowego ryzyka rentowności). Ilustracje przypadków pokazują tę transformację w finansowaniu centrów danych, energetyki i półprzewodników.
 
 **Kluczowy output:** Koncepcja „aranżera ryzyka"; analiza transformacji roli banków.
+
+**Co to oznacza dla przedsiębiorstwa?** Nie oczekuj, że bank sfinansuje twój projekt sam. Ale bank nadal jest potrzebny — jako aranżer transakcji, który pomoże ją ustrukturyzować, znaleźć innych finansujących, zaprojektować kowenanty i zarządzić syndykacją. Rozumiejąc nową rolę banków, będziesz wiedział, czego od nich oczekiwać i za co płacisz prowizje.
 
 ---
 
@@ -268,6 +306,8 @@ Rozdział analizuje rosnącą rolę kapitału prywatnego w finansowaniu CAPEX-in
 
 **Kluczowy output:** Funkcjonalne wyjaśnienie wzrostu kapitału prywatnego; koncepcja „inżyniera bankowalności".
 
+**Co to oznacza dla przedsiębiorstwa?** Private credit jest droższy niż kredyt bankowy (o 200-400 bps), ale może sfinansować projekty, których banki nie wezmą. Jeśli twój projekt ma wysokie ryzyko technologiczne lub długi horyzont zwrotu — private credit może być jedyną opcją. Ten rozdział pokazuje, kiedy warto zapłacić premię za elastyczność, a kiedy lepiej szukać gdzie indziej. Pokazuje też ryzyka: co jeśli fundusz private credit będzie chciał wyjść przed końcem projektu?
+
 ---
 
 ### Rozdział 9: Państwo jako wrapper ostatniej instancji
@@ -276,6 +316,8 @@ Rozdział analizuje rosnącą rolę kapitału prywatnego w finansowaniu CAPEX-in
 Rozdział bada rolę państwa w finansowaniu CAPEX-intensywnym — nie jako bezpośredniego inwestora, ale jako dostawcy risk wrappers, których rynki nie mogą zapewnić. Polityka przemysłowa powróciła w gospodarkach rozwiniętych: CHIPS Act (USA), Net Zero Industry Act (UE), dotacje na półprzewodniki (Japonia, Korea). Ale rozdział argumentuje, że ujmowanie interwencji państwa jako „dotacji" czy „wybierania zwycięzców" nie trafia w sedno. Krytyczną funkcją państwa jest zapewnianie wrapperów dla ryzyk, których rynki prywatne nie mogą wycenić ani ponieść: ryzyko geopolityczne, ryzyko regulacyjne/polityczne, problemy koordynacji i ryzyka ogonowe przekraczające zdolności ubezpieczeń prywatnych. Rozdział wprowadza pojęcie „wrappera ostatniej instancji": gdy wrappery dostarczane przez rynek są niewystarczające do zamknięcia luki bankowalności, wrappers dostarczane przez państwo stają się konieczne do realizacji inwestycji. Analizuje mechanizmy (granty, gwarancje, blended finance, kontrakty, zobowiązania regulacyjne) i ryzyka (wypieranie, moral hazard, przechwycenie polityczne, ekspozycja fiskalna).
 
 **Kluczowy output:** Koncepcja „wrappera ostatniej instancji"; ramy analityczne dla projektowania interwencji państwa.
+
+**Co to oznacza dla przedsiębiorstwa?** Jeśli twój projekt pasuje do priorytetów polityki przemysłowej (dekarbonizacja, bezpieczeństwo dostaw, suwerenność technologiczna), państwo może zamknąć lukę bankowalności, której rynek nie wypełni. Ale musisz wiedzieć, jak rozmawiać z agencjami rozwoju, jakich instrumentów szukać (grant? gwarancja? pożyczka preferencyjna?) i jakie warunki będą wymagane. Ten rozdział to przewodnik po instrumentach państwowych — i ostrzeżenie przed ich zmiennością.
 
 ---
 
@@ -327,6 +369,8 @@ Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framewo
 
 **Kluczowy output:** Demonstracja, że framework „działa" i jest teoretycznie ugruntowany; 4 case studies z explicite powiązaniem teoria→predykcja→weryfikacja.
 
+**Co to oznacza dla przedsiębiorstwa?** To są wzorce do naśladowania. Jeśli twój projekt przypomina centrum danych — patrz na strukturę Blackstone. Jeśli przypomina farmę wiatrową — patrz na Dogger Bank. Jeśli masz komponent geopolityczny — patrz na TSMC. Case studies pokazują konkretne konfiguracje capital stack, które zadziałały w praktyce. Możesz użyć ich jako punktu wyjścia do strukturyzowania własnej transakcji.
+
 ---
 
 ### Rozdział 11: Kiedy architektura zawodzi — Warunki brzegowe
@@ -347,16 +391,42 @@ Rozdział bada warunki, w których architektura finansowania opisana w książce
 
 **Kluczowy output:** Krytyczna samoocena; demonstracja falsyfikowalności; Chiny jako test granic modelu.
 
+**Co to oznacza dla przedsiębiorstwa?** To jest katalog pułapek — co może pójść nie tak, nawet jeśli zrobiłeś wszystko dobrze. Britishvolt miał plany, ale nie miał wrapperów. Northvolt miał wrappers, ale nie przetrwał rollover risk. Cleantech SPACs pokazują, że łatwy dostęp do kapitału prowadzi do złych decyzji. Ten rozdział uczy, jak identyfikować słabe punkty w strukturze finansowania i jak się przed nimi zabezpieczyć — albo przynajmniej świadomie akceptować ryzyko.
+
 ---
 
 ### Rozdział 12: Implikacje i agenda badawcza
 **~25 stron | ~7 000 słów**
 
-Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców i proponuje agendę badawczą.
+Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców, ze szczególnym naciskiem na przedsiębiorstwa planujące inwestycje CAPEX-intensywne.
+
+**Implikacje dla przedsiębiorstw — kluczowe wnioski operacyjne:**
+
+*Jak strukturyzować projekt pod wymagania finansujących:*
+- Zanim pójdziesz szukać kapitału, zmapuj ryzyka projektu w czterech warstwach
+- Dla każdego istotnego ryzyka zidentyfikuj dostępne wrappers
+- Oblicz lukę bankowalności — różnicę między IRR a wymaganym zwrotem
+- Jeśli luka jest dodatnia, szukaj dodatkowych wrapperów lub akceptuj gorsze warunki
+
+*Gdzie szukać kapitału w zależności od profilu projektu:*
+- Wysokie ryzyko technologiczne (Warstwa 1) → private equity z monitoring rights
+- Wysokie ryzyko przychodowe (Warstwa 3) → dopiero po zabezpieczeniu PPA/offtake
+- Wysokie ryzyko polityczne/geopolityczne (Warstwa 4) → państwo jako wrapper provider
+- Długi horyzont, niskie ryzyko → fundusze infrastrukturalne, ubezpieczyciele
+
+*Jak budować odporność na zmiany w systemie finansowania:*
+- Nie polegaj na jednym źródle kapitału — dywersyfikuj capital stack
+- Zabezpiecz wyjście dla inwestorów private credit przed końcem projektu
+- Monitoruj zmiany regulacyjne (Bazylea, NBFI oversight) — mogą zmienić dostępność kapitału
+- Buduj relacje z wieloma typami finansujących, nie tylko z bankami
+
+*Typowe błędy, których należy unikać:*
+- Szukanie finansowania przed ustrukturyzowaniem ryzyka (odwrócona kolejność)
+- Zakładanie, że IRR projektu wystarczy do przyciągnięcia kapitału
+- Ignorowanie rollover risk w finansowaniu private credit
+- Poleganie na obietnicach państwa bez formalnych wrapperów
 
 **Implikacje dla decydentów politycznych:** skuteczna polityka przemysłowa wymaga projektowania wrapperów, nie tylko alokacji kapitału; regulacje ostrożnościowe (Bazylea, Solvency) mogą nieintencjonalnie ograniczać finansowanie CAPEX; wzrost private credit odzwierciedla funkcjonalną konieczność, nie arbitraż regulacyjny.
-
-**Implikacje dla praktyków:** przeformułowanie due diligence wokół czterowarstwowego Modelu Warstwowego; przeprojektowanie strategii bankowej wokół aranżowania ryzyka zamiast kredytowania; rozwinięcie zestawu narzędzi CFO do negocjowania wrapperów.
 
 **Implikacje dla badaczy:** luki danych (granularne warunki wrapperów, ekspozycje private credit, kontyngencje gwarancji państwowych), testowalne hipotezy (czy wrappers redukują koszt kapitału? czy wpływają na timing inwestycji? czy tworzą moral hazard?) i sugerowane podejścia metodologiczne.
 
@@ -416,7 +486,7 @@ Zależy od trzech czynników:
 
 ---
 
-### Appendix: Bankability Assessment Framework
+### Appendix A: Bankability Assessment Framework
 **~10 stron | ~3 000 słów**
 
 Appendix dostarcza praktyczne narzędzie dla praktyków — systematyczny framework oceny bankowalności projektu CAPEX-intensywnego.
@@ -451,6 +521,57 @@ Jeśli Luka > 0 → Potrzebne dodatkowe wrappers
 | Space/Dual-use | Tech, market, political | Gov contracts, venture | 40% VC, 35% gov, 25% equity |
 
 **Kluczowy output:** Praktyczne narzędzie dla CFO, bankowców i doradców; systematyzacja due diligence.
+
+---
+
+### Appendix B: Mapa dostawców kapitału — kto finansuje co i na jakich warunkach
+**~8 stron | ~2 500 słów**
+
+Praktyczny przewodnik dla przedsiębiorstw szukających finansowania CAPEX-intensywnego.
+
+**Tabela B.1: Dostawcy kapitału — charakterystyka**
+
+| Dostawca | Typowy horyzont | Typowy koszt | Co finansują | Czego wymagają |
+|----------|-----------------|--------------|--------------|----------------|
+| **Banki komercyjne** | 5-10 lat | SOFR +150-300 bps | Dojrzałe technologie, silne zabezpieczenia | Collateral, kowenanty, PPA/offtake |
+| **Private credit** | 5-7 lat | SOFR +500-800 bps | Wyższe ryzyko, mniej standardowe projekty | Covenant-lite, ale z equity kicker |
+| **Fundusze infrastrukturalne** | 15-25 lat | 8-12% IRR | Długoterminowe, przewidywalne przepływy | Dojrzałość technologii, kontrakty długoterminowe |
+| **Private equity** | 3-7 lat | 18-25% IRR | Wzrost, transformacja, turnaround | Board seats, governance rights |
+| **ECA/DFI** | 10-20 lat | Poniżej rynku | Eksport, rozwój, strategiczne sektory | Zgodność z polityką, lokalny content |
+| **Państwo (granty/gwarancje)** | Różnie | Grant lub 0-2% | Polityka przemysłowa, dekarbonizacja | Zgodność z priorytetami, warunki zatrudnienia |
+
+**Tabela B.2: Który dostawca dla którego profilu ryzyka?**
+
+| Dominujące ryzyko | Preferowany dostawca | Dlaczego? |
+|-------------------|---------------------|-----------|
+| Technologiczne (Warstwa 1) | PE/VC | Mają monitoring rights, akceptują downside |
+| Cykliczność (Warstwa 2) | Bank + hedging | Banki akceptują, jeśli cykl jest zhedgowany |
+| Przychodowe (Warstwa 3) | Bank/infra — dopiero po PPA | Bez kontraktu nie ruszą |
+| Polityczne/geopolityczne (Warstwa 4) | Państwo + ECA | Jedyni, którzy mogą ponieść to ryzyko |
+
+**Tabela B.3: Instrumenty (wrappers) — gdzie ich szukać**
+
+| Instrument | Kto dostarcza | Dla jakiego ryzyka | Typowe warunki |
+|------------|---------------|--------------------|--------------------|
+| **PPA/Offtake** | Korporacje (odbiorcy), utility | Ryzyko przychodowe | 10-20 lat, fixed price ± indeksacja |
+| **Kontrakt EPC** | Generalny wykonawca | Ryzyko budowlane | Fixed price, liquidated damages |
+| **Gwarancja ECA** | Agencje eksportowe (KUKE, Euler Hermes) | Ryzyko polityczne, kredytowe | 80-95% pokrycia, prowizja 1-3% |
+| **Gwarancja państwowa** | Ministerstwa, BGK, podobne | Ryzyko systemowe, polityczne | Zależne od programu |
+| **Ubezpieczenie political risk** | MIGA, prywatni ubezpieczyciele | Ryzyko polityczne | Roczna składka 0.5-2% |
+| **Hedging surowcowy** | Banki, giełdy | Ryzyko cenowe | Kontrakty forward, opcje |
+| **Parent guarantee** | Spółka-matka | Ryzyko kredytowe SPV | Do wysokości equity lub wyżej |
+
+**Tabela B.4: Typowe capital stack według sektora**
+
+| Sektor | Senior debt | Mezzanine/PC | Equity | Państwo | Kluczowe wrappers |
+|--------|-------------|--------------|--------|---------|-------------------|
+| **Data centers** | 20-30% | 30-40% | 30-40% | 0-10% | Parent guarantee, offtake |
+| **Offshore wind** | 60-70% | 15-20% | 15-20% | 0-10% | PPA, ECA, CfD |
+| **Półprzewodniki** | 20-30% | 10-20% | 40-50% | 15-20% | Granty państwowe, parent guarantee |
+| **Baterie/storage** | 40-50% | 20-30% | 20-30% | 0-10% | Capacity contracts, PPA |
+| **Wodór zielony** | 20-30% | 20-30% | 30-40% | 10-20% | Offtake, granty, CfD |
+
+**Kluczowy output:** Praktyczna mapa terenu dla CFO; quick reference dla strukturyzowania transakcji.
 
 ---
 
@@ -526,8 +647,8 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 | Element | Wartość |
 |---------|---------|
 | **Tytuł** | Finansowanie CAPEX-Shock: Ryzyko rentowności, risk wrappers i nowa architektura finansowania przedsiębiorstw |
-| **Szacowana długość** | 115 000 – 125 000 słów |
-| **Liczba rozdziałów** | 12 + Appendix |
+| **Szacowana długość** | 120 000 – 130 000 słów |
+| **Liczba rozdziałów** | 12 + 2 Appendixy |
 | **Liczba części** | 5 + Appendix |
 | **Liczba figur** | ~20, w tym 4 kluczowe diagramy |
 | **Liczba tabel** | ~30 (w tym 4 tabele empiryczne w Rozdz. 1) |
@@ -549,8 +670,9 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 | 10 | Rozwiązanie zagadek — 4 case studies | 25 000 |
 | 11 | Warunki brzegowe + Chiny + failure cases | 12 000 |
 | 12 | Implikacje i agenda badawcza | 7 000 |
-| App | Bankability Assessment Framework | 3 000 |
-| | **RAZEM** | **~128 000** |
+| App A | Bankability Assessment Framework | 3 000 |
+| App B | Mapa dostawców kapitału | 2 500 |
+| | **RAZEM** | **~130 500** |
 
 ### Trzy kluczowe diagramy
 
