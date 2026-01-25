@@ -3,7 +3,7 @@
 ---
 
 # FINANSOWANIE CAPEX-SHOCK
-## Ryzyko rentowności, risk wrappers i nowa architektura finansowania przedsiębiorstw
+## Ryzyko rentowności, mechanizmy transferu ryzyka i nowa architektura finansowania przedsiębiorstw
 
 **FINANCING THE CAPEX SHOCK**
 **Profitability Risk, Risk Wrappers, and the New Architecture of Corporate Finance**
@@ -14,7 +14,7 @@
 
 Przedsiębiorstwo planuje inwestycję za 500 milionów euro. CFO pyta: gdzie szukać finansowania? Jakie instrumenty są dostępne? Kto dziś udziela kredytów na duże projekty przemysłowe — i na jakich warunkach? Co zrobić, żeby projekt był „bankowalny"?
 
-Ta książka odpowiada na te pytania. W sektorach CAPEX-intensywnych (infrastruktura AI, transformacja energetyczna, półprzewodniki, technologie przemysłowe) krajobraz finansowania zmienił się fundamentalnie. Banki wycofały się z długoterminowego kredytowania. Ich miejsce zajęły fundusze private credit, inwestorzy infrastrukturalni i państwo. Kluczem do uzyskania finansowania nie jest już zdolność kredytowa firmy, lecz umiejętność „opakowania" ryzyka projektu w kontrakty, gwarancje i hedgingi — tak zwane risk wrappers.
+Ta książka odpowiada na te pytania. W sektorach CAPEX-intensywnych (infrastruktura AI, transformacja energetyczna, półprzewodniki, technologie przemysłowe) krajobraz finansowania zmienił się fundamentalnie. Banki wycofały się z długoterminowego kredytowania. Ich miejsce zajęły fundusze private credit, inwestorzy infrastrukturalni i państwo. Kluczem do uzyskania finansowania nie jest już zdolność kredytowa firmy, lecz umiejętność „opakowania" ryzyka projektu w kontrakty, gwarancje i hedgingi — tak zwane mechanizmy transferu ryzyka.
 
 Książka dostarcza przedsiębiorstwom mapę nowego krajobrazu: kto dostarcza kapitał, jakie instrumenty są dostępne, jak strukturyzować projekt pod wymagania finansujących, jak przygotować się na zmiany w systemie finansowania. To praktyczny przewodnik oparty na solidnych podstawach teoretycznych.
 
@@ -35,7 +35,7 @@ Pierwsza część książki ustala, że w sektorach CAPEX-intensywnych dokonała
 *Co się zmieniło?*
 - Banki przestały być głównymi kredytodawcami — stały się aranżerami ryzyka
 - Private credit i fundusze infrastrukturalne przejęły funkcje, które banki pełniły przez dekady
-- Państwo wróciło jako kluczowy aktor — nie jako inwestor, lecz jako dostawca gwarancji i wrapperów
+- Państwo wróciło jako kluczowy aktor — nie jako inwestor, lecz jako dostawca gwarancji i mechanizmów transferu ryzyka
 - Kluczem do finansowania nie jest już zdolność kredytowa firmy, lecz umiejętność „opakowania" ryzyka w kontrakty
 
 *Dlaczego to się stało?*
@@ -43,7 +43,7 @@ Pierwsza część książki ustala, że w sektorach CAPEX-intensywnych dokonała
 - Skala inwestycji (CAPEX-shock) przekroczyła możliwości tradycyjnych struktur
 - Nowe ryzyka (technologiczne, geopolityczne, klimatyczne) wymagają nowych mechanizmów alokacji
 
-Książka dostarcza teorię wyjaśniającą tę transformację: Model Warstwowy Rentowności, Taksonomię Risk Wrappers i Architekturę Dostawcy–Wrappers–Platformy.
+Książka dostarcza teorię wyjaśniającą tę transformację: Model Warstwowy Rentowności, Taksonomię Mechanizmów Transferu Ryzyka i Architekturę Dostawcy–Mechanizmy–Platformy.
 
 ---
 
@@ -66,7 +66,7 @@ Druga część książki odpowiada na pytanie: skoro paradygmat się zmienił, j
 **3. Dla regulatorów — kierunek zmian:**
 - Jak regulacje ostrożnościowe (Bazylea, Solvency) nieintencjonalnie kształtują przepływy kapitału?
 - Czy wzrost NBFI wymaga nowych ram nadzorczych?
-- Jak projektować politykę przemysłową opartą na wrappers, nie dotacjach?
+- Jak projektować politykę przemysłową opartą na mechanizmach transferu ryzyka, nie dotacjach?
 - Jak unikać moral hazard i przechwycenia politycznego?
 
 ---
@@ -95,15 +95,15 @@ Te cztery anomalie mają wspólny rdzeń. Tradycyjna teoria corporate finance �
 
 Książka proponuje alternatywne ramy analityczne. Centralna teza brzmi:
 
-> **Sektory CAPEX-intensywne generują podwyższone „ryzyko rentowności" — niepewność co do tego, czy i kiedy duże, nieodwracalne inwestycje wygenerują adekwatne zwroty. Ryzyko to nie jest finansowalne poprzez tradycyjne struktury dług-kapitał własny. Zamiast tego finansowanie wymaga architektury „risk wrappers" — mechanizmów kontraktowych, ubezpieczeniowych i hedgingowych przekształcających ryzyko rentowności w bankowalne przepływy pieniężne — dostarczanych poprzez wyspecjalizowane platformy łączące różnorodnych dostawców kapitału.**
+> **Sektory CAPEX-intensywne generują podwyższone „ryzyko rentowności" — niepewność co do tego, czy i kiedy duże, nieodwracalne inwestycje wygenerują adekwatne zwroty. Ryzyko to nie jest finansowalne poprzez tradycyjne struktury dług-kapitał własny. Zamiast tego finansowanie wymaga architektury „mechanizmy transferu ryzyka" — mechanizmów kontraktowych, ubezpieczeniowych i hedgingowych przekształcających ryzyko rentowności w bankowalne przepływy pieniężne — dostarczanych poprzez wyspecjalizowane platformy łączące różnorodnych dostawców kapitału.**
 
 Książka rozwija ten argument poprzez trzy oryginalne wkłady:
 
 **1. Model Warstwowy Rentowności.** Ryzyko rentowności w sektorach CAPEX-intensywnych działa na czterech odrębnych warstwach: (1) ekonomika projektu (koszty jednostkowe, krzywe uczenia, wykorzystanie mocy, parametry techniczne); (2) ekonomika branży (cykliczność, nadpodaż, siła cenowa); (3) ekonomika kontraktów (warunki offtake, indeksacja cen, renegocjacje); (4) pomiar korporacyjny (spread ROIC-WACC, konwersja gotówki, capex utrzymaniowy vs. rozwojowy). Każda warstwa generuje inne ryzyka wymagające innych odpowiedzi finansowych. Ten model systematyzuje „rentowność" jako kategorię analityczną, łącząc ekonomię branżową, teorię inwestycji i kontrakty finansowe.
 
-**2. Taksonomia Risk Wrappers.** Risk wrapper to mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy, który przekształca specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych. Książka rozwija systematyczną taksonomię obejmującą pięć kategorii wrapperów: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii książka określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi downside, jak zwiększa bankowalność i kiedy zawodzi.
+**2. Taksonomia Mechanizmów Transferu Ryzyka.** Mechanizm transferu ryzyka to mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy, który przekształca specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych. Książka rozwija systematyczną taksonomię obejmującą pięć kategorii mechanizmów transferu ryzyka: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii książka określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi downside, jak zwiększa bankowalność i kiedy zawodzi.
 
-**3. Architektura Dostawcy–Wrappers–Platformy.** Nowy system finansowania działa na trzech poziomach: *dostawcy* (banki, private credit, VC/PE, fundusze infrastrukturalne, kapitał publiczny), *wrappers* (mechanizmy transformujące ryzyko) oraz *platformy* (SPV, struktury syndykacyjne, wehikuły blended finance), które przekładają wrappers na warunki finansowania (senioralność, tenor, kowenanty, pricing). Ta architektura wyjaśnia, jak heterogeniczne źródła kapitału — o różnych apetytach na ryzyko, horyzontach czasowych i ograniczeniach regulacyjnych — mogą współinwestować w ten sam projekt.
+**3. Architektura Dostawcy–Mechanizmy–Platformy.** Nowy system finansowania działa na trzech poziomach: *dostawcy* (banki, private credit, VC/PE, fundusze infrastrukturalne, kapitał publiczny), *mechanizmy transferu ryzyka* (mechanizmy transformujące ryzyko) oraz *platformy* (SPV, struktury syndykacyjne, wehikuły blended finance), które przekładają mechanizmy transferu ryzyka na warunki finansowania (senioralność, tenor, kowenanty, pricing). Ta architektura wyjaśnia, jak heterogeniczne źródła kapitału — o różnych apetytach na ryzyko, horyzontach czasowych i ograniczeniach regulacyjnych — mogą współinwestować w ten sam projekt.
 
 ---
 
@@ -117,7 +117,7 @@ Książka krytycznie konfrontuje się z istniejącą teorią corporate finance, 
 
 **Teoria agencji** (Jensen-Meckling) koncentruje się na konfliktach między menedżerami, akcjonariuszami i wierzycielami. Teoria ta wyjaśnia struktury governance i mechanizmy motywacyjne, ale pomija krytyczną rolę kontraktów *operacyjnych* (offtake, EPC, O&M) w umożliwianiu finansowania.
 
-**Literatura project finance** (Esty, Blanc-Brude, Gatti) traktuje struktury non-recourse jako wyspecjalizowaną technikę dla dyskretnych aktywów infrastrukturalnych. Ta książka argumentuje, że logika project finance — kontraktowe ring-fencing, explicite alokacja ryzyka, bankowalność oparta na wrappers — staje się szablonem dla corporate finance w sektorach CAPEX-intensywnych w ogóle.
+**Literatura project finance** (Esty, Blanc-Brude, Gatti) traktuje struktury non-recourse jako wyspecjalizowaną technikę dla dyskretnych aktywów infrastrukturalnych. Ta książka argumentuje, że logika project finance — kontraktowe ring-fencing, explicite alokacja ryzyka, bankowalność oparta na mechanizmach transferu ryzyka — staje się szablonem dla corporate finance w sektorach CAPEX-intensywnych w ogóle.
 
 ---
 
@@ -146,11 +146,11 @@ Książka krytycznie konfrontuje się z istniejącą teorią corporate finance, 
 | Półprzewodniki | Średnia | **Wysoka** (cykliczność) | Niska | **Wysoka** (geopolityka) |
 | Dual-use/space | **Wysoka** (tech) | Średnia | Średnia (gov contracts) | **Wysoka** (polityczne) |
 
-Dla każdego archetypu książka stosuje identyczny szablon analityczny: Model Warstwowy Rentowności → relevantne wrappers → racjonalny capital stack → warunki brzegowe. Ta standaryzacja umożliwia porównanie i generalizację.
+Dla każdego archetypu książka stosuje identyczny szablon analityczny: Model Warstwowy Rentowności → relevantne mechanizmy transferu ryzyka → racjonalny capital stack → warunki brzegowe. Ta standaryzacja umożliwia porównanie i generalizację.
 
 **Podejście metodologiczne.** Książka jest budowaniem teorii, nie testowaniem hipotez. Stosuje trzy komplementarne metody: (1) *structured literature synthesis* — systematyczny przegląd literatury corporate finance, project finance, ekonomii kontraktów i NBFI z identyfikacją luk i mechanizmów; (2) *comparative institutional analysis* (Whitley, 1999; Hall & Soskice, 2001) — porównanie struktur finansowania między sektorami i jurysdykcjami w celu identyfikacji wspólnych wzorców; (3) *evidence mapping* — przyporządkowanie przewidywań teoretycznych do dostępnych dowodów empirycznych. Materiał empiryczny pełni trzy funkcje: (1) dane agregatowe z IEA, BIS, OECD i źródeł branżowych dokumentują CAPEX-shock i zmiany finansowania; (2) strukturyzowane ilustracje transakcyjne demonstrują, jak framework działa w praktyce; (3) przypadki porażek (Britishvolt, Northvolt, cleantech SPACs, renegocjacje PPA) ilustrują warunki brzegowe.
 
-Zakres geograficzny to przede wszystkim gospodarki rozwinięte (USA, UE, UK, Japonia, Korea), gdzie infrastruktura instytucjonalna dla risk wrappers jest dojrzała. Chiny są omawiane selektywnie, ale nie stanowią głównego przypadku ze względu na odmienną rolę kapitału państwowego.
+Zakres geograficzny to przede wszystkim gospodarki rozwinięte (USA, UE, UK, Japonia, Korea), gdzie infrastruktura instytucjonalna dla mechanizmów transferu ryzyka jest dojrzała. Chiny są omawiane selektywnie, ale nie stanowią głównego przypadku ze względu na odmienną rolę kapitału państwowego.
 
 ---
 
@@ -158,7 +158,7 @@ Zakres geograficzny to przede wszystkim gospodarki rozwinięte (USA, UE, UK, Jap
 
 Krytyczny rozdział bada warunki, w których nowa architektura finansowania załamuje się:
 
-- **Zawodność wrapperów**: renegocjacje kontraktów, default kontrahenta, basis risk w hedgingu
+- **Zawodność mechanizmów transferu ryzyka**: renegocjacje kontraktów, default kontrahenta, basis risk w hedgingu
 - **Obsolescencja technologii**: skrócenie „okna żniw", ryzyko stranded assets
 - **Szoki płynności w NBFI**: delewarowanie, ryzyko rollover, spirale marżowe
 - **Zmiany reżimu**: zmiany regulacyjne, odwrócenie polityki przemysłowej, kontrole eksportowe
@@ -173,8 +173,8 @@ Ta krytyczna analiza pokazuje, że proponowany framework jest falsyfikowalny, ni
 Książka wnosi trzy cytowalne wkłady:
 
 1. **Model Warstwowy Rentowności** — czterowarstwowy model analizy ryzyka rentowności
-2. **Taksonomia Risk Wrappers** — systematyczna klasyfikacja tworząca wspólny język dla finansów, polityki i przemysłu
-3. **Architektura Dostawcy–Wrappers–Platformy** — model nowego systemu finansowania
+2. **Taksonomia Mechanizmów Transferu Ryzyka** — systematyczna klasyfikacja tworząca wspólny język dla finansów, polityki i przemysłu
+3. **Architektura Dostawcy–Mechanizmy–Platformy** — model nowego systemu finansowania
 
 **Odbiorcy docelowi**:
 - **Przedsiębiorstwa (główny odbiorca)**: CFO, dyrektorzy finansowi, zespoły M&A i corporate development w firmach planujących duże inwestycje przemysłowe — książka dostarcza praktyczną mapę finansowania i narzędzia do strukturyzowania transakcji
@@ -202,11 +202,11 @@ Książka wnosi trzy cytowalne wkłady:
 
 **Rozdział 3: Model Warstwowy Rentowności**
 
-**Rozdział 4: Risk Wrappers — Teoria i Taksonomia**
+**Rozdział 4: Mechanizmy Transferu Ryzyka — Teoria i Taksonomia**
 
 **Rozdział 5: Od ryzyka do bankowalności**
 
-**Rozdział 6: Stos Finansowania CAPEX — Dostawcy, Wrappers, Platformy**
+**Rozdział 6: Stos Finansowania CAPEX — Dostawcy, Mechanizmy, Platformy**
 
 ### Sekcja C: Nowi aktorzy
 
@@ -214,7 +214,7 @@ Książka wnosi trzy cytowalne wkłady:
 
 **Rozdział 8: Kapitał prywatny — VC, PE i credit jako warstwy bankowalności**
 
-**Rozdział 9: Państwo jako wrapper ostatniej instancji**
+**Rozdział 9: Państwo jako gwarant ostatniej instancji**
 
 ### Sekcja D: Weryfikacja empiryczna
 
@@ -267,7 +267,7 @@ Te dane ustanawiają, że anomalie nie są anegdotyczne — reprezentują system
 
 Rozdział krytycznie bada, dlaczego dominujące teorie corporate finance nie potrafią wyjaśnić anomalii z Rozdziału 1. Teoria trade-off przewiduje, że firmy optymalizują między tarczami podatkowymi a kosztami bankructwa — ale firmy CAPEX-intensywne używają złożonych struktur niewyjaśnionych przez ten trade-off. Teoria pecking order przewiduje preferencję środków wewnętrznych nad kapitałem zewnętrznym — ale sektory CAPEX-intensywne pokazują odwrotny wzorzec. Teoria agencji koncentruje się na konfliktach governance — ale pomija rolę kontraktów operacyjnych w umożliwianiu finansowania. Literatura project finance traktuje struktury non-recourse jako niszowe techniki — ale ta książka argumentuje, że logika project finance staje się mainstreamem w CAPEX-intensywnym corporate finance.
 
-**Pozycjonowanie wobec literatury o polityce przemysłowej (Mazzucato).** Rozdział adresuje również lukę w literaturze o roli państwa w finansowaniu innowacji. Mariana Mazzucato (*The Entrepreneurial State*, 2013) argumentuje, że państwo powinno działać jako „venture capitalist" — inwestować w early-stage technologie, akceptować downside risk i dzielić się upside. Ta książka proponuje odmienne ujęcie. Problem w sektorach CAPEX-intensywnych nie polega na braku finansowania innowacji (to zadanie VC), lecz na braku finansowania *wdrożenia* dojrzałych technologii na mega-skalę. TSMC ma 40 mld USD gotówki, ale potrzebuje 6,6 mld USD dotacji na fabrykę w Arizonie — to nie jest problem „venture", lecz problem alokacji ryzyka. Kluczową funkcją państwa nie jest bycie inwestorem, lecz dostawcą wrapperów dla ryzyk, których rynki prywatne nie mogą wycenić: geopolitycznych, regulacyjnych, systemowych. To prowadzi do innych rekomendacji politycznych: nie „wybieranie zwycięzców", lecz inteligentne projektowanie wrapperów.
+**Pozycjonowanie wobec literatury o polityce przemysłowej (Mazzucato).** Rozdział adresuje również lukę w literaturze o roli państwa w finansowaniu innowacji. Mariana Mazzucato (*The Entrepreneurial State*, 2013) argumentuje, że państwo powinno działać jako „venture capitalist" — inwestować w early-stage technologie, akceptować downside risk i dzielić się upside. Ta książka proponuje odmienne ujęcie. Problem w sektorach CAPEX-intensywnych nie polega na braku finansowania innowacji (to zadanie VC), lecz na braku finansowania *wdrożenia* dojrzałych technologii na mega-skalę. TSMC ma 40 mld USD gotówki, ale potrzebuje 6,6 mld USD dotacji na fabrykę w Arizonie — to nie jest problem „venture", lecz problem alokacji ryzyka. Kluczową funkcją państwa nie jest bycie inwestorem, lecz dostawcą mechanizmów transferu ryzyka dla ryzyk, których rynki prywatne nie mogą wycenić: geopolitycznych, regulacyjnych, systemowych. To prowadzi do innych rekomendacji politycznych: nie „wybieranie zwycięzców", lecz inteligentne projektowanie mechanizmów transferu ryzyka.
 
 **Kluczowy output:** Luka teoretyczna ustanowiona; wyraźne pozycjonowanie wobec Mazzucato; czytelnik przekonany, że nowy framework jest konieczny.
 
@@ -280,7 +280,7 @@ Rozdział krytycznie bada, dlaczego dominujące teorie corporate finance nie pot
 
 Rozdział wprowadza pierwszy oryginalny wkład książki: Model Warstwowy Rentowności, czterowarstwowy model analizy ryzyka rentowności w sektorach CAPEX-intensywnych. Warstwa 1 (Ekonomika projektu) adresuje koszty jednostkowe, krzywe uczenia, wskaźniki wykorzystania mocy i parametry techniczne. Warstwa 2 (Ekonomika branży) obejmuje cykliczność, dynamikę nadpodaży, siłę cenową i koncentrację rynku. Warstwa 3 (Ekonomika kontraktów) bada umowy offtake, mechanizmy indeksacji cen, ryzyko renegocjacji i skuteczność hedgingu. Warstwa 4 (Pomiar korporacyjny) analizuje spread ROIC-WACC, konwersję gotówki, alokację między capex utrzymaniowy i rozwojowy oraz ujęcie aktywów niematerialnych.
 
-**Ryzyka klimatyczne w Warstwie 2.** Rozdział poświęca szczególną uwagę ryzykom klimatycznym jako rosnącemu komponentowi Warstwy 2. Physical climate risk (ekstremalne zjawiska pogodowe, zmiany hydrologiczne) bezpośrednio wpływa na ekonomikę projektów energetycznych i infrastrukturalnych. Transition risk (zmiany polityczne, carbon pricing, zakazy technologii) tworzy ryzyko stranded assets — aktywów, które tracą wartość przed końcem życia ekonomicznego. Dla sektorów CAPEX-intensywnych o 20-30-letnich horyzontach inwestycyjnych, ryzyka klimatyczne stają się materialne dla decyzji finansowych. Rozdział analizuje, które wrappers mogą adresować ryzyka klimatyczne (climate-linked PPA, green bonds z kowenantami) i które pozostają nieopakowane.
+**Ryzyka klimatyczne w Warstwie 2.** Rozdział poświęca szczególną uwagę ryzykom klimatycznym jako rosnącemu komponentowi Warstwy 2. Physical climate risk (ekstremalne zjawiska pogodowe, zmiany hydrologiczne) bezpośrednio wpływa na ekonomikę projektów energetycznych i infrastrukturalnych. Transition risk (zmiany polityczne, carbon pricing, zakazy technologii) tworzy ryzyko stranded assets — aktywów, które tracą wartość przed końcem życia ekonomicznego. Dla sektorów CAPEX-intensywnych o 20-30-letnich horyzontach inwestycyjnych, ryzyka klimatyczne stają się materialne dla decyzji finansowych. Rozdział analizuje, które mechanizmy transferu ryzyka mogą adresować ryzyka klimatyczne (climate-linked PPA, green bonds z kowenantami) i które pozostają nieopakowane.
 
 Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od poziomu projektu przez branżę i kontrakty do poziomu korporacyjnego — i dlaczego każda warstwa wymaga innych odpowiedzi finansowych. Diagram Modelu Warstwowego Rentowności stanowi wizualną kotwicę powracającą przez całą książkę.
 
@@ -290,18 +290,18 @@ Rozdział pokazuje, jak warstwy wchodzą w interakcje — ryzyka kaskadują od p
 
 ---
 
-### Rozdział 4: Risk Wrappers — Teoria i Taksonomia
+### Rozdział 4: Mechanizmy Transferu Ryzyka — Teoria i Taksonomia
 **~45 stron | ~12 500 słów**
 
-Rozdział wprowadza drugi oryginalny wkład książki: teorię i taksonomię risk wrappers. Risk wrapper jest definiowany jako mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy przekształcający specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych, tym samym zwiększając bankowalność.
+Rozdział wprowadza drugi oryginalny wkład książki: teorię i taksonomię mechanizmów transferu ryzyka. Mechanizm transferu ryzyka jest definiowany jako mechanizm kontraktowy, ubezpieczeniowy lub hedgingowy przekształcający specyficzny komponent ryzyka rentowności w bardziej przewidywalny strumień przepływów pieniężnych, tym samym zwiększając bankowalność.
 
-**Co nowego vs klasyczne project finance?** Pojęcie risk wrappers nie jest po prostu nową etykietą dla technik znanych z project finance. Trzy różnice są kluczowe: (1) *zakres stosowania* — klasyczne PF dotyczy dyskretnych aktywów infrastrukturalnych, podczas gdy risk wrappers stosują się również do corporate finance firm CAPEX-intensywnych (TSMC, NVIDIA, SpaceX); (2) *włączenie aktywów niematerialnych* — klasyczne PF koncentruje się na aktywach fizycznych z przewidywalnymi przepływami, podczas gdy ta książka adresuje również obsolescencję technologiczną, wartość IP i ryzyka platformowe; (3) *integracja NBFI* — klasyczne PF zakłada dominację banków, podczas gdy ta książka explicite modeluje rolę private credit, funduszy infrastrukturalnych i kapitału państwowego jako komplementarnych dostawców wrapperów.
+**Co nowego vs klasyczne project finance?** Pojęcie mechanizmów transferu ryzyka nie jest po prostu nową etykietą dla technik znanych z project finance. Trzy różnice są kluczowe: (1) *zakres stosowania* — klasyczne PF dotyczy dyskretnych aktywów infrastrukturalnych, podczas gdy mechanizmy transferu ryzyka stosują się również do corporate finance firm CAPEX-intensywnych (TSMC, NVIDIA, SpaceX); (2) *włączenie aktywów niematerialnych* — klasyczne PF koncentruje się na aktywach fizycznych z przewidywalnymi przepływami, podczas gdy ta książka adresuje również obsolescencję technologiczną, wartość IP i ryzyka platformowe; (3) *integracja NBFI* — klasyczne PF zakłada dominację banków, podczas gdy ta książka explicite modeluje rolę private credit, funduszy infrastrukturalnych i kapitału państwowego jako komplementarnych dostawców mechanizmów transferu ryzyka.
 
-**Fundament teoretyczny: niekompletne kontrakty i governance (Williamson).** Rozdział zakotwicza teorię wrappers w ekonomii niekompletnych kontraktów. Kontrakty nie mogą określić wszystkich możliwych stanów natury — zawsze istnieje residual risk, którego kontrakt nie adresuje. Pytanie brzmi: kto ponosi residual risk i kto ma residual control rights? Wrappers są odpowiedzią na niekompletność: banki nie mogą ponosić długoterminowego ryzyka politycznego (brak control rights nad polityką), więc państwo musi dostarczyć ten wrapper. Kapitał PE może ponosić ryzyko technologiczne (ma monitoring rights, miejsce w zarządzie). To wyjaśnia, dlaczego specyficzni aktorzy dostarczają specyficzne wrappers.
+**Fundament teoretyczny: niekompletne kontrakty i governance (Williamson).** Rozdział zakotwicza teorię mechanizmów transferu ryzyka w ekonomii niekompletnych kontraktów. Kontrakty nie mogą określić wszystkich możliwych stanów natury — zawsze istnieje residual risk, którego kontrakt nie adresuje. Pytanie brzmi: kto ponosi residual risk i kto ma residual control rights? Mechanizmy są odpowiedzią na niekompletność: banki nie mogą ponosić długoterminowego ryzyka politycznego (brak control rights nad polityką), więc państwo musi dostarczyć ten mechanizm transferu ryzyka. Kapitał PE może ponosić ryzyko technologiczne (ma monitoring rights, miejsce w zarządzie). To wyjaśnia, dlaczego specyficzni aktorzy dostarczają specyficzne mechanizmy transferu ryzyka.
 
-Rozdział rozwija teorię projektowania wrapperów: wrappers powstają, gdy spełnione są trzy warunki — kontraktowalność (ryzyko może być określone), asymetryczna zdolność (jedna strona może ponieść ryzyko niższym kosztem) i weryfikowalność (wyniki mogą być obserwowane przez strony trzecie). Następnie rozdział prezentuje systematyczną taksonomię obejmującą pięć kategorii wrapperów: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe, credit enhancement), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii rozdział określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi rezydualny downside, jak zwiększa bankowalność i warunki, w których zawodzi.
+Rozdział rozwija teorię projektowania mechanizmów transferu ryzyka: mechanizmy transferu ryzyka powstają, gdy spełnione są trzy warunki — kontraktowalność (ryzyko może być określone), asymetryczna zdolność (jedna strona może ponieść ryzyko niższym kosztem) i weryfikowalność (wyniki mogą być obserwowane przez strony trzecie). Następnie rozdział prezentuje systematyczną taksonomię obejmującą pięć kategorii mechanizmów transferu ryzyka: przychodowe (PPA, offtake, kontrakty capacity), gwarancyjne (ECA, gwarancje państwowe, credit enhancement), hedgingowe (surowce, FX, stopy procentowe), ubezpieczeniowe (ryzyko polityczne, budowlane, przerwy w działalności) i kowenantowe (cash sweeps, escrow, rachunki rezerwowe). Dla każdej kategorii rozdział określa: którą warstwę rentowności adresuje, typowe warunki kontraktowe, kto ponosi rezydualny downside, jak zwiększa bankowalność i warunki, w których zawodzi.
 
-**Kluczowe narzędzie analityczne:** Taksonomia Risk Wrappers; zakotwiczenie w teorii niekompletnych kontraktów Williamsona.
+**Kluczowe narzędzie analityczne:** Taksonomia Mechanizmów Transferu Ryzyka; zakotwiczenie w teorii niekompletnych kontraktów Williamsona.
 
 **Co to oznacza dla przedsiębiorstwa?** To jest praktyczny katalog instrumentów, których potrzebujesz do zamknięcia finansowania. Masz ryzyko przychodowe? Potrzebujesz PPA lub kontraktu offtake. Masz ryzyko polityczne? Szukaj gwarancji ECA lub państwowej. Masz ryzyko budowlane? Potrzebujesz ubezpieczenia construction i kontraktu EPC. Ten rozdział pokazuje, które instrumenty adresują które ryzyka — i gdzie je znaleźć.
 
@@ -310,22 +310,22 @@ Rozdział rozwija teorię projektowania wrapperów: wrappers powstają, gdy spe�
 ### Rozdział 5: Od ryzyka do bankowalności
 **~30 stron | ~9 000 słów**
 
-Rozdział łączy koncepcje Modelu Warstwowego Rentowności i Risk Wrappers, wprowadzając „bankowalność" jako centralną zmienną zależną. Bankowalność jest definiowana jako stopień, w jakim oczekiwane przepływy pieniężne inwestycji mogą być sfinansowane kapitałem trzecich stron na akceptowalnych warunkach. Rozdział wprowadza pojęcie „luki bankowalności" — różnicy między wewnętrznym IRR projektu a zwrotem wymaganym przez finansujących przy danym postrzeganym ryzyku. Risk wrappers zamykają tę lukę poprzez redukcję postrzeganego ryzyka, tym samym obniżając wymagane zwroty.
+Rozdział łączy koncepcje Modelu Warstwowego Rentowności i Mechanizmów Transferu Ryzyka, wprowadzając „bankowalność" jako centralną zmienną zależną. Bankowalność jest definiowana jako stopień, w jakim oczekiwane przepływy pieniężne inwestycji mogą być sfinansowane kapitałem trzecich stron na akceptowalnych warunkach. Rozdział wprowadza pojęcie „luki bankowalności" — różnicy między wewnętrznym IRR projektu a zwrotem wymaganym przez finansujących przy danym postrzeganym ryzyku. Mechanizmy transferu ryzyka zamykają tę lukę poprzez redukcję postrzeganego ryzyka, tym samym obniżając wymagane zwroty.
 
-**Formalizacja mechaniki wrappers.** Rozdział zawiera formalny model pokazujący, jak wrappers redukują koszt kapitału. Postrzegane ryzyko projektu (σ) składa się z komponentów: σ_revenue + σ_tech + σ_regulatory + σ_political. Każdy wrapper adresuje specyficzne komponenty: PPA redukuje σ_revenue (ale nie σ_tech), gwarancja państwowa redukuje σ_political (ale nie σ_revenue). Tabela pokazuje efekt każdego wrappera na spread wymaganego zwrotu (w punktach bazowych): PPA (-150 bps), ECA guarantee (-200 bps), government grant (-250 bps), parent guarantee (-200 bps). Model wyjaśnia, dlaczego PPA wystarcza dla energetyki odnawialnej (gdzie σ_tech ≈ 0), ale nie wystarcza dla półprzewodników (gdzie σ_tech jest wysokie).
+**Formalizacja mechaniki mechanizmów transferu ryzyka.** Rozdział zawiera formalny model pokazujący, jak mechanizmy transferu ryzyka redukują koszt kapitału. Postrzegane ryzyko projektu (σ) składa się z komponentów: σ_revenue + σ_tech + σ_regulatory + σ_political. Każdy mechanizm transferu ryzyka adresuje specyficzne komponenty: PPA redukuje σ_revenue (ale nie σ_tech), gwarancja państwowa redukuje σ_political (ale nie σ_revenue). Tabela pokazuje efekt każdego mechanizmu transferu ryzyka na spread wymaganego zwrotu (w punktach bazowych): PPA (-150 bps), ECA guarantee (-200 bps), government grant (-250 bps), parent guarantee (-200 bps). Model wyjaśnia, dlaczego PPA wystarcza dla energetyki odnawialnej (gdzie σ_tech ≈ 0), ale nie wystarcza dla półprzewodników (gdzie σ_tech jest wysokie).
 
-**Moral hazard i przeinwestowanie.** Rozdział adresuje ciemną stronę bankowalności: wrappers mogą indukować nadmierne inwestycje, jeśli są dostępne dla wszystkich graczy jednocześnie. Case: data center boom 2023-2024 — każdy operator myślał, że może finansować przy 8-10% IRR, co doprowadziło do nadpodaży i kompresji IRR do 5-6%. Wrappers mogą być procykliczne.
+**Moral hazard i przeinwestowanie.** Rozdział adresuje ciemną stronę bankowalności: mechanizmy transferu ryzyka mogą indukować nadmierne inwestycje, jeśli są dostępne dla wszystkich graczy jednocześnie. Case: data center boom 2023-2024 — każdy operator myślał, że może finansować przy 8-10% IRR, co doprowadziło do nadpodaży i kompresji IRR do 5-6%. Mechanizmy mogą być procykliczne.
 
 **Kluczowy output:** Koncepcja „luki bankowalności"; formalny model redukcji kosztu kapitału; analiza moral hazard.
 
-**Co to oznacza dla przedsiębiorstwa?** Twój projekt ma IRR 10%, ale bank chce 14% — to jest „luka bankowalności". Ten rozdział pokazuje, jak ją zmierzyć i jak ją zamknąć. Każdy wrapper redukuje postrzegane ryzyko o określoną liczbę punktów bazowych. Możesz policzyć: czy PPA + gwarancja ECA wystarczą, żeby zamknąć lukę? Czy potrzebujesz jeszcze czegoś? To pozwala prowadzić rozmowy z finansującymi na podstawie konkretnych liczb, nie intuicji.
+**Co to oznacza dla przedsiębiorstwa?** Twój projekt ma IRR 10%, ale bank chce 14% — to jest „luka bankowalności". Ten rozdział pokazuje, jak ją zmierzyć i jak ją zamknąć. Każdy mechanizm transferu ryzyka redukuje postrzegane ryzyko o określoną liczbę punktów bazowych. Możesz policzyć: czy PPA + gwarancja ECA wystarczą, żeby zamknąć lukę? Czy potrzebujesz jeszcze czegoś? To pozwala prowadzić rozmowy z finansującymi na podstawie konkretnych liczb, nie intuicji.
 
 ---
 
-### Rozdział 6: Stos Finansowania CAPEX — Dostawcy, Wrappers, Platformy
+### Rozdział 6: Stos Finansowania CAPEX — Dostawcy, Mechanizmy, Platformy
 **~30 stron | ~8 000 słów**
 
-Rozdział prezentuje trzeci oryginalny wkład książki: Stos Finansowania CAPEX, trzypozioową architekturę wyjaśniającą, jak projekty CAPEX-intensywne są finansowane. Poziom 1 (Dostawcy) identyfikuje źródła kapitału: banki, fundusze private credit, VC/PE, fundusze infrastrukturalne, państwowe fundusze majątkowe, instytucje finansowania rozwoju, kapitał publiczny i publiczne rynki akcji. Każdy typ dostawcy ma odmienne: apetyt na ryzyko, horyzont czasowy, wymagania zwrotu i ograniczenia regulacyjne. Poziom 2 (Wrappers) podsumowuje mechanizmy transformacji ryzyka (z Rozdziału 4) umożliwiające udział różnorodnych dostawców. Poziom 3 (Platformy) wyjaśnia struktury organizacyjne — SPV, aranżacje syndykacyjne, struktury holdingowe, wehikuły blended finance, korporacyjne struktury project-like — które przekładają wrappers na warunki finansowania (senioralność, tenor, kowenanty, pricing, governance). Diagram Stosu Finansowania CAPEX integruje wszystkie trzy poziomy w jedne ramy wizualne stanowiące kluczowy wkład książki.
+Rozdział prezentuje trzeci oryginalny wkład książki: Stos Finansowania CAPEX, trzypozioową architekturę wyjaśniającą, jak projekty CAPEX-intensywne są finansowane. Poziom 1 (Dostawcy) identyfikuje źródła kapitału: banki, fundusze private credit, VC/PE, fundusze infrastrukturalne, państwowe fundusze majątkowe, instytucje finansowania rozwoju, kapitał publiczny i publiczne rynki akcji. Każdy typ dostawcy ma odmienne: apetyt na ryzyko, horyzont czasowy, wymagania zwrotu i ograniczenia regulacyjne. Poziom 2 (Mechanizmy) podsumowuje mechanizmy transformacji ryzyka (z Rozdziału 4) umożliwiające udział różnorodnych dostawców. Poziom 3 (Platformy) wyjaśnia struktury organizacyjne — SPV, aranżacje syndykacyjne, struktury holdingowe, wehikuły blended finance, korporacyjne struktury project-like — które przekładają mechanizmy transferu ryzyka na warunki finansowania (senioralność, tenor, kowenanty, pricing, governance). Diagram Stosu Finansowania CAPEX integruje wszystkie trzy poziomy w jedne ramy wizualne stanowiące kluczowy wkład książki.
 
 **Kluczowe narzędzie analityczne:** Model Finansowania CAPEX; integracyjne ramy wizualne; diagram do cytowania.
 
@@ -347,7 +347,7 @@ Rozdział bada transformację roli banków w finansowaniu CAPEX-intensywnym. Tra
 ### Rozdział 8: Kapitał prywatny — VC, PE i credit jako warstwy bankowalności
 **~30 stron | ~8 000 słów**
 
-Rozdział analizuje rosnącą rolę kapitału prywatnego w finansowaniu CAPEX-intensywnym. Rozdział otwierają dane agregatowe pokazujące wzrost kapitału prywatnego: AUM private credit wzrosło z 500 miliardów dolarów w 2010 do ponad 1,5 biliona dolarów w 2024, przy czym sektory CAPEX-intensywne rosną szybciej niż średnia. Następnie rozdział rozwija wyjaśnienie funkcjonalne. VC i PE pełnią rolę „inżynierów bankowalności": inwestują wcześnie, strukturyzują projekty, negocjują kontrakty i tworzą konfiguracje wrapperów umożliwiające późniejsze finansowanie dłużne. Private credit zapewnia „skalowalną warstwę długu", której banki nie mogą dostarczyć: dłuższe tenory, elastyczniejsze kowenanty, gotowość do ponoszenia ryzyka budowy i rozruchu. Fundusze infrastrukturalne oferują długoterminowy kapitał dopasowany do życia aktywów.
+Rozdział analizuje rosnącą rolę kapitału prywatnego w finansowaniu CAPEX-intensywnym. Rozdział otwierają dane agregatowe pokazujące wzrost kapitału prywatnego: AUM private credit wzrosło z 500 miliardów dolarów w 2010 do ponad 1,5 biliona dolarów w 2024, przy czym sektory CAPEX-intensywne rosną szybciej niż średnia. Następnie rozdział rozwija wyjaśnienie funkcjonalne. VC i PE pełnią rolę „inżynierów bankowalności": inwestują wcześnie, strukturyzują projekty, negocjują kontrakty i tworzą konfiguracje mechanizmów transferu ryzyka umożliwiające późniejsze finansowanie dłużne. Private credit zapewnia „skalowalną warstwę długu", której banki nie mogą dostarczyć: dłuższe tenory, elastyczniejsze kowenanty, gotowość do ponoszenia ryzyka budowy i rozruchu. Fundusze infrastrukturalne oferują długoterminowy kapitał dopasowany do życia aktywów.
 
 **Interpretacja funkcjonalna vs ryzyka systemowe.** Rozdział argumentuje, że wzrost private credit w sektorach CAPEX-intensywnych odzwierciedla funkcjonalną odpowiedź na luki regulowanych banków — nie jest wyłącznie arbitrażem regulacyjnym. Jednak ta funkcjonalna rola nie eliminuje ryzyk: rozdział explicite analizuje zagrożenia wynikające z niedopasowania płynności (fundusze oferują redemptions, ale aktywa są niepłynne), ryzyka rollover (refinansowanie w niekorzystnych warunkach rynkowych), współzależności z systemem bankowym (bank-NBFI linkages) oraz nieprzejrzystości wycen. Konkluzja jest zniuansowana: private credit rozwiązuje realny problem, ale tworzy nowe ryzyka wymagające nadzoru makroostrożnościowego.
 
@@ -357,12 +357,12 @@ Rozdział analizuje rosnącą rolę kapitału prywatnego w finansowaniu CAPEX-in
 
 ---
 
-### Rozdział 9: Państwo jako wrapper ostatniej instancji
+### Rozdział 9: Państwo jako gwarant ostatniej instancji
 **~25 stron | ~7 000 słów**
 
-Rozdział bada rolę państwa w finansowaniu CAPEX-intensywnym — nie jako bezpośredniego inwestora, ale jako dostawcy risk wrappers, których rynki nie mogą zapewnić. Polityka przemysłowa powróciła w gospodarkach rozwiniętych: CHIPS Act (USA), Net Zero Industry Act (UE), dotacje na półprzewodniki (Japonia, Korea). Ale rozdział argumentuje, że ujmowanie interwencji państwa jako „dotacji" czy „wybierania zwycięzców" nie trafia w sedno. Krytyczną funkcją państwa jest zapewnianie wrapperów dla ryzyk, których rynki prywatne nie mogą wycenić ani ponieść: ryzyko geopolityczne, ryzyko regulacyjne/polityczne, problemy koordynacji i ryzyka ogonowe przekraczające zdolności ubezpieczeń prywatnych. Rozdział wprowadza pojęcie „wrappera ostatniej instancji": gdy wrappery dostarczane przez rynek są niewystarczające do zamknięcia luki bankowalności, wrappers dostarczane przez państwo stają się konieczne do realizacji inwestycji. Analizuje mechanizmy (granty, gwarancje, blended finance, kontrakty, zobowiązania regulacyjne) i ryzyka (wypieranie, moral hazard, przechwycenie polityczne, ekspozycja fiskalna).
+Rozdział bada rolę państwa w finansowaniu CAPEX-intensywnym — nie jako bezpośredniego inwestora, ale jako dostawcy mechanizmów transferu ryzyka, których rynki nie mogą zapewnić. Polityka przemysłowa powróciła w gospodarkach rozwiniętych: CHIPS Act (USA), Net Zero Industry Act (UE), dotacje na półprzewodniki (Japonia, Korea). Ale rozdział argumentuje, że ujmowanie interwencji państwa jako „dotacji" czy „wybierania zwycięzców" nie trafia w sedno. Krytyczną funkcją państwa jest zapewnianie mechanizmów transferu ryzyka dla ryzyk, których rynki prywatne nie mogą wycenić ani ponieść: ryzyko geopolityczne, ryzyko regulacyjne/polityczne, problemy koordynacji i ryzyka ogonowe przekraczające zdolności ubezpieczeń prywatnych. Rozdział wprowadza pojęcie „mechanizmu transferu ryzyka ostatniej instancji": gdy mechanizmy transferu ryzyka dostarczane przez rynek są niewystarczające do zamknięcia luki bankowalności, mechanizmy transferu ryzyka dostarczane przez państwo stają się konieczne do realizacji inwestycji. Analizuje mechanizmy (granty, gwarancje, blended finance, kontrakty, zobowiązania regulacyjne) i ryzyka (wypieranie, moral hazard, przechwycenie polityczne, ekspozycja fiskalna).
 
-**Kluczowy output:** Koncepcja „wrappera ostatniej instancji"; ramy analityczne dla projektowania interwencji państwa.
+**Kluczowy output:** Koncepcja „mechanizmu transferu ryzyka ostatniej instancji"; ramy analityczne dla projektowania interwencji państwa.
 
 **Co to oznacza dla przedsiębiorstwa?** Jeśli twój projekt pasuje do priorytetów polityki przemysłowej (dekarbonizacja, bezpieczeństwo dostaw, suwerenność technologiczna), państwo może zamknąć lukę bankowalności, której rynek nie wypełni. Ale musisz wiedzieć, jak rozmawiać z agencjami rozwoju, jakich instrumentów szukać (grant? gwarancja? pożyczka preferencyjna?) i jakie warunki będą wymagane. Ten rozdział to przewodnik po instrumentach państwowych — i ostrzeżenie przed ich zmiennością.
 
@@ -371,7 +371,7 @@ Rozdział bada rolę państwa w finansowaniu CAPEX-intensywnym — nie jako bezp
 ### Rozdział 10: Rozwiązanie czterech zagadek — Archetypy sektorowe
 **~70 stron | ~25 000 słów**
 
-Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framework książki je rozwiązuje. Każda sekcja stosuje identyczny szablon analityczny: (1) mapuj Model Warstwowy Rentowności sektora; (2) zidentyfikuj wrappers tworzące bankowalność; (3) wyjaśnij racjonalny capital stack; (4) określ tryby awarii.
+Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framework książki je rozwiązuje. Każda sekcja stosuje identyczny szablon analityczny: (1) mapuj Model Warstwowy Rentowności sektora; (2) zidentyfikuj mechanizmy transferu ryzyka tworzące bankowalność; (3) wyjaśnij racjonalny capital stack; (4) określ tryby awarii.
 
 **Osadzenie teoretyczne case studies.** Każde case study jest explicite powiązane z teoretycznym mechanizmem wyjaśniającym zmianę paradygmatu finansowania:
 
@@ -386,33 +386,33 @@ Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framewo
 - **Mechanizm teoretyczny:** Teoria maturity transformation (Diamond & Dybvig, 1983) wyjaśnia, dlaczego banki — finansujące się krótkoterminowymi depozytami — nie mogą efektywnie ponosić 15-20-letniego ryzyka obsolescencji technologicznej. Fundusze PE z zamkniętą strukturą (closed-end) mają dopasowanie horyzontów.
 - Projekt: centrum danych 2 mld USD
 - Model Warstwowy: Warstwa 1 dominuje (PUE, tech obsolescence); Warstwa 3 słaba (brak długoterminowych offtake)
-- Wrappers: equity (40%), private credit (40%), bank debt (20%)
+- Mechanizmy: equity (40%), private credit (40%), bank debt (20%)
 - **Predykcja frameworku:** Gdy ryzyko Warstwy 1 dominuje i Warstwa 3 jest słaba, equity/PE musi dominować capital stack. ✓ Potwierdzone.
 
 **Case Study 2: Energetyka — Dogger Bank Offshore Wind (ScottishPower/SSE, 2024)**
 - **Mechanizm teoretyczny:** Teoria kontraktów niekompletnych (Williamson, 1985) wyjaśnia, dlaczego długoterminowe PPA są niezbędne: bez kontraktowej stabilizacji przychodów, ryzyko Warstwy 2 (ceny energii) uniemożliwia finansowanie dłużne. PPA „kompletyzuje" kontrakt poprzez określenie stanów natury ex ante.
 - Projekt: 3,6 GW, ~5 mld EUR CAPEX
 - Model Warstwowy: Warstwa 3 dominuje (kontraktowalność); Warstwa 1 niska (dojrzała technologia)
-- Wrappers: 15-letnie PPA jako kluczowy wrapper; senior debt (65%), mezzanine (20%), equity (15%)
+- Mechanizmy: 15-letnie PPA jako kluczowy mechanizm transferu ryzyka; senior debt (65%), mezzanine (20%), equity (15%)
 - **Predykcja frameworku:** Gdy Warstwa 3 jest silna (PPA dostępne), project finance z dominacją długu jest możliwe. ✓ Potwierdzone.
 
 **Case Study 3: Półprzewodniki — TSMC Arizona Fab 21 (2024)**
-- **Mechanizm teoretyczny:** Knightowska niepewność (Knight, 1921) vs ryzyko: ryzyka geopolityczne (US-China decoupling, export controls) nie są probabilistycznie mierzalne, więc nie mogą być wycenione przez rynki prywatne. Państwo musi dostarczyć wrapper dla „true uncertainty", nie tylko „calculable risk".
+- **Mechanizm teoretyczny:** Knightowska niepewność (Knight, 1921) vs ryzyko: ryzyka geopolityczne (US-China decoupling, export controls) nie są probabilistycznie mierzalne, więc nie mogą być wycenione przez rynki prywatne. Państwo musi dostarczyć mechanizm transferu ryzyka dla „true uncertainty", nie tylko „calculable risk".
 - Projekt: 40 mld USD, 3nm node
 - Model Warstwowy: Warstwa 2 + 4 dominują (cykliczność + geopolityka); Warstwa 3 słaba (brak PPA-like contracts)
-- Wrappers: CHIPS Act grants (6,6 mld USD), parent guarantee, equity (55%)
-- **Predykcja frameworku:** Gdy Warstwa 4 (ryzyka nieubezpieczalne) dominuje, państwo musi być wrapper provider. ✓ Potwierdzone.
+- Mechanizmy: CHIPS Act grants (6,6 mld USD), parent guarantee, equity (55%)
+- **Predykcja frameworku:** Gdy Warstwa 4 (ryzyka nieubezpieczalne) dominuje, państwo musi być dostawca mechanizmów transferu ryzyka. ✓ Potwierdzone.
 
 **Case Study 4: Space/Dual-use — SpaceX Starship (2024)**
 - **Mechanizm teoretyczny:** Teoria agencji (Jensen & Meckling, 1976) i monitoring costs: przy wysokim ryzyku technologicznym (Warstwa 1) i asymetrii informacyjnej, tylko inwestorzy z prawami kontroli (board seats, monitoring rights) mogą efektywnie ponosić ryzyko. Dług jest nieefektywny, bo wierzyciele nie mają narzędzi do redukcji moral hazard.
 - Projekt: mega-rakieta, mixed financing
 - Model Warstwowy: Warstwa 1 + 4 dominują (tech + polityka); Warstwa 3 średnia (gov contracts jako anchor)
-- Wrappers: venture equity (40%), gov contracts (35%), minimal debt
+- Mechanizmy: venture equity (40%), gov contracts (35%), minimal debt
 - **Predykcja frameworku:** Gdy Warstwa 1 dominuje i asymetria informacyjna jest wysoka, equity z monitoring rights musi dominować. ✓ Potwierdzone.
 
 **AI compute financing: NVIDIA i OpenAI.** Dodatkowa sekcja analizuje finansowanie AI compute — przypadek hybrydowy między data centers a półprzewodnikami. Mechanizm teoretyczny: vertical integration jako substytut kontraktów (Coase, 1937; Klein et al., 1978). Microsoft finansuje compute dla OpenAI poprzez quasi-integrację pionową, eliminując hold-up problem.
 
-**Wnioski przekrojowe i generalizacja.** Rozdział kończy się syntezą: cztery case studies potwierdzają predykcje frameworku — dominujący profil ryzyka w Modelu Warstwowym determinuje optymalną konfigurację wrapperów i capital stack. To nie jest korelacja, lecz mechanizm przyczynowy zakotwiczony w teorii.
+**Wnioski przekrojowe i generalizacja.** Rozdział kończy się syntezą: cztery case studies potwierdzają predykcje frameworku — dominujący profil ryzyka w Modelu Warstwowym determinuje optymalną konfigurację mechanizmów transferu ryzyka i capital stack. To nie jest korelacja, lecz mechanizm przyczynowy zakotwiczony w teorii.
 
 **Kluczowy output:** Demonstracja, że framework „działa" i jest teoretycznie ugruntowany; 4 case studies z explicite powiązaniem teoria→predykcja→weryfikacja.
 
@@ -423,22 +423,22 @@ Rozdział powraca do czterech anomalii z Rozdziału 1 i demonstruje, jak framewo
 ### Rozdział 11: Kiedy architektura zawodzi — Warunki brzegowe
 **~40 stron | ~12 000 słów**
 
-Rozdział bada warunki, w których architektura finansowania opisana w książce załamuje się. Tryby awarii wrapperów obejmują renegocjację kontraktów (kontrahent wykonuje siłę przetargową ex post), default kontrahenta (dostawca wrappera nie może wykonać) i basis risk (hedge nie odpowiada ekspozycji bazowej). Obsolescencja technologii skraca „okno żniw" — okres, w którym CAPEX generuje zwroty przed staniem się stranded asset. Szoki płynności w NBFI wywołują delewarowanie, awarie rollover i spirale marżowe propagujące się przez współzależne rynki private credit. Zmiany reżimu — odwrócenia regulacyjne, zmiany polityki, kontrole eksportowe — unieważniają wrappers zależne od stabilności politycznej. Wyścigi inwestycyjne prowadzą do przeinwestowania CAPEX, wojen cenowych i kompresji ROIC poniżej WACC w całej branży.
+Rozdział bada warunki, w których architektura finansowania opisana w książce załamuje się. Tryby awarii mechanizmów transferu ryzyka obejmują renegocjację kontraktów (kontrahent wykonuje siłę przetargową ex post), default kontrahenta (dostawca mechanizmu transferu ryzyka nie może wykonać) i basis risk (hedge nie odpowiada ekspozycji bazowej). Obsolescencja technologii skraca „okno żniw" — okres, w którym CAPEX generuje zwroty przed staniem się stranded asset. Szoki płynności w NBFI wywołują delewarowanie, awarie rollover i spirale marżowe propagujące się przez współzależne rynki private credit. Zmiany reżimu — odwrócenia regulacyjne, zmiany polityki, kontrole eksportowe — unieważniają mechanizmy transferu ryzyka zależne od stabilności politycznej. Wyścigi inwestycyjne prowadzą do przeinwestowania CAPEX, wojen cenowych i kompresji ROIC poniżej WACC w całej branży.
 
 **Studia przypadków awarii.** Rozdział prezentuje pięć szczegółowych studiów przypadków:
 | Case | Tryb awarii | Lekcja |
 |------|-------------|--------|
-| **Britishvolt (2023)** | Default kontrahenta + brak wrapperów państwowych | Obietnica bez wrapperów nie jest finansowalna |
-| **Northvolt (2024)** | Ryzyko technologiczne + rollover risk | Skalowanie wymaga więcej wrapperów niż startup |
+| **Britishvolt (2023)** | Default kontrahenta + brak mechanizmów transferu ryzyka państwowych | Obietnica bez mechanizmów transferu ryzyka nie jest finansowalna |
+| **Northvolt (2024)** | Ryzyko technologiczne + rollover risk | Skalowanie wymaga więcej mechanizmów transferu ryzyka niż startup |
 | **Cleantech SPACs (2021-22)** | Moral hazard + przeinwestowanie | Łatwy dostęp do kapitału indukuje złe projekty |
-| **Europejskie renegocjacje PPA (2022-23)** | Renegocjacja kontraktów | Wrappers zawodzą przy zmianie reżimu cenowego |
-| **Kontrole eksportowe półprzewodników (2023-24)** | Zmiana reżimu politycznego | Wrappers państwowe nie chronią przed polityką |
+| **Europejskie renegocjacje PPA (2022-23)** | Renegocjacja kontraktów | Mechanizmy zawodzą przy zmianie reżimu cenowego |
+| **Kontrole eksportowe półprzewodników (2023-24)** | Zmiana reżimu politycznego | Mechanizmy państwowe nie chronią przed polityką |
 
-**Chiny jako kontrprzykład.** Rozdział adresuje pytanie: czy framework stosuje się do Chin? Odpowiedź: częściowo nie. W Chinach państwo działa nie jako „wrapper provider", lecz jako bezpośredni inwestor i właściciel. Banki państwowe, SOE i fundusze guidance funds alokują kapitał według logiki politycznej, nie rynkowej. To tworzy inną architekturę — ale również inne ryzyka (misalokacja, zombies, brak dyscypliny rynkowej). Książka wyjaśnia, dlaczego jej framework dotyczy gospodarek rynkowych, gdzie kapitał prywatny i państwowy współistnieją, nie gospodarek, gdzie państwo dominuje.
+**Chiny jako kontrprzykład.** Rozdział adresuje pytanie: czy framework stosuje się do Chin? Odpowiedź: częściowo nie. W Chinach państwo działa nie jako „dostawca mechanizmów transferu ryzyka", lecz jako bezpośredni inwestor i właściciel. Banki państwowe, SOE i fundusze guidance funds alokują kapitał według logiki politycznej, nie rynkowej. To tworzy inną architekturę — ale również inne ryzyka (misalokacja, zombies, brak dyscypliny rynkowej). Książka wyjaśnia, dlaczego jej framework dotyczy gospodarek rynkowych, gdzie kapitał prywatny i państwowy współistnieją, nie gospodarek, gdzie państwo dominuje.
 
 **Kluczowy output:** Krytyczna samoocena; demonstracja falsyfikowalności; Chiny jako test granic modelu.
 
-**Co to oznacza dla przedsiębiorstwa?** To jest katalog pułapek — co może pójść nie tak, nawet jeśli zrobiłeś wszystko dobrze. Britishvolt miał plany, ale nie miał wrapperów. Northvolt miał wrappers, ale nie przetrwał rollover risk. Cleantech SPACs pokazują, że łatwy dostęp do kapitału prowadzi do złych decyzji. Ten rozdział uczy, jak identyfikować słabe punkty w strukturze finansowania i jak się przed nimi zabezpieczyć — albo przynajmniej świadomie akceptować ryzyko.
+**Co to oznacza dla przedsiębiorstwa?** To jest katalog pułapek — co może pójść nie tak, nawet jeśli zrobiłeś wszystko dobrze. Britishvolt miał plany, ale nie miał mechanizmów transferu ryzyka. Northvolt miał mechanizmy transferu ryzyka, ale nie przetrwał rollover risk. Cleantech SPACs pokazują, że łatwy dostęp do kapitału prowadzi do złych decyzji. Ten rozdział uczy, jak identyfikować słabe punkty w strukturze finansowania i jak się przed nimi zabezpieczyć — albo przynajmniej świadomie akceptować ryzyko.
 
 ---
 
@@ -451,14 +451,14 @@ Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców, ze szczególn
 
 *Jak strukturyzować projekt pod wymagania finansujących:*
 - Zanim pójdziesz szukać kapitału, zmapuj ryzyka projektu w czterech warstwach
-- Dla każdego istotnego ryzyka zidentyfikuj dostępne wrappers
+- Dla każdego istotnego ryzyka zidentyfikuj dostępne mechanizmy transferu ryzyka
 - Oblicz lukę bankowalności — różnicę między IRR a wymaganym zwrotem
-- Jeśli luka jest dodatnia, szukaj dodatkowych wrapperów lub akceptuj gorsze warunki
+- Jeśli luka jest dodatnia, szukaj dodatkowych mechanizmów transferu ryzyka lub akceptuj gorsze warunki
 
 *Gdzie szukać kapitału w zależności od profilu projektu:*
 - Wysokie ryzyko technologiczne (Warstwa 1) → private equity z monitoring rights
 - Wysokie ryzyko przychodowe (Warstwa 3) → dopiero po zabezpieczeniu PPA/offtake
-- Wysokie ryzyko polityczne/geopolityczne (Warstwa 4) → państwo jako wrapper provider
+- Wysokie ryzyko polityczne/geopolityczne (Warstwa 4) → państwo jako dostawca mechanizmów transferu ryzyka
 - Długi horyzont, niskie ryzyko → fundusze infrastrukturalne, ubezpieczyciele
 
 *Jak budować odporność na zmiany w systemie finansowania:*
@@ -471,15 +471,15 @@ Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców, ze szczególn
 - Szukanie finansowania przed ustrukturyzowaniem ryzyka (odwrócona kolejność)
 - Zakładanie, że IRR projektu wystarczy do przyciągnięcia kapitału
 - Ignorowanie rollover risk w finansowaniu private credit
-- Poleganie na obietnicach państwa bez formalnych wrapperów
+- Poleganie na obietnicach państwa bez formalnych mechanizmów transferu ryzyka
 
-**Implikacje dla decydentów politycznych:** skuteczna polityka przemysłowa wymaga projektowania wrapperów, nie tylko alokacji kapitału; regulacje ostrożnościowe (Bazylea, Solvency) mogą nieintencjonalnie ograniczać finansowanie CAPEX; wzrost private credit odzwierciedla funkcjonalną konieczność, nie arbitraż regulacyjny.
+**Implikacje dla decydentów politycznych:** skuteczna polityka przemysłowa wymaga projektowania mechanizmów transferu ryzyka, nie tylko alokacji kapitału; regulacje ostrożnościowe (Bazylea, Solvency) mogą nieintencjonalnie ograniczać finansowanie CAPEX; wzrost private credit odzwierciedla funkcjonalną konieczność, nie arbitraż regulacyjny.
 
-**Implikacje dla badaczy:** luki danych (granularne warunki wrapperów, ekspozycje private credit, kontyngencje gwarancji państwowych), testowalne hipotezy (czy wrappers redukują koszt kapitału? czy wpływają na timing inwestycji? czy tworzą moral hazard?) i sugerowane podejścia metodologiczne.
+**Implikacje dla badaczy:** luki danych (granularne warunki mechanizmów transferu ryzyka, ekspozycje private credit, kontyngencje gwarancji państwowych), testowalne hipotezy (czy mechanizmy transferu ryzyka redukują koszt kapitału? czy wpływają na timing inwestycji? czy tworzą moral hazard?) i sugerowane podejścia metodologiczne.
 
 **Co dalej? Dokąd zmierzamy? — Cztery scenariusze ewolucji.** Rozdział zamyka się analizą prospektywną: jak architektura finansowania CAPEX-intensywnego może ewoluować w horyzoncie 10-20 lat?
 
-**Scenariusz 1: Konsolidacja.** Private credit i państwo stabilizują się jako trwałe komponenty capital stack; banki akceptują rolę „aranżerów ryzyka". Framework książki staje się nowym mainstreamem; teoria corporate finance wymaga rewizji uwzględniającej logikę wrapperów.
+**Scenariusz 1: Konsolidacja.** Private credit i państwo stabilizują się jako trwałe komponenty capital stack; banki akceptują rolę „aranżerów ryzyka". Framework książki staje się nowym mainstreamem; teoria corporate finance wymaga rewizji uwzględniającej logikę mechanizmów transferu ryzyka.
 
 **Scenariusz 2: Rewersja — powrót do dominacji banków.**
 
@@ -517,14 +517,14 @@ Zależy od trzech czynników:
 
 **Historyczna analogia.** Mechanizm rewersji przypomina to, co stało się z rynkiem sekurytyzacji po 2008 roku. Przed kryzysem sekurytyzacja była postrzegana jako innowacja rozkładająca ryzyko. Po kryzysie okazała się źródłem niestabilności. Przez dekadę rynek był praktycznie martwy, a gdy się odrodził, był znacznie bardziej regulowany i konserwatywny. Podobny los może spotkać private credit.
 
-**Scenariusz 3: Fragmentacja geopolityczna.** US-China decoupling prowadzi do dwóch równoległych systemów finansowania z odmiennymi wrapperami. Model wymaga rozszerzenia o zmienną „reżim geopolityczny"; Chiny stają się osobnym przypadkiem z logiką „state as investor", nie „state as wrapper provider".
+**Scenariusz 3: Fragmentacja geopolityczna.** US-China decoupling prowadzi do dwóch równoległych systemów finansowania z odmiennymi mechanizmami transferu ryzyka. Model wymaga rozszerzenia o zmienną „reżim geopolityczny"; Chiny stają się osobnym przypadkiem z logiką „state as investor", nie „state as dostawca mechanizmów transferu ryzyka".
 
-**Scenariusz 4: Innowacja wrapperów.** Nowe technologie (blockchain, smart contracts, parametric insurance) tworzą nowe kategorie wrapperów. Taksonomia wymaga aktualizacji; możliwe obniżenie luki bankowalności przez innowacje technologiczne w obszarze kontraktowania i hedgingu.
+**Scenariusz 4: Innowacja mechanizmów transferu ryzyka.** Nowe technologie (blockchain, smart contracts, parametric insurance) tworzą nowe kategorie mechanizmów transferu ryzyka. Taksonomia wymaga aktualizacji; możliwe obniżenie luki bankowalności przez innowacje technologiczne w obszarze kontraktowania i hedgingu.
 
 **Najważniejsze trendy strukturalne:**
-- *Wzrost znaczenia państwa:* Powrót polityki przemysłowej (CHIPS Act, IRA, Net Zero Industry Act) sugeruje trwałe zwiększenie roli państwa jako wrapper provider
+- *Wzrost znaczenia państwa:* Powrót polityki przemysłowej (CHIPS Act, IRA, Net Zero Industry Act) sugeruje trwałe zwiększenie roli państwa jako dostawca mechanizmów transferu ryzyka
 - *Koncentracja private credit:* Konsolidacja funduszy może prowadzić do oligopolu w finansowaniu CAPEX, z implikacjami dla pricing i warunków
-- *Climate transition jako megatrend:* Dekarbonizacja wymaga ~$4 bln CAPEX rocznie do 2030 (IEA) — architektura wrapperów będzie testowana na bezprecedensową skalę
+- *Climate transition jako megatrend:* Dekarbonizacja wymaga ~$4 bln CAPEX rocznie do 2030 (IEA) — architektura mechanizmów transferu ryzyka będzie testowana na bezprecedensową skalę
 - *AI jako game-changer:* Finansowanie compute infrastructure może przekształcić sektor data centers i stworzyć nowe wzorce finansowania
 
 **Otwarte pytanie końcowe:** Czy „CAPEX-intensywne corporate finance" powinno stać się uznaną subdyscypliną finansów? Ta książka argumentuje, że tak — i dostarcza fundamenty pojęciowe do jej budowy.
@@ -542,25 +542,25 @@ Appendix dostarcza praktyczne narzędzie dla praktyków — systematyczny framew
 - Które warstwy generują które ryzyka?
 - Mapuj 5-7 kluczowych ryzyk na warstwę
 
-**Krok 2: Mapowanie dostępności wrapperów**
-- Które wrappers są dostępne w tym sektorze/jurysdykcji?
-- Jaki % ryzyka każdy wrapper może pokryć?
+**Krok 2: Mapowanie dostępności mechanizmów transferu ryzyka**
+- Które mechanizmy transferu ryzyka są dostępne w tym sektorze/jurysdykcji?
+- Jaki % ryzyka każdy mechanizm transferu ryzyka może pokryć?
 - Jaki % ryzyka pozostaje nieopakowany?
 
 **Krok 3: Kalkulacja luki bankowalności**
 ```
 IRR_projektu = X%
-Wymagany zwrot (bez wrapperów) = X + Y%
-Luka (bez wrapperów) = Y%
-Wrappers redukują postrzegane ryzyko o Z%
-Luka (z wrapperami) = Y% - Z%
+Wymagany zwrot (bez mechanizmów transferu ryzyka) = X + Y%
+Luka (bez mechanizmów transferu ryzyka) = Y%
+Mechanizmy redukują postrzegane ryzyko o Z%
+Luka (z mechanizmami transferu ryzyka) = Y% - Z%
 Jeśli Luka < 0 → Projekt bankowalny
-Jeśli Luka > 0 → Potrzebne dodatkowe wrappers
+Jeśli Luka > 0 → Potrzebne dodatkowe mechanizmy transferu ryzyka
 ```
 
-**Krok 4: Tabela porównawcza wrapperów według sektorów**
+**Krok 4: Tabela porównawcza mechanizmów transferu ryzyka według sektorów**
 
-| Sektor | Dominujące ryzyka | Kluczowe wrappers | Typowy capital stack |
+| Sektor | Dominujące ryzyka | Kluczowe mechanizmy transferu ryzyka | Typowy capital stack |
 |--------|-------------------|-------------------|---------------------|
 | Data Centers | Tech obsolescence, capacity | Equity, private credit | 40% equity, 40% PC, 20% bank |
 | Renewable | Revenue volatility, regulatory | PPA, ECA guarantee | 65% senior, 20% mezz, 15% equity |
@@ -596,7 +596,7 @@ Praktyczny przewodnik dla przedsiębiorstw szukających finansowania CAPEX-inten
 | Przychodowe (Warstwa 3) | Bank/infra — dopiero po PPA | Bez kontraktu nie ruszą |
 | Polityczne/geopolityczne (Warstwa 4) | Państwo + ECA | Jedyni, którzy mogą ponieść to ryzyko |
 
-**Tabela B.3: Instrumenty (wrappers) — gdzie ich szukać**
+**Tabela B.3: Instrumenty (mechanizmy transferu ryzyka) — gdzie ich szukać**
 
 | Instrument | Kto dostarcza | Dla jakiego ryzyka | Typowe warunki |
 |------------|---------------|--------------------|--------------------|
@@ -610,7 +610,7 @@ Praktyczny przewodnik dla przedsiębiorstw szukających finansowania CAPEX-inten
 
 **Tabela B.4: Typowe capital stack według sektora**
 
-| Sektor | Senior debt | Mezzanine/PC | Equity | Państwo | Kluczowe wrappers |
+| Sektor | Senior debt | Mezzanine/PC | Equity | Państwo | Kluczowe mechanizmy transferu ryzyka |
 |--------|-------------|--------------|--------|---------|-------------------|
 | **Data centers** | 20-30% | 30-40% | 30-40% | 0-10% | Parent guarantee, offtake |
 | **Offshore wind** | 60-70% | 15-20% | 15-20% | 0-10% | PPA, ECA, CfD |
@@ -654,7 +654,7 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 **Co ta literatura robi:** Analizuje, jak niekompletność kontraktów kształtuje granice organizacyjne i struktury finansowania.
 
-**Luka adresowana przez tę książkę:** Ta literatura nie była systematycznie aplikowana do decyzji finansowych w sektorach CAPEX-intensywnych. Risk wrappers można rozumieć jako odpowiedzi na niekompletność kontraktów.
+**Luka adresowana przez tę książkę:** Ta literatura nie była systematycznie aplikowana do decyzji finansowych w sektorach CAPEX-intensywnych. Risk mechanizmy transferu ryzyka można rozumieć jako odpowiedzi na niekompletność kontraktów.
 
 #### 4. Inwestycje pod niepewnością
 
@@ -681,11 +681,11 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 | Wkład | Nowość | Wypełniona luka |
 |-------|--------|-----------------|
 | **Model Warstwowy Rentowności** | Systematyzuje „ryzyko rentowności" jako kategorię z 4 warstwami | Łączy ekonomię branżową, teorię inwestycji i kontrakty finansowe |
-| **Taksonomia Risk Wrappers** | Pierwsza systematyczna klasyfikacja mechanizmów wrapper | Tworzy wspólny język dla finansów, polityki i przemysłu |
-| **Architektura Dostawcy–Wrappers–Platformy** | Wyjaśnia współinwestowanie heterogenicznego kapitału | Wypełnia lukę między opisem instytucjonalnym a wyjaśnieniem funkcjonalnym |
+| **Taksonomia Mechanizmów Transferu Ryzyka** | Pierwsza systematyczna klasyfikacja mechanizmów transferu ryzyka | Tworzy wspólny język dla finansów, polityki i przemysłu |
+| **Architektura Dostawcy–Mechanizmy–Platformy** | Wyjaśnia współinwestowanie heterogenicznego kapitału | Wypełnia lukę między opisem instytucjonalnym a wyjaśnieniem funkcjonalnym |
 | **Luka Bankowalności** | Formalizuje lukę między IRR a wymaganym zwrotem | Łączy analizę inwestycji z wynikami finansowania |
 | **Aranżer Ryzyka** | Przeformułowuje funkcję banku | Aktualizuje teorię bankowości dla rzeczywistości post-Basel III |
-| **Wrapper Ostatniej Instancji** | Wyjaśnia interwencję państwa jako dostarczanie wrapperów | Dostarcza ramy dla polityki przemysłowej |
+| **Wrapper Ostatniej Instancji** | Wyjaśnia interwencję państwa jako dostarczanie mechanizmów transferu ryzyka | Dostarcza ramy dla polityki przemysłowej |
 
 ---
 
@@ -693,7 +693,7 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 | Element | Wartość |
 |---------|---------|
-| **Tytuł** | Finansowanie CAPEX-Shock: Ryzyko rentowności, risk wrappers i nowa architektura finansowania przedsiębiorstw |
+| **Tytuł** | Finansowanie CAPEX-Shock: Ryzyko rentowności, mechanizmy transferu ryzyka i nowa architektura finansowania przedsiębiorstw |
 | **Szacowana długość** | 120 000 – 130 000 słów |
 | **Liczba rozdziałów** | 12 + 2 Appendixy |
 | **Liczba części** | 5 + Appendix |
@@ -708,12 +708,12 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 | 1 | Cztery anomalie + dane empiryczne | 10 000 |
 | 2 | Dlaczego teoria zawodzi + Mazzucato | 8 500 |
 | 3 | Model Warstwowy Rentowności + ryzyka klimatyczne | 11 000 |
-| 4 | Risk Wrappers + Williamson | 12 500 |
+| 4 | Mechanizmy Transferu Ryzyka + Williamson | 12 500 |
 | 5 | Od ryzyka do bankowalności + formalizacja | 9 000 |
 | 6 | Stos Finansowania CAPEX | 8 000 |
 | 7 | Banki po transformacji | 7 000 |
 | 8 | Kapitał prywatny | 8 000 |
-| 9 | Państwo jako wrapper ostatniej instancji | 7 000 |
+| 9 | Państwo jako gwarant ostatniej instancji | 7 000 |
 | 10 | Rozwiązanie zagadek — 4 case studies | 25 000 |
 | 11 | Warunki brzegowe + Chiny + failure cases | 12 000 |
 | 12 | Implikacje i agenda badawcza | 7 000 |
@@ -726,8 +726,8 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 | # | Nazwa | Rozdział | Opis |
 |---|-------|----------|------|
 | 1 | **Model Warstwowy Rentowności** | 3 | Cztery warstwy: Projekt → Branża → Kontrakt → Korporacja |
-| 2 | **Taksonomia Risk Wrappers** | 4 | Tabela-matryca: typ ryzyka × typ wrappera × warunki |
-| 3 | **Stos Finansowania CAPEX** | 6 | Trzy poziomy: Dostawcy → Wrappers → Platformy |
+| 2 | **Taksonomia Mechanizmów Transferu Ryzyka** | 4 | Tabela-matryca: typ ryzyka × typ mechanizmu transferu ryzyka × warunki |
+| 3 | **Stos Finansowania CAPEX** | 6 | Trzy poziomy: Dostawcy → Mechanizmy → Platformy |
 
 ---
 
@@ -765,11 +765,11 @@ Książka wchodzi w dialog z pięcioma głównymi nurtami literatury ekonomiczne
 
 Szanowna Pani / Szanowny Panie,
 
-Zwracam się z propozycją wydania książki pt. **„Finansowanie CAPEX-Shock: Ryzyko rentowności, risk wrappers i nowa architektura finansowania przedsiębiorstw"** w wydawnictwie Edward Elgar Publishing.
+Zwracam się z propozycją wydania książki pt. **„Finansowanie CAPEX-Shock: Ryzyko rentowności, mechanizmy transferu ryzyka i nowa architektura finansowania przedsiębiorstw"** w wydawnictwie Edward Elgar Publishing.
 
 Książka adresuje fundamentalne pytanie: dlaczego sektory CAPEX-intensywne — infrastruktura AI, transformacja energetyczna, półprzewodniki, technologie podwójnego zastosowania — rozwijają zupełnie odmienne wzorce finansowania niż przewiduje standardowa teoria corporate finance? Odpowiedź, którą proponuję, brzmi: w tych sektorach finansowanie wymaga „architektury alokacji ryzyka", nie optymalizacji struktury kapitału.
 
-Książka wnosi trzy oryginalne wkłady: Model Czterech Warstw Ryzyka Rentowności, Taksonomię Risk Wrappers oraz architekturę Dostawcy–Wrappers–Platformy. Te narzędzia analityczne tworzą wspólny język dla badaczy, praktyków i decydentów politycznych analizujących finansowanie transformacji przemysłowej.
+Książka wnosi trzy oryginalne wkłady: Model Czterech Warstw Ryzyka Rentowności, Taksonomię Mechanizmów Transferu Ryzyka oraz architekturę Dostawcy–Mechanizmy–Platformy. Te narzędzia analityczne tworzą wspólny język dla badaczy, praktyków i decydentów politycznych analizujących finansowanie transformacji przemysłowej.
 
 Uważam, że książka dobrze wpisuje się w profil Edward Elgar Publishing, szczególnie w tradycję wydawnictwa publikowania prac oferujących alternatywy dla ortodoksji ekonomicznej. Struktura „reverse" — rozpoczynająca od empirycznych zagadek, poprzez krytykę standardowych teorii, do nowego frameworku — odpowiada podejściu „put core arguments up front" rekomendowanemu przez wydawnictwo.
 
