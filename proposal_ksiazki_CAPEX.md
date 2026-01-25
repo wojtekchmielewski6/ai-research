@@ -364,18 +364,41 @@ Rozdział końcowy wyciąga implikacje dla trzech grup odbiorców i proponuje ag
 
 **Scenariusz 1: Konsolidacja.** Private credit i państwo stabilizują się jako trwałe komponenty capital stack; banki akceptują rolę „aranżerów ryzyka". Framework książki staje się nowym mainstreamem; teoria corporate finance wymaga rewizji uwzględniającej logikę wrapperów.
 
-**Scenariusz 2: Rewersja — szczegółowa analiza.** Ten scenariusz zakłada, że obecna transformacja finansowania CAPEX odwraca się i wracamy do dominacji banków. Mechanizm przebiega w czterech fazach:
+**Scenariusz 2: Rewersja — powrót do dominacji banków.**
 
-| Faza | Opis | Mechanizm |
-|------|------|-----------|
-| **1. Trigger** | Szok płynności w sektorze NBFI | Fala defaultów w private credit, run na fundusze (inwestorzy żądają redemptions), margin calls, fire sales niepłynnych aktywów |
-| **2. Zarażenie** | Spirala spadków cen i płynności | Fundusze PE/PC oferują redemptions, ale aktywa są niepłynne → wymuszony deleveraging → spadek cen aktywów → kolejne margin calls → spirala (podobna do 2008, ale w segmencie NBFI) |
-| **3. Reakcja regulacyjna** | Zaostrzenie regulacji NBFI | Nowe wymogi kapitałowe dla funduszy, limity leverage, obowiązkowy reporting, stress testing — private credit staje się droższy i mniej elastyczny |
-| **4. Powrót banków** | Rekonsolidacja systemu bankowego | Banki odzyskują przewagę (mają infrastrukturę compliance); państwo zwiększa gwarancje dla banków finansujących CAPEX; model „konsorcjum bankowe + gwarancje państwowe" wraca jako dominujący |
+Scenariusz rewersji odpowiada na pytanie: co się stanie, jeśli obecny system finansowania oparty na private credit i funduszach inwestycyjnych przestanie działać? Czy możemy wrócić do świata, w którym banki znów dominują w finansowaniu dużych projektów przemysłowych?
 
-*Implikacje dla frameworku:* Warunki brzegowe z Rozdziału 11 materializują się w praktyce. Część wrapperów (dostarczanych przez fundusze PE/PC) staje się niedostępna lub znacznie droższa. Niektóre projekty CAPEX-intensywne przestają być bankowe — szczególnie te z dominującym ryzykiem Warstwy 1 (obsolescencja technologiczna), dla których banki nie mają odpowiedniego horyzontu.
+**Na czym polega problem?** W ciągu ostatniej dekady coraz większą część finansowania CAPEX-intensywnego przejęły instytucje niebankowe: fundusze private equity, fundusze private credit, ubezpieczyciele, fundusze emerytalne. Dlaczego? Bo banki, obciążone regulacjami kapitałowymi (Bazylea III/IV), nie chcą lub nie mogą udzielać długoterminowych kredytów na ryzykowne projekty przemysłowe. Instytucje niebankowe wypełniły tę lukę.
 
-*Prawdopodobieństwo i drivers:* Scenariusz rewersji jest bardziej prawdopodobny, jeśli: (a) stopy procentowe pozostają wysokie przez dłuższy okres (presja na wyceny w private credit); (b) materializują się ukryte straty w portfelach NBFI (evergreening, mark-to-model); (c) regulatorzy działają proaktywnie przed kryzysem (FSB, EBC już sygnalizują obawy w raportach 2023-2024).
+Ale te instytucje mają jedną fundamentalną słabość: nie mają gwarantowanych depozytów ani dostępu do banku centralnego jako pożyczkodawcy ostatniej instancji. Gdy inwestorzy zaczynają wycofywać pieniądze, fundusze muszą sprzedawać aktywa — a aktywa w postaci kredytów dla fabryk baterii czy farm wiatrowych są trudne do szybkiej sprzedaży.
+
+**Jak może wyglądać kryzys? Cztery fazy.**
+
+*Faza 1: Początek — pierwsze problemy.* Wyobraźmy sobie, że kilka dużych projektów finansowanych przez fundusze private credit jednocześnie wpada w kłopoty. Może to być opóźnienie budowy gigafabryki, bankructwo dostawcy, zmiana polityki rządowej. Fundusze muszą odpisać część wartości portfela. Inwestorzy zaczynają się niepokoić.
+
+*Faza 2: Panika — spirala wyprzedaży.* Inwestorzy żądają zwrotu pieniędzy (redemptions). Ale fundusz nie może szybko sprzedać kredytu na budowę elektrowni — to nie jest akcja na giełdzie. Musi więc sprzedawać inne, bardziej płynne aktywa, często poniżej wartości. Spadające ceny aktywów przerażają kolejnych inwestorów. Powstaje spirala: więcej wypłat → więcej wymuszonej sprzedaży → niższe ceny → jeszcze więcej paniki. To ten sam mechanizm, który widzieliśmy w 2008 roku, tylko że wtedy dotyczył banków i kredytów hipotecznych. Teraz może dotyczyć funduszy i kredytów przemysłowych.
+
+*Faza 3: Reakcja regulatorów — zaostrzenie zasad.* Po kryzysie lub w jego trakcie regulatorzy (EBC, FSB, krajowe nadzory finansowe) wprowadzają nowe przepisy dla funduszy: wymogi kapitałowe, limity zadłużenia, obowiązkowe testy wytrzymałościowe, większa przejrzystość. Private credit staje się droższy i mniej elastyczny — traci przewagę, którą miał nad bankami.
+
+*Faza 4: Powrót banków — odbudowa starego systemu.* Gdy fundusze stają się mniej atrakcyjne, projekt znów szuka finansowania w bankach. Ale banki pojedynczo nie chcą brać na siebie całego ryzyka. Rozwiązaniem stają się duże konsorcja bankowe, wspierane gwarancjami państwowymi. Wracamy do modelu znanego z lat 80. i 90.: wielkie projekty finansuje syndykat banków, a państwo bierze na siebie część ryzyka. System jest stabilniejszy, ale też bardziej konserwatywny — wiele innowacyjnych projektów nie znajduje finansowania.
+
+**Co to oznacza w praktyce?**
+
+Jeśli ten scenariusz się zmaterializuje, niektóre rodzaje projektów staną się znacznie trudniejsze do sfinansowania. Najbardziej ucierpią projekty z wysokim ryzykiem technologicznym (Warstwa 1 w naszym Modelu Warstwowym) — na przykład nowe technologie bateryjne, innowacyjne metody produkcji wodoru, zaawansowane reaktory jądrowe. Banki tradycyjnie unikają takich ryzyk, a fundusze, które je akceptowały, znikną lub staną się zbyt drogie.
+
+Projekty z przewidywalnymi przepływami pieniężnymi i długoterminowymi kontraktami (farmy wiatrowe i słoneczne z kontraktami PPA, infrastruktura gazowa z umowami take-or-pay) poradzą sobie lepiej — banki są skłonne je finansować, szczególnie z wsparciem państwowych gwarancji.
+
+**Czy ten scenariusz jest prawdopodobny?**
+
+Zależy od trzech czynników:
+
+1. *Stopy procentowe.* Jeśli stopy pozostaną wysokie przez dłuższy czas, fundusze private credit będą miały problemy — ich portfele, wyceniane przy niskich stopach, stracą na wartości.
+
+2. *Ukryte straty.* Wielu ekspertów podejrzewa, że fundusze private credit ukrywają problemy w portfelach (tzw. „evergreening" — przedłużanie kredytów, żeby nie wykazywać strat). Jeśli te straty się ujawnią, może to wywołać panikę.
+
+3. *Działania regulatorów.* FSB i EBC w raportach z lat 2023-2024 wyraźnie sygnalizują obawy o sektor NBFI. Pytanie brzmi: czy regulatorzy zareagują przed kryzysem (co może go wywołać) czy po nim (co może go pogłębić)?
+
+**Historyczna analogia.** Mechanizm rewersji przypomina to, co stało się z rynkiem sekurytyzacji po 2008 roku. Przed kryzysem sekurytyzacja była postrzegana jako innowacja rozkładająca ryzyko. Po kryzysie okazała się źródłem niestabilności. Przez dekadę rynek był praktycznie martwy, a gdy się odrodził, był znacznie bardziej regulowany i konserwatywny. Podobny los może spotkać private credit.
 
 **Scenariusz 3: Fragmentacja geopolityczna.** US-China decoupling prowadzi do dwóch równoległych systemów finansowania z odmiennymi wrapperami. Model wymaga rozszerzenia o zmienną „reżim geopolityczny"; Chiny stają się osobnym przypadkiem z logiką „state as investor", nie „state as wrapper provider".
 
