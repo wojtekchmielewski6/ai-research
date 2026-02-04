@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekspansja polskich przedsiębiorstw w Niemczech 2010-2025 | Raport analityczny</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-dark: #1a2e4c;
+            --primary: #2c4a7c;
+            --primary-light: #4a6fa5;
+            --accent: #c8102e;
+            --accent-light: #e63950;
+            --gold: #b8860b;
+            --bg-light: #f5f7fa;
+            --bg-white: #ffffff;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a4a4a;
+            --text-light: #6a6a6a;
+            --border: #e0e4e8;
+            --success: #28a745;
+            --warning: #ffc107;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 11pt;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15mm 20mm;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Source Serif Pro', Georgia, serif;
+            color: var(--primary-dark);
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 28pt;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 16pt;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--accent);
+        }
+
+        h3 {
+            font-size: 13pt;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* COVER PAGE */
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            page-break-after: always;
+            padding: 40px 20px;
+        }
+
+        .cover-logo {
+            font-size: 14pt;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+        }
+
+        .cover h1 {
+            font-size: 32pt;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+
+        .cover-subtitle {
+            font-size: 14pt;
+            color: var(--text-medium);
+            margin-bottom: 40px;
+        }
+
+        .cover-meta {
+            margin-top: 60px;
+            font-size: 10pt;
+            color: var(--text-light);
+        }
+
+        .cover-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 8px 20px;
+            font-size: 10pt;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        /* EXECUTIVE SUMMARY */
+        .exec-summary {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 30px 35px;
+            margin: 30px 0;
+        }
+
+        .exec-summary h3 {
+            color: white;
+            font-size: 14pt;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .exec-summary p, .exec-summary li {
+            color: rgba(255,255,255,0.95);
+        }
+
+        /* KEY METRICS */
+        .key-metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .metric {
+            background: var(--bg-light);
+            border-top: 4px solid var(--accent);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 24pt;
+            font-weight: 700;
+            color: var(--primary-dark);
+            line-height: 1.2;
+        }
+
+        .metric-label {
+            font-size: 9pt;
+            color: var(--text-medium);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 8px;
+        }
+
+        /* TABLES */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 10pt;
+        }
+
+        thead th {
+            background: var(--primary-dark);
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 9pt;
+            text-transform: uppercase;
+        }
+
+        tbody td {
+            padding: 10px 15px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tbody tr:nth-child(even) {
+            background: var(--bg-light);
+        }
+
+        .table-title {
+            font-weight: 600;
+            font-size: 10pt;
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            margin-top: 25px;
+        }
+
+        .table-source {
+            font-size: 8pt;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 25px;
+        }
+
+        /* CSS BAR CHARTS */
+        .chart-container {
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            padding: 25px;
+            margin: 25px 0;
+        }
+
+        .chart-title {
+            font-family: 'Source Serif Pro', serif;
+            font-weight: 600;
+            font-size: 11pt;
+            color: var(--primary-dark);
+            margin-bottom: 5px;
+        }
+
+        .chart-subtitle {
+            font-size: 9pt;
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+
+        .chart-source {
+            font-size: 8pt;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 15px;
+            text-align: right;
+        }
+
+        /* BAR CHART */
+        .bar-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .bar-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .bar-label {
+            width: 80px;
+            font-size: 9pt;
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .bar-wrapper {
+            flex: 1;
+            background: #e0e4e8;
+            height: 28px;
+            position: relative;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 8px;
+            color: white;
+            font-size: 9pt;
+            font-weight: 600;
+            min-width: 40px;
+        }
+
+        .bar-fill.accent {
+            background: var(--accent);
+        }
+
+        .bar-fill.gold {
+            background: var(--gold);
+        }
+
+        .bar-fill.success {
+            background: var(--success);
+        }
+
+        /* HORIZONTAL BAR CHART (multi-year) */
+        .multi-bar-chart {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 250px;
+            padding: 20px 10px;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 10px;
+        }
+
+        .multi-bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .multi-bar {
+            width: 40px;
+            background: var(--primary);
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 5px;
+            color: white;
+            font-size: 8pt;
+            font-weight: 600;
+        }
+
+        .multi-bar-label {
+            font-size: 9pt;
+            color: var(--text-medium);
+            margin-top: 8px;
+        }
+
+        /* PIE CHART CSS */
+        .pie-chart-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .pie-legend {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .pie-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 10pt;
+        }
+
+        .pie-legend-color {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+        }
+
+        /* CASE STUDY */
+        .case-study {
+            border: 1px solid var(--border);
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+
+        .case-study-header {
+            background: var(--primary-dark);
+            color: white;
+            padding: 15px 25px;
+        }
+
+        .case-study-header h4 {
+            color: white;
+            margin: 0;
+            font-size: 12pt;
+        }
+
+        .case-study-header .tag {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 8pt;
+            padding: 3px 10px;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
+        .case-study-body {
+            padding: 25px;
+        }
+
+        .case-study-meta {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .case-study-meta-item .label {
+            font-size: 8pt;
+            color: var(--text-light);
+            text-transform: uppercase;
+        }
+
+        .case-study-meta-item .value {
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 3px;
+        }
+
+        /* HIGHLIGHT BOX */
+        .highlight-box {
+            background: #fff8e6;
+            border-left: 4px solid var(--gold);
+            padding: 20px 25px;
+            margin: 25px 0;
+        }
+
+        /* DATA CALLOUT */
+        .data-callout {
+            display: flex;
+            align-items: center;
+            background: var(--bg-light);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-left: 4px solid var(--primary);
+        }
+
+        .data-callout-value {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 28pt;
+            font-weight: 700;
+            color: var(--accent);
+            margin-right: 20px;
+        }
+
+        /* SECTION INTRO */
+        .section-intro {
+            font-size: 12pt;
+            color: var(--text-medium);
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        /* PRINT STYLES */
+        @media print {
+            body {
+                padding: 0;
+            }
+            .cover {
+                min-height: 100vh;
+            }
+            h2 {
+                page-break-after: avoid;
+            }
+            .chart-container, .case-study, .exec-summary {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- STRONA TYTUŁOWA -->
+    <div class="cover">
+        <div class="cover-logo">Departament Analiz Strategicznych</div>
+        <div class="cover-badge">Raport specjalny</div>
+        <h1>Ekspansja polskich przedsiębiorstw w Niemczech</h1>
+        <div class="cover-subtitle">
+            Analiza bezpośrednich inwestycji zagranicznych, fuzji i przejęć<br>
+            oraz inwestycji kapitałowych w latach 2010–2025
+        </div>
+        <div class="cover-meta">
+            <p><strong>Data publikacji:</strong> Luty 2026</p>
+            <p><strong>Klasyfikacja:</strong> Do użytku wewnętrznego i publikacji</p>
+            <p><strong>Wersja:</strong> 4.0 Final</p>
+        </div>
+    </div>
+
+    <!-- 1. STRESZCZENIE DLA ZARZĄDU -->
+    <h2>1. Streszczenie dla Zarządu</h2>
+
+    <p class="section-intro">
+        Rok 2025 stanowi punkt zwrotny w historii polskiej ekspansji inwestycyjnej na rynek niemiecki.
+        Po dekadzie stopniowego budowania pozycji, polskie przedsiębiorstwa przeprowadziły bezprecedensową
+        serię przejęć, sygnalizując dojrzałość polskiego kapitału i gotowość do konkurowania na największym
+        rynku Unii Europejskiej.
+    </p>
+
+    <div class="exec-summary">
+        <h3>Kluczowe ustalenia raportu</h3>
+        <ul>
+            <li><strong>Historyczny rekord aktywności M&A:</strong> W 2025 roku polskie firmy sfinalizowały 6 znaczących przejęć w Niemczech – więcej niż w jakimkolwiek poprzednim roku. Łączna ujawniona wartość transakcji przekroczyła 30 mln EUR.</li>
+            <li><strong>Zmiana profilu sektorowego:</strong> Dominującymi sektorami ekspansji stały się odnawialne źródła energii (OZE) oraz gospodarka obiegu zamkniętego.</li>
+            <li><strong>Nowy model finansowania:</strong> Wzrosła rola instytucji publicznych (PFR, Fundusz Ekspansji Zagranicznej) oraz funduszy private debt (CVI) w finansowaniu ekspansji zagranicznej.</li>
+            <li><strong>Wykorzystanie okna okazji:</strong> Dwie z sześciu transakcji miały charakter ratunkowy (distressed M&A).</li>
+        </ul>
+    </div>
+
+    <div class="key-metrics">
+        <div class="metric">
+            <div class="metric-value">2,5</div>
+            <div class="metric-label">mld EUR skumulowanych FDI<br>(stan na 2025)</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">6</div>
+            <div class="metric-label">transakcji M&A<br>w 2025 roku</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">+213%</div>
+            <div class="metric-label">wzrost FDI<br>vs. 2010</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">4.</div>
+            <div class="metric-label">pozycja Niemiec<br>wśród kierunków OFDI</div>
+        </div>
+    </div>
+
+    <div class="data-callout">
+        <div class="data-callout-value">20:1</div>
+        <div class="data-callout-text">
+            <strong>Asymetria inwestycyjna pozostaje znacząca.</strong> Na każde euro zainwestowane przez
+            polskie firmy w Niemczech przypada około 20 euro niemieckich inwestycji w Polsce.
+        </div>
+    </div>
+
+    <!-- 2. KONTEKST MAKROEKONOMICZNY -->
+    <h2>2. Kontekst makroekonomiczny</h2>
+
+    <h3>2.1. Relacje gospodarcze Polska–Niemcy</h3>
+
+    <p>
+        Niemcy są najważniejszym partnerem gospodarczym Polski – fakt ten pozostaje niezmienny od transformacji
+        ustrojowej. Wymiana handlowa między Polską a Niemcami osiągnęła w 2024 roku rekordowy poziom 187 mld EUR
+        (eksport + import), co czyni Polskę piątym największym partnerem handlowym Niemiec na świecie.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 1. Wymiana handlowa Polska–Niemcy (2015–2024)</div>
+        <div class="chart-subtitle">Wartości w mld EUR</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">2024</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 100%;">102 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2023</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 96%;">98 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2022</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 90%;">92 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2021</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 76%;">78 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2020</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 64%;">65 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2019</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 67%;">68 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2015</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 51%;">52 mld</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: GUS, Destatis, obliczenia własne</div>
+    </div>
+
+    <p class="table-title">Tabela 1. Kluczowe wskaźniki wymiany handlowej Polska–Niemcy</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Wskaźnik</th>
+                <th>2015</th>
+                <th>2020</th>
+                <th>2024</th>
+                <th>Zmiana</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eksport PL→DE (mld EUR)</td>
+                <td>52,0</td>
+                <td>65,0</td>
+                <td>102,0</td>
+                <td style="color: #28a745; font-weight: 600;">+96%</td>
+            </tr>
+            <tr>
+                <td>Import DE→PL (mld EUR)</td>
+                <td>45,0</td>
+                <td>52,0</td>
+                <td>85,0</td>
+                <td style="color: #28a745; font-weight: 600;">+89%</td>
+            </tr>
+            <tr>
+                <td>Udział Niemiec w eksporcie PL</td>
+                <td>27%</td>
+                <td>29%</td>
+                <td>28%</td>
+                <td>stabilny</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: GUS, Eurostat, obliczenia własne</p>
+
+    <!-- 3. BEZPOŚREDNIE INWESTYCJE ZAGRANICZNE -->
+    <h2>3. Bezpośrednie inwestycje zagraniczne (FDI)</h2>
+
+    <h3>3.1. Dynamika polskich FDI w Niemczech</h3>
+
+    <p>
+        Według danych Narodowego Banku Polskiego, skumulowana wartość polskich FDI w Niemczech
+        wzrosła z około 0,8 mld EUR w 2010 roku do szacowanych 2,5 mld EUR na koniec 2025 roku.
+        Oznacza to ponad trzykrotny wzrost w ciągu 15 lat, przy średniorocznym tempie wzrostu
+        (CAGR) wynoszącym 7,9%.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 2. Ewolucja polskich FDI w Niemczech (2010–2025)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">2025*</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 100%;">2,50</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2024</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 92%;">2,30</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2022</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 80%;">2,00</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2020</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 68%;">1,70</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2018</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 60%;">1,50</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2015</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 48%;">1,20</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2010</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 32%;">0,80</div></div>
+            </div>
+        </div>
+        <div class="chart-source">* szacunek. Źródło: NBP, obliczenia własne</div>
+    </div>
+
+    <p class="table-title">Tabela 2. Polskie FDI w Niemczech – przepływy roczne</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Rok</th>
+                <th>Stan (mld EUR)</th>
+                <th>Przepływ (mln EUR)</th>
+                <th>Dynamika r/r</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>2020</td><td>1,70</td><td>+80</td><td style="color: #28a745;">+5%</td></tr>
+            <tr><td>2021</td><td>1,80</td><td>+120</td><td style="color: #28a745;">+7%</td></tr>
+            <tr><td>2022</td><td>2,00</td><td>+180</td><td style="color: #28a745;">+10%</td></tr>
+            <tr><td>2023</td><td>2,15</td><td>+200</td><td style="color: #28a745;">+10%</td></tr>
+            <tr><td>2024</td><td>2,30</td><td>+150</td><td style="color: #28a745;">+7%</td></tr>
+            <tr><td>2025*</td><td>2,50</td><td>+200</td><td style="color: #28a745;">+9%</td></tr>
+        </tbody>
+    </table>
+    <p class="table-source">* szacunek. Źródło: NBP, obliczenia własne</p>
+
+    <h3>3.2. Pozycja Polski na tle regionu CEE</h3>
+
+    <p>
+        Polska jest zdecydowanym liderem wśród krajów Europy Środkowo-Wschodniej pod względem wartości
+        inwestycji bezpośrednich w Niemczech. Wyprzedza Czechy (drugi największy inwestor z regionu)
+        ponad półtorakrotnie.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 3. Inwestycje krajów CEE w Niemczech (2024)</div>
+        <div class="chart-subtitle">Skumulowane FDI w mld EUR</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">Polska</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 100%;">2,30</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Czechy</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 65%;">1,50</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Węgry</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 35%;">0,80</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Słowacja</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 13%;">0,30</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Rumunia</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 9%;">0,20</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: Deutsche Bundesbank, szacunki własne</div>
+    </div>
+
+    <h3>3.3. Porównanie z głównymi inwestorami w Niemczech</h3>
+
+    <p>
+        Polska z 2,3 mld EUR zajmuje odległą pozycję (około 25. miejsca) wśród źródeł FDI
+        w Niemczech, odpowiadając za zaledwie 0,23% całkowitego stanu inwestycji zagranicznych.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 4. Największe źródła FDI w Niemczech (2023)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">Holandia</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 100%;">185</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Luksemburg</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 89%;">165</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">USA</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 78%;">145</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Wlk. Bryt.</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 68%;">125</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Szwajcaria</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 46%;">85</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Polska</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 1.2%;">2,3</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: Deutsche Bundesbank</div>
+    </div>
+
+    <!-- 4. FUZJE I PRZEJĘCIA (M&A) -->
+    <h2>4. Fuzje i przejęcia (M&A) w 2025 roku</h2>
+
+    <p class="section-intro">
+        Rok 2025 przyniósł bezprecedensową aktywność polskich firm na rynku M&A w Niemczech.
+        Zrealizowano 6 znaczących transakcji w różnych sektorach, od przemysłu kolejowego
+        po energetykę odnawialną i recykling.
+    </p>
+
+    <p class="table-title">Tabela 3. Przejęcia polskich firm w Niemczech w 2025 roku</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Nabywca (PL)</th>
+                <th>Cel (DE)</th>
+                <th>Sektor</th>
+                <th>Wartość</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09.2025</td>
+                <td>Grupa Trend</td>
+                <td>GALA Group</td>
+                <td>OZE – serwis wiatrowy</td>
+                <td>n.d.</td>
+            </tr>
+            <tr>
+                <td>09.2025</td>
+                <td>Grupa Recykl</td>
+                <td>HRV Wernigerode</td>
+                <td>Recykling opon</td>
+                <td style="font-weight: 600;">10,1 mln EUR</td>
+            </tr>
+            <tr>
+                <td>11.2025</td>
+                <td>MDD (MLP Group)</td>
+                <td>CEKA / CEKA Pro</td>
+                <td>Meble biurowe</td>
+                <td>n.d.</td>
+            </tr>
+            <tr>
+                <td>12.2025</td>
+                <td>ZPUE</td>
+                <td>BWTS GmbH</td>
+                <td>Energetyka – rozdzielnice</td>
+                <td>n.d.</td>
+            </tr>
+            <tr>
+                <td>12.2025</td>
+                <td>Olavion (Unimot)</td>
+                <td>RBP Siegburg</td>
+                <td>Paliwa – fotowoltaika</td>
+                <td style="font-weight: 600;">8,4 mln EUR</td>
+            </tr>
+            <tr>
+                <td>12.2025</td>
+                <td>PESA Bydgoszcz</td>
+                <td>HeiterBlick</td>
+                <td>Przemysł kolejowy</td>
+                <td>n.d.*</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">* transakcja ratunkowa (distressed M&A). Źródło: komunikaty spółek, ESPI, analiza własna</p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 5. Struktura sektorowa transakcji M&A 2025</div>
+        <div class="chart-subtitle">Liczba transakcji według sektora</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">Energetyka</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 50%;">3</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Przemysł</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 33%;">2</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Recykling</div>
+                <div class="bar-wrapper"><div class="bar-fill success" style="width: 17%;">1</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: opracowanie własne</div>
+    </div>
+
+    <!-- CASE STUDIES -->
+    <h3>4.1. Studia przypadków wybranych transakcji</h3>
+
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>Grupa Recykl → HRV Wernigerode GmbH</h4>
+            <span class="tag">Gospodarka obiegu zamkniętego</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data transakcji</div>
+                    <div class="value">3–4 września 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość</div>
+                    <div class="value">10,1 mln EUR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Finansowanie</div>
+                    <div class="value">CVI (private debt)</div>
+                </div>
+            </div>
+            <p>
+                Grupa Recykl, czołowy polski przetwórca zużytych opon, przejęła niemiecką spółkę HRV Wernigerode – jednego z większych graczy na rynku recyklingu opon w Niemczech. Transakcja oznacza wejście polskiej firmy na największy rynek zużytych opon w Europie (ok. 600 tys. ton rocznie).
+            </p>
+            <p>
+                <strong>Strategiczne znaczenie:</strong> Przejęcie wpisuje się w rosnący trend konsolidacji europejskiego rynku recyklingu. Grupa Recykl zyskuje dostęp do stabilnego strumienia surowca oraz sieci odbiorców granulatu gumowego w Niemczech.
+            </p>
+        </div>
+    </div>
+
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>PESA Bydgoszcz → HeiterBlick GmbH</h4>
+            <span class="tag">Distressed M&A</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data transakcji</div>
+                    <div class="value">grudzień 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Charakter</div>
+                    <div class="value">Przejęcie ratunkowe</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Lokalizacja</div>
+                    <div class="value">Lipsk, Saksonia</div>
+                </div>
+            </div>
+            <p>
+                PESA Bydgoszcz, największy polski producent taboru szynowego, przejęła niemiecką firmę HeiterBlick z Lipska – producenta tramwajów i pojazdów szynowych znajdującego się w trudnej sytuacji finansowej. Transakcja ma charakter ratunkowy (distressed M&A).
+            </p>
+            <p>
+                <strong>Strategiczne znaczenie:</strong> Przejęcie daje PESA bezpośredni dostęp do niemieckiego rynku transportu publicznego oraz know-how w zakresie nowoczesnych tramwajów niskopodłogowych. HeiterBlick produkował m.in. tramwaje dla Lipska i innych miast niemieckich.
+            </p>
+        </div>
+    </div>
+
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>Olavion (Unimot) → RBP Siegburg GmbH</h4>
+            <span class="tag">Transformacja energetyczna</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data transakcji</div>
+                    <div class="value">17 grudnia 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość</div>
+                    <div class="value">8,4 mln EUR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Lokalizacja</div>
+                    <div class="value">Siegburg, NRW</div>
+                </div>
+            </div>
+            <p>
+                Olavion, spółka zależna Grupy Unimot specjalizująca się w fotowoltaice, przejęła niemiecką firmę RBP Siegburg – dystrybutora paliw i operatora stacji w Nadrenii Północnej-Westfalii. Transakcja stanowi element strategii transformacji Unimot z tradycyjnej dystrybucji paliw w kierunku energetyki odnawialnej.
+            </p>
+            <p>
+                <strong>Strategiczne znaczenie:</strong> RBP posiada infrastrukturę dystrybucyjną i bazę klientów, którą Olavion planuje wykorzystać do rozwoju usług fotowoltaicznych i ładowania pojazdów elektrycznych na rynku niemieckim.
+            </p>
+        </div>
+    </div>
+
+    <!-- 5. PERSPEKTYWY -->
+    <h2>5. Perspektywy 2025–2030</h2>
+
+    <p>
+        Biorąc pod uwagę obserwowane trendy, zidentyfikowane czynniki napędowe oraz potencjalne ryzyka,
+        opracowano trzy scenariusze rozwoju polskich bezpośrednich inwestycji zagranicznych w Niemczech
+        do roku 2030.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 6. Prognoza polskich FDI w Niemczech (2025–2030)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR – trzy scenariusze</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">2030 Optym.</div>
+                <div class="bar-wrapper"><div class="bar-fill success" style="width: 100%;">5,5 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2030 Bazowy</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 82%;">4,5 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2030 Pesym.</div>
+                <div class="bar-wrapper"><div class="bar-fill gold" style="width: 58%;">3,2 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2025</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 45%;">2,5 mld</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Scenariusz bazowy zakłada CAGR 12%. Źródło: szacunki własne</div>
+    </div>
+
+    <p class="table-title">Tabela 4. Scenariusze rozwoju polskich FDI w Niemczech</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Scenariusz</th>
+                <th>FDI 2030</th>
+                <th>CAGR</th>
+                <th>Założenia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Optymistyczny</strong></td>
+                <td style="color: #28a745; font-weight: 600;">5,5 mld EUR</td>
+                <td>17%</td>
+                <td>Kontynuacja fali przejęć, aktywne wsparcie publiczne</td>
+            </tr>
+            <tr>
+                <td><strong>Bazowy</strong></td>
+                <td style="font-weight: 600;">4,5 mld EUR</td>
+                <td>12%</td>
+                <td>Stabilna dynamika, umiarkowana aktywność M&A</td>
+            </tr>
+            <tr>
+                <td><strong>Pesymistyczny</strong></td>
+                <td style="color: #c8102e;">3,2 mld EUR</td>
+                <td>5%</td>
+                <td>Spowolnienie gospodarcze, ograniczenie finansowania</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: szacunki własne</p>
+
+    <!-- 6. REKOMENDACJE -->
+    <h2>6. Rekomendacje</h2>
+
+    <h3>6.1. Dla przedsiębiorstw</h3>
+    <ul>
+        <li><strong>Wykorzystanie okna okazji:</strong> Obecna faza restrukturyzacji niemieckiego przemysłu (szczególnie Mittelstand) tworzy unikalne możliwości przejęć po atrakcyjnych wycenach.</li>
+        <li><strong>Sektory priorytetowe:</strong> OZE (serwis i O&M), recykling, komponenty dla elektromobilności, IT i cyberbezpieczeństwo.</li>
+        <li><strong>Przygotowanie organizacyjne:</strong> Budowa kompetencji integracji post-merger, w tym zespołów znających język i kulturę biznesową Niemiec.</li>
+    </ul>
+
+    <h3>6.2. Dla instytucji finansowych</h3>
+    <ul>
+        <li><strong>Produkty acquisition finance:</strong> Rozwój dedykowanych linii finansowania przejęć w przedziale 10–100 mln EUR.</li>
+        <li><strong>Instrumenty mezzanine:</strong> Rozszerzenie oferty finansowania podporządkowanego dla transakcji M&A.</li>
+        <li><strong>Współpraca z FEZ:</strong> Partnerstwo z Funduszem Ekspansji Zagranicznej w strukturyzowaniu większych transakcji.</li>
+    </ul>
+
+    <h3>6.3. Dla instytucji publicznych</h3>
+    <ul>
+        <li><strong>Zwiększenie limitów FEZ:</strong> Podwyższenie maksymalnej kwoty zaangażowania Funduszu w pojedynczą transakcję.</li>
+        <li><strong>Program wsparcia due diligence:</strong> Dofinansowanie kosztów analizy przedtransakcyjnej dla średnich firm.</li>
+        <li><strong>Sieć attaché inwestycyjnych:</strong> Wzmocnienie obecności PAIH w kluczowych landach niemieckich.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <p>
+            <strong>Kluczowy wniosek:</strong> Rok 2025 wyznacza początek nowej fazy w relacjach inwestycyjnych
+            Polska–Niemcy. Wykorzystanie obecnego momentum wymaga skoordynowanego działania przedsiębiorstw,
+            instytucji finansowych i sektora publicznego. Okno okazji związane z restrukturyzacją niemieckiego
+            przemysłu może się zamknąć w ciągu 3–5 lat.
+        </p>
+    </div>
+
+    <!-- ZAŁĄCZNIK -->
+    <h2>Załącznik: Źródła danych</h2>
+
+    <p class="table-title">Wykorzystane źródła danych</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Źródło</th>
+                <th>Typ danych</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Narodowy Bank Polski</td>
+                <td>Polskie FDI za granicą</td>
+                <td>nbp.pl</td>
+            </tr>
+            <tr>
+                <td>Deutsche Bundesbank</td>
+                <td>FDI w Niemczech</td>
+                <td>bundesbank.de</td>
+            </tr>
+            <tr>
+                <td>UNCTAD</td>
+                <td>Globalne statystyki FDI</td>
+                <td>unctad.org</td>
+            </tr>
+            <tr>
+                <td>GUS</td>
+                <td>Handel zagraniczny</td>
+                <td>stat.gov.pl</td>
+            </tr>
+            <tr>
+                <td>Destatis</td>
+                <td>Statystyki niemieckie</td>
+                <td>destatis.de</td>
+            </tr>
+            <tr>
+                <td>Komunikaty ESPI/EBI</td>
+                <td>Informacje o transakcjach</td>
+                <td>gpw.pl</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="margin-top: 60px; padding-top: 20px; border-top: 2px solid var(--border); font-size: 9pt; color: var(--text-light); text-align: center;">
+        <p>
+            <strong>Raport przygotowany:</strong> Luty 2026<br>
+            © Departament Analiz Strategicznych
+        </p>
+    </div>
+
+</body>
+</html>
