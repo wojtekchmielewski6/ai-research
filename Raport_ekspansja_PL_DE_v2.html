@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekspansja polskich przedsiębiorstw w Niemczech 2010-2026 | Raport analityczny</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-dark: #1a2e4c;
+            --primary: #2c4a7c;
+            --primary-light: #4a6fa5;
+            --accent: #c8102e;
+            --accent-light: #e63950;
+            --gold: #b8860b;
+            --bg-light: #f5f7fa;
+            --bg-white: #ffffff;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a4a4a;
+            --text-light: #6a6a6a;
+            --border: #e0e4e8;
+            --success: #28a745;
+            --warning: #ffc107;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 11pt;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15mm 20mm;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Source Serif Pro', Georgia, serif;
+            color: var(--primary-dark);
+            font-weight: 700;
+        }
+
+        h1 { font-size: 28pt; line-height: 1.2; margin-bottom: 10px; }
+        h2 { font-size: 16pt; margin-top: 40px; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 3px solid var(--accent); }
+        h3 { font-size: 13pt; margin-top: 30px; margin-bottom: 15px; color: var(--primary); }
+        h4 { font-size: 11pt; margin-top: 20px; margin-bottom: 10px; color: var(--primary-light); }
+
+        p { margin-bottom: 15px; text-align: justify; }
+        ul, ol { margin-bottom: 15px; padding-left: 25px; }
+        li { margin-bottom: 8px; }
+
+        /* COVER PAGE */
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            page-break-after: always;
+            padding: 40px 20px;
+        }
+
+        .cover-logo {
+            font-size: 14pt;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+        }
+
+        .cover h1 { font-size: 32pt; max-width: 600px; margin-bottom: 20px; }
+        .cover-subtitle { font-size: 14pt; color: var(--text-medium); margin-bottom: 40px; }
+        .cover-meta { margin-top: 60px; font-size: 10pt; color: var(--text-light); }
+
+        .cover-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 8px 20px;
+            font-size: 10pt;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        /* EXECUTIVE SUMMARY */
+        .exec-summary {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 30px 35px;
+            margin: 30px 0;
+        }
+
+        .exec-summary h3 {
+            color: white;
+            font-size: 14pt;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .exec-summary p, .exec-summary li { color: rgba(255,255,255,0.95); }
+        .exec-summary ul { margin: 0; padding-left: 20px; }
+
+        /* KEY METRICS */
+        .key-metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .metric {
+            background: var(--bg-light);
+            border-top: 4px solid var(--accent);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 24pt;
+            font-weight: 700;
+            color: var(--primary-dark);
+            line-height: 1.2;
+        }
+
+        .metric-label {
+            font-size: 9pt;
+            color: var(--text-medium);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 8px;
+        }
+
+        /* TABLES */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 10pt;
+        }
+
+        thead th {
+            background: var(--primary-dark);
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 9pt;
+            text-transform: uppercase;
+        }
+
+        tbody td {
+            padding: 10px 15px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tbody tr:nth-child(even) { background: var(--bg-light); }
+
+        .table-title {
+            font-weight: 600;
+            font-size: 10pt;
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            margin-top: 25px;
+        }
+
+        .table-source {
+            font-size: 8pt;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 25px;
+        }
+
+        /* CSS BAR CHARTS */
+        .chart-container {
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            padding: 25px;
+            margin: 25px 0;
+        }
+
+        .chart-title {
+            font-family: 'Source Serif Pro', serif;
+            font-weight: 600;
+            font-size: 11pt;
+            color: var(--primary-dark);
+            margin-bottom: 5px;
+        }
+
+        .chart-subtitle {
+            font-size: 9pt;
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+
+        .chart-source {
+            font-size: 8pt;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 15px;
+            text-align: right;
+        }
+
+        .bar-chart { display: flex; flex-direction: column; gap: 8px; }
+
+        .bar-row { display: flex; align-items: center; gap: 10px; }
+
+        .bar-label {
+            width: 100px;
+            font-size: 9pt;
+            text-align: right;
+            flex-shrink: 0;
+        }
+
+        .bar-wrapper {
+            flex: 1;
+            background: #e0e4e8;
+            height: 28px;
+            position: relative;
+        }
+
+        .bar-fill {
+            height: 100%;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 8px;
+            color: white;
+            font-size: 9pt;
+            font-weight: 600;
+            min-width: 40px;
+        }
+
+        .bar-fill.accent { background: var(--accent); }
+        .bar-fill.gold { background: var(--gold); }
+        .bar-fill.success { background: var(--success); }
+
+        /* CASE STUDY */
+        .case-study {
+            border: 1px solid var(--border);
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+
+        .case-study-header {
+            background: var(--primary-dark);
+            color: white;
+            padding: 15px 25px;
+        }
+
+        .case-study-header h4 { color: white; margin: 0; font-size: 12pt; }
+
+        .case-study-header .tag {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 8pt;
+            padding: 3px 10px;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
+        .case-study-body { padding: 25px; }
+
+        .case-study-meta {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .case-study-meta-item .label {
+            font-size: 8pt;
+            color: var(--text-light);
+            text-transform: uppercase;
+        }
+
+        .case-study-meta-item .value {
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 3px;
+        }
+
+        /* HIGHLIGHT BOX */
+        .highlight-box {
+            background: #fff8e6;
+            border-left: 4px solid var(--gold);
+            padding: 20px 25px;
+            margin: 25px 0;
+        }
+
+        /* DATA CALLOUT */
+        .data-callout {
+            display: flex;
+            align-items: center;
+            background: var(--bg-light);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-left: 4px solid var(--primary);
+        }
+
+        .data-callout-value {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 28pt;
+            font-weight: 700;
+            color: var(--accent);
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        /* SECTION INTRO */
+        .section-intro {
+            font-size: 12pt;
+            color: var(--text-medium);
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        /* TIMELINE */
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            margin: 30px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: var(--primary-light);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 25px;
+            padding-left: 20px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 5px;
+            width: 14px;
+            height: 14px;
+            background: var(--accent);
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px var(--primary-light);
+        }
+
+        .timeline-date {
+            font-weight: 700;
+            color: var(--primary-dark);
+            font-size: 10pt;
+        }
+
+        .timeline-title {
+            font-weight: 600;
+            color: var(--primary);
+            margin: 5px 0;
+        }
+
+        .timeline-desc {
+            font-size: 10pt;
+            color: var(--text-medium);
+        }
+
+        /* PHASE BOX */
+        .phase-box {
+            border: 2px solid var(--border);
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .phase-header {
+            background: var(--primary);
+            color: white;
+            padding: 12px 20px;
+            font-weight: 600;
+        }
+
+        .phase-header.phase-2 { background: var(--primary-dark); }
+        .phase-header.phase-3 { background: var(--accent); }
+
+        .phase-body {
+            padding: 20px;
+        }
+
+        /* PRINT STYLES */
+        @media print {
+            body { padding: 0; }
+            .cover { min-height: 100vh; }
+            h2 { page-break-after: avoid; }
+            .chart-container, .case-study, .exec-summary { page-break-inside: avoid; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ==================== STRONA TYTUŁOWA ==================== -->
+    <div class="cover">
+        <div class="cover-logo">Departament Analiz Strategicznych</div>
+        <div class="cover-badge">Raport specjalny</div>
+        <h1>Ekspansja polskich przedsiębiorstw w Niemczech</h1>
+        <div class="cover-subtitle">
+            Analiza bezpośrednich inwestycji zagranicznych, fuzji i przejęć<br>
+            oraz inwestycji kapitałowych w latach 2010–2026
+        </div>
+        <div class="cover-meta">
+            <p><strong>Data publikacji:</strong> Luty 2026</p>
+            <p><strong>Klasyfikacja:</strong> Do użytku wewnętrznego i publikacji</p>
+            <p><strong>Wersja:</strong> 5.0 Final</p>
+        </div>
+    </div>
+
+    <!-- ==================== 1. STRESZCZENIE DLA ZARZĄDU ==================== -->
+    <h2>1. Streszczenie dla Zarządu</h2>
+
+    <p class="section-intro">
+        Relacje inwestycyjne między Polską a Niemcami przeszły w ciągu ostatnich 15 lat fundamentalną transformację.
+        Z kraju będącego niemal wyłącznie odbiorcą kapitału zagranicznego, Polska stała się aktywnym inwestorem
+        na największym rynku Unii Europejskiej. Rok 2025 przyniósł bezprecedensową falę przejęć, a początek 2026
+        potwierdza, że trend ten ma charakter strukturalny.
+    </p>
+
+    <div class="exec-summary">
+        <h3>Kluczowe ustalenia raportu</h3>
+        <ul>
+            <li><strong>Dynamiczny wzrost obecności kapitałowej:</strong> Wartość polskich FDI w Niemczech wzrosła z 1,2 mld EUR w 2015 roku do prognozowanych 6–7 mld EUR w 2026 roku, co oznacza ponad pięciokrotny wzrost w dekadę.</li>
+            <li><strong>Skala obecności operacyjnej:</strong> Na rynku niemieckim działa obecnie od 1 500 do 2 000 podmiotów z polskim kapitałem. Polska generuje średnio 15–30 nowych projektów inwestycyjnych typu greenfield rocznie.</li>
+            <li><strong>Rekordowa aktywność M&A:</strong> W latach 2025–2026 polskie firmy sfinalizowały co najmniej 8 znaczących przejęć w Niemczech, w tym największą transakcję w historii – przejęcie HeiterBlick przez PESA o wartości 6,8 mld PLN.</li>
+            <li><strong>Nowy model finansowania "Team Poland":</strong> Skoordynowane działanie PFR, BGK i KUKE umożliwia realizację transakcji o znaczeniu strategicznym, wcześniej nieosiągalnych dla polskich firm.</li>
+        </ul>
+    </div>
+
+    <div class="key-metrics">
+        <div class="metric">
+            <div class="metric-value">6-7</div>
+            <div class="metric-label">mld EUR polskich FDI<br>(prognoza 2026)</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">2 000</div>
+            <div class="metric-label">firm z polskim<br>kapitałem w DE</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">6,8</div>
+            <div class="metric-label">mld PLN największa<br>transakcja (PESA)</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">15-30</div>
+            <div class="metric-label">projektów greenfield<br>rocznie</div>
+        </div>
+    </div>
+
+    <!-- ==================== 2. WPROWADZENIE I METODOLOGIA ==================== -->
+    <h2>2. Wprowadzenie i metodologia</h2>
+
+    <h3>2.1. Cel i zakres raportu</h3>
+
+    <p>
+        Niniejszy raport stanowi kompleksową analizę ekspansji polskich przedsiębiorstw na rynek niemiecki
+        w latach 2010–2026. Opracowanie powstało w odpowiedzi na rosnące zainteresowanie zjawiskiem
+        „odwrócenia wektora inwestycyjnego" w relacjach polsko-niemieckich – procesem, w którym Polska
+        stopniowo przekształca się z biernego odbiorcy kapitału zagranicznego w aktywnego inwestora
+        na rynkach rozwiniętych.
+    </p>
+
+    <p>
+        Zakres przedmiotowy raportu obejmuje trzy główne formy ekspansji kapitałowej:
+    </p>
+
+    <ul>
+        <li><strong>Bezpośrednie inwestycje zagraniczne (FDI)</strong> – inwestycje zapewniające trwały wpływ na zarządzanie przedsiębiorstwem zagranicznym (co najmniej 10% udziałów).</li>
+        <li><strong>Fuzje i przejęcia (M&A)</strong> – transakcje polegające na nabyciu kontroli nad istniejącym przedsiębiorstwem niemieckim przez podmiot polski.</li>
+        <li><strong>Inwestycje kapitałowe</strong> – zaangażowanie kapitałowe w formie udziałów mniejszościowych, finansowania dłużnego oraz projektów joint venture.</li>
+    </ul>
+
+    <p class="table-title">Tabela 1. Źródła danych wykorzystane w raporcie</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Kategoria</th>
+                <th>Źródło</th>
+                <th>Zakres danych</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dane makroekonomiczne</td>
+                <td>Narodowy Bank Polski (NBP)</td>
+                <td>Polskie FDI za granicą – przepływy i stany</td>
+            </tr>
+            <tr>
+                <td>Dane makroekonomiczne</td>
+                <td>Deutsche Bundesbank</td>
+                <td>FDI w Niemczech według kraju pochodzenia</td>
+            </tr>
+            <tr>
+                <td>Dane instytucjonalne</td>
+                <td>PFR, BGK, KUKE</td>
+                <td>Finansowanie ekspansji zagranicznej</td>
+            </tr>
+            <tr>
+                <td>Dane transakcyjne</td>
+                <td>Komunikaty ESPI/EBI, raporty spółek</td>
+                <td>Szczegóły transakcji M&A</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Opracowanie własne</p>
+
+    <!-- ==================== 3. EWOLUCJA RELACJI INWESTYCYJNYCH ==================== -->
+    <h2>3. Ewolucja relacji inwestycyjnych Polska–Niemcy</h2>
+
+    <h3>3.1. Od asymetrii do partnerstwa kapitałowego</h3>
+
+    <p class="section-intro">
+        Przez trzy dekady po transformacji ustrojowej relacje inwestycyjne między Polską a Niemcami
+        charakteryzowała głęboka asymetria. Niemiecki kapitał płynął do Polski szerokim strumieniem,
+        finansując budowę fabryk, centrów logistycznych i sieci handlowych. Przepływ w przeciwnym
+        kierunku był marginalny. Ta sytuacja zaczęła się zmieniać dopiero w drugiej dekadzie XXI wieku.
+    </p>
+
+    <p>
+        W 2010 roku skumulowana wartość polskich bezpośrednich inwestycji zagranicznych w Niemczech
+        wynosiła zaledwie około 0,8–1,0 mld EUR. Dla porównania, niemieckie FDI w Polsce przekraczały
+        wówczas 25 mld EUR – asymetria rzędu 25:1. Polskie firmy obecne na rynku niemieckim to były
+        głównie przedstawicielstwa handlowe wspierające eksport oraz niewielkie spółki usługowe.
+    </p>
+
+    <p>
+        Pierwszą fazę transformacji tych relacji zapoczątkowały duże polskie koncerny. W 2010 roku
+        Ciech, czołowy polski producent chemiczny, zainwestował w modernizację Ciech Soda Deutschland –
+        zakładu produkującego sodę kalcynowaną. Była to jedna z pierwszych strategicznych inwestycji
+        polskiego przemysłu w Niemczech, wykraczająca poza prostą działalność handlową.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 1. Ewolucja polskich FDI w Niemczech (2010–2026)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">2026 (prog.)</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 100%;">6,5 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2025</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 85%;">5,5 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2023</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 62%;">4,0 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2020</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 38%;">2,5 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2015</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 18%;">1,2 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2010</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 12%;">0,8 mld</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: NBP, szacunki własne na podstawie danych transakcyjnych</div>
+    </div>
+
+    <p>
+        W latach 2011–2012 Boryszew, polska grupa przemysłowa notowana na GPW, przeprowadziła serię przejęć
+        w niemieckim sektorze automotive. Akwizycja grupy AKT oraz spółki Ymos pozwoliła Boryszewowi
+        wejść w łańcuch dostaw niemieckiego przemysłu motoryzacyjnego – najbardziej wymagającego, ale też
+        najbardziej dochodowego segmentu europejskiej gospodarki. Te transakcje pokazały, że polskie firmy
+        są w stanie konkurować o aktywa w kluczowych sektorach niemieckiej gospodarki.
+    </p>
+
+    <h3>3.2. Wymiana handlowa jako fundament ekspansji</h3>
+
+    <p>
+        Intensyfikacja polskich inwestycji w Niemczech ma swoje korzenie w dynamicznie rosnącej wymianie
+        handlowej. Niemcy są nieprzerwanie od 1990 roku najważniejszym partnerem handlowym Polski.
+        W 2024 roku wymiana handlowa między oboma krajami osiągnęła rekordowy poziom 187 mld EUR,
+        co czyni Polskę piątym największym partnerem handlowym Niemiec na świecie i największym
+        w Europie Środkowo-Wschodniej.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 2. Eksport Polski do Niemiec (2015–2024)</div>
+        <div class="chart-subtitle">Wartości w mld EUR</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">2024</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 100%;">102 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2023</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 96%;">98 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2022</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 90%;">92 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2020</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 64%;">65 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2017</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 59%;">60 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2015</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 51%;">52 mld</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: GUS, Destatis</div>
+    </div>
+
+    <p>
+        Rosnąca wymiana handlowa tworzy naturalne przesłanki do inwestycji. Polscy eksporterzy, obsługując
+        coraz większe wolumeny dostaw do niemieckich odbiorców, dostrzegają korzyści z bezpośredniej obecności
+        na rynku: skrócenie łańcucha dostaw, eliminacja barier językowych i kulturowych w relacjach z klientami,
+        a także możliwość udziału w przetargach wymagających lokalnej obecności.
+    </p>
+
+    <p>
+        Przykładem tej logiki jest ekspansja Grupy Wielton – polskiego producenta naczep i przyczep. W 2017 roku
+        spółka przejęła 80% udziałów w niemieckiej firmie Langendorf, specjalizującej się w naczepach
+        do transportu ciężkiego. Transakcja ta nie była przypadkowa – Wielton od lat eksportował swoje produkty
+        do Niemiec i widział potencjał w uzupełnieniu portfolio o segmenty, w których Langendorf miał ugruntowaną
+        pozycję. Przejęcie dało Wieltonowi bezpośredni dostęp do niemieckiej sieci dystrybucji i serwisu.
+    </p>
+
+    <h3>3.3. Obecność operacyjna – skala i struktura</h3>
+
+    <p>
+        Według dostępnych szacunków na rynku niemieckim działa obecnie od 1 500 do 2 000 podmiotów
+        z polskim kapitałem. Struktura tej obecności jest zróżnicowana:
+    </p>
+
+    <ul>
+        <li><strong>Przedstawicielstwa handlowe i spółki dystrybucyjne</strong> – stanowią największą grupę, obsługując eksport polskich produktów na rynek niemiecki.</li>
+        <li><strong>Zakłady produkcyjne</strong> – rosnąca kategoria, obejmująca zarówno przejęte niemieckie fabryki, jak i inwestycje greenfield.</li>
+        <li><strong>Spółki usługowe</strong> – w tym firmy budowlane, IT, logistyczne i transportowe.</li>
+        <li><strong>Holdingi i struktury zarządzające</strong> – koordynujące działalność w całym regionie DACH.</li>
+    </ul>
+
+    <p>
+        Polska generuje średnio od 15 do 30 nowych projektów inwestycyjnych typu greenfield rocznie w Niemczech.
+        Choć liczba ta może wydawać się skromna w porównaniu z tradycyjnymi inwestorami (Holandia, USA, Wielka Brytania),
+        to dynamika wzrostu jest imponująca – jeszcze dekadę temu takich projektów było zaledwie kilka rocznie.
+    </p>
+
+    <p class="table-title">Tabela 2. Polska na tle regionu CEE – inwestycje w Niemczech (2024)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Kraj</th>
+                <th>FDI w Niemczech (mld EUR)</th>
+                <th>Liczba podmiotów</th>
+                <th>Projekty greenfield/rok</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background: #e8f5e9;">
+                <td><strong>Polska</strong></td>
+                <td><strong>5,5</strong></td>
+                <td><strong>1 500–2 000</strong></td>
+                <td><strong>15–30</strong></td>
+            </tr>
+            <tr>
+                <td>Czechy</td>
+                <td>2,2</td>
+                <td>600–800</td>
+                <td>8–12</td>
+            </tr>
+            <tr>
+                <td>Węgry</td>
+                <td>1,1</td>
+                <td>300–400</td>
+                <td>5–8</td>
+            </tr>
+            <tr>
+                <td>Słowacja</td>
+                <td>0,4</td>
+                <td>100–150</td>
+                <td>2–4</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Bundesbank, szacunki własne</p>
+
+    <!-- ==================== 4. MODEL WSPARCIA EKSPANSJI ==================== -->
+    <h2>4. Ewolucja modelu wsparcia ekspansji zagranicznej</h2>
+
+    <p class="section-intro">
+        Polska obecność kapitałowa w Niemczech przeszła przez trzy kluczowe fazy rozwoju, różniące się
+        zarówno skalą inwestycji, jak i modelem ich finansowania. Zrozumienie tej ewolucji jest kluczowe
+        dla oceny perspektyw dalszej ekspansji.
+    </p>
+
+    <div class="phase-box">
+        <div class="phase-header">Faza I: Samodzielność (do 2018)</div>
+        <div class="phase-body">
+            <p>
+                W pierwszej fazie inwestycje w Niemczech realizowane były głównie przez duże polskie koncerny,
+                dysponujące wystarczającymi zasobami własnymi lub zdolnością kredytową do samodzielnego
+                finansowania ekspansji. Dominowały podmioty takie jak Orlen, Ciech, Boryszew i Asseco –
+                firmy o ustabilizowanej pozycji rynkowej i dostępie do finansowania bankowego.
+            </p>
+            <p>
+                <strong>Charakterystyka:</strong> Inwestycje finansowane z kapitału własnego lub kredytów komercyjnych.
+                Brak systemowego wsparcia ze strony państwa. Transakcje ograniczone do podmiotów o najwyższej
+                wiarygodności kredytowej.
+            </p>
+            <p>
+                <strong>Kluczowe transakcje fazy:</strong>
+            </p>
+            <ul>
+                <li>2010: Ciech – modernizacja Ciech Soda Deutschland</li>
+                <li>2011–2012: Boryszew – przejęcie AKT i Ymos (automotive)</li>
+                <li>2017: Wielton – przejęcie 80% Langendorf (transport)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase-box">
+        <div class="phase-header phase-2">Faza II: Partnerstwo kapitałowe z FEZ (2019–2024)</div>
+        <div class="phase-body">
+            <p>
+                Przełomem w ekspansji zagranicznej polskich firm było uruchomienie Funduszu Ekspansji
+                Zagranicznej (FEZ), zarządzanego przez PFR TFI. Fundusz, dysponujący kapitałem
+                przekraczającym 1 mld PLN, zaoferował polskim przedsiębiorstwom nowy model finansowania
+                ekspansji – partnerstwo kapitałowe z podziałem ryzyka.
+            </p>
+            <p>
+                <strong>Model działania FEZ:</strong>
+            </p>
+            <ul>
+                <li>Inwestor mniejszościowy – obejmuje do 50% udziałów w projekcie zagranicznym</li>
+                <li>Horyzont inwestycyjny 7–10 lat z jasno zdefiniowaną ścieżką wyjścia</li>
+                <li>Finansowanie dłużne i kapitałowe dostosowane do potrzeb transakcji</li>
+                <li>Aktywne wsparcie w procesie due diligence i integracji</li>
+            </ul>
+            <p>
+                FEZ umożliwił ekspansję firmom średniej wielkości, które wcześniej nie miały dostępu
+                do finansowania transakcji zagranicznych. W Niemczech fundusz zaangażował się w kilka
+                znaczących projektów.
+            </p>
+            <p>
+                <strong>Kluczowe transakcje z udziałem FEZ:</strong>
+            </p>
+            <ul>
+                <li>2019: Elemental – nabycie 32% udziałów w Recat GmbH (recykling), z sukcesem exit w 2023</li>
+                <li>2020: Pekabex – 2,94 mln EUR za 24% udziałów w projekcie zakupu FTO Obermain (fabryka w Bawarii)</li>
+                <li>2021: Victoria Dom – 10 mln EUR finansowania dłużnego na zakup gruntów w Berlinie i Lipsku</li>
+                <li>2023: Enprom – 3,1 mln EUR pożyczki na rozwój operacji elektroenergetycznych w DE</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="phase-box">
+        <div class="phase-header phase-3">Faza III: Integracja systemowa "Team Poland" (od 2025)</div>
+        <div class="phase-body">
+            <p>
+                Rok 2025 przyniósł jakościową zmianę w modelu wsparcia ekspansji zagranicznej.
+                Skoordynowane działanie trzech kluczowych instytucji – Polskiego Funduszu Rozwoju (PFR),
+                Banku Gospodarstwa Krajowego (BGK) oraz Korporacji Ubezpieczeń Kredytów Eksportowych (KUKE) –
+                umożliwiło realizację transakcji o skali wcześniej nieosiągalnej dla polskich firm.
+            </p>
+            <p>
+                <strong>Inicjatywa "Team Poland" – mechanizm działania:</strong>
+            </p>
+            <ul>
+                <li><strong>PFR/FEZ:</strong> Kapitał udziałowy i finansowanie mezzanine dla transakcji M&A</li>
+                <li><strong>BGK:</strong> Długoterminowe finansowanie dłużne na preferencyjnych warunkach</li>
+                <li><strong>KUKE:</strong> Gwarancje eksportowe i ubezpieczenie ryzyka politycznego</li>
+            </ul>
+            <p>
+                Koordynacja tych trzech instytucji pozwala na strukturyzowanie pakietów finansowych
+                o wartości setek milionów, a nawet miliardów złotych. Co kluczowe, gwarancje KUKE
+                umożliwiają polskim firmom startowanie w największych przetargach publicznych
+                w Niemczech – segmencie rynku wcześniej zdominowanym przez niemieckich i zachodnioeuropejskich
+                konkurentów.
+            </p>
+        </div>
+    </div>
+
+    <h3>4.1. Team Poland w praktyce – przypadek PESA</h3>
+
+    <p>
+        Modelowym przykładem działania inicjatywy "Team Poland" jest finansowanie przejęcia niemieckiej
+        spółki HeiterBlick przez bydgoską PESA – największego polskiego producenta taboru szynowego.
+    </p>
+
+    <div class="highlight-box">
+        <p>
+            <strong>Struktura finansowania PESA/HeiterBlick:</strong><br><br>
+            • Całkowita wartość pakietu: <strong>6,8 mld PLN</strong><br>
+            • Gwarancje KUKE: <strong>1 mld PLN</strong> (umożliwiające dostęp do przetargów publicznych w DE)<br>
+            • Finansowanie BGK: kredyt długoterminowy na akwizycję<br>
+            • Wsparcie PFR: kapitał na integrację i rozwój
+        </p>
+    </div>
+
+    <p>
+        Transakcja ta ma znaczenie wykraczające poza samą akwizycję. Dzięki gwarancjom KUKE PESA
+        może teraz startować w niemieckich przetargach na dostawy tramwajów i pociągów regionalnych –
+        rynku o wartości kilkudziesięciu miliardów euro rocznie. HeiterBlick, z siedzibą w Lipsku,
+        dostarcza PESA nie tylko moce produkcyjne, ale przede wszystkim referencje i certyfikacje
+        wymagane na rynku niemieckim.
+    </p>
+
+    <p>
+        Model "Team Poland" może zostać powielony w innych sektorach strategicznych. Szczególnie
+        atrakcyjne wydają się: infrastruktura energetyczna (transformacja Energiewende), transport
+        publiczny oraz przemysł obronny. W każdym z tych obszarów polskie firmy dysponują kompetencjami,
+        ale dotychczas brakowało im zdolności finansowej do konkurowania o największe kontrakty.
+    </p>
+
+    <!-- ==================== 5. CHRONOLOGIA TRANSAKCJI ==================== -->
+    <h2>5. Chronologia transakcji M&A i inwestycji kapitałowych (2010–2026)</h2>
+
+    <p class="section-intro">
+        Poniższe zestawienie przedstawia kluczowe transakcje polskich firm w Niemczech w ujęciu
+        chronologicznym, ilustrując ewolucję od pojedynczych, izolowanych inwestycji do
+        skoordynowanej fali przejęć w latach 2025–2026.
+    </p>
+
+    <p class="table-title">Tabela 3. Kompletne zestawienie transakcji polskich firm w Niemczech (2010–2026)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Rok</th>
+                <th>Inwestor (PL)</th>
+                <th>Cel (DE)</th>
+                <th>Sektor</th>
+                <th>Wartość/Wsparcie</th>
+                <th>Typ</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2010</td>
+                <td>Ciech</td>
+                <td>Ciech Soda Deutschland</td>
+                <td>Chemia</td>
+                <td>b.d.</td>
+                <td>Modernizacja strategiczna</td>
+            </tr>
+            <tr>
+                <td>2011–12</td>
+                <td>Boryszew</td>
+                <td>Grupa AKT / Ymos</td>
+                <td>Automotive</td>
+                <td>b.d.</td>
+                <td>M&A (łańcuch dostaw)</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>Wielton</td>
+                <td>Langendorf</td>
+                <td>Transport</td>
+                <td>b.d.</td>
+                <td>Przejęcie 80% udziałów</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Elemental</td>
+                <td>Recat GmbH</td>
+                <td>Recykling</td>
+                <td>FEZ 32%</td>
+                <td>Akwizycja (exit 2023)</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Pekabex</td>
+                <td>FTO Obermain</td>
+                <td>Budownictwo</td>
+                <td>12,25 mln EUR</td>
+                <td>Zakup fabryki (FEZ)</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Victoria Dom</td>
+                <td>Grunty Berlin/Lipsk</td>
+                <td>Deweloperka</td>
+                <td>10 mln EUR</td>
+                <td>Pożyczka FEZ</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>InPost</td>
+                <td>Mondial Relay</td>
+                <td>Logistyka</td>
+                <td>b.d.</td>
+                <td>Ekspansja infrastrukturalna</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>ORLEN</td>
+                <td>Stacje OMV</td>
+                <td>Paliwa</td>
+                <td>b.d.</td>
+                <td>Konsolidacja rynku DACH</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Enprom</td>
+                <td>Operacje DE</td>
+                <td>Elektroenergetyka</td>
+                <td>3,1 mln EUR</td>
+                <td>Pożyczka FEZ</td>
+            </tr>
+            <tr style="background: #e8f5e9;">
+                <td>09.2025</td>
+                <td>Grupa Recykl</td>
+                <td>HRV Wernigerode</td>
+                <td>Recykling</td>
+                <td>10,1 mln EUR</td>
+                <td>100% udziałów</td>
+            </tr>
+            <tr style="background: #e8f5e9;">
+                <td>09.2025</td>
+                <td>Grupa Trend</td>
+                <td>GALA Group</td>
+                <td>OZE / Serwis</td>
+                <td>PFR/CVI</td>
+                <td>Przejęcie</td>
+            </tr>
+            <tr style="background: #e8f5e9;">
+                <td>11.2025</td>
+                <td>MDD (MLP Group)</td>
+                <td>CEKA / CEKA Pro</td>
+                <td>Meble biurowe</td>
+                <td>b.d.</td>
+                <td>Akwizycja</td>
+            </tr>
+            <tr style="background: #e8f5e9;">
+                <td>12.2025</td>
+                <td>ZPUE</td>
+                <td>BWTS GmbH</td>
+                <td>OZE / Energetyka</td>
+                <td>b.d.</td>
+                <td>Serwis energetyki</td>
+            </tr>
+            <tr style="background: #fff3cd;">
+                <td>01.2026</td>
+                <td>Olavion (Unimot)</td>
+                <td>RBP Siegburg</td>
+                <td>Paliwa / Fotowoltaika</td>
+                <td>8,4 mln EUR</td>
+                <td>60% udziałów</td>
+            </tr>
+            <tr style="background: #fff3cd;">
+                <td>01.2026</td>
+                <td>PESA Bydgoszcz</td>
+                <td>HeiterBlick</td>
+                <td>Tabor szynowy</td>
+                <td>6,8 mld PLN</td>
+                <td>Akwizycja strategiczna</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Zielone tło: transakcje 2025, żółte tło: transakcje 2026. Źródło: komunikaty spółek, ESPI, analiza własna</p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 3. Liczba transakcji M&A polskich firm w Niemczech według lat</div>
+        <div class="chart-subtitle">Liczba zidentyfikowanych transakcji</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">2025</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 100%;">4</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2026 (I kw.)</div>
+                <div class="bar-wrapper"><div class="bar-fill gold" style="width: 50%;">2</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2023</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 50%;">2</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2021</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 50%;">2</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2020</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 25%;">1</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2019</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 25%;">1</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2017</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 25%;">1</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: opracowanie własne</div>
+    </div>
+
+    <!-- ==================== 6. STUDIA PRZYPADKÓW ==================== -->
+    <h2>6. Studia przypadków</h2>
+
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>Pekabex – FTO Obermain (2020)</h4>
+            <span class="tag">Budownictwo modułowe</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość transakcji</div>
+                    <div class="value">12,25 mln EUR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Udział FEZ</div>
+                    <div class="value">2,94 mln EUR (24%)</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Lokalizacja</div>
+                    <div class="value">Bawaria</div>
+                </div>
+            </div>
+            <p>
+                Pekabex, lider polskiego rynku prefabrykatów betonowych, przejął w 2020 roku bawarską fabrykę
+                FTO Obermain. Transakcja ta stanowi modelowy przykład wykorzystania wsparcia Funduszu Ekspansji
+                Zagranicznej – FEZ objął 24% udziałów w projekcie, współfinansując akwizycję kwotą 2,94 mln EUR.
+            </p>
+            <p>
+                <strong>Uzasadnienie strategiczne:</strong> Przejęcie lokalnej fabryki pozwoliło Pekabex
+                na optymalizację kosztów logistycznych i skrócenie czasu dostaw do niemieckich klientów.
+                Prefabrykaty betonowe są produktem o wysokim stosunku masy do wartości, co sprawia, że
+                transport na duże odległości znacząco obniża marże. Produkcja lokalna eliminuje tę barierę.
+            </p>
+            <p>
+                <strong>Rezultaty:</strong> FTO Obermain obsługuje obecnie niemieckich deweloperów i generalnych
+                wykonawców, dostarczając elementy konstrukcyjne dla budownictwa mieszkaniowego i przemysłowego.
+                Synergię z polskimi zakładami Pekabex umożliwia transfer wiedzy i standaryzację procesów.
+            </p>
+        </div>
+    </div>
+
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>Victoria Dom – Ekspansja deweloperska (2021)</h4>
+            <span class="tag">Deweloperka mieszkaniowa</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Finansowanie FEZ</div>
+                    <div class="value">10 mln EUR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Typ finansowania</div>
+                    <div class="value">Dług (pożyczka)</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Lokalizacje</div>
+                    <div class="value">Berlin, Lipsk</div>
+                </div>
+            </div>
+            <p>
+                Victoria Dom, polski deweloper mieszkaniowy notowany na GPW, otrzymał od Funduszu
+                Ekspansji Zagranicznej 10 mln EUR finansowania dłużnego na zakup gruntów inwestycyjnych
+                w Berlinie i Lipsku. Środki te pozwoliły spółce na zbudowanie banku ziemi pod przyszłe
+                projekty mieszkaniowe na dwóch najbardziej dynamicznych rynkach wschodnich Niemiec.
+            </p>
+            <p>
+                <strong>Uzasadnienie strategiczne:</strong> Niemiecki rynek mieszkaniowy charakteryzuje się
+                znacznie wyższymi cenami sprzedaży niż polski, przy jednocześnie porównywalnych kosztach
+                budowy (szczególnie przy wykorzystaniu polskich podwykonawców). Marże deweloperskie
+                w Niemczech mogą być 2–3-krotnie wyższe niż w Polsce.
+            </p>
+            <p>
+                <strong>Model biznesowy:</strong> Victoria Dom realizuje projekty w Niemczech, korzystając
+                z polskich biur projektowych i częściowo z polskich wykonawców, co pozwala na optymalizację
+                kosztów przy zachowaniu niemieckich cen sprzedaży. FEZ jako pożyczkodawca (nie udziałowiec)
+                pozwolił spółce zachować pełną kontrolę nad projektami.
+            </p>
+        </div>
+    </div>
+
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>Grupa Recykl – HRV Wernigerode (2025)</h4>
+            <span class="tag">Gospodarka obiegu zamkniętego</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data transakcji</div>
+                    <div class="value">3–4 września 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość</div>
+                    <div class="value">10,1 mln EUR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Finansowanie</div>
+                    <div class="value">CVI (private debt)</div>
+                </div>
+            </div>
+            <p>
+                Grupa Recykl, czołowy polski przetwórca zużytych opon, przejęła 100% udziałów w niemieckiej
+                spółce HRV Wernigerode – jednym z większych graczy na rynku recyklingu opon w Niemczech.
+                Transakcja, sfinansowana przy wsparciu funduszu CVI (private debt), otwiera polskiej firmie
+                dostęp do największego rynku zużytych opon w Europie – około 600 tysięcy ton rocznie.
+            </p>
+            <p>
+                <strong>Uzasadnienie strategiczne:</strong> Niemcy, jako największy rynek motoryzacyjny
+                w Europie, generują proporcjonalnie największy strumień zużytych opon. Jednocześnie restrykcyjne
+                regulacje środowiskowe UE (gospodarka obiegu zamkniętego) zwiększają popyt na profesjonalne
+                usługi recyklingu. HRV dysponuje licencjami, infrastrukturą i siecią odbiorców granulatu gumowego.
+            </p>
+            <p>
+                <strong>Struktura transakcji:</strong> Przejęcie obejmuje klauzulę earn-out, uzależniającą
+                część ceny od przyszłych wyników HRV. Model ten pozwolił na ograniczenie ryzyka nabywcy
+                przy jednoczesnym zachowaniu atrakcyjności oferty dla sprzedających.
+            </p>
+        </div>
+    </div>
+
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>PESA Bydgoszcz – HeiterBlick (2026)</h4>
+            <span class="tag">Przemysł kolejowy – Team Poland</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość pakietu</div>
+                    <div class="value">6,8 mld PLN</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Gwarancje KUKE</div>
+                    <div class="value">1 mld PLN</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Lokalizacja</div>
+                    <div class="value">Lipsk, Saksonia</div>
+                </div>
+            </div>
+            <p>
+                Przejęcie lipskiej spółki HeiterBlick przez PESA Bydgoszcz to największa polska inwestycja
+                w Niemczech w historii i pierwsza transakcja w pełni wykorzystująca model "Team Poland".
+                Całkowity pakiet finansowy o wartości 6,8 mld PLN obejmuje środki na akwizycję, integrację
+                oraz gwarancje eksportowe umożliwiające udział w niemieckich przetargach publicznych.
+            </p>
+            <p>
+                <strong>Znaczenie gwarancji KUKE:</strong> Kluczowym elementem transakcji są gwarancje KUKE
+                o wartości 1 mld PLN. W niemieckim systemie zamówień publicznych na tabor szynowy wymagane
+                są gwarancje bankowe lub ubezpieczeniowe pokrywające ryzyko niewykonania kontraktu.
+                Dotychczas polskie firmy, nieposiadające takich gwarancji, były de facto wykluczone
+                z największych przetargów. Gwarancje KUKE likwidują tę barierę.
+            </p>
+            <p>
+                <strong>HeiterBlick jako platforma:</strong> HeiterBlick to producent tramwajów
+                i pojazdów szynowych z siedzibą w Lipsku, posiadający homologacje i certyfikacje
+                wymagane na rynku niemieckim. Przejęcie daje PESA nie tylko moce produkcyjne, ale
+                przede wszystkim "przepustkę" do niemieckiego rynku transportu publicznego – jednego
+                z największych w Europie.
+            </p>
+        </div>
+    </div>
+
+    <!-- ==================== 7. ANALIZA SEKTOROWA ==================== -->
+    <h2>7. Analiza sektorowa ekspansji</h2>
+
+    <p>
+        Analiza transakcji z lat 2010–2026 pozwala na identyfikację sektorów, w których polskie firmy
+        są najbardziej aktywne inwestycyjnie w Niemczech. Struktura sektorowa ewoluowała – od dominacji
+        przemysłu ciężkiego i automotive na początku dekady, do rosnącego znaczenia energetyki odnawialnej
+        i gospodarki obiegu zamkniętego w ostatnich latach.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 4. Struktura sektorowa polskich inwestycji w Niemczech</div>
+        <div class="chart-subtitle">Liczba zidentyfikowanych transakcji według sektora (2010–2026)</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">Energetyka/OZE</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 100%;">4</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Przemysł</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 100%;">4</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Budownictwo</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 50%;">2</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Recykling</div>
+                <div class="bar-wrapper"><div class="bar-fill success" style="width: 50%;">2</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Logistyka</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 50%;">2</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Deweloperka</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 25%;">1</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">Meble</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 25%;">1</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: opracowanie własne</div>
+    </div>
+
+    <h3>7.1. Energetyka i OZE – sektor przyszłości</h3>
+
+    <p>
+        Niemiecka transformacja energetyczna (Energiewende) tworzy ogromne zapotrzebowanie na usługi
+        serwisowe, komponenty i rozwiązania technologiczne. Polskie firmy dostrzegły tę szansę –
+        w samym 2025 roku trzy z czterech transakcji dotyczyły szeroko rozumianego sektora energetycznego:
+    </p>
+
+    <ul>
+        <li><strong>Grupa Trend → GALA Group:</strong> Przejęcie globalnego lidera w serwisie turbin wiatrowych</li>
+        <li><strong>ZPUE → BWTS GmbH:</strong> Wejście w segment rozdzielnic i infrastruktury energetycznej</li>
+        <li><strong>Olavion → RBP Siegburg:</strong> Połączenie dystrybucji paliw z fotowoltaiką</li>
+    </ul>
+
+    <p>
+        Sektor OZE w Niemczech wymaga w najbliższych latach inwestycji rzędu setek miliardów euro –
+        w samą infrastrukturę sieciową, magazyny energii, farmy wiatrowe i fotowoltaiczne. Polskie firmy,
+        z niższą bazą kosztową i rosnącymi kompetencjami technologicznymi, są naturalnym partnerem
+        dla niemieckiej transformacji energetycznej.
+    </p>
+
+    <h3>7.2. Przemysł i automotive</h3>
+
+    <p>
+        Tradycyjnie silna obecność polskich firm w niemieckim przemyśle wynika z wieloletnich powiązań
+        w ramach łańcuchów dostaw. Boryszew, poprzez przejęcia AKT i Ymos, stał się istotnym dostawcą
+        dla niemieckich producentów samochodów. Wielton, przejmując Langendorf, wzmocnił pozycję
+        w segmencie naczep specjalistycznych.
+    </p>
+
+    <p>
+        Przemysł kolejowy – reprezentowany przez przejęcie HeiterBlick przez PESA – otwiera nowy rozdział.
+        To sektor o wysokich barierach wejścia (certyfikacje, homologacje, referencje), ale też o bardzo
+        stabilnym popycie. Niemcy modernizują flotę tramwajową i kolejową, a zamówienia publiczne sięgają
+        miliardów euro rocznie.
+    </p>
+
+    <!-- ==================== 8. PERSPEKTYWY ==================== -->
+    <h2>8. Perspektywy 2026–2030</h2>
+
+    <p class="section-intro">
+        Analiza dotychczasowych trendów oraz zidentyfikowanych czynników strukturalnych pozwala
+        na sformułowanie prognoz dotyczących dalszej ekspansji polskich firm w Niemczech.
+    </p>
+
+    <h3>8.1. Scenariusze rozwoju</h3>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 5. Prognoza polskich FDI w Niemczech (2026–2030)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR – trzy scenariusze</div>
+        <div class="bar-chart">
+            <div class="bar-row">
+                <div class="bar-label">2030 Optym.</div>
+                <div class="bar-wrapper"><div class="bar-fill success" style="width: 100%;">12 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2030 Bazowy</div>
+                <div class="bar-wrapper"><div class="bar-fill" style="width: 75%;">9 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2030 Pesym.</div>
+                <div class="bar-wrapper"><div class="bar-fill gold" style="width: 58%;">7 mld</div></div>
+            </div>
+            <div class="bar-row">
+                <div class="bar-label">2026</div>
+                <div class="bar-wrapper"><div class="bar-fill accent" style="width: 54%;">6,5 mld</div></div>
+            </div>
+        </div>
+        <div class="chart-source">Źródło: szacunki własne</div>
+    </div>
+
+    <p class="table-title">Tabela 4. Scenariusze rozwoju polskich FDI w Niemczech do 2030</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Scenariusz</th>
+                <th>FDI 2030</th>
+                <th>CAGR</th>
+                <th>Kluczowe założenia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Optymistyczny</strong></td>
+                <td style="color: #28a745; font-weight: 600;">12 mld EUR</td>
+                <td>17%</td>
+                <td>Pełne wykorzystanie modelu Team Poland, 3–5 dużych transakcji rocznie</td>
+            </tr>
+            <tr>
+                <td><strong>Bazowy</strong></td>
+                <td style="font-weight: 600;">9 mld EUR</td>
+                <td>10%</td>
+                <td>Kontynuacja obecnych trendów, 2–3 transakcje rocznie</td>
+            </tr>
+            <tr>
+                <td><strong>Pesymistyczny</strong></td>
+                <td style="color: #c8102e;">7 mld EUR</td>
+                <td>2%</td>
+                <td>Spowolnienie gospodarcze, ograniczenie wsparcia publicznego</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: szacunki własne</p>
+
+    <h3>8.2. Trendy do obserwacji w 2027 roku</h3>
+
+    <ul>
+        <li><strong>Kontynuacja ekspansji OZE:</strong> Kolejne przejęcia firm serwisowych i technologicznych obsługujących niemiecką transformację energetyczną (Energiewende). Model ZPUE/BWTS może zostać powielony przez inne polskie firmy z sektora elektroenergetycznego.</li>
+        <li><strong>Konsolidacja Mittelstandu:</strong> Wzrost liczby przejęć małych i średnich firm rodzinnych w Niemczech, szczególnie w sektorach z silną polską obecnością eksportową: stolarka otworowa, automotive, meble.</li>
+        <li><strong>Rozwój modelu Team Poland:</strong> Standaryzacja miliardowych pakietów gwarancyjnych, co pozwoli polskim firmom startować w największych przetargach infrastrukturalnych – transport publiczny, energetyka, cyfryzacja.</li>
+        <li><strong>Przetargi infrastrukturalne:</strong> PESA z gwarancjami KUKE może stać się poważnym konkurentem dla Siemensa i Alstomu w niemieckich przetargach tramwajowych. Sukces może zachęcić inne polskie firmy do ekspansji w segmencie B2G.</li>
+    </ul>
+
+    <!-- ==================== 9. REKOMENDACJE ==================== -->
+    <h2>9. Rekomendacje</h2>
+
+    <h3>9.1. Dla przedsiębiorstw</h3>
+    <ul>
+        <li><strong>Wykorzystanie okna możliwości:</strong> Obecna faza restrukturyzacji niemieckiego Mittelstandu, w połączeniu z dostępnością finansowania Team Poland, tworzy unikalne warunki do ekspansji.</li>
+        <li><strong>Sektory priorytetowe:</strong> OZE (serwis i O&M), recykling, komponenty dla elektromobilności, IT i cyberbezpieczeństwo, stolarka budowlana.</li>
+        <li><strong>Przygotowanie do przetargów publicznych:</strong> Inwestycja w certyfikacje i homologacje wymagane na rynku niemieckim. Gwarancje KUKE umożliwiają udział w przetargach, ale wymagają odpowiedniego przygotowania formalnego.</li>
+    </ul>
+
+    <h3>9.2. Dla instytucji finansowych</h3>
+    <ul>
+        <li><strong>Produkty acquisition finance:</strong> Rozwój dedykowanych linii finansowania przejęć w przedziale 10–100 mln EUR, niedostatecznie obsługiwanym przez banki komercyjne.</li>
+        <li><strong>Współpraca z Team Poland:</strong> Partnerstwo z PFR, BGK i KUKE w strukturyzowaniu większych transakcji. Model współfinansowania z instytucjami publicznymi ogranicza ryzyko przy zachowaniu atrakcyjnych stóp zwrotu.</li>
+    </ul>
+
+    <h3>9.3. Dla instytucji publicznych</h3>
+    <ul>
+        <li><strong>Skalowanie modelu Team Poland:</strong> Wypracowanie standardowych pakietów dla transakcji różnej wielkości – od 50 mln PLN do 5 mld PLN.</li>
+        <li><strong>Rozszerzenie limitów KUKE:</strong> Zwiększenie dostępności gwarancji eksportowych dla sektorów strategicznych – tabor szynowy, energetyka, infrastruktura.</li>
+        <li><strong>Program wsparcia due diligence:</strong> Dofinansowanie kosztów analizy przedtransakcyjnej dla średnich firm rozważających pierwsze przejęcie w Niemczech.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <p>
+            <strong>Podsumowanie:</strong> Lata 2025–2026 wyznaczają początek nowej ery w relacjach inwestycyjnych
+            Polska–Niemcy. Skoordynowane działanie polskich przedsiębiorstw i instytucji publicznych w ramach
+            modelu "Team Poland" otwiera możliwości, które jeszcze pięć lat temu wydawały się nieosiągalne.
+            Wykorzystanie tego momentum wymaga kontynuacji aktywnej polityki wsparcia ekspansji oraz gotowości
+            firm do podejmowania odważnych decyzji inwestycyjnych. Okno możliwości – związane z restrukturyzacją
+            niemieckiego przemysłu i transformacją energetyczną – będzie otwarte przez najbliższe 3–5 lat.
+        </p>
+    </div>
+
+    <!-- ==================== ZAŁĄCZNIK ==================== -->
+    <h2>Załącznik: Słownik pojęć i źródła</h2>
+
+    <p class="table-title">Kluczowe pojęcia</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Pojęcie</th>
+                <th>Definicja</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FDI (Foreign Direct Investment)</td>
+                <td>Bezpośrednie inwestycje zagraniczne – inwestycje zapewniające trwały wpływ na zarządzanie (min. 10% udziałów)</td>
+            </tr>
+            <tr>
+                <td>OFDI (Outward FDI)</td>
+                <td>Wychodzące bezpośrednie inwestycje zagraniczne – inwestycje krajowych podmiotów za granicą</td>
+            </tr>
+            <tr>
+                <td>M&A (Mergers & Acquisitions)</td>
+                <td>Fuzje i przejęcia – transakcje polegające na połączeniu lub nabyciu przedsiębiorstw</td>
+            </tr>
+            <tr>
+                <td>FEZ</td>
+                <td>Fundusz Ekspansji Zagranicznej – fundusz PFR TFI wspierający ekspansję polskich firm za granicą</td>
+            </tr>
+            <tr>
+                <td>Team Poland</td>
+                <td>Inicjatywa skoordynowanego działania PFR, BGK i KUKE w finansowaniu ekspansji zagranicznej</td>
+            </tr>
+            <tr>
+                <td>KUKE</td>
+                <td>Korporacja Ubezpieczeń Kredytów Eksportowych – państwowa agencja kredytów eksportowych</td>
+            </tr>
+            <tr>
+                <td>Greenfield</td>
+                <td>Inwestycja polegająca na budowie nowego zakładu od podstaw (w odróżnieniu od przejęcia)</td>
+            </tr>
+            <tr>
+                <td>Mittelstand</td>
+                <td>Niemieckie małe i średnie przedsiębiorstwa, często rodzinne, stanowiące podstawę gospodarki DE</td>
+            </tr>
+            <tr>
+                <td>Energiewende</td>
+                <td>Niemiecka transformacja energetyczna – przejście do energetyki odnawialnej</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="table-title">Źródła danych</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Źródło</th>
+                <th>Typ danych</th>
+                <th>Adres</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Narodowy Bank Polski</td>
+                <td>Polskie FDI za granicą</td>
+                <td>nbp.pl</td>
+            </tr>
+            <tr>
+                <td>Deutsche Bundesbank</td>
+                <td>FDI w Niemczech</td>
+                <td>bundesbank.de</td>
+            </tr>
+            <tr>
+                <td>PFR (Polski Fundusz Rozwoju)</td>
+                <td>Dane o transakcjach FEZ</td>
+                <td>pfr.pl</td>
+            </tr>
+            <tr>
+                <td>KUKE</td>
+                <td>Gwarancje eksportowe</td>
+                <td>kuke.com.pl</td>
+            </tr>
+            <tr>
+                <td>GUS / Destatis</td>
+                <td>Statystyki handlu zagranicznego</td>
+                <td>stat.gov.pl / destatis.de</td>
+            </tr>
+            <tr>
+                <td>Komunikaty ESPI/EBI</td>
+                <td>Informacje o transakcjach spółek publicznych</td>
+                <td>gpw.pl</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="margin-top: 60px; padding-top: 20px; border-top: 2px solid var(--border); font-size: 9pt; color: var(--text-light); text-align: center;">
+        <p>
+            <strong>Raport przygotowany:</strong> Luty 2026<br>
+            <strong>Wersja:</strong> 5.0 Final<br>
+            © Departament Analiz Strategicznych
+        </p>
+    </div>
+
+</body>
+</html>
