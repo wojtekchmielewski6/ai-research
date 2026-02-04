@@ -1,0 +1,2440 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekspansja polskich przedsiębiorstw w Niemczech 2010-2025 | Raport analityczny</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+        :root {
+            --primary-dark: #1a2e4c;
+            --primary: #2c4a7c;
+            --primary-light: #4a6fa5;
+            --accent: #c8102e;
+            --accent-light: #e63950;
+            --gold: #b8860b;
+            --bg-light: #f5f7fa;
+            --bg-white: #ffffff;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a4a4a;
+            --text-light: #6a6a6a;
+            --border: #e0e4e8;
+            --success: #28a745;
+            --warning: #ffc107;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 11pt;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background: var(--bg-white);
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15mm 20mm;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4 {
+            font-family: 'Source Serif Pro', Georgia, serif;
+            color: var(--primary-dark);
+            font-weight: 700;
+        }
+
+        h1 {
+            font-size: 28pt;
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 16pt;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--accent);
+        }
+
+        h3 {
+            font-size: 13pt;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        h4 {
+            font-size: 11pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: var(--primary-light);
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        /* COVER PAGE */
+        .cover {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            page-break-after: always;
+            padding: 40px 20px;
+        }
+
+        .cover-logo {
+            font-size: 14pt;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 60px;
+        }
+
+        .cover h1 {
+            font-size: 32pt;
+            max-width: 600px;
+            margin-bottom: 20px;
+        }
+
+        .cover-subtitle {
+            font-size: 14pt;
+            color: var(--text-medium);
+            margin-bottom: 40px;
+        }
+
+        .cover-meta {
+            margin-top: 60px;
+            font-size: 10pt;
+            color: var(--text-light);
+        }
+
+        .cover-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 8px 20px;
+            font-size: 10pt;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        /* EXECUTIVE SUMMARY BOX */
+        .exec-summary {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: white;
+            padding: 30px 35px;
+            margin: 30px 0;
+            border-radius: 0;
+        }
+
+        .exec-summary h3 {
+            color: white;
+            font-size: 14pt;
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255,255,255,0.3);
+        }
+
+        .exec-summary p {
+            color: rgba(255,255,255,0.95);
+            margin-bottom: 12px;
+        }
+
+        .exec-summary ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .exec-summary li {
+            margin-bottom: 8px;
+            color: rgba(255,255,255,0.95);
+        }
+
+        /* KEY METRICS */
+        .key-metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .metric {
+            background: var(--bg-light);
+            border-top: 4px solid var(--accent);
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 24pt;
+            font-weight: 700;
+            color: var(--primary-dark);
+            line-height: 1.2;
+        }
+
+        .metric-label {
+            font-size: 9pt;
+            color: var(--text-medium);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 8px;
+        }
+
+        /* TABLES */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 10pt;
+        }
+
+        thead th {
+            background: var(--primary-dark);
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 9pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        tbody td {
+            padding: 10px 15px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+
+        tbody tr:nth-child(even) {
+            background: var(--bg-light);
+        }
+
+        tbody tr:hover {
+            background: #eef2f7;
+        }
+
+        .table-title {
+            font-weight: 600;
+            font-size: 10pt;
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+        }
+
+        .table-source {
+            font-size: 8pt;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 25px;
+        }
+
+        /* CHARTS */
+        .chart-container {
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            padding: 25px;
+            margin: 25px 0;
+        }
+
+        .chart-title {
+            font-family: 'Source Serif Pro', serif;
+            font-weight: 600;
+            font-size: 11pt;
+            color: var(--primary-dark);
+            margin-bottom: 5px;
+        }
+
+        .chart-subtitle {
+            font-size: 9pt;
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+
+        .chart-source {
+            font-size: 8pt;
+            color: var(--text-light);
+            font-style: italic;
+            margin-top: 15px;
+            text-align: right;
+        }
+
+        .mermaid {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* CASE STUDY */
+        .case-study {
+            border: 1px solid var(--border);
+            margin: 30px 0;
+            page-break-inside: avoid;
+        }
+
+        .case-study-header {
+            background: var(--primary-dark);
+            color: white;
+            padding: 15px 25px;
+        }
+
+        .case-study-header h4 {
+            color: white;
+            margin: 0;
+            font-size: 12pt;
+        }
+
+        .case-study-header .tag {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            font-size: 8pt;
+            padding: 3px 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 8px;
+        }
+
+        .case-study-body {
+            padding: 25px;
+        }
+
+        .case-study-meta {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .case-study-meta-item {
+            font-size: 10pt;
+        }
+
+        .case-study-meta-item .label {
+            font-size: 8pt;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .case-study-meta-item .value {
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-top: 3px;
+        }
+
+        /* HIGHLIGHT BOX */
+        .highlight-box {
+            background: #fff8e6;
+            border-left: 4px solid var(--gold);
+            padding: 20px 25px;
+            margin: 25px 0;
+        }
+
+        .highlight-box p {
+            margin: 0;
+        }
+
+        .highlight-box strong {
+            color: var(--primary-dark);
+        }
+
+        /* QUOTE */
+        .quote {
+            border-left: 4px solid var(--accent);
+            padding: 15px 25px;
+            margin: 25px 0;
+            font-style: italic;
+            color: var(--text-medium);
+            background: var(--bg-light);
+        }
+
+        .quote-author {
+            font-style: normal;
+            font-size: 9pt;
+            color: var(--text-light);
+            margin-top: 10px;
+        }
+
+        /* SECTION INTRO */
+        .section-intro {
+            font-size: 12pt;
+            color: var(--text-medium);
+            border-left: 4px solid var(--primary);
+            padding-left: 20px;
+            margin-bottom: 25px;
+        }
+
+        /* TOC */
+        .toc {
+            page-break-after: always;
+        }
+
+        .toc h2 {
+            border-bottom: none;
+            margin-bottom: 30px;
+        }
+
+        .toc-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px dotted var(--border);
+        }
+
+        .toc-item.level-1 {
+            font-weight: 600;
+        }
+
+        .toc-item.level-2 {
+            padding-left: 20px;
+            font-size: 10pt;
+        }
+
+        /* FOOTER */
+        .page-footer {
+            position: fixed;
+            bottom: 10mm;
+            left: 20mm;
+            right: 20mm;
+            font-size: 8pt;
+            color: var(--text-light);
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid var(--border);
+            padding-top: 10px;
+        }
+
+        /* PRINT STYLES */
+        @media print {
+            body {
+                padding: 0;
+            }
+
+            .cover {
+                min-height: 100vh;
+            }
+
+            h2 {
+                page-break-after: avoid;
+            }
+
+            .chart-container, .case-study, .exec-summary {
+                page-break-inside: avoid;
+            }
+
+            table {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* COMPARISON BAR */
+        .comparison-bar {
+            margin: 20px 0;
+        }
+
+        .comparison-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .comparison-label {
+            width: 120px;
+            font-size: 10pt;
+            font-weight: 600;
+        }
+
+        .comparison-bar-bg {
+            flex: 1;
+            height: 24px;
+            background: var(--bg-light);
+            position: relative;
+        }
+
+        .comparison-bar-fill {
+            height: 100%;
+            background: var(--primary);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+            color: white;
+            font-size: 9pt;
+            font-weight: 600;
+        }
+
+        .comparison-bar-fill.accent {
+            background: var(--accent);
+        }
+
+        /* NUMBERED LIST */
+        .numbered-insight {
+            counter-reset: insight;
+            margin: 25px 0;
+        }
+
+        .numbered-insight > div {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .numbered-insight > div::before {
+            counter-increment: insight;
+            content: counter(insight);
+            background: var(--accent);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 12pt;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .numbered-insight p {
+            margin: 0;
+        }
+
+        /* DATA CALLOUT */
+        .data-callout {
+            display: flex;
+            align-items: center;
+            background: var(--bg-light);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-left: 4px solid var(--primary);
+        }
+
+        .data-callout-value {
+            font-family: 'Source Serif Pro', serif;
+            font-size: 28pt;
+            font-weight: 700;
+            color: var(--accent);
+            margin-right: 20px;
+        }
+
+        .data-callout-text {
+            font-size: 11pt;
+        }
+
+        /* RECOMMENDATION */
+        .recommendation-box {
+            background: linear-gradient(135deg, #f0f7f0 0%, #e8f5e8 100%);
+            border: 1px solid #28a745;
+            padding: 20px 25px;
+            margin: 20px 0;
+        }
+
+        .recommendation-box h4 {
+            color: #155724;
+            margin-top: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                primaryColor: '#2c4a7c',
+                primaryTextColor: '#ffffff',
+                primaryBorderColor: '#1a2e4c',
+                lineColor: '#4a6fa5',
+                secondaryColor: '#f5f7fa',
+                tertiaryColor: '#e0e4e8',
+                fontFamily: 'Source Sans Pro, sans-serif'
+            }
+        });
+    </script>
+
+    <!-- ==================== STRONA TYTUŁOWA ==================== -->
+    <div class="cover">
+        <div class="cover-logo">Departament Analiz Strategicznych</div>
+        <div class="cover-badge">Raport specjalny</div>
+        <h1>Ekspansja polskich przedsiębiorstw w Niemczech</h1>
+        <div class="cover-subtitle">
+            Analiza bezpośrednich inwestycji zagranicznych, fuzji i przejęć<br>
+            oraz inwestycji kapitałowych w latach 2010–2025
+        </div>
+        <div class="cover-meta">
+            <p><strong>Data publikacji:</strong> Luty 2026</p>
+            <p><strong>Klasyfikacja:</strong> Do użytku wewnętrznego i publikacji</p>
+            <p><strong>Wersja:</strong> 3.0 Final</p>
+        </div>
+    </div>
+
+    <!-- ==================== SPIS TREŚCI ==================== -->
+    <div class="toc">
+        <h2>Spis treści</h2>
+
+        <div class="toc-item level-1"><span>1. Streszczenie dla Zarządu</span><span>3</span></div>
+        <div class="toc-item level-1"><span>2. Wprowadzenie i metodologia</span><span>5</span></div>
+        <div class="toc-item level-2"><span>2.1. Cel i zakres raportu</span><span>5</span></div>
+        <div class="toc-item level-2"><span>2.2. Źródła danych i metodologia</span><span>6</span></div>
+        <div class="toc-item level-1"><span>3. Kontekst makroekonomiczny</span><span>7</span></div>
+        <div class="toc-item level-2"><span>3.1. Relacje gospodarcze Polska–Niemcy</span><span>7</span></div>
+        <div class="toc-item level-2"><span>3.2. Asymetria inwestycyjna</span><span>9</span></div>
+        <div class="toc-item level-2"><span>3.3. Otoczenie regulacyjne</span><span>11</span></div>
+        <div class="toc-item level-1"><span>4. Bezpośrednie inwestycje zagraniczne (FDI)</span><span>13</span></div>
+        <div class="toc-item level-2"><span>4.1. Dynamika polskich FDI w Niemczech</span><span>13</span></div>
+        <div class="toc-item level-2"><span>4.2. Pozycja Polski na tle regionu CEE</span><span>16</span></div>
+        <div class="toc-item level-2"><span>4.3. Porównanie z głównymi inwestorami</span><span>18</span></div>
+        <div class="toc-item level-2"><span>4.4. Struktura sektorowa i geograficzna</span><span>20</span></div>
+        <div class="toc-item level-1"><span>5. Fuzje i przejęcia (M&A)</span><span>23</span></div>
+        <div class="toc-item level-2"><span>5.1. Przegląd aktywności M&A 2015–2025</span><span>23</span></div>
+        <div class="toc-item level-2"><span>5.2. Analiza transakcji 2025 roku</span><span>25</span></div>
+        <div class="toc-item level-2"><span>5.3. Studia przypadków</span><span>28</span></div>
+        <div class="toc-item level-1"><span>6. Inwestycje kapitałowe i finansowanie</span><span>38</span></div>
+        <div class="toc-item level-1"><span>7. Analiza sektorowa</span><span>41</span></div>
+        <div class="toc-item level-1"><span>8. Bariery i czynniki sukcesu</span><span>45</span></div>
+        <div class="toc-item level-1"><span>9. Perspektywy 2025–2030</span><span>48</span></div>
+        <div class="toc-item level-1"><span>10. Rekomendacje</span><span>51</span></div>
+        <div class="toc-item level-1"><span>Załączniki</span><span>54</span></div>
+    </div>
+
+    <!-- ==================== 1. STRESZCZENIE DLA ZARZĄDU ==================== -->
+    <h2>1. Streszczenie dla Zarządu</h2>
+
+    <p class="section-intro">
+        Rok 2025 stanowi punkt zwrotny w historii polskiej ekspansji inwestycyjnej na rynek niemiecki.
+        Po dekadzie stopniowego budowania pozycji, polskie przedsiębiorstwa przeprowadziły bezprecedensową
+        serię przejęć, sygnalizując dojrzałość polskiego kapitału i gotowość do konkurowania na największym
+        rynku Unii Europejskiej.
+    </p>
+
+    <div class="exec-summary">
+        <h3>Kluczowe ustalenia raportu</h3>
+        <ul>
+            <li><strong>Historyczny rekord aktywności M&A:</strong> W 2025 roku polskie firmy sfinalizowały 6 znaczących przejęć w Niemczech – więcej niż w jakimkolwiek poprzednim roku. Łączna ujawniona wartość transakcji przekroczyła 30 mln EUR, a rzeczywista wartość z uwzględnieniem nieujawnionych kwot szacowana jest na 80–120 mln EUR.</li>
+            <li><strong>Zmiana profilu sektorowego:</strong> Dominującymi sektorami ekspansji stały się odnawialne źródła energii (OZE) oraz gospodarka obiegu zamkniętego – obszary kluczowe dla niemieckiej transformacji energetycznej (Energiewende).</li>
+            <li><strong>Nowy model finansowania:</strong> Wzrosła rola instytucji publicznych (PFR, Fundusz Ekspansji Zagranicznej) oraz funduszy private debt (CVI) w finansowaniu ekspansji zagranicznej.</li>
+            <li><strong>Wykorzystanie okna okazji:</strong> Dwie z sześciu transakcji miały charakter ratunkowy (distressed M&A), co wskazuje na zdolność polskich firm do wykorzystywania trudności niemieckich podmiotów.</li>
+        </ul>
+    </div>
+
+    <div class="key-metrics">
+        <div class="metric">
+            <div class="metric-value">2,5</div>
+            <div class="metric-label">mld EUR skumulowanych FDI<br>(stan na 2025)</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">6</div>
+            <div class="metric-label">transakcji M&A<br>w 2025 roku</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">+213%</div>
+            <div class="metric-label">wzrost FDI<br>vs. 2010</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">4.</div>
+            <div class="metric-label">pozycja Niemiec<br>wśród kierunków OFDI</div>
+        </div>
+    </div>
+
+    <p>
+        Przeprowadzona analiza wskazuje, że obserwowana intensyfikacja aktywności inwestycyjnej nie jest zjawiskiem
+        jednorazowym, lecz stanowi początek nowej fazy w relacjach gospodarczych między Polską a Niemcami. Po trzech
+        dekadach jednokierunkowego przepływu kapitału (z Niemiec do Polski), pojawia się coraz silniejszy strumień
+        odwrotny – choć wciąż nieproporcjonalnie mniejszy.
+    </p>
+
+    <div class="data-callout">
+        <div class="data-callout-value">20:1</div>
+        <div class="data-callout-text">
+            <strong>Asymetria inwestycyjna pozostaje znacząca.</strong> Na każde euro zainwestowane przez
+            polskie firmy w Niemczech przypada około 20 euro niemieckich inwestycji w Polsce. Zmniejszenie
+            tej dysproporcji stanowi jedno z kluczowych wyzwań dla polskiej polityki gospodarczej.
+        </div>
+    </div>
+
+    <p>
+        Prognozujemy, że przy utrzymaniu obecnych trendów stan polskich bezpośrednich inwestycji zagranicznych
+        w Niemczech osiągnie poziom 4,5 mld EUR do końca 2030 roku (scenariusz bazowy), co oznaczałoby niemal
+        dwukrotny wzrost w ciągu pięciu lat. Realizacja scenariusza optymistycznego (5,5 mld EUR) wymagałaby
+        kontynuacji aktywnej polityki wsparcia ekspansji oraz utrzymania korzystnych warunków do przejęć
+        typu distressed.
+    </p>
+
+    <h3>Rekomendacje strategiczne</h3>
+
+    <div class="numbered-insight">
+        <div>
+            <p><strong>Dla przedsiębiorstw:</strong> Wykorzystanie obecnego okna okazji związanego z restrukturyzacją niemieckiego przemysłu. Szczególnie atrakcyjne pozostają sektory: serwis OZE, recykling, komponenty dla elektromobilności oraz IT/cyberbezpieczeństwo.</p>
+        </div>
+        <div>
+            <p><strong>Dla instytucji finansowych:</strong> Rozwój dedykowanych produktów finansowania ekspansji zagranicznej, w tym instrumentów typu mezzanine i acquisition finance dla transakcji w przedziale 10–100 mln EUR.</p>
+        </div>
+        <div>
+            <p><strong>Dla instytucji publicznych:</strong> Zwiększenie limitów Funduszu Ekspansji Zagranicznej oraz uruchomienie programu wsparcia due diligence i integracji post-merger dla średnich przedsiębiorstw.</p>
+        </div>
+    </div>
+
+    <!-- ==================== 2. WPROWADZENIE ==================== -->
+    <h2>2. Wprowadzenie i metodologia</h2>
+
+    <h3>2.1. Cel i zakres raportu</h3>
+
+    <p>
+        Niniejszy raport stanowi kompleksową analizę ekspansji polskich przedsiębiorstw na rynek niemiecki
+        w latach 2010–2025. Opracowanie powstało w odpowiedzi na rosnące zainteresowanie zjawiskiem
+        „odwrócenia wektora inwestycyjnego" w relacjach polsko-niemieckich – procesem, w którym Polska
+        stopniowo przekształca się z biernego odbiorcy kapitału zagranicznego w aktywnego inwestora
+        na rynkach rozwiniętych.
+    </p>
+
+    <p>
+        Zakres przedmiotowy raportu obejmuje trzy główne formy ekspansji kapitałowej:
+    </p>
+
+    <ul>
+        <li><strong>Bezpośrednie inwestycje zagraniczne (FDI)</strong> – rozumiane zgodnie z definicją MFW jako inwestycje, w których inwestor posiada co najmniej 10% udziałów w przedsiębiorstwie zagranicznym, zapewniających trwały wpływ na zarządzanie.</li>
+        <li><strong>Fuzje i przejęcia (M&A)</strong> – transakcje polegające na nabyciu kontroli nad istniejącym przedsiębiorstwem niemieckim przez podmiot polski, w tym przejęcia pełne, większościowe i znaczące pakiety mniejszościowe.</li>
+        <li><strong>Inwestycje kapitałowe (equity investments)</strong> – zaangażowanie kapitałowe niekoniecznie zapewniające kontrolę, w tym inwestycje funduszy PE/VC, udziały strategiczne oraz inwestycje portfelowe.</li>
+    </ul>
+
+    <p>
+        Zakres geograficzny ograniczono do inwestycji polskich podmiotów (z siedzibą w Polsce lub
+        kontrolowanych przez polski kapitał) na terytorium Republiki Federalnej Niemiec. Zakres
+        czasowy obejmuje lata 2010–2025, ze szczególnym uwzględnieniem najnowszych transakcji
+        z roku 2025.
+    </p>
+
+    <h3>2.2. Źródła danych i metodologia</h3>
+
+    <p>
+        Raport opiera się na triangulacji danych z wielu źródeł, co pozwala na weryfikację krzyżową
+        i zwiększenie wiarygodności wniosków. Wykorzystano następujące kategorie źródeł:
+    </p>
+
+    <p class="table-title">Tabela 1. Źródła danych wykorzystane w raporcie</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Kategoria</th>
+                <th>Źródło</th>
+                <th>Zakres danych</th>
+                <th>Częstotliwość</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dane makroekonomiczne</td>
+                <td>Narodowy Bank Polski (NBP)</td>
+                <td>Polskie FDI za granicą – przepływy i stany</td>
+                <td>Roczna</td>
+            </tr>
+            <tr>
+                <td>Dane makroekonomiczne</td>
+                <td>Deutsche Bundesbank</td>
+                <td>FDI w Niemczech według kraju pochodzenia</td>
+                <td>Roczna</td>
+            </tr>
+            <tr>
+                <td>Dane makroekonomiczne</td>
+                <td>UNCTAD</td>
+                <td>Globalne statystyki FDI, rankingi</td>
+                <td>Roczna</td>
+            </tr>
+            <tr>
+                <td>Dane makroekonomiczne</td>
+                <td>Eurostat</td>
+                <td>Handel zagraniczny, FDI w UE</td>
+                <td>Kwartalna/Roczna</td>
+            </tr>
+            <tr>
+                <td>Dane transakcyjne</td>
+                <td>Mergermarket, PitchBook</td>
+                <td>Transakcje M&A – wartości, strony, doradcy</td>
+                <td>Bieżąca</td>
+            </tr>
+            <tr>
+                <td>Dane transakcyjne</td>
+                <td>FORDATA M&A Index</td>
+                <td>Transakcje M&A z udziałem polskich podmiotów</td>
+                <td>Kwartalna</td>
+            </tr>
+            <tr>
+                <td>Dane korporacyjne</td>
+                <td>Raporty roczne spółek</td>
+                <td>Informacje o działalności zagranicznej</td>
+                <td>Roczna</td>
+            </tr>
+            <tr>
+                <td>Dane korporacyjne</td>
+                <td>Komunikaty giełdowe (ESPI/EBI)</td>
+                <td>Informacje o transakcjach spółek publicznych</td>
+                <td>Bieżąca</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Opracowanie własne</p>
+
+    <p>
+        Metodologia analizy łączy podejście ilościowe (analiza szeregów czasowych, porównania
+        międzynarodowe, struktury sektorowe) z jakościowym (studia przypadków, analiza strategii
+        ekspansji, ocena barier i czynników sukcesu). W przypadku danych o wartościach transakcji
+        M&A należy uwzględnić, że znaczna część transakcji (ok. 60–70%) nie podlega obowiązkowi
+        ujawnienia wartości, co wymusza stosowanie szacunków i ekstrapolacji.
+    </p>
+
+    <div class="highlight-box">
+        <p>
+            <strong>Nota metodologiczna:</strong> Dane NBP o polskich inwestycjach za granicą publikowane są
+            z opóźnieniem około 12 miesięcy. Dane za rok 2024 mają charakter wstępny, a za rok 2025 –
+            szacunkowy, oparty na analizie ogłoszonych transakcji i trendów historycznych. Ostateczne
+            wartości mogą różnić się od prezentowanych w raporcie.
+        </p>
+    </div>
+
+    <!-- ==================== 3. KONTEKST MAKROEKONOMICZNY ==================== -->
+    <h2>3. Kontekst makroekonomiczny</h2>
+
+    <h3>3.1. Relacje gospodarcze Polska–Niemcy</h3>
+
+    <p class="section-intro">
+        Niemcy są najważniejszym partnerem gospodarczym Polski – fakt ten pozostaje niezmienny od transformacji
+        ustrojowej. Zrozumienie skali i charakteru powiązań handlowych stanowi niezbędny kontekst dla analizy
+        przepływów inwestycyjnych między oboma krajami.
+    </p>
+
+    <p>
+        Wymiana handlowa między Polską a Niemcami osiągnęła w 2024 roku rekordowy poziom 187 mld EUR
+        (eksport + import), co czyni Polskę piątym największym partnerem handlowym Niemiec na świecie
+        i największym w Europie Środkowo-Wschodniej. Dla Polski znaczenie Niemiec jest jeszcze większe –
+        odpowiadają one za 28% polskiego eksportu i 21% importu.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 1. Wymiana handlowa Polska–Niemcy w latach 2015–2024</div>
+        <div class="chart-subtitle">Wartości w mld EUR; słupki: eksport PL→DE, linia: import DE→PL</div>
+        <div class="mermaid">
+xychart-beta
+    title ""
+    x-axis ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"]
+    y-axis "mld EUR" 0 --> 120
+    bar [52, 55, 60, 66, 68, 65, 78, 92, 98, 102]
+    line [45, 47, 50, 54, 55, 52, 63, 75, 80, 85]
+        </div>
+        <div class="chart-source">Źródło: GUS, Destatis, obliczenia własne</div>
+    </div>
+
+    <p>
+        Na przestrzeni analizowanej dekady polski eksport do Niemiec niemal się podwoił – z 52 mld EUR
+        w 2015 roku do 102 mld EUR w 2024 roku, co oznacza średnioroczne tempo wzrostu (CAGR) na poziomie
+        7,8%. Dynamika ta znacząco przewyższa wzrost niemieckiego PKB w tym samym okresie (CAGR ok. 1,5%),
+        co świadczy o rosnącej konkurencyjności polskich przedsiębiorstw i pogłębiającej się integracji
+        w ramach niemieckich łańcuchów wartości.
+    </p>
+
+    <p class="table-title">Tabela 2. Kluczowe wskaźniki wymiany handlowej Polska–Niemcy</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Wskaźnik</th>
+                <th>2015</th>
+                <th>2020</th>
+                <th>2024</th>
+                <th>Zmiana 2015–2024</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eksport PL→DE (mld EUR)</td>
+                <td>52,0</td>
+                <td>65,0</td>
+                <td>102,0</td>
+                <td style="color: #28a745; font-weight: 600;">+96,2%</td>
+            </tr>
+            <tr>
+                <td>Import DE→PL (mld EUR)</td>
+                <td>45,0</td>
+                <td>52,0</td>
+                <td>85,0</td>
+                <td style="color: #28a745; font-weight: 600;">+88,9%</td>
+            </tr>
+            <tr>
+                <td>Saldo handlowe (mld EUR)</td>
+                <td>+7,0</td>
+                <td>+13,0</td>
+                <td>+17,0</td>
+                <td style="color: #28a745; font-weight: 600;">+142,9%</td>
+            </tr>
+            <tr>
+                <td>Udział DE w eksporcie PL</td>
+                <td>27,1%</td>
+                <td>28,0%</td>
+                <td>28,2%</td>
+                <td>+1,1 p.p.</td>
+            </tr>
+            <tr>
+                <td>Pozycja PL wśród partnerów DE</td>
+                <td>8.</td>
+                <td>6.</td>
+                <td>5.</td>
+                <td>+3 pozycje</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: GUS, Eurostat, obliczenia własne</p>
+
+    <p>
+        Szczególnie istotny jest utrzymujący się i rosnący nadwyżka w handlu z Niemcami. W 2024 roku
+        Polska odnotowała dodatnie saldo w wysokości 17 mld EUR – jest to największa nadwyżka w historii
+        wzajemnych relacji handlowych. Oznacza to, że Polska nie tylko skutecznie konkuruje na wymagającym
+        rynku niemieckim, ale generuje znaczące wpływy dewizowe, które mogą stanowić źródło finansowania
+        ekspansji inwestycyjnej.
+    </p>
+
+    <h3>3.2. Asymetria inwestycyjna</h3>
+
+    <p>
+        O ile w sferze handlowej relacje polsko-niemieckie charakteryzują się względną równowagą
+        (z rosnącą przewagą Polski), o tyle w obszarze inwestycji bezpośrednich utrzymuje się głęboka
+        asymetria. Niemcy pozostają jednym z największych inwestorów zagranicznych w Polsce, podczas
+        gdy polskie inwestycje w Niemczech stanowią marginalny ułamek napływającego tam kapitału.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 2. Asymetria FDI w relacjach Polska–Niemcy (stan skumulowany, 2024)</div>
+        <div class="chart-subtitle">Wartości w mld EUR</div>
+
+        <div class="comparison-bar">
+            <div class="comparison-item">
+                <div class="comparison-label">Niemcy → Polska</div>
+                <div class="comparison-bar-bg">
+                    <div class="comparison-bar-fill" style="width: 100%;">~45 mld EUR</div>
+                </div>
+            </div>
+            <div class="comparison-item">
+                <div class="comparison-label">Polska → Niemcy</div>
+                <div class="comparison-bar-bg">
+                    <div class="comparison-bar-fill accent" style="width: 5.1%;">~2,3 mld EUR</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-source">Źródło: NBP, Deutsche Bundesbank, obliczenia własne</div>
+    </div>
+
+    <p>
+        Skumulowana wartość niemieckich inwestycji bezpośrednich w Polsce przekracza 45 mld EUR,
+        co plasuje Niemcy w ścisłej czołówce zagranicznych inwestorów (obok Holandii, Luksemburga
+        i Francji). Tymczasem polskie FDI w Niemczech osiągają zaledwie około 2,3 mld EUR –
+        dwudziestokrotnie mniej.
+    </p>
+
+    <div class="highlight-box">
+        <p>
+            <strong>Kontekst historyczny:</strong> Asymetria inwestycyjna jest naturalną konsekwencją
+            różnic w poziomie rozwoju gospodarczego i akumulacji kapitału. W 1990 roku polski PKB per capita
+            stanowił około 25% niemieckiego; obecnie proporcja ta wzrosła do ponad 60% (wg parytetu siły nabywczej).
+            W miarę bogacenia się polskiej gospodarki i dojrzewania rodzimych przedsiębiorstw, asymetria ta
+            powinna się stopniowo zmniejszać.
+        </p>
+    </div>
+
+    <p>
+        Stosunek 20:1 na korzyść Niemiec oznacza, że zmniejszenie asymetrii inwestycyjnej wymaga
+        wieloletnich, systematycznych działań. Nawet utrzymanie obecnego tempa wzrostu polskich
+        FDI w Niemczech (ok. 8–10% rocznie) przy założeniu stagnacji niemieckich inwestycji w Polsce
+        wymagałoby ponad 30 lat do osiągnięcia parytetu. Realistycznym celem średniookresowym
+        (do 2030 roku) jest raczej zmniejszenie proporcji do poziomu 10:1.
+    </p>
+
+    <h3>3.3. Otoczenie regulacyjne</h3>
+
+    <p>
+        Polska ekspansja inwestycyjna w Niemczech odbywa się w ramach jednolitego rynku UE, co zasadniczo
+        eliminuje formalne bariery dla przepływu kapitału. Niemniej jednak, w ostatnich latach Niemcy –
+        podobnie jak większość państw rozwiniętych – zaostrzyły kontrolę nad przejęciami zagranicznymi,
+        szczególnie w sektorach uznanych za strategiczne.
+    </p>
+
+    <p>
+        Kluczowym aktem prawnym regulującym kontrolę inwestycji zagranicznych w Niemczech jest
+        <em>Außenwirtschaftsverordnung</em> (AWV) – rozporządzenie o handlu zagranicznym. Nowelizacje
+        z lat 2020–2024 znacząco rozszerzyły zakres sektorów podlegających kontroli oraz obniżyły
+        progi notyfikacji.
+    </p>
+
+    <p class="table-title">Tabela 3. Niemieckie regulacje kontroli FDI – kluczowe parametry</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Aspekt</th>
+                <th>Regulacja</th>
+                <th>Implikacje dla polskich inwestorów</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Podstawa prawna</td>
+                <td>AWV (Außenwirtschaftsverordnung)</td>
+                <td>Wymóg znajomości procedur</td>
+            </tr>
+            <tr>
+                <td>Organ kontrolny</td>
+                <td>BMWi (Ministerstwo Gospodarki)</td>
+                <td>Możliwość konsultacji ex ante</td>
+            </tr>
+            <tr>
+                <td>Sektory wrażliwe</td>
+                <td>Obronność, IT/telekomunikacja, infrastruktura krytyczna, media, zdrowie</td>
+                <td>Wydłużony proces due diligence</td>
+            </tr>
+            <tr>
+                <td>Próg notyfikacji (sektory krytyczne)</td>
+                <td>10% udziałów</td>
+                <td>Obowiązek zgłoszenia</td>
+            </tr>
+            <tr>
+                <td>Próg notyfikacji (pozostałe)</td>
+                <td>25% udziałów</td>
+                <td>Obowiązek zgłoszenia</td>
+            </tr>
+            <tr>
+                <td>Czas procedury</td>
+                <td>Do 4 miesięcy (z możliwością przedłużenia)</td>
+                <td>Uwzględnienie w harmonogramie transakcji</td>
+            </tr>
+            <tr>
+                <td>Traktowanie inwestorów z UE</td>
+                <td>Uprzywilejowane (brak kontroli w większości przypadków)</td>
+                <td>Istotna przewaga nad inwestorami spoza UE</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: White & Case, Foreign Direct Investment Reviews 2025; BMWi</p>
+
+    <p>
+        Dla polskich inwestorów kluczowe znaczenie ma status członka UE, który zapewnia uprzywilejowane
+        traktowanie w większości procedur kontrolnych. W praktyce oznacza to, że polskie przejęcia
+        w Niemczech – o ile nie dotyczą sektorów wrażliwych – podlegają jedynie uproszczonej procedurze
+        notyfikacyjnej lub są z niej całkowicie zwolnione.
+    </p>
+
+    <p>
+        Analiza transakcji z 2025 roku wskazuje, że żadna z polskich akwizycji nie spotkała się
+        z interwencją ze strony niemieckich organów kontroli FDI. Nawet przejęcie BWTS przez ZPUE
+        (sektor OZE – potencjalnie wrażliwy z punktu widzenia bezpieczeństwa energetycznego)
+        przebiegło bez komplikacji regulacyjnych, co potwierdza korzystną pozycję polskich
+        inwestorów na rynku niemieckim.
+    </p>
+
+    <!-- ==================== 4. BEZPOŚREDNIE INWESTYCJE ZAGRANICZNE ==================== -->
+    <h2>4. Bezpośrednie inwestycje zagraniczne (FDI)</h2>
+
+    <h3>4.1. Dynamika polskich FDI w Niemczech</h3>
+
+    <p class="section-intro">
+        Polskie bezpośrednie inwestycje zagraniczne w Niemczech wykazują stabilny trend wzrostowy
+        na przestrzeni ostatniej dekady, choć ich absolutna wartość pozostaje relatywnie niska
+        w porównaniu z innymi kierunkami polskiej ekspansji oraz z napływem kapitału niemieckiego
+        do Polski.
+    </p>
+
+    <p>
+        Według danych Narodowego Banku Polskiego, skumulowana wartość polskich FDI w Niemczech
+        wzrosła z około 0,8 mld EUR w 2010 roku do szacowanych 2,3 mld EUR na koniec 2024 roku.
+        Oznacza to niemal trzykrotny wzrost w ciągu 14 lat, przy średniorocznym tempie wzrostu
+        (CAGR) wynoszącym 7,9%.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 3. Ewolucja polskich FDI w Niemczech (2010–2024)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR</div>
+        <div class="mermaid">
+xychart-beta
+    title ""
+    x-axis ["2010", "2012", "2014", "2016", "2018", "2020", "2022", "2024"]
+    y-axis "mld EUR" 0 --> 3
+    line [0.8, 0.95, 1.1, 1.3, 1.5, 1.7, 2.0, 2.3]
+        </div>
+        <div class="chart-source">Źródło: NBP – Polskie inwestycje bezpośrednie za granicą, obliczenia własne</div>
+    </div>
+
+    <p>
+        Dynamika wzrostu polskich FDI w Niemczech nie była jednak równomierna. Można wyróżnić
+        trzy fazy rozwoju:
+    </p>
+
+    <ul>
+        <li><strong>Faza inicjalna (2010–2015):</strong> Powolny wzrost z poziomu 0,8 do 1,2 mld EUR. Dominowały niewielkie inwestycje w sektorze handlowym i usługowym, często związane z obsługą eksportu.</li>
+        <li><strong>Faza konsolidacji (2016–2020):</strong> Przyspieszenie wzrostu do poziomu 1,7 mld EUR. Pojawiły się pierwsze znaczące przejęcia (joint venture Asseco) i inwestycje greenfield (ekspansja LPP).</li>
+        <li><strong>Faza ekspansji (2021–2025):</strong> Dynamiczny wzrost do poziomu 2,3–2,5 mld EUR, napędzany serią przejęć M&A. Zmiana charakteru – od inwestycji wspierających eksport do strategicznych akwizycji.</li>
+    </ul>
+
+    <p class="table-title">Tabela 4. Polskie FDI w Niemczech – przepływy roczne i stany skumulowane</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Rok</th>
+                <th>Stan skumulowany (mld EUR)</th>
+                <th>Przepływ roczny (mln EUR)</th>
+                <th>Dynamika r/r</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>2018</td><td>1,50</td><td>+180</td><td style="color: #28a745;">+14%</td></tr>
+            <tr><td>2019</td><td>1,60</td><td>+100</td><td style="color: #28a745;">+7%</td></tr>
+            <tr><td>2020</td><td>1,70</td><td>+80</td><td style="color: #28a745;">+5%</td></tr>
+            <tr><td>2021</td><td>1,80</td><td>+120</td><td style="color: #28a745;">+7%</td></tr>
+            <tr><td>2022</td><td>2,00</td><td>+180</td><td style="color: #28a745;">+10%</td></tr>
+            <tr><td>2023</td><td>2,15</td><td>+200</td><td style="color: #28a745;">+10%</td></tr>
+            <tr><td>2024*</td><td>2,30</td><td>+150</td><td style="color: #28a745;">+7%</td></tr>
+            <tr><td>2025**</td><td>2,50</td><td>+200</td><td style="color: #28a745;">+9%</td></tr>
+        </tbody>
+    </table>
+    <p class="table-source">* dane wstępne, ** szacunek własny. Źródło: NBP, obliczenia własne</p>
+
+    <p>
+        Rok 2020 – pomimo pandemii COVID-19 – nie przyniósł załamania polskich inwestycji w Niemczech,
+        choć dynamika wzrostu wyhamowała do 5%. Świadczy to o relatywnej odporności polskich inwestorów
+        i ich długoterminowym podejściu do obecności na rynku niemieckim. Lata 2022–2023 przyniosły
+        wyraźne przyspieszenie (przepływy na poziomie 180–200 mln EUR rocznie), co było rezultatem
+        zarówno poprawy koniunktury, jak i rosnącej aktywności M&A.
+    </p>
+
+    <h3>4.2. Pozycja Polski na tle regionu CEE</h3>
+
+    <p>
+        Polska jest zdecydowanym liderem wśród krajów Europy Środkowo-Wschodniej pod względem wartości
+        inwestycji bezpośrednich w Niemczech. Wyprzedza Czechy (drugi największy inwestor z regionu)
+        ponad półtorakrotnie, a pozostałe kraje – wielokrotnie.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 4. Inwestycje krajów CEE w Niemczech (2024)</div>
+        <div class="chart-subtitle">Skumulowane FDI w mld EUR</div>
+        <div class="mermaid">
+xychart-beta
+    title ""
+    x-axis ["Polska", "Czechy", "Węgry", "Słowacja", "Rumunia", "Bułgaria"]
+    y-axis "mld EUR" 0 --> 2.5
+    bar [2.3, 1.5, 0.8, 0.3, 0.2, 0.1]
+        </div>
+        <div class="chart-source">Źródło: Deutsche Bundesbank, banki centralne krajów CEE, szacunki własne</div>
+    </div>
+
+    <p>
+        Dominacja Polski wynika z kilku czynników strukturalnych:
+    </p>
+
+    <ul>
+        <li><strong>Wielkość gospodarki:</strong> Polska jest największą gospodarką CEE (PKB ok. 750 mld EUR), co przekłada się na większą bazę potencjalnych inwestorów.</li>
+        <li><strong>Geograficzna bliskość:</strong> Wspólna granica o długości 467 km ułatwia operacyjne zarządzanie inwestycjami i obniża koszty logistyczne.</li>
+        <li><strong>Powiązania handlowe:</strong> Intensywna wymiana handlowa (187 mld EUR w 2024) tworzy naturalne okazje do inwestycji wspierających działalność eksportową.</li>
+        <li><strong>Dojrzałość sektora przedsiębiorstw:</strong> Polska ma największą liczbę dużych i średnich firm w regionie, z których część osiągnęła skalę umożliwiającą ekspansję zagraniczną.</li>
+    </ul>
+
+    <p class="table-title">Tabela 5. Polska na tle CEE – porównanie potencjału inwestycyjnego</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Kraj</th>
+                <th>FDI w DE (mld EUR)</th>
+                <th>Udział w CEE</th>
+                <th>PKB 2024 (mld EUR)</th>
+                <th>FDI/PKB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background: #e8f5e9;"><td><strong>Polska</strong></td><td><strong>2,30</strong></td><td><strong>44%</strong></td><td><strong>750</strong></td><td><strong>0,31%</strong></td></tr>
+            <tr><td>Czechy</td><td>1,50</td><td>29%</td><td>330</td><td>0,45%</td></tr>
+            <tr><td>Węgry</td><td>0,80</td><td>15%</td><td>200</td><td>0,40%</td></tr>
+            <tr><td>Słowacja</td><td>0,30</td><td>6%</td><td>130</td><td>0,23%</td></tr>
+            <tr><td>Rumunia</td><td>0,20</td><td>4%</td><td>350</td><td>0,06%</td></tr>
+            <tr><td>Bułgaria</td><td>0,10</td><td>2%</td><td>100</td><td>0,10%</td></tr>
+            <tr><td><strong>CEE łącznie</strong></td><td><strong>5,20</strong></td><td><strong>100%</strong></td><td><strong>1 860</strong></td><td><strong>0,28%</strong></td></tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Bundesbank, Eurostat, obliczenia własne</p>
+
+    <p>
+        Interesującym wskaźnikiem jest stosunek FDI do PKB kraju pochodzenia. Pod tym względem
+        Polska (0,31%) ustępuje Czechom (0,45%) i Węgrom (0,40%), co sugeruje, że potencjał
+        dalszej ekspansji pozostaje niewykorzystany. Gdyby Polska osiągnęła intensywność
+        inwestycji na poziomie Czech, jej FDI w Niemczech wyniosłyby około 3,4 mld EUR –
+        prawie 50% więcej niż obecnie.
+    </p>
+
+    <h3>4.3. Porównanie z głównymi inwestorami w Niemczech</h3>
+
+    <p>
+        Umieszczenie polskich inwestycji w szerszym kontekście globalnym pozwala na realistyczną
+        ocenę ich znaczenia. Niemcy są jednym z największych odbiorców FDI na świecie,
+        przyciągając kapitał z wszystkich głównych centrów finansowych.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 5. Największe źródła FDI w Niemczech (2023)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR</div>
+        <div class="mermaid">
+xychart-beta
+    title ""
+    x-axis ["Holandia", "Luksemburg", "USA", "Wlk. Bryt.", "Szwajcaria", "Francja", "Austria", "Włochy", "Belgia", "Polska"]
+    y-axis "mld EUR" 0 --> 200
+    bar [185, 165, 145, 125, 85, 75, 65, 45, 35, 2.3]
+        </div>
+        <div class="chart-source">Źródło: Deutsche Bundesbank – Bestandserhebung über Direktinvestitionen 2023</div>
+    </div>
+
+    <p>
+        Polska z 2,3 mld EUR zajmuje odległą pozycję (około 25. miejsca) wśród źródeł FDI
+        w Niemczech, odpowiadając za zaledwie 0,23% całkowitego stanu inwestycji zagranicznych.
+        Czołowe pozycje zajmują tradycyjne centra finansowe i korporacyjne – Holandia (185 mld EUR),
+        Luksemburg (165 mld EUR) i USA (145 mld EUR).
+    </p>
+
+    <div class="data-callout">
+        <div class="data-callout-value">0,23%</div>
+        <div class="data-callout-text">
+            <strong>Udział Polski w zagranicznych inwestycjach w Niemczech.</strong>
+            Mimo dynamicznego wzrostu, polskie FDI stanowią marginalny ułamek kapitału
+            zagranicznego w niemieckiej gospodarce. Osiągnięcie udziału 1% wymagałoby
+            inwestycji rzędu 10 mld EUR.
+        </div>
+    </div>
+
+    <p>
+        Należy jednak podkreślić, że proste porównanie z Holandią czy Luksemburgiem jest
+        mylące – kraje te pełnią funkcję hubów holdingowych, przez które przepływa kapitał
+        z całego świata. Bardziej adekwatne jest porównanie z innymi gospodarkami realnej
+        produkcji i usług, takimi jak Włochy (45 mld EUR) czy Belgia (35 mld EUR). W tej
+        perspektywie dystans do nadrobienia jest mniejszy, choć wciąż znaczący.
+    </p>
+
+    <h3>4.4. Struktura geograficzna polskich OFDI</h3>
+
+    <p>
+        Niemcy są czwartym najważniejszym kierunkiem polskich inwestycji zagranicznych
+        (po uwzględnieniu Luksemburga i Cypru jako centrów holdingowych). Wyprzedzają je jedynie
+        Czechy – naturalny kierunek ekspansji ze względu na bliskość geograficzną i kulturową.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 6. Struktura geograficzna polskich inwestycji za granicą (2023)</div>
+        <div class="chart-subtitle">Udział poszczególnych krajów w polskich OFDI</div>
+        <div class="mermaid">
+pie showData
+    title ""
+    "Luksemburg" : 15.1
+    "Czechy" : 11.7
+    "Rumunia" : 6.3
+    "Niemcy" : 6.1
+    "Wielka Brytania" : 5.8
+    "Holandia" : 5.2
+    "Cypr" : 4.8
+    "Pozostałe" : 45.0
+        </div>
+        <div class="chart-source">Źródło: NBP – Polskie inwestycje bezpośrednie za granicą w 2023 r.</div>
+    </div>
+
+    <p class="table-title">Tabela 6. Główne kierunki polskich inwestycji za granicą (2023)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Pozycja</th>
+                <th>Kraj</th>
+                <th>Wartość (mld PLN)</th>
+                <th>Udział</th>
+                <th>Dominujące sektory</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>Luksemburg</td><td>23,6</td><td>15,1%</td><td>Holdingi finansowe</td></tr>
+            <tr><td>2</td><td>Czechy</td><td>18,3</td><td>11,7%</td><td>Handel, produkcja, retail</td></tr>
+            <tr><td>3</td><td>Rumunia</td><td>9,8</td><td>6,3%</td><td>Retail, usługi, IT</td></tr>
+            <tr style="background: #e8f5e9;"><td><strong>4</strong></td><td><strong>Niemcy</strong></td><td><strong>9,5</strong></td><td><strong>6,1%</strong></td><td><strong>IT, handel, OZE, logistyka</strong></td></tr>
+            <tr><td>5</td><td>Wielka Brytania</td><td>9,1</td><td>5,8%</td><td>Finanse, IT, nieruchomości</td></tr>
+            <tr><td>6</td><td>Holandia</td><td>8,1</td><td>5,2%</td><td>Holdingi</td></tr>
+            <tr><td>7</td><td>Cypr</td><td>7,5</td><td>4,8%</td><td>Holdingi</td></tr>
+            <tr><td>8</td><td>Litwa</td><td>6,2</td><td>4,0%</td><td>Retail, paliwa</td></tr>
+            <tr><td>9</td><td>Ukraina</td><td>5,8</td><td>3,7%</td><td>Produkcja, rolnictwo</td></tr>
+            <tr><td>10</td><td>USA</td><td>5,2</td><td>3,3%</td><td>IT, gaming</td></tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: NBP – Raport o polskich inwestycjach bezpośrednich za granicą 2023</p>
+
+    <p>
+        Struktura sektorowa polskich FDI w Niemczech różni się od innych kierunków ekspansji.
+        O ile w Czechach czy Rumunii dominuje handel detaliczny (sieci LPP, Żabka, Dino),
+        o tyle w Niemczech większe znaczenie mają IT, usługi dla przemysłu oraz – od 2025 roku –
+        sektor OZE i gospodarka cyrkularna.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 7. Struktura sektorowa polskich FDI w Niemczech (2024)</div>
+        <div class="chart-subtitle">Szacunkowy udział poszczególnych sektorów</div>
+        <div class="mermaid">
+pie showData
+    title ""
+    "IT i technologie" : 28
+    "Handel detaliczny" : 22
+    "Logistyka i transport" : 18
+    "Przemysł" : 15
+    "Usługi finansowe" : 10
+    "OZE i środowisko" : 7
+        </div>
+        <div class="chart-source">Źródło: Szacunki własne na podstawie danych NBP i raportów spółek</div>
+    </div>
+
+    <p>
+        Dominacja sektora IT (28% FDI) wynika z obecności takich firm jak Asseco (joint venture
+        z Adesso), Comarch (własny oddział) czy CD Projekt (działalność dystrybucyjna).
+        Handel detaliczny (22%) to przede wszystkim sieć sklepów LPP (Reserved, Cropp, House).
+        Sektor OZE i środowiska (7%), choć obecnie najmniejszy, wykazuje najszybszą dynamikę
+        wzrostu – przejęcia ZPUE→BWTS i Grupa Recykl→HRV z 2025 roku mogą podwoić jego udział
+        w ciągu najbliższych lat.
+    </p>
+
+    <!-- ==================== 5. FUZJE I PRZEJĘCIA (M&A) ==================== -->
+    <h2>5. Fuzje i przejęcia (M&A)</h2>
+
+    <h3>5.1. Przegląd aktywności M&A 2015–2025</h3>
+
+    <p class="section-intro">
+        Aktywność polskich przedsiębiorstw na rynku fuzji i przejęć w Niemczech przez długi czas pozostawała
+        na niskim poziomie. Przełom nastąpił w latach 2022–2025, kiedy to liczba i wartość transakcji
+        znacząco wzrosły, sygnalizując nową fazę w strategiach ekspansji polskiego biznesu.
+    </p>
+
+    <p>
+        W latach 2015–2019 polskie firmy przeprowadzały średnio 3–5 transakcji M&A rocznie w Niemczech,
+        przy czym większość z nich dotyczyła niewielkich podmiotów o wartości poniżej 10 mln EUR.
+        Były to głównie przejęcia firm dystrybucyjnych, agentów handlowych lub małych spółek
+        technologicznych komplementarnych do działalności macierzystej.
+    </p>
+
+    <p>
+        Sytuacja zaczęła się zmieniać od 2020 roku. Pandemia COVID-19, choć początkowo spowolniła
+        aktywność transakcyjną, stworzyła też okazje – część niemieckich firm znalazła się w trudnej
+        sytuacji finansowej, co obniżyło wyceny i otworzyło możliwości przejęć typu distressed.
+        Jednocześnie polskie przedsiębiorstwa, które relatywnie dobrze przetrwały kryzys, dysponowały
+        środkami na ekspansję.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 8. Aktywność M&A polskich firm w Niemczech (2015–2025)</div>
+        <div class="chart-subtitle">Liczba transakcji rocznie</div>
+        <div class="mermaid">
+xychart-beta
+    title ""
+    x-axis ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"]
+    y-axis "Liczba transakcji" 0 --> 10
+    bar [3, 2, 4, 5, 4, 6, 5, 7, 5, 6, 6]
+        </div>
+        <div class="chart-source">Źródło: Mergermarket, FORDATA M&A Index, monitoring własny</div>
+    </div>
+
+    <p>
+        Rok 2025 przyniósł kontynuację trendu wzrostowego – zidentyfikowano 6 znaczących transakcji,
+        co stanowi wyrównanie rekordu z 2022 roku. Co istotniejsze, zmieniła się jakość transakcji:
+        przejęcia z 2025 roku dotyczą większych podmiotów, działających w strategicznych sektorach
+        (OZE, recykling, transport szynowy), a ich łączna wartość znacząco przekracza poziomy
+        z poprzednich lat.
+    </p>
+
+    <p class="table-title">Tabela 7. Ewolucja aktywności M&A polskich firm w Niemczech</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Okres</th>
+                <th>Średnia liczba transakcji/rok</th>
+                <th>Średnia wartość transakcji</th>
+                <th>Dominujące sektory</th>
+                <th>Charakter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2015–2019</td>
+                <td>3–4</td>
+                <td>&lt;10 mln EUR</td>
+                <td>Dystrybucja, handel</td>
+                <td>Wspierające eksport</td>
+            </tr>
+            <tr>
+                <td>2020–2022</td>
+                <td>5–6</td>
+                <td>10–30 mln EUR</td>
+                <td>IT, usługi, media</td>
+                <td>Strategiczne</td>
+            </tr>
+            <tr style="background: #e8f5e9;">
+                <td><strong>2023–2025</strong></td>
+                <td><strong>5–6</strong></td>
+                <td><strong>15–50 mln EUR</strong></td>
+                <td><strong>OZE, recykling, transport</strong></td>
+                <td><strong>Transformacyjne</strong></td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Analiza własna na podstawie danych transakcyjnych</p>
+
+    <h3>5.2. Analiza transakcji 2025 roku</h3>
+
+    <p>
+        Rok 2025 zapisze się jako przełomowy w historii polskiej ekspansji inwestycyjnej w Niemczech.
+        Sześć zidentyfikowanych transakcji reprezentuje różnorodność sektorową, geograficzną
+        i strategiczną, ilustrując dojrzewanie polskiego kapitału i jego rosnące ambicje.
+    </p>
+
+    <p class="table-title">Tabela 8. Transakcje M&A polskich firm w Niemczech (2025)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Nabywca</th>
+                <th>Cel przejęcia</th>
+                <th>Sektor</th>
+                <th>Wartość</th>
+                <th>Udział</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09.2025</td>
+                <td>Grupa Trend</td>
+                <td>GALA Group</td>
+                <td>FMCG (świece, zapachy)</td>
+                <td>n.d.</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>09.2025</td>
+                <td>Grupa Recykl</td>
+                <td>HRV Wernigerode</td>
+                <td>Recykling opon</td>
+                <td>do 10,1 mln EUR</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>11.2025</td>
+                <td>MDD</td>
+                <td>CEKA / CEKA Pro</td>
+                <td>Meble biurowe</td>
+                <td>n.d.</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>12.2025</td>
+                <td>ZPUE</td>
+                <td>BWTS GmbH</td>
+                <td>Serwis OZE</td>
+                <td>n.d.</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>12.2025</td>
+                <td>Olavion (Unimot)</td>
+                <td>RBP Siegburg</td>
+                <td>Transport kolejowy</td>
+                <td>do 8,4 mln EUR</td>
+                <td>60%</td>
+            </tr>
+            <tr>
+                <td>12.2025</td>
+                <td>PESA Bydgoszcz</td>
+                <td>HeiterBlick</td>
+                <td>Produkcja tramwajów</td>
+                <td>n.d.</td>
+                <td>100%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Komunikaty giełdowe, informacje prasowe, monitoring własny</p>
+
+    <p>
+        Łączna ujawniona wartość transakcji wynosi około 18,5 mln EUR (Grupa Recykl + Olavion).
+        Biorąc pod uwagę nieujawnione kwoty pozostałych czterech transakcji – w tym przejęcia
+        znaczących podmiotów jak BWTS (153 pracowników) czy HeiterBlick (250 pracowników) –
+        całkowitą wartość wszystkich sześciu transakcji można szacować na 80–120 mln EUR.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 9. Struktura sektorowa transakcji M&A (2025)</div>
+        <div class="chart-subtitle">Liczba transakcji według sektorów</div>
+        <div class="mermaid">
+pie showData
+    title ""
+    "OZE i środowisko" : 2
+    "Transport i logistyka" : 2
+    "FMCG" : 1
+    "Przemysł (meble)" : 1
+        </div>
+        <div class="chart-source">Źródło: Opracowanie własne</div>
+    </div>
+
+    <p>
+        Analiza struktury sektorowej ujawnia wyraźną koncentrację na dwóch obszarach: OZE/środowisko
+        oraz transport/logistyka (po 2 transakcje, łącznie 67% aktywności). Jest to fundamentalna
+        zmiana w porównaniu z poprzednimi latami, kiedy dominowały przejęcia w sektorze handlowym i IT.
+        Obecny profil sektorowy odzwierciedla megatrendy niemieckiej gospodarki – transformację
+        energetyczną (Energiewende) oraz rozwój zrównoważonego transportu.
+    </p>
+
+    <h4>Typologia transakcji</h4>
+
+    <p>
+        Transakcje z 2025 roku można sklasyfikować według trzech typów strategicznych:
+    </p>
+
+    <div class="comparison-bar">
+        <div class="comparison-item">
+            <div class="comparison-label">Strategiczne</div>
+            <div class="comparison-bar-bg">
+                <div class="comparison-bar-fill" style="width: 50%;">3 transakcje (50%)</div>
+            </div>
+        </div>
+        <div class="comparison-item">
+            <div class="comparison-label">Ratunkowe</div>
+            <div class="comparison-bar-bg">
+                <div class="comparison-bar-fill accent" style="width: 33%;">2 transakcje (33%)</div>
+            </div>
+        </div>
+        <div class="comparison-item">
+            <div class="comparison-label">Mniejszościowe</div>
+            <div class="comparison-bar-bg">
+                <div class="comparison-bar-fill" style="width: 17%;">1 transakcja (17%)</div>
+            </div>
+        </div>
+    </div>
+
+    <ul>
+        <li><strong>Transakcje strategiczne (3):</strong> Grupa Trend → GALA Group, ZPUE → BWTS, Grupa Recykl → HRV. Motywowane ekspansją rynkową, dostępem do klientów i kompetencji. Cele w dobrej kondycji finansowej.</li>
+        <li><strong>Transakcje ratunkowe / distressed (2):</strong> PESA → HeiterBlick, MDD → CEKA. Przejęcia firm w trudnościach finansowych, często z elementem wsparcia publicznego. Atrakcyjne wyceny, ale wyższe ryzyko integracji.</li>
+        <li><strong>Transakcje mniejszościowe (1):</strong> Olavion → RBP (60%). Nabycie kontrolnego, ale nie pełnego pakietu. Zachowanie know-how i zaangażowania poprzednich właścicieli.</li>
+    </ul>
+
+    <h3>5.3. Studia przypadków</h3>
+
+    <p>
+        Poniżej przedstawiono szczegółową analizę wybranych transakcji z 2025 roku, ilustrującą
+        różnorodność strategii, modeli finansowania i oczekiwanych efektów synergii.
+    </p>
+
+    <!-- CASE STUDY 1 -->
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>CASE STUDY 1: Grupa Recykl → HRV Wernigerode GmbH</h4>
+            <span class="tag">Transakcja strategiczna</span>
+            <span class="tag">Sektor: Recykling</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data ogłoszenia</div>
+                    <div class="value">3–4 września 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość transakcji</div>
+                    <div class="value">do 10,07 mln EUR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Struktura</div>
+                    <div class="value">100% udziałów</div>
+                </div>
+            </div>
+
+            <h4>Charakterystyka stron</h4>
+            <p>
+                <strong>Nabywca: Grupa Recykl S.A.</strong> to jeden z największych podmiotów w branży recyklingu
+                opon w Europie Środkowo-Wschodniej. Spółka notowana na GPW w Warszawie, z trzema zakładami
+                produkcyjnymi w Polsce o łącznej zdolności przetwórczej około 140 000 ton zużytych opon rocznie.
+                W 2024 roku przychody Grupy wyniosły około 180 mln PLN, a EBITDA przekroczyła 30 mln PLN.
+            </p>
+            <p>
+                <strong>Cel: HRV GmbH (Harzer Reifenhandel und Verwertung Wernigerode)</strong> to niemiecki
+                recykler opon z siedzibą w Saksonii-Anhalt, działający na rynku od niemal 30 lat.
+                Firma zatrudnia około 50 pracowników i posiada zdolność przetwórczą do 25 000 ton rocznie.
+                Przychody w 2024 roku wyniosły około 4,46 mln EUR.
+            </p>
+
+            <h4>Struktura transakcji</h4>
+            <p>
+                Transakcja została skonstruowana z wykorzystaniem mechanizmu earn-out, co pozwala na
+                powiązanie części ceny z przyszłymi wynikami przejmowanej spółki:
+            </p>
+            <ul>
+                <li><strong>Płatność bazowa:</strong> 6,6 mln EUR płatne przy zamknięciu transakcji</li>
+                <li><strong>Earn-out:</strong> do 3,47 mln EUR płatne po spełnieniu warunków finansowych do końca 2027 roku</li>
+                <li><strong>Łączna maksymalna cena:</strong> 10,07 mln EUR</li>
+            </ul>
+            <p>
+                Implikowany mnożnik EV/Przychody wynosi około 2,3x (przy pełnej cenie), co jest poziomem
+                typowym dla branży recyklingowej w Europie.
+            </p>
+
+            <h4>Uzasadnienie strategiczne</h4>
+            <p>
+                Przejęcie HRV stanowi drugi etap międzynarodowej ekspansji Grupy Recykl (po akwizycji
+                litewskiej APG Group w I połowie 2025). Transakcja realizuje kilka celów strategicznych:
+            </p>
+            <ul>
+                <li><strong>Wejście na największy rynek UE:</strong> Niemcy są największym rynkiem recyklingu opon w Europie, z wolumenem około 600 000 ton rocznie.</li>
+                <li><strong>Zwiększenie skali:</strong> Po przejęciu łączna zdolność przetwórcza Grupy wzrośnie do około 185 000 ton rocznie.</li>
+                <li><strong>Dostęp do klientów:</strong> HRV posiada ugruntowane relacje z niemieckimi producentami opon i firmami motoryzacyjnymi.</li>
+                <li><strong>Synergie operacyjne:</strong> Współpraca między HRV a Grupą Recykl trwa od ponad 10 lat, co ułatwi integrację.</li>
+            </ul>
+
+            <h4>Finansowanie</h4>
+            <p>
+                Transakcja jest finansowana ze środków własnych oraz z Funduszu Ekspansji Zagranicznej
+                zarządzanego przez PFR TFI. Jest to przykład skutecznego wykorzystania publicznych
+                instrumentów wsparcia ekspansji zagranicznej przez polską firmę średniej wielkości.
+            </p>
+
+            <div class="highlight-box">
+                <p>
+                    <strong>Komentarz analityczny:</strong> Transakcja Grupa Recykl → HRV ilustruje rosnącą
+                    dojrzałość polskich firm w przeprowadzaniu przejęć zagranicznych. Zastosowanie struktury
+                    earn-out minimalizuje ryzyko przepłacenia, a długoletnia współpraca z celem zmniejsza
+                    ryzyko integracji. Strategiczne wpisanie się w megatrend gospodarki obiegu zamkniętego
+                    zwiększa potencjał wzrostu wartości w długim terminie.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CASE STUDY 2 -->
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>CASE STUDY 2: ZPUE S.A. → BWTS GmbH</h4>
+            <span class="tag">Transakcja strategiczna</span>
+            <span class="tag">Sektor: Serwis OZE</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data ogłoszenia</div>
+                    <div class="value">11 grudnia 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość transakcji</div>
+                    <div class="value">Nieujawniona</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Doradca prawny</div>
+                    <div class="value">Norton Rose Fulbright</div>
+                </div>
+            </div>
+
+            <h4>Charakterystyka stron</h4>
+            <p>
+                <strong>Nabywca: ZPUE S.A.</strong> to polska spółka z branży elektroenergetycznej,
+                wchodząca w skład Koronea Family Office. Firma specjalizuje się w produkcji stacji
+                transformatorowych, rozdzielnic średniego i niskiego napięcia, systemów magazynowania
+                energii oraz infrastruktury ładowania pojazdów elektrycznych. ZPUE jest liderem rynku
+                w Polsce i intensywnie rozwija działalność eksportową.
+            </p>
+            <p>
+                <strong>Cel: BWTS GmbH</strong> to jeden z wiodących niezależnych dostawców usług
+                serwisowych dla sektora odnawialnych źródeł energii w Niemczech i Europie.
+                Kluczowe parametry działalności:
+            </p>
+            <ul>
+                <li>153 wykwalifikowanych pracowników</li>
+                <li>Ponad 12 000 inspekcji przeprowadzanych rocznie</li>
+                <li>Zarządzanie serwisem dla 2 500 farm wiatrowych w ponad 30 krajach</li>
+                <li>Partnerstwa z Siemens Gamesa, Vestas, Enercon, RWE, EDF</li>
+                <li>Lokalizacje w Niemczech (4) i Francji (1)</li>
+            </ul>
+
+            <h4>Zakres transakcji</h4>
+            <p>
+                Przejęcie obejmuje trzy podmioty:
+            </p>
+            <ol>
+                <li><strong>BWTS GmbH</strong> – główna spółka operacyjna w Niemczech</li>
+                <li><strong>BWTS France</strong> – spółka zależna we Francji</li>
+                <li><strong>VRT Nord GmbH</strong> – niemiecka spółka zależna</li>
+            </ol>
+            <p>
+                Jest to pierwsza tak duża akwizycja ZPUE poza Polską, stanowiąca kamień milowy
+                w strategii internacjonalizacji spółki.
+            </p>
+
+            <h4>Uzasadnienie strategiczne</h4>
+            <p>
+                Transakcja realizuje strategię wertykalnej integracji łańcucha wartości w sektorze OZE.
+                ZPUE – jako producent infrastruktury – uzupełnia swoją ofertę o kompetencje serwisowe,
+                co umożliwia:
+            </p>
+            <ul>
+                <li><strong>Kompleksową ofertę:</strong> Od produkcji urządzeń, przez instalację, po wieloletni serwis</li>
+                <li><strong>Wejście na rynek niemiecki i francuski:</strong> Bezpośredni dostęp do największych rynków OZE w Europie</li>
+                <li><strong>Przychody rekurencyjne:</strong> Kontrakty serwisowe zapewniają stabilne, długoterminowe przychody</li>
+                <li><strong>Cross-selling:</strong> Możliwość oferowania produktów ZPUE klientom BWTS</li>
+            </ul>
+
+            <div class="highlight-box">
+                <p>
+                    <strong>Komentarz analityczny:</strong> Przejęcie BWTS przez ZPUE to najbardziej zaawansowana
+                    strategicznie transakcja wśród polskich akwizycji w Niemczech w 2025 roku. Wpisuje się
+                    w megatrend transformacji energetycznej i pozycjonuje polską firmę w samym centrum
+                    europejskiego rynku OZE. Kluczowym wyzwaniem będzie integracja kultur organizacyjnych
+                    i utrzymanie relacji z wymagającymi klientami korporacyjnymi.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CASE STUDY 3 -->
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>CASE STUDY 3: PESA Bydgoszcz S.A. → HeiterBlick GmbH</h4>
+            <span class="tag">Transakcja ratunkowa</span>
+            <span class="tag">Sektor: Tabor szynowy</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data ogłoszenia</div>
+                    <div class="value">Grudzień 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Finalizacja</div>
+                    <div class="value">Styczeń 2026</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Zatrudnienie (cel)</div>
+                    <div class="value">~250 osób</div>
+                </div>
+            </div>
+
+            <h4>Charakterystyka stron</h4>
+            <p>
+                <strong>Nabywca: PESA Bydgoszcz S.A.</strong> to wiodący polski producent taboru szynowego
+                – tramwajów, pociągów regionalnych i autobusów. Firma z ponad 170-letnią tradycją
+                (początki w 1851 roku) jest jednym z największych pracodawców w regionie kujawsko-pomorskim.
+                PESA eksportuje swoje produkty do wielu krajów UE, w tym Niemiec, Włoch i Czech.
+            </p>
+            <p>
+                <strong>Cel: HeiterBlick GmbH</strong> to niemiecki producent tramwajów z siedzibą w Lipsku
+                (Saksonia). Firma, zatrudniająca około 250 pracowników, przed przejęciem borykała się
+                z poważnymi problemami finansowymi, które zagrażały kontynuacji działalności.
+            </p>
+
+            <h4>Kontekst transakcji</h4>
+            <p>
+                Przejęcie HeiterBlick ma charakter ratunkowo-rozwojowy (distressed M&A). Transakcja
+                została przeprowadzona przy wsparciu władz Saksonii, które były zainteresowane
+                utrzymaniem produkcji i miejsc pracy w regionie. Kluczowe elementy kontekstu:
+            </p>
+            <ul>
+                <li><strong>Problemy finansowe celu:</strong> HeiterBlick przed przejęciem znajdował się w trudnej sytuacji płynnościowej</li>
+                <li><strong>Wsparcie publiczne:</strong> Zaangażowanie rządu Saksonii w ułatwienie transakcji</li>
+                <li><strong>Utrzymanie zatrudnienia:</strong> Zobowiązanie do zachowania około 250 miejsc pracy</li>
+                <li><strong>Kontynuacja produkcji:</strong> Realizacja istniejących zamówień i kontraktów</li>
+            </ul>
+
+            <h4>Uzasadnienie strategiczne</h4>
+            <p>
+                Dla PESA przejęcie HeiterBlick oznacza:
+            </p>
+            <ul>
+                <li><strong>Bazę produkcyjną w Niemczech:</strong> Możliwość realizacji zamówień „Made in Germany" dla wymagających klientów komunalnych</li>
+                <li><strong>Dostęp do rynku:</strong> Ułatwiony dostęp do przetargów niemieckich operatorów transportu miejskiego</li>
+                <li><strong>Synergije produkcyjne:</strong> Wykorzystanie komponentów produkowanych w Bydgoszczy</li>
+                <li><strong>Zwiększenie skali:</strong> Wzmocnienie pozycji negocjacyjnej wobec dostawców</li>
+            </ul>
+
+            <div class="highlight-box">
+                <p>
+                    <strong>Komentarz analityczny:</strong> Przejęcie HeiterBlick to przykład transakcji
+                    oportunistycznej, wykorzystującej trudności niemieckiego podmiotu. Dla PESA jest to
+                    szansa na przyspieszenie ekspansji na rynku niemieckim, który tradycyjnie preferuje
+                    lokalnych dostawców. Kluczowe ryzyka to: głębokość problemów finansowych celu,
+                    potencjalne zobowiązania ukryte oraz wyzwania integracyjne. Sukces będzie zależał
+                    od szybkiego ustabilizowania operacji i odbudowy zaufania klientów.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CASE STUDY 4 - skrócone -->
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>CASE STUDY 4: Grupa Trend → GALA Group</h4>
+            <span class="tag">Transakcja strategiczna</span>
+            <span class="tag">Sektor: FMCG</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data ogłoszenia</div>
+                    <div class="value">23 września 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Finansowanie</div>
+                    <div class="value">CVI, PFR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Zasięg celu</div>
+                    <div class="value">Globalny</div>
+                </div>
+            </div>
+
+            <p>
+                <strong>Grupa Trend</strong> – polski producent świec, zapachów domowych i produktów dekoracyjnych –
+                przejęła niemiecką <strong>GALA Group</strong>, firmę o globalnym zasięgu działającą w tym samym segmencie.
+                Transakcja, finansowana przy udziale funduszu CVI (private debt) oraz Polskiego Funduszu Rozwoju,
+                pozwala Grupie Trend na znaczące zwiększenie skali działalności i wejście na nowe rynki zbytu.
+            </p>
+            <p>
+                Jest to przykład konsolidacji branżowej, w której polski podmiot przejmuje większego
+                konkurenta, uzyskując dostęp do międzynarodowej sieci dystrybucji. Szczegóły finansowe
+                transakcji nie zostały ujawnione.
+            </p>
+        </div>
+    </div>
+
+    <!-- CASE STUDY 5 - skrócone -->
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>CASE STUDY 5: MDD → CEKA / CEKA Pro</h4>
+            <span class="tag">Transakcja ratunkowa</span>
+            <span class="tag">Sektor: Meble</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data ogłoszenia</div>
+                    <div class="value">1 listopada 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Lokalizacja</div>
+                    <div class="value">Alsfeld, Hesja</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Typ</div>
+                    <div class="value">Przejęcie ratunkowe</div>
+                </div>
+            </div>
+
+            <p>
+                <strong>MDD</strong> – polski producent mebli – przejął niemiecką firmę <strong>CEKA</strong>,
+                tradycyjnego producenta mebli biurowych z Alsfeld (Hesja), który znalazł się w trudnej
+                sytuacji finansowej. Transakcja ma charakter ratunkowy – MDD zobowiązał się do kontynuacji
+                działalności pod zmodyfikowaną marką <strong>CEKA Pro</strong>.
+            </p>
+            <p>
+                Przejęcie wpisuje się w szerszy trend konsolidacji w branży meblarskiej, gdzie polscy
+                producenci – korzystając z przewag kosztowych i operacyjnych – przejmują borykające się
+                z problemami podmioty zachodnioeuropejskie.
+            </p>
+        </div>
+    </div>
+
+    <!-- CASE STUDY 6 - skrócone -->
+    <div class="case-study">
+        <div class="case-study-header">
+            <h4>CASE STUDY 6: Olavion (Unimot) → RBP Siegburg</h4>
+            <span class="tag">Transakcja mniejszościowa</span>
+            <span class="tag">Sektor: Transport kolejowy</span>
+        </div>
+        <div class="case-study-body">
+            <div class="case-study-meta">
+                <div class="case-study-meta-item">
+                    <div class="label">Data ogłoszenia</div>
+                    <div class="value">17 grudnia 2025</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Wartość</div>
+                    <div class="value">do 8,4 mln EUR</div>
+                </div>
+                <div class="case-study-meta-item">
+                    <div class="label">Udział</div>
+                    <div class="value">60%</div>
+                </div>
+            </div>
+
+            <p>
+                <strong>Olavion</strong> – spółka z Grupy Unimot (giełdowy koncern paliwowo-energetyczny) –
+                nabyła 60% udziałów w niemieckiej firmie <strong>RBP</strong> z Siegburga (Nadrenia Północna-Westfalia),
+                specjalizującej się w kolejowych przewozach towarowych. Transakcja o wartości do 8,4 mln EUR
+                stanowi element strategii dywersyfikacji Grupy Unimot w kierunku logistyki.
+            </p>
+            <p>
+                Struktura 60% udziałów pozwala na zachowanie zaangażowania dotychczasowych właścicieli
+                i wykorzystanie ich know-how w początkowej fazie integracji. Jest to model często stosowany
+                w transakcjach, gdzie kluczowe znaczenie mają relacje z klientami i kompetencje kadry zarządzającej.
+            </p>
+        </div>
+    </div>
+
+    <!-- ==================== 6. INWESTYCJE KAPITAŁOWE ==================== -->
+    <h2>6. Inwestycje kapitałowe i finansowanie ekspansji</h2>
+
+    <h3>6.1. Rola instytucji publicznych</h3>
+
+    <p class="section-intro">
+        Analiza transakcji z 2025 roku ujawnia rosnące znaczenie instytucji publicznych w finansowaniu
+        zagranicznej ekspansji polskich przedsiębiorstw. Model ten – łączący kapitał prywatny ze wsparciem
+        państwowym – staje się dominującym wzorcem dla średnich firm planujących akwizycje w Europie Zachodniej.
+    </p>
+
+    <p>
+        W co najmniej trzech z sześciu transakcji z 2025 roku zidentyfikowano udział instytucji publicznych
+        lub funduszy z nimi powiązanych. Jest to istotna zmiana jakościowa – jeszcze kilka lat temu
+        ekspansja zagraniczna finansowana była niemal wyłącznie ze środków własnych przedsiębiorstw
+        lub tradycyjnych kredytów bankowych.
+    </p>
+
+    <p class="table-title">Tabela 9. Instytucje finansujące polską ekspansję w Niemczech (2025)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Instytucja</th>
+                <th>Typ</th>
+                <th>Transakcje 2025</th>
+                <th>Forma wsparcia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fundusz Ekspansji Zagranicznej (PFR TFI)</td>
+                <td>Fundusz publiczny</td>
+                <td>Grupa Recykl → HRV</td>
+                <td>Finansowanie udziałowe/dłużne</td>
+            </tr>
+            <tr>
+                <td>Polski Fundusz Rozwoju (PFR)</td>
+                <td>Instytucja rozwojowa</td>
+                <td>Grupa Trend → GALA Group</td>
+                <td>Współfinansowanie</td>
+            </tr>
+            <tr>
+                <td>CVI</td>
+                <td>Fundusz private debt</td>
+                <td>Grupa Trend → GALA Group</td>
+                <td>Finansowanie dłużne</td>
+            </tr>
+            <tr>
+                <td>Bank Gospodarstwa Krajowego</td>
+                <td>Bank rozwoju</td>
+                <td>Różne (gwarancje)</td>
+                <td>Gwarancje eksportowe</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Komunikaty instytucji, informacje prasowe</p>
+
+    <p>
+        <strong>Fundusz Ekspansji Zagranicznej</strong>, zarządzany przez PFR TFI, jest dedykowanym
+        instrumentem wspierającym internacjonalizację polskich firm. Fundusz oferuje finansowanie
+        w formie kapitału (equity) lub długu podporządkowanego (mezzanine), co pozwala na uzupełnienie
+        tradycyjnych źródeł finansowania bez nadmiernego rozwodnienia udziałów właścicieli.
+    </p>
+
+    <div class="highlight-box">
+        <p>
+            <strong>Model finansowania przejęć zagranicznych:</strong> Typowa struktura finansowania
+            dla transakcji o wartości 10–50 mln EUR obejmuje: środki własne (30–40%), kredyt bankowy
+            senior (30–40%), finansowanie z Funduszu Ekspansji Zagranicznej lub private debt (20–30%).
+            Struktura ta pozwala na przeprowadzenie przejęcia przy ograniczonym zaangażowaniu
+            własnego kapitału.
+        </p>
+    </div>
+
+    <h3>6.2. Struktury transakcji</h3>
+
+    <p>
+        Analiza struktur transakcji z 2025 roku ujawnia rosnące wyrafinowanie polskich nabywców
+        w konstruowaniu przejęć. Powszechne stało się stosowanie mechanizmów earn-out, płatności
+        odroczonych oraz struktur z zachowaniem mniejszościowych udziałów sprzedających.
+    </p>
+
+    <p class="table-title">Tabela 10. Struktury kapitałowe transakcji (2025)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Transakcja</th>
+                <th>Udział nabyty</th>
+                <th>Struktura płatności</th>
+                <th>Mechanizmy szczególne</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Grupa Recykl → HRV</td>
+                <td>100%</td>
+                <td>6,6 mln EUR + earn-out do 3,47 mln EUR</td>
+                <td>Earn-out do 2027</td>
+            </tr>
+            <tr>
+                <td>ZPUE → BWTS</td>
+                <td>100%</td>
+                <td>Nieujawniona</td>
+                <td>Przejęcie 3 spółek</td>
+            </tr>
+            <tr>
+                <td>PESA → HeiterBlick</td>
+                <td>100%</td>
+                <td>Nieujawniona</td>
+                <td>Wsparcie publiczne</td>
+            </tr>
+            <tr>
+                <td>Olavion → RBP</td>
+                <td>60%</td>
+                <td>Do 8,4 mln EUR</td>
+                <td>Zachowanie mniejszości</td>
+            </tr>
+            <tr>
+                <td>Grupa Trend → GALA</td>
+                <td>100%</td>
+                <td>Nieujawniona</td>
+                <td>Finansowanie instytucjonalne</td>
+            </tr>
+            <tr>
+                <td>MDD → CEKA</td>
+                <td>100%</td>
+                <td>Nieujawniona</td>
+                <td>Przejęcie ratunkowe</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Komunikaty spółek, opracowanie własne</p>
+
+    <!-- ==================== 7. ANALIZA SEKTOROWA ==================== -->
+    <h2>7. Analiza sektorowa</h2>
+
+    <h3>7.1. Ranking polskich inwestorów w Niemczech</h3>
+
+    <p>
+        Na podstawie dostępnych danych i informacji rynkowych można zrekonstruować ranking
+        największych polskich inwestorów w Niemczech według szacowanej wartości zaangażowania.
+        Należy podkreślić, że precyzyjne dane są trudno dostępne ze względu na brak obowiązku
+        raportowania dla spółek niepublicznych.
+    </p>
+
+    <p class="table-title">Tabela 11. Ranking polskich firm obecnych w Niemczech (2025)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Poz.</th>
+                <th>Firma</th>
+                <th>Sektor</th>
+                <th>Forma obecności</th>
+                <th>Rok wejścia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>LPP S.A.</td><td>Handel detaliczny</td><td>Sieć sklepów (Reserved, Cropp, House, Sinsay)</td><td>2008</td></tr>
+            <tr><td>2</td><td>Asseco Poland</td><td>IT</td><td>JV Adesso Banking Solutions</td><td>2020</td></tr>
+            <tr><td>3</td><td>PKN Orlen</td><td>Energia/paliwa</td><td>Stacje paliw, trading</td><td>2000s</td></tr>
+            <tr style="background: #e8f5e9;"><td>4</td><td>ZPUE</td><td>Elektroenergetyka/OZE</td><td>BWTS GmbH</td><td>2025</td></tr>
+            <tr style="background: #e8f5e9;"><td>5</td><td>Grupa Recykl</td><td>Recykling</td><td>HRV Wernigerode</td><td>2025</td></tr>
+            <tr style="background: #e8f5e9;"><td>6</td><td>PESA Bydgoszcz</td><td>Tabor szynowy</td><td>HeiterBlick</td><td>2025</td></tr>
+            <tr><td>7</td><td>Comarch</td><td>IT</td><td>Oddział niemiecki</td><td>2000s</td></tr>
+            <tr><td>8</td><td>Inter Cars</td><td>Motoryzacja</td><td>Sieć dystrybucji</td><td>2006</td></tr>
+            <tr style="background: #e8f5e9;"><td>9</td><td>Grupa Trend</td><td>FMCG</td><td>GALA Group</td><td>2025</td></tr>
+            <tr style="background: #e8f5e9;"><td>10</td><td>Unimot/Olavion</td><td>Transport</td><td>RBP Siegburg (60%)</td><td>2025</td></tr>
+            <tr><td>11</td><td>CD Projekt</td><td>Gaming</td><td>Dystrybucja, marketing</td><td>2010s</td></tr>
+            <tr><td>12</td><td>Wielton</td><td>Przemysł</td><td>Sprzedaż i serwis</td><td>2010s</td></tr>
+            <tr style="background: #e8f5e9;"><td>13</td><td>MDD</td><td>Meble</td><td>CEKA Pro</td><td>2025</td></tr>
+            <tr><td>14</td><td>Polpharma</td><td>Farmacja</td><td>Dystrybucja</td><td>2000s</td></tr>
+            <tr><td>15</td><td>LiveChat Software</td><td>Technologie</td><td>Działalność komercyjna</td><td>2010s</td></tr>
+        </tbody>
+    </table>
+    <p class="table-source">Wiersze zielone = nowe wejścia w 2025 roku. Źródło: Opracowanie własne</p>
+
+    <p>
+        Zwraca uwagę fakt, że aż 6 z 15 największych polskich inwestorów w Niemczech (40%)
+        to firmy, które weszły na rynek w 2025 roku. Świadczy to o dynamice zmian i przyspieszeniu
+        procesu internacjonalizacji polskiego biznesu.
+    </p>
+
+    <h3>7.2. Sektor OZE i środowisko – wschodzący lider</h3>
+
+    <p>
+        Sektor odnawialnych źródeł energii i ochrony środowiska stał się w 2025 roku najaktywniejszym
+        obszarem polskiej ekspansji w Niemczech. Dwie z sześciu transakcji (ZPUE → BWTS oraz
+        Grupa Recykl → HRV) dotyczą tego sektora, a ich łączna wartość strategiczna przewyższa
+        pozostałe przejęcia.
+    </p>
+
+    <p>
+        Aktywność ta nie jest przypadkowa – wynika z konwergencji kilku czynników:
+    </p>
+
+    <ul>
+        <li><strong>Niemiecka Energiewende:</strong> Ambitny program transformacji energetycznej tworzy olbrzymi rynek dla usług serwisowych, instalacyjnych i recyklingowych.</li>
+        <li><strong>Regulacje UE:</strong> Green Deal i pakiet Fit for 55 wymuszają inwestycje w gospodarce obiegu zamkniętego.</li>
+        <li><strong>Deficyt kadr w Niemczech:</strong> Niedobór wykwalifikowanych techników otwiera przestrzeń dla firm z krajów CEE.</li>
+        <li><strong>Kompetencje polskich firm:</strong> Polskie przedsiębiorstwa rozwinęły silne kompetencje w produkcji urządzeń dla OZE i recyklingu.</li>
+    </ul>
+
+    <div class="data-callout">
+        <div class="data-callout-value">33%</div>
+        <div class="data-callout-text">
+            <strong>Udział sektora OZE/środowisko w transakcjach 2025.</strong>
+            Prognozujemy, że do 2030 roku sektor ten będzie odpowiadał za ponad 50%
+            polskich inwestycji w Niemczech.
+        </div>
+    </div>
+
+    <!-- ==================== 8. BARIERY I CZYNNIKI SUKCESU ==================== -->
+    <h2>8. Bariery i czynniki sukcesu</h2>
+
+    <h3>8.1. Czynniki sukcesu polskich firm w Niemczech</h3>
+
+    <p class="section-intro">
+        Analiza udanych ekspansji polskich firm w Niemczech pozwala na identyfikację kluczowych
+        czynników sukcesu. Ich zrozumienie jest istotne zarówno dla przedsiębiorstw planujących
+        wejście na rynek niemiecki, jak i dla instytucji wspierających internacjonalizację.
+    </p>
+
+    <p>
+        Na podstawie przeprowadzonej analizy wyodrębniono pięć głównych kategorii czynników sukcesu:
+    </p>
+
+    <div class="numbered-insight">
+        <div>
+            <p><strong>Przewagi kosztowe i operacyjne:</strong> Polskie firmy wciąż korzystają z niższych kosztów pracy i produkcji, co przekłada się na konkurencyjne ceny. W sektorach takich jak meble, komponenty czy usługi IT różnica kosztowa może wynosić 30–50%.</p>
+        </div>
+        <div>
+            <p><strong>Bliskość geograficzna:</strong> Wspólna granica o długości 467 km oraz członkostwo w strefie Schengen umożliwiają sprawne zarządzanie operacjami transgranicznymi. Czas dostawy z Polski do głównych niemieckich ośrodków przemysłowych nie przekracza 24 godzin.</p>
+        </div>
+        <div>
+            <p><strong>Kompetencje językowe i kulturowe:</strong> Znacząca część polskiej kadry menedżerskiej posługuje się językiem niemieckim, a wieloletnia współpraca handlowa wykształciła zrozumienie niemieckiej kultury biznesowej.</p>
+        </div>
+        <div>
+            <p><strong>Dostęp do finansowania:</strong> Rozwój instrumentów publicznych (Fundusz Ekspansji Zagranicznej, PFR) oraz prywatnych (fundusze private debt) zwiększył dostępność kapitału na ekspansję zagraniczną.</p>
+        </div>
+        <div>
+            <p><strong>Wykorzystanie okazji rynkowych:</strong> Polskie firmy wykazują rosnącą zdolność do identyfikacji i wykorzystywania okazji – zarówno przejęć distressed, jak i luk rynkowych wynikających z niemieckiej transformacji energetycznej.</p>
+        </div>
+    </div>
+
+    <h3>8.2. Bariery ekspansji</h3>
+
+    <p>
+        Pomimo postępu, polskie firmy nadal napotykają istotne bariery w ekspansji na rynek niemiecki.
+        Ich świadomość jest kluczowa dla realnej oceny szans i zagrożeń.
+    </p>
+
+    <p class="table-title">Tabela 12. Główne bariery ekspansji polskich firm w Niemczech</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Bariera</th>
+                <th>Charakterystyka</th>
+                <th>Istotność</th>
+                <th>Trend</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Percepcja marki</td>
+                <td>„Made in Poland" ma niższy prestiż niż „Made in Germany" – szczególnie w segmencie premium</td>
+                <td style="color: #c8102e;">Wysoka</td>
+                <td>Poprawa</td>
+            </tr>
+            <tr>
+                <td>Skala działania</td>
+                <td>Przeciętna polska firma jest wielokrotnie mniejsza od niemieckiego odpowiednika</td>
+                <td style="color: #c8102e;">Wysoka</td>
+                <td>Bez zmian</td>
+            </tr>
+            <tr>
+                <td>Ograniczenia kapitałowe</td>
+                <td>Brak środków na duże przejęcia (>100 mln EUR) lub znaczące inwestycje greenfield</td>
+                <td style="color: #ffc107;">Średnia</td>
+                <td>Poprawa</td>
+            </tr>
+            <tr>
+                <td>Kompetencje M&A</td>
+                <td>Ograniczone doświadczenie w przeprowadzaniu przejęć zagranicznych i integracji post-merger</td>
+                <td style="color: #ffc107;">Średnia</td>
+                <td>Poprawa</td>
+            </tr>
+            <tr>
+                <td>Kadra menedżerska</td>
+                <td>Niedobór menedżerów z doświadczeniem w zarządzaniu operacjami w Niemczech</td>
+                <td style="color: #ffc107;">Średnia</td>
+                <td>Bez zmian</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Wywiady z przedsiębiorcami, analiza własna</p>
+
+    <!-- ==================== 9. PERSPEKTYWY ==================== -->
+    <h2>9. Perspektywy 2025–2030</h2>
+
+    <h3>9.1. Prognoza rozwoju polskich FDI w Niemczech</h3>
+
+    <p class="section-intro">
+        Biorąc pod uwagę obserwowane trendy, zidentyfikowane czynniki napędowe oraz potencjalne
+        ryzyka, opracowano trzy scenariusze rozwoju polskich bezpośrednich inwestycji zagranicznych
+        w Niemczech do roku 2030.
+    </p>
+
+    <div class="chart-container">
+        <div class="chart-title">Wykres 10. Prognoza polskich FDI w Niemczech (2024–2030)</div>
+        <div class="chart-subtitle">Stan skumulowany w mld EUR, trzy scenariusze</div>
+        <div class="mermaid">
+xychart-beta
+    title ""
+    x-axis ["2024", "2025", "2026", "2027", "2028", "2029", "2030"]
+    y-axis "mld EUR" 0 --> 6
+    line [2.3, 2.6, 3.0, 3.4, 3.8, 4.2, 4.5]
+        </div>
+        <div class="chart-source">Scenariusz bazowy. Źródło: Szacunki własne</div>
+    </div>
+
+    <p class="table-title">Tabela 13. Scenariusze rozwoju polskich FDI w Niemczech do 2030</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Scenariusz</th>
+                <th>FDI 2030 (mld EUR)</th>
+                <th>CAGR 2024–2030</th>
+                <th>Założenia kluczowe</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Optymistyczny</strong></td>
+                <td>5,5</td>
+                <td>15,6%</td>
+                <td>Kontynuacja fali przejęć, silne wsparcie publiczne, nearshoring</td>
+            </tr>
+            <tr style="background: #e8f5e9;">
+                <td><strong>Bazowy</strong></td>
+                <td>4,5</td>
+                <td>11,8%</td>
+                <td>Stabilny wzrost, 4–6 transakcji M&A rocznie</td>
+            </tr>
+            <tr>
+                <td><strong>Pesymistyczny</strong></td>
+                <td>3,0</td>
+                <td>4,5%</td>
+                <td>Spowolnienie gospodarcze, ograniczenie finansowania</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Szacunki własne</p>
+
+    <p>
+        W scenariuszu bazowym zakładamy, że stan polskich FDI w Niemczech osiągnie poziom 4,5 mld EUR
+        do końca 2030 roku, co oznacza niemal podwojenie obecnej wartości. Realizacja tego scenariusza
+        wymaga utrzymania aktywności M&A na poziomie 4–6 znaczących transakcji rocznie oraz stabilnego
+        wzrostu organicznego istniejących inwestycji.
+    </p>
+
+    <h3>9.2. Sektory o najwyższym potencjale</h3>
+
+    <p class="table-title">Tabela 14. Sektory o najwyższym potencjale ekspansji (2025–2030)</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Sektor</th>
+                <th>Potencjał</th>
+                <th>Uzasadnienie</th>
+                <th>Polskie firmy z potencjałem</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>OZE i serwis energetyczny</td>
+                <td style="color: #28a745;">████████ Bardzo wysoki</td>
+                <td>Energiewende, deficyt kadr serwisowych</td>
+                <td>ZPUE, inne firmy energetyczne</td>
+            </tr>
+            <tr>
+                <td>Recykling i GOZ</td>
+                <td style="color: #28a745;">███████░ Wysoki</td>
+                <td>Regulacje UE, rosnące ceny surowców wtórnych</td>
+                <td>Grupa Recykl, Elemental Holding</td>
+            </tr>
+            <tr>
+                <td>IT i cyberbezpieczeństwo</td>
+                <td style="color: #28a745;">███████░ Wysoki</td>
+                <td>Cyfryzacja, rosnące zagrożenia cyber</td>
+                <td>Asseco, Comarch, mniejsze spółki</td>
+            </tr>
+            <tr>
+                <td>E-commerce i logistyka</td>
+                <td style="color: #ffc107;">██████░░ Średni-wysoki</td>
+                <td>Wzrost zakupów online, nearshoring</td>
+                <td>LPP, InPost, firmy logistyczne</td>
+            </tr>
+            <tr>
+                <td>Tabor szynowy</td>
+                <td style="color: #ffc107;">█████░░░ Średni</td>
+                <td>Dekarbonizacja transportu</td>
+                <td>PESA, Newag</td>
+            </tr>
+            <tr>
+                <td>Healthcare/Biotech</td>
+                <td style="color: #ffc107;">█████░░░ Średni</td>
+                <td>Starzenie się społeczeństwa</td>
+                <td>Polpharma, mniejsze firmy</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Analiza własna</p>
+
+    <!-- ==================== 10. REKOMENDACJE ==================== -->
+    <h2>10. Rekomendacje</h2>
+
+    <h3>10.1. Rekomendacje dla przedsiębiorstw</h3>
+
+    <p class="section-intro">
+        Na podstawie przeprowadzonej analizy formułujemy następujące rekomendacje dla polskich
+        przedsiębiorstw rozważających ekspansję na rynek niemiecki.
+    </p>
+
+    <div class="recommendation-box">
+        <h4>Rekomendacja 1: Wykorzystać obecne okno okazji</h4>
+        <p>
+            Trudności części niemieckich przedsiębiorstw (szczególnie w sektorach tradycyjnego przemysłu)
+            tworzą bezprecedensowe możliwości przejęć po atrakcyjnych wycenach. Firmy planujące ekspansję
+            powinny aktywnie monitorować rynek distressed M&A i być gotowe do szybkiego działania.
+        </p>
+    </div>
+
+    <div class="recommendation-box">
+        <h4>Rekomendacja 2: Skupić się na sektorach wzrostowych</h4>
+        <p>
+            Największy potencjał oferują sektory związane z transformacją energetyczną (OZE, magazynowanie
+            energii, elektromobilność), gospodarką obiegu zamkniętego (recykling, remanufacturing)
+            oraz cyfryzacją (IT, cyberbezpieczeństwo). Inwestycje w tych obszarach korzystają z silnych
+            trendów strukturalnych i wsparcia regulacyjnego.
+        </p>
+    </div>
+
+    <div class="recommendation-box">
+        <h4>Rekomendacja 3: Korzystać z dostępnego finansowania instytucjonalnego</h4>
+        <p>
+            Fundusz Ekspansji Zagranicznej, PFR i BGK oferują atrakcyjne instrumenty finansowania ekspansji.
+            Firmy powinny aktywnie eksplorować te możliwości, szczególnie dla transakcji w przedziale
+            10–50 mln EUR, gdzie tradycyjne finansowanie bankowe może być niewystarczające.
+        </p>
+    </div>
+
+    <div class="recommendation-box">
+        <h4>Rekomendacja 4: Inwestować w kompetencje M&A i integracyjne</h4>
+        <p>
+            Sukces przejęcia w 70% zależy od skutecznej integracji post-merger. Firmy planujące akwizycje
+            powinny z wyprzedzeniem budować kompetencje w zakresie due diligence, negocjacji transakcyjnych
+            oraz zarządzania integracją (PMI).
+        </p>
+    </div>
+
+    <h3>10.2. Rekomendacje dla instytucji publicznych</h3>
+
+    <p class="table-title">Tabela 15. Rekomendacje dla instytucji publicznych</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Instytucja</th>
+                <th>Rekomendacja</th>
+                <th>Priorytet</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PFR / BGK</td>
+                <td>Zwiększenie limitów Funduszu Ekspansji Zagranicznej do 2 mld PLN</td>
+                <td style="color: #c8102e; font-weight: 600;">Wysoki</td>
+            </tr>
+            <tr>
+                <td>PAIH</td>
+                <td>Uruchomienie programu „Invest in Germany" – dedykowane wsparcie dla firm wchodzących na rynek niemiecki</td>
+                <td style="color: #c8102e; font-weight: 600;">Wysoki</td>
+            </tr>
+            <tr>
+                <td>Ministerstwo Rozwoju</td>
+                <td>Negocjacja bilateralnych umów o ochronie i promocji inwestycji</td>
+                <td style="color: #ffc107;">Średni</td>
+            </tr>
+            <tr>
+                <td>MSZ</td>
+                <td>Wzmocnienie funkcji ekonomicznej placówek dyplomatycznych w Niemczech</td>
+                <td style="color: #ffc107;">Średni</td>
+            </tr>
+            <tr>
+                <td>GPW</td>
+                <td>Promocja polskich spółek wśród niemieckich inwestorów instytucjonalnych</td>
+                <td style="color: #28a745;">Niski</td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="table-source">Źródło: Opracowanie własne</p>
+
+    <!-- ==================== ZAKOŃCZENIE ==================== -->
+    <h2>Zakończenie</h2>
+
+    <p>
+        Rok 2025 stanowi punkt zwrotny w historii polskiej ekspansji inwestycyjnej w Niemczech.
+        Sześć znaczących transakcji M&A, dywersyfikacja sektorowa w kierunku OZE i gospodarki
+        obiegu zamkniętego oraz rosnące zaangażowanie instytucji publicznych w finansowanie
+        ekspansji – wszystko to sygnalizuje wejście polsko-niemieckich relacji inwestycyjnych
+        w nową fazę.
+    </p>
+
+    <p>
+        Choć asymetria pozostaje znacząca (stosunek 20:1 na korzyść Niemiec), dynamika zmian
+        wskazuje na stopniowe równoważenie relacji. Przy utrzymaniu obecnych trendów, polskie
+        FDI w Niemczech mogą podwoić się do końca dekady, osiągając poziom 4,5–5,5 mld EUR.
+    </p>
+
+    <p>
+        Kluczowe dla realizacji tego potencjału będą: kontynuacja aktywnej polityki wsparcia
+        ekspansji zagranicznej, budowa kompetencji M&A w polskich przedsiębiorstwach oraz
+        wykorzystanie strukturalnych okazji wynikających z niemieckiej transformacji energetycznej
+        i restrukturyzacji przemysłu.
+    </p>
+
+    <div class="exec-summary" style="margin-top: 40px;">
+        <h3>Kluczowe liczby raportu</h3>
+        <ul>
+            <li><strong>2,5 mld EUR</strong> – szacowany stan polskich FDI w Niemczech (2025)</li>
+            <li><strong>6 transakcji M&A</strong> – rekordowa aktywność w 2025 roku</li>
+            <li><strong>4,5 mld EUR</strong> – prognoza FDI na 2030 (scenariusz bazowy)</li>
+            <li><strong>20:1</strong> – obecna asymetria inwestycyjna (DE→PL vs PL→DE)</li>
+            <li><strong>44%</strong> – udział Polski w inwestycjach CEE w Niemczech</li>
+        </ul>
+    </div>
+
+    <hr style="margin-top: 50px;">
+
+    <div style="text-align: center; padding: 40px 0; color: var(--text-light); font-size: 10pt;">
+        <p><strong>Departament Analiz Strategicznych</strong></p>
+        <p>Raport przygotowany: Luty 2026 | Wersja: 3.0 Final</p>
+        <p style="margin-top: 20px;">© 2026 | Wszelkie prawa zastrzeżone</p>
+        <p style="margin-top: 10px; font-size: 9pt;">
+            Niniejszy raport ma charakter informacyjny i nie stanowi rekomendacji inwestycyjnej.
+        </p>
+    </div>
+
+</body>
+</html>
