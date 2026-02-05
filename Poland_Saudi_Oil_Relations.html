@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poland–Saudi Arabia Oil Relations</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --primary: #1a1a2e;
+            --secondary: #16213e;
+            --accent: #0f4c75;
+            --highlight: #3282b8;
+            --text: #1a1a1a;
+            --text-light: #5a5a5a;
+            --bg: #ffffff;
+            --border: #e5e5e5;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        /* SLIDE LAYOUT */
+        .slide {
+            width: 100%;
+            max-width: 1000px;
+            min-height: 100vh;
+            margin: 0 auto;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            page-break-after: always;
+            position: relative;
+        }
+
+        .slide:last-child {
+            page-break-after: avoid;
+        }
+
+        /* HEADER */
+        .slide-header {
+            margin-bottom: 50px;
+        }
+
+        .slide-number {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--highlight);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+
+        .slide-title {
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--primary);
+            line-height: 1.3;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--primary);
+        }
+
+        /* KEY MESSAGE */
+        .key-message {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 24px 30px;
+            margin-bottom: 40px;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        .key-message strong {
+            color: #bbe1fa;
+        }
+
+        /* METRICS ROW */
+        .metrics-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .metric-box {
+            flex: 1;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--accent);
+            line-height: 1.1;
+        }
+
+        .metric-label {
+            font-size: 11px;
+            color: var(--text-light);
+            margin-top: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* CONTENT */
+        .slide-content {
+            flex: 1;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+
+        li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 6px;
+            height: 6px;
+            background: var(--highlight);
+        }
+
+        li strong {
+            color: var(--primary);
+        }
+
+        /* PILLARS */
+        .pillars {
+            display: flex;
+            gap: 25px;
+            margin: 30px 0;
+        }
+
+        .pillar {
+            flex: 1;
+            border-left: 3px solid var(--highlight);
+            padding-left: 20px;
+        }
+
+        .pillar-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--highlight);
+            opacity: 0.3;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .pillar-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .pillar-content {
+            font-size: 11px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* TIMELINE */
+        .timeline {
+            margin: 30px 0;
+        }
+
+        .timeline-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+
+        .timeline-year {
+            width: 70px;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--highlight);
+            flex-shrink: 0;
+        }
+
+        .timeline-content {
+            flex: 1;
+            padding-left: 20px;
+            border-left: 2px solid var(--border);
+            padding-bottom: 15px;
+        }
+
+        .timeline-item:last-child .timeline-content {
+            border-left-color: var(--highlight);
+        }
+
+        /* INFO BOX */
+        .info-box {
+            background: #f8f9fa;
+            border-left: 3px solid var(--highlight);
+            padding: 20px 25px;
+            margin: 25px 0;
+        }
+
+        .info-box-title {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            font-size: 11px;
+            margin-bottom: 8px;
+            color: var(--text-light);
+        }
+
+        /* TAKEAWAYS */
+        .takeaways {
+            counter-reset: takeaway;
+        }
+
+        .takeaway {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .takeaway:last-child {
+            border-bottom: none;
+        }
+
+        .takeaway-number {
+            width: 40px;
+            height: 40px;
+            background: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .takeaway-content {
+            flex: 1;
+        }
+
+        .takeaway-title {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .takeaway-desc {
+            font-size: 11px;
+            color: var(--text-light);
+        }
+
+        /* FOOTER STRIP */
+        .footer-strip {
+            background: var(--primary);
+            color: white;
+            padding: 30px 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .footer-metric {
+            text-align: center;
+        }
+
+        .footer-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #bbe1fa;
+        }
+
+        .footer-label {
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+
+        /* TWO COLUMNS */
+        .two-cols {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        /* HIGHLIGHT NUMBER */
+        .highlight-number {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--highlight);
+            line-height: 1;
+        }
+
+        .highlight-unit {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        /* TABLE */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 11px;
+        }
+
+        th {
+            background: var(--primary);
+            color: white;
+            padding: 12px 15px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        /* SLIDE FOOTER */
+        .slide-footer {
+            margin-top: auto;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 9px;
+            color: var(--text-light);
+            border-top: 1px solid var(--border);
+        }
+
+        /* PRINT STYLES */
+        @media print {
+            .slide {
+                padding: 40px 50px;
+                min-height: 100vh;
+            }
+            body {
+                font-size: 10pt;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- SLIDE 1: EXECUTIVE SUMMARY -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">01 / Executive Summary</div>
+            <h1 class="slide-title">Poland–Saudi Arabia Oil Relations</h1>
+        </div>
+
+        <div class="key-message">
+            Saudi Arabia replaced Russia as Poland's primary crude oil source. The partnership is largely concentrated around one strategic partner — <strong>Saudi Aramco</strong>.
+        </div>
+
+        <div class="metrics-row">
+            <div class="metric-box">
+                <div class="metric-value">60%</div>
+                <div class="metric-label">Crude imports Q4 2024<br>3.8 million tons</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-value">51%</div>
+                <div class="metric-label">Full year 2024 share<br>Russia: 0%</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-value">$1.15bn</div>
+                <div class="metric-label">Aramco investment<br>2022 package</div>
+            </div>
+            <div class="metric-box">
+                <div class="metric-value">400 kb/d</div>
+                <div class="metric-label">Supply contracts<br>≈ 45% Orlen demand</div>
+            </div>
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 2: THREE PILLARS -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">02 / Cooperation Framework</div>
+            <h1 class="slide-title">Three Pillars of Cooperation</h1>
+        </div>
+
+        <div class="pillars">
+            <div class="pillar">
+                <div class="pillar-number">1</div>
+                <div class="pillar-title">Crude Supply</div>
+                <div class="pillar-content">
+                    Saudi Arabia as the <strong>base-load supplier</strong> providing scale and delivery regularity.<br><br>
+                    Other origins (Norway, USA, Guyana) as <strong>complements</strong> for flexibility.
+                </div>
+            </div>
+            <div class="pillar">
+                <div class="pillar-number">2</div>
+                <div class="pillar-title">Equity Investments</div>
+                <div class="pillar-content">
+                    Aramco as a Polish downstream investor: <strong>refining stake + trade-linked segments</strong>.<br><br>
+                    Logic: aligning incentives across the value chain (crude → refining → sales).
+                </div>
+            </div>
+            <div class="pillar">
+                <div class="pillar-number">3</div>
+                <div class="pillar-title">Technology & Projects</div>
+                <div class="pillar-content">
+                    <strong>Joint Development Agreement (JDA)</strong> — framework to jointly prepare projects ahead of FID.<br><br>
+                    Gdańsk petrochemical development incl. steam cracker (Aramco/SABIC/Orlen).
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <div class="info-box-title">What is a JDA?</div>
+            <p>A Joint Development Agreement is a framework to <strong>jointly prepare a project</strong> before a Final Investment Decision (FID). It typically covers: roles, workplan/timeline, technical & economic studies, governance, and use of results.</p>
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 3: CRUDE SUPPLY -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">03 / Pillar 1</div>
+            <h1 class="slide-title">Crude Supply — Scale, Shift, Diversification</h1>
+        </div>
+
+        <div class="slide-content">
+            <div class="two-cols">
+                <div>
+                    <h3>Scale & Momentum</h3>
+                    <ul>
+                        <li>Saudi Arabia supplied <strong>60% of imports in Q4 2024</strong> (3.8 million tons)</li>
+                        <li>Full-year 2024 share: <strong>51%</strong></li>
+                        <li>Poland relies on imports for <strong>~98%</strong> of crude consumption</li>
+                    </ul>
+
+                    <h3>Strategic Reorientation</h3>
+                    <ul>
+                        <li>Imports from Russia: <strong>0% in 2024</strong> (full exit)</li>
+                        <li>Complete pivot within approximately <strong>2–3 years</strong></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Diversification Mix (2024)</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Origin</th>
+                                <th>Share</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Saudi Arabia</strong></td>
+                                <td><strong>51%</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Norway</td>
+                                <td>31%</td>
+                            </tr>
+                            <tr>
+                                <td>USA</td>
+                                <td>8%</td>
+                            </tr>
+                            <tr>
+                                <td>Other (incl. Guyana 700k t)</td>
+                                <td>10%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <div class="info-box-title">Management Takeaway</div>
+                <p>A dominant supplier provides <strong>volume stability</strong>; a diversified remainder strengthens <strong>system resilience</strong>. Continuity, predictability, and logistics are critical for Poland's energy security.</p>
+            </div>
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 4: INVESTMENT PACKAGE -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">04 / Pillar 2</div>
+            <h1 class="slide-title">2022 Investment Package — Structure & Model</h1>
+        </div>
+
+        <div class="slide-content">
+            <div class="metrics-row">
+                <div class="metric-box">
+                    <div class="metric-value">$1.15bn</div>
+                    <div class="metric-label">Total package value<br>Three transactions</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">30%</div>
+                    <div class="metric-label">Gdańsk refinery stake<br>210 kb/d capacity</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">50%</div>
+                    <div class="metric-label">Offtake rights<br>up to 50% of output</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">100%</div>
+                    <div class="metric-label">Wholesale business<br>acquired by Aramco</div>
+                </div>
+            </div>
+
+            <h3>Package Components</h3>
+            <ul>
+                <li><strong>30% stake in the Gdańsk refinery</strong> — capacity 210 kb/d</li>
+                <li><strong>Offtake model</strong> — up to 50% of Gdańsk output for Aramco (linking equity to trade flows)</li>
+                <li><strong>Downstream wholesale</strong> — acquisition of 100% of the refinery's wholesale business</li>
+            </ul>
+
+            <div class="info-box">
+                <div class="info-box-title">Jet Fuel JV (50/50)</div>
+                <p>A joint venture in <strong>aviation fuel</strong> combining supply/product access with sales and logistics to airport customers. Declared scope: serving approximately <strong>6–7 airports</strong>. Operating model: joint sales and logistics of jet fuel.</p>
+            </div>
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 5: TECHNOLOGY & PETROCHEMICALS -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">05 / Pillar 3</div>
+            <h1 class="slide-title">Technology & Petrochemicals — Strategic Alignment</h1>
+        </div>
+
+        <div class="slide-content">
+            <div class="two-cols">
+                <div>
+                    <h3>Scale of Partnership</h3>
+                    <ul>
+                        <li>Contracted crude supply: <strong>400 kb/d</strong></li>
+                        <li>≈ <strong>45%</strong> of PKN Orlen's crude needs</li>
+                        <li>Group scale: <strong>7 refineries</strong>, ~46 mtpa</li>
+                    </ul>
+
+                    <h3>Gdańsk JDA</h3>
+                    <ul>
+                        <li>Joint preparation of petrochemical project</li>
+                        <li>Partners: <strong>Orlen + Aramco + SABIC</strong></li>
+                        <li>Includes a <strong>steam cracker</strong> development</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="info-box">
+                        <div class="info-box-title">What is a Steam Cracker?</div>
+                        <p>A core petrochemical unit that converts hydrocarbon feedstocks (e.g., naphtha/ethane) at very high temperature with steam into key building blocks: <strong>ethylene and propylene</strong>.</p>
+                        <p><strong>Business rationale:</strong> Shifts part of the value mix from fuels toward higher-value petrochemical outputs (different margin and demand profile).</p>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-box-title">Aramco's Strategic Direction</div>
+                        <p>Aramco's corporate target: expanding <strong>liquids-to-chemicals</strong> capacity to approximately <strong>4 million b/d</strong>.</p>
+                        <p>The Gdańsk petrochemical pathway aligns with Aramco's broader strategy of increasing petrochemicals' share in the value chain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 6: TIMELINE -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">06 / Evolution</div>
+            <h1 class="slide-title">Cooperation Timeline — Key Milestones</h1>
+        </div>
+
+        <div class="slide-content">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2012</div>
+                    <div class="timeline-content">
+                        <strong>First test cargo</strong> — 60,000 tons delivered to Grupa LOTOS
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2015</div>
+                    <div class="timeline-content">
+                        <strong>Test delivery to PKN Orlen</strong> — 100,000 tons
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2018</div>
+                    <div class="timeline-content">
+                        <strong>Volume increase by 50%</strong> — to approximately 300,000 tons/month
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2019</div>
+                    <div class="timeline-content">
+                        <strong>Medium-term contract</strong> — 800,000 tons over 6 months
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-content">
+                        <strong>Strategic transaction package</strong> — $1.15 billion invested by Saudi Aramco
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <strong>Dominant supplier status</strong> — 51% full-year share, 60% in Q4
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 7: KEY TAKEAWAYS -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">07 / Conclusions</div>
+            <h1 class="slide-title">Key Management Takeaways</h1>
+        </div>
+
+        <div class="slide-content">
+            <div class="takeaways">
+                <div class="takeaway">
+                    <div class="takeaway-number">1</div>
+                    <div class="takeaway-content">
+                        <div class="takeaway-title">Complete Supply Reorientation</div>
+                        <div class="takeaway-desc">Russia <strong>100% → 0%</strong>, Saudi Arabia <strong>0% → 51–60%</strong> within approximately 2–3 years. Full strategic pivot achieved.</div>
+                    </div>
+                </div>
+                <div class="takeaway">
+                    <div class="takeaway-number">2</div>
+                    <div class="takeaway-content">
+                        <div class="takeaway-title">Trade + Capital Integration</div>
+                        <div class="takeaway-desc"><strong>$1.15bn</strong> equity investment combined with offtake mechanisms (up to 50% of Gdańsk output) reinforces long-term commercial stability.</div>
+                    </div>
+                </div>
+                <div class="takeaway">
+                    <div class="takeaway-number">3</div>
+                    <div class="takeaway-content">
+                        <div class="takeaway-title">Relational Simplicity</div>
+                        <div class="takeaway-desc">Cooperation concentrated around one core partner (Aramco/SABIC) enables faster coordination, streamlined decision-making, and strategic alignment.</div>
+                    </div>
+                </div>
+                <div class="takeaway">
+                    <div class="takeaway-number">4</div>
+                    <div class="takeaway-content">
+                        <div class="takeaway-title">Second Growth Track</div>
+                        <div class="takeaway-desc">Petrochemicals (steam cracker) and liquids-to-chemicals as a natural extension beyond crude supply — higher value-added, diversified margin profile.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 8: NUMBERS BAR -->
+    <div class="slide" style="justify-content: center;">
+        <div class="slide-header">
+            <div class="slide-number">08 / Summary</div>
+            <h1 class="slide-title">Key Figures at a Glance</h1>
+        </div>
+
+        <div class="footer-strip" style="margin: 40px 0;">
+            <div class="footer-metric">
+                <div class="footer-value">60%</div>
+                <div class="footer-label">Crude imports Q4 2024<br>3.8 million tons</div>
+            </div>
+            <div class="footer-metric">
+                <div class="footer-value">51%</div>
+                <div class="footer-label">Full year 2024<br>Saudi share</div>
+            </div>
+            <div class="footer-metric">
+                <div class="footer-value">$1.15bn</div>
+                <div class="footer-label">Investment<br>package value</div>
+            </div>
+            <div class="footer-metric">
+                <div class="footer-value">400 kb/d</div>
+                <div class="footer-label">Supply contracts<br>≈ 45% Orlen demand</div>
+            </div>
+        </div>
+
+        <div class="key-message" style="text-align: center;">
+            <strong>From energy dependency to strategic partnership</strong><br>
+            A complete transformation of Poland's crude oil supply structure within 2–3 years, backed by $1.15bn in equity investments and long-term contractual commitments.
+        </div>
+
+        <div class="slide-footer">
+            <span>Poland–Saudi Oil Relations</span>
+            <span>Confidential</span>
+        </div>
+    </div>
+
+</body>
+</html>
