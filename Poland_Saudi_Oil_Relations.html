@@ -635,50 +635,77 @@
         </div>
     </div>
 
-    <!-- SLIDE 6: TIMELINE -->
+    <!-- SLIDE 6: TIMELINE WITH CHART -->
     <div class="slide">
         <div class="slide-header">
             <div class="slide-number">06 / Evolution</div>
-            <h1 class="slide-title">Cooperation Timeline — Key Milestones</h1>
+            <h1 class="slide-title">Cooperation Timeline — Volume Growth</h1>
         </div>
 
         <div class="slide-content">
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-year">2012</div>
-                    <div class="timeline-content">
-                        <strong>First test cargo</strong> — 60,000 tons delivered to Grupa LOTOS
-                    </div>
+            <!-- VISUAL BAR CHART -->
+            <div style="display: flex; align-items: flex-end; justify-content: space-between; height: 220px; padding: 20px 0; border-bottom: 2px solid var(--border); margin-bottom: 30px;">
+
+                <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
+                    <div style="font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 8px;">60k t</div>
+                    <div style="width: 50px; height: 15px; background: linear-gradient(180deg, var(--highlight) 0%, var(--accent) 100%);"></div>
+                    <div style="font-size: 12px; font-weight: 700; color: var(--primary); margin-top: 12px;">2012</div>
+                    <div style="font-size: 9px; color: var(--text-light); text-align: center; margin-top: 4px;">First test<br>cargo</div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2015</div>
-                    <div class="timeline-content">
-                        <strong>Test delivery to PKN Orlen</strong> — 100,000 tons
-                    </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
+                    <div style="font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 8px;">100k t</div>
+                    <div style="width: 50px; height: 25px; background: linear-gradient(180deg, var(--highlight) 0%, var(--accent) 100%);"></div>
+                    <div style="font-size: 12px; font-weight: 700; color: var(--primary); margin-top: 12px;">2015</div>
+                    <div style="font-size: 9px; color: var(--text-light); text-align: center; margin-top: 4px;">Orlen test<br>delivery</div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2018</div>
-                    <div class="timeline-content">
-                        <strong>Volume increase by 50%</strong> — to approximately 300,000 tons/month
-                    </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
+                    <div style="font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 8px;">300k t/mo</div>
+                    <div style="width: 50px; height: 75px; background: linear-gradient(180deg, var(--highlight) 0%, var(--accent) 100%);"></div>
+                    <div style="font-size: 12px; font-weight: 700; color: var(--primary); margin-top: 12px;">2018</div>
+                    <div style="font-size: 9px; color: var(--text-light); text-align: center; margin-top: 4px;">Volume<br>+50%</div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2019</div>
-                    <div class="timeline-content">
-                        <strong>Medium-term contract</strong> — 800,000 tons over 6 months
-                    </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
+                    <div style="font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 8px;">800k t</div>
+                    <div style="width: 50px; height: 100px; background: linear-gradient(180deg, var(--highlight) 0%, var(--accent) 100%);"></div>
+                    <div style="font-size: 12px; font-weight: 700; color: var(--primary); margin-top: 12px;">2019</div>
+                    <div style="font-size: 9px; color: var(--text-light); text-align: center; margin-top: 4px;">6-month<br>contract</div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2022</div>
-                    <div class="timeline-content">
-                        <strong>Strategic transaction package</strong> — $1.15 billion invested by Saudi Aramco
-                    </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
+                    <div style="font-size: 11px; font-weight: 600; color: #b8860b; margin-bottom: 8px;">$1.15bn</div>
+                    <div style="width: 50px; height: 130px; background: linear-gradient(180deg, #d4a84b 0%, #b8860b 100%);"></div>
+                    <div style="font-size: 12px; font-weight: 700; color: var(--primary); margin-top: 12px;">2022</div>
+                    <div style="font-size: 9px; color: var(--text-light); text-align: center; margin-top: 4px;">Strategic<br>investment</div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-year">2024</div>
-                    <div class="timeline-content">
-                        <strong>Dominant supplier status</strong> — 51% full-year share, 60% in Q4
-                    </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center; flex: 1;">
+                    <div style="font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 8px;">3.8M t</div>
+                    <div style="width: 50px; height: 180px; background: linear-gradient(180deg, var(--highlight) 0%, var(--accent) 100%);"></div>
+                    <div style="font-size: 12px; font-weight: 700; color: var(--primary); margin-top: 12px;">2024</div>
+                    <div style="font-size: 9px; color: var(--text-light); text-align: center; margin-top: 4px;">Q4: 60%<br>share</div>
+                </div>
+
+            </div>
+
+            <!-- KEY MILESTONES TABLE -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+                <div style="padding: 15px; background: #f8f9fa; border-left: 3px solid var(--highlight);">
+                    <div style="font-size: 10px; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px;">2012–2015</div>
+                    <div style="font-size: 12px; font-weight: 600; color: var(--primary); margin-top: 5px;">Test Phase</div>
+                    <div style="font-size: 10px; color: var(--text-light); margin-top: 5px;">First cargos to LOTOS and Orlen — building operational experience</div>
+                </div>
+                <div style="padding: 15px; background: #f8f9fa; border-left: 3px solid var(--highlight);">
+                    <div style="font-size: 10px; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px;">2018–2019</div>
+                    <div style="font-size: 12px; font-weight: 600; color: var(--primary); margin-top: 5px;">Scale-Up</div>
+                    <div style="font-size: 10px; color: var(--text-light); margin-top: 5px;">Volume increase +50%, first medium-term contracts signed</div>
+                </div>
+                <div style="padding: 15px; background: #f8f9fa; border-left: 3px solid #b8860b;">
+                    <div style="font-size: 10px; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px;">2022–2024</div>
+                    <div style="font-size: 12px; font-weight: 600; color: var(--primary); margin-top: 5px;">Strategic Partnership</div>
+                    <div style="font-size: 10px; color: var(--text-light); margin-top: 5px;">$1.15bn investment, dominant supplier status achieved (51–60%)</div>
                 </div>
             </div>
         </div>
