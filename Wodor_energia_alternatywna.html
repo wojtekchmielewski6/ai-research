@@ -437,115 +437,201 @@
     <div class="slide">
         <div class="slide-header">
             <div class="slide-number">01b / Proces</div>
-            <h1 class="slide-title">Jak powstaje energia z wodoru?</h1>
+            <h1 class="slide-title">Dwie metody: spalanie vs ogniwa paliwowe</h1>
         </div>
 
-        <p style="font-size: 12px; color: var(--text-light); margin-bottom: 30px;">
-            Wodór można przekształcić w energię użyteczną na dwa główne sposoby: przez <strong>spalanie</strong> (jak paliwo) lub przez <strong>ogniwa paliwowe</strong> (konwersja elektrochemiczna). Oba procesy łączą wodór z tlenem, ale różnią się efektywnością i zastosowaniem.
+        <div class="info-box" style="margin-bottom: 25px;">
+            <p style="margin: 0;"><strong>Kluczowa różnica:</strong> Obie metody łączą wodór z tlenem i produkują wodę. Ale <strong>spalanie</strong> daje ciepło (jak gaz ziemny), a <strong>ogniwo paliwowe</strong> daje prąd elektryczny (jak bateria, tylko że nie trzeba jej ładować — wystarczy tankować wodór).</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+            <!-- SPALANIE -->
+            <div style="background: #fff5f5; padding: 25px; border-left: 4px solid #e74c3c;">
+                <div style="font-size: 13px; font-weight: 700; color: #e74c3c; margin-bottom: 5px;">SPALANIE WODORU</div>
+                <div style="font-size: 10px; color: var(--text-light); margin-bottom: 15px;">Działa jak palnik gazowy — płomień daje ciepło</div>
+
+                <!-- Simple visual -->
+                <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin: 20px 0; font-size: 18px;">
+                    <div style="background: #3498db; color: white; padding: 10px 15px; border-radius: 6px; font-weight: 600;">H₂</div>
+                    <span style="color: #bdc3c7;">+</span>
+                    <div style="background: #9b59b6; color: white; padding: 10px 15px; border-radius: 6px; font-weight: 600;">O₂</div>
+                    <span style="color: #e74c3c; font-weight: 700;">→</span>
+                    <div style="background: #e74c3c; color: white; padding: 10px 15px; border-radius: 6px;">🔥 CIEPŁO</div>
+                </div>
+
+                <div style="font-size: 11px; margin-top: 20px;">
+                    <div style="font-weight: 600; color: #c0392b; margin-bottom: 10px;">KIEDY STOSUJEMY?</div>
+                    <ul style="margin: 0; padding-left: 15px;">
+                        <li style="margin-bottom: 8px;"><strong>Piece przemysłowe</strong> — hutnictwo, cementownie, gdzie potrzeba 1000°C+</li>
+                        <li style="margin-bottom: 8px;"><strong>Turbiny gazowe</strong> — elektrownie, które już mają turbiny na gaz</li>
+                        <li style="margin-bottom: 8px;"><strong>Ogrzewanie budynków</strong> — kotły wodorowe zamiast gazowych</li>
+                        <li><strong>Lotnictwo</strong> — silniki odrzutowe na wodór (przyszłość)</li>
+                    </ul>
+                </div>
+
+                <div style="background: white; padding: 12px; margin-top: 15px; font-size: 10px; border-radius: 4px;">
+                    <strong>Sprawność:</strong> 30-40% | <strong>Produkt:</strong> Ciepło | <strong>Hałas:</strong> Wysoki
+                </div>
+            </div>
+
+            <!-- OGNIWO PALIWOWE -->
+            <div style="background: #f0fff4; padding: 25px; border-left: 4px solid #27ae60;">
+                <div style="font-size: 13px; font-weight: 700; color: #27ae60; margin-bottom: 5px;">OGNIWO PALIWOWE</div>
+                <div style="font-size: 10px; color: var(--text-light); margin-bottom: 15px;">Działa jak bateria — reakcja chemiczna daje prąd</div>
+
+                <!-- Simple visual -->
+                <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin: 20px 0; font-size: 18px;">
+                    <div style="background: #3498db; color: white; padding: 10px 15px; border-radius: 6px; font-weight: 600;">H₂</div>
+                    <span style="color: #bdc3c7;">→</span>
+                    <div style="background: #2c3e50; color: white; padding: 10px 12px; border-radius: 6px; font-size: 10px;">ogniwo</div>
+                    <span style="color: #27ae60; font-weight: 700;">→</span>
+                    <div style="background: #f39c12; color: white; padding: 10px 15px; border-radius: 6px;">⚡ PRĄD</div>
+                </div>
+
+                <div style="font-size: 11px; margin-top: 20px;">
+                    <div style="font-weight: 600; color: #1e8449; margin-bottom: 10px;">KIEDY STOSUJEMY?</div>
+                    <ul style="margin: 0; padding-left: 15px;">
+                        <li style="margin-bottom: 8px;"><strong>Samochody osobowe</strong> — Toyota Mirai, Hyundai Nexo</li>
+                        <li style="margin-bottom: 8px;"><strong>Autobusy i ciężarówki</strong> — duży zasięg, szybkie tankowanie</li>
+                        <li style="margin-bottom: 8px;"><strong>Pociągi</strong> — na trasach bez elektryfikacji</li>
+                        <li><strong>Zasilanie awaryjne</strong> — szpitale, centra danych</li>
+                    </ul>
+                </div>
+
+                <div style="background: white; padding: 12px; margin-top: 15px; font-size: 10px; border-radius: 4px;">
+                    <strong>Sprawność:</strong> 50-60% | <strong>Produkt:</strong> Prąd | <strong>Hałas:</strong> Cichy
+                </div>
+            </div>
+        </div>
+
+        <!-- DECISION GUIDE -->
+        <div style="margin-top: 25px; background: #f8f9fa; padding: 20px; border: 1px solid var(--border);">
+            <h3 style="margin-top: 0;">Jak wybrać? Prosta zasada</h3>
+            <div style="display: flex; gap: 40px; font-size: 11px;">
+                <div style="flex: 1;">
+                    <div style="font-weight: 600; color: #e74c3c; margin-bottom: 8px;">→ SPALANIE gdy:</div>
+                    <ul style="margin: 0;">
+                        <li>Potrzebujesz <strong>wysokiej temperatury</strong> (przemysł ciężki)</li>
+                        <li>Masz już <strong>istniejącą infrastrukturę</strong> na gaz (kotły, turbiny)</li>
+                        <li>Liczy się <strong>niski koszt urządzenia</strong>, nie sprawność</li>
+                    </ul>
+                </div>
+                <div style="flex: 1;">
+                    <div style="font-weight: 600; color: #27ae60; margin-bottom: 8px;">→ OGNIWO PALIWOWE gdy:</div>
+                    <ul style="margin: 0;">
+                        <li>Potrzebujesz <strong>prądu elektrycznego</strong> (pojazdy, zasilanie)</li>
+                        <li>Liczy się <strong>wysoka sprawność</strong> i cicha praca</li>
+                        <li>Chcesz <strong>elastyczności</strong> — szybkie tankowanie jak na stacji</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-footer">
+            <span>Wodór jako źródło alternatywnej energii</span>
+            <span>Luty 2026</span>
+        </div>
+    </div>
+
+    <!-- SLIDE 2C: PORÓWNANIE Z ALTERNATYWAMI -->
+    <div class="slide">
+        <div class="slide-header">
+            <div class="slide-number">01c / Porównanie</div>
+            <h1 class="slide-title">Wodór vs inne źródła energii — gdzie ma sens?</h1>
+        </div>
+
+        <p style="font-size: 12px; color: var(--text-light); margin-bottom: 25px;">
+            Wodór nie jest uniwersalnym rozwiązaniem. Ma <strong>konkretne nisze</strong>, gdzie przewyższa alternatywy. Poniżej porównanie z głównymi konkurentami.
         </p>
 
-        <!-- PROCESS DIAGRAM: SPALANIE -->
-        <div style="background: #f8f9fa; padding: 25px; margin-bottom: 25px; border-left: 4px solid #e74c3c;">
-            <div style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #e74c3c; margin-bottom: 15px;">Metoda 1: Spalanie wodoru</div>
+        <!-- COMPARISON TABLE -->
+        <table style="font-size: 10px;">
+            <thead>
+                <tr>
+                    <th style="width: 18%;">Kryterium</th>
+                    <th style="width: 20%; background: var(--accent);">Wodór (ogniwo)</th>
+                    <th style="width: 20%;">Baterie (EV)</th>
+                    <th style="width: 20%;">Gaz ziemny</th>
+                    <th style="width: 22%;">Benzyna/Diesel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Emisje CO₂</strong></td>
+                    <td style="background: #e8f8f5; color: #27ae60; font-weight: 600;">Zero (zielony H₂)</td>
+                    <td style="color: #27ae60;">Zero (przy OZE)</td>
+                    <td style="color: #e67e22;">Średnie</td>
+                    <td style="color: #e74c3c;">Wysokie</td>
+                </tr>
+                <tr>
+                    <td><strong>Czas tankowania</strong></td>
+                    <td style="background: #e8f8f5; color: #27ae60; font-weight: 600;">3-5 minut</td>
+                    <td style="color: #e74c3c;">30 min – 8h</td>
+                    <td style="color: #27ae60;">Szybki</td>
+                    <td style="color: #27ae60;">Szybki</td>
+                </tr>
+                <tr>
+                    <td><strong>Zasięg (ciężarówka)</strong></td>
+                    <td style="background: #e8f8f5; color: #27ae60; font-weight: 600;">800-1000 km</td>
+                    <td style="color: #e67e22;">300-500 km</td>
+                    <td style="color: #27ae60;">Duży</td>
+                    <td style="color: #27ae60;">Duży</td>
+                </tr>
+                <tr>
+                    <td><strong>Waga układu</strong></td>
+                    <td style="background: #e8f8f5;">Lekki</td>
+                    <td style="color: #e74c3c;">Ciężki (baterie)</td>
+                    <td>Średni</td>
+                    <td>Lekki</td>
+                </tr>
+                <tr>
+                    <td><strong>Infrastruktura</strong></td>
+                    <td style="color: #e74c3c;">Słaba (~700 stacji EU)</td>
+                    <td style="color: #e67e22;">Rozbudowywana</td>
+                    <td style="color: #27ae60;">Istniejąca</td>
+                    <td style="color: #27ae60;">Pełna</td>
+                </tr>
+                <tr>
+                    <td><strong>Koszt paliwa</strong></td>
+                    <td style="color: #e74c3c;">Wysoki (~€10-15/kg)</td>
+                    <td style="color: #27ae60;">Niski</td>
+                    <td style="color: #e67e22;">Zmienny</td>
+                    <td style="color: #e67e22;">Średni</td>
+                </tr>
+                <tr>
+                    <td><strong>Magazynowanie energii</strong></td>
+                    <td style="background: #e8f8f5; color: #27ae60; font-weight: 600;">Długoterminowe OK</td>
+                    <td style="color: #e74c3c;">Samorozładowanie</td>
+                    <td style="color: #27ae60;">Łatwe</td>
+                    <td style="color: #27ae60;">Łatwe</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <!-- Visual process flow -->
-            <div style="display: flex; align-items: center; justify-content: space-between; margin: 20px 0;">
-                <div style="text-align: center; flex: 1;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #3498db, #2980b9); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 700; font-size: 18px;">H₂</div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Wodór</div>
-                </div>
-                <div style="font-size: 24px; color: #bdc3c7;">+</div>
-                <div style="text-align: center; flex: 1;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #9b59b6, #8e44ad); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 700; font-size: 18px;">O₂</div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Tlen</div>
-                </div>
-                <div style="font-size: 24px; color: #e74c3c;">→</div>
-                <div style="text-align: center; flex: 1;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #e74c3c, #c0392b); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 700; font-size: 12px;">🔥<br>CIEPŁO</div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Energia cieplna</div>
-                </div>
-                <div style="font-size: 24px; color: #bdc3c7;">+</div>
-                <div style="text-align: center; flex: 1;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #1abc9c, #16a085); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 700; font-size: 16px;">H₂O</div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Woda (jedyny produkt)</div>
-                </div>
+        <!-- WHERE HYDROGEN WINS -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px; margin-top: 25px;">
+            <div style="background: #e8f8f5; padding: 20px; border-left: 4px solid #27ae60;">
+                <div style="font-size: 11px; font-weight: 600; color: #1e8449; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">✓ Gdzie wodór wygrywa</div>
+                <ul style="font-size: 11px; margin: 0;">
+                    <li><strong>Transport ciężki</strong> — ciężarówki, autobusy, pociągi (zasięg + szybkie tankowanie)</li>
+                    <li><strong>Przemysł wysokotemperaturowy</strong> — stal, cement, szkło (baterie nie dadzą 1500°C)</li>
+                    <li><strong>Magazynowanie OZE</strong> — sezonowe przechowywanie nadwyżek energii</li>
+                    <li><strong>Żegluga i lotnictwo</strong> — zbyt duża waga baterii</li>
+                </ul>
             </div>
-
-            <div style="display: flex; gap: 30px; margin-top: 20px; font-size: 10px;">
-                <div><strong>Sprawność:</strong> 30-40%</div>
-                <div><strong>Zastosowanie:</strong> Silniki, turbiny, piece przemysłowe</div>
-                <div><strong>Emisje:</strong> Zero CO₂, tylko para wodna</div>
+            <div style="background: #fdf2f2; padding: 20px; border-left: 4px solid #e74c3c;">
+                <div style="font-size: 11px; font-weight: 600; color: #c0392b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px;">✗ Gdzie baterie wygrywają</div>
+                <ul style="font-size: 11px; margin: 0;">
+                    <li><strong>Samochody osobowe</strong> — lepsza sprawność (90% vs 50%), tańsza infrastruktura</li>
+                    <li><strong>Krótkie dystanse miejskie</strong> — wystarczy ładowanie nocne</li>
+                    <li><strong>Małe urządzenia</strong> — telefony, laptopy, narzędzia</li>
+                    <li><strong>Tam gdzie jest dostęp do gniazdka</strong> — nie trzeba stacji wodorowej</li>
+                </ul>
             </div>
         </div>
 
-        <!-- PROCESS DIAGRAM: OGNIWO PALIWOWE -->
-        <div style="background: #f0fff4; padding: 25px; border-left: 4px solid #27ae60;">
-            <div style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #27ae60; margin-bottom: 15px;">Metoda 2: Ogniwo paliwowe (fuel cell)</div>
-
-            <!-- Visual process flow -->
-            <div style="display: flex; align-items: center; justify-content: space-between; margin: 20px 0;">
-                <div style="text-align: center; flex: 1;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #3498db, #2980b9); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 700; font-size: 18px;">H₂</div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Wodór</div>
-                </div>
-                <div style="font-size: 24px; color: #bdc3c7;">→</div>
-                <div style="text-align: center; flex: 1.5;">
-                    <div style="width: 120px; height: 80px; background: linear-gradient(135deg, #2c3e50, #34495e); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 600; font-size: 10px; text-align: center; padding: 5px;">OGNIWO<br>PALIWOWE<br><span style="font-size: 8px; opacity: 0.7;">membrana + elektrody</span></div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Reakcja elektrochemiczna</div>
-                </div>
-                <div style="font-size: 24px; color: #27ae60;">→</div>
-                <div style="text-align: center; flex: 1;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #f39c12, #e67e22); border-radius: 8px; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 700; font-size: 12px;">⚡<br>PRĄD</div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Energia elektryczna</div>
-                </div>
-                <div style="font-size: 24px; color: #bdc3c7;">+</div>
-                <div style="text-align: center; flex: 1;">
-                    <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #1abc9c, #16a085); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; color: white; font-weight: 700; font-size: 16px;">H₂O</div>
-                    <div style="font-size: 10px; margin-top: 8px; color: var(--text);">Woda + ciepło</div>
-                </div>
-            </div>
-
-            <div style="display: flex; gap: 30px; margin-top: 20px; font-size: 10px;">
-                <div><strong>Sprawność:</strong> 50-60% (do 80% z kogeneracją)</div>
-                <div><strong>Zastosowanie:</strong> Samochody, autobusy, zasilanie budynków</div>
-                <div><strong>Zaleta:</strong> Cicha praca, brak wibracji</div>
-            </div>
-        </div>
-
-        <!-- COMPARISON -->
-        <div style="margin-top: 25px;">
-            <h3>Porównanie metod</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Cecha</th>
-                        <th>Spalanie</th>
-                        <th>Ogniwo paliwowe</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Sprawność</td>
-                        <td>30-40%</td>
-                        <td style="color: #27ae60; font-weight: 600;">50-60%</td>
-                    </tr>
-                    <tr>
-                        <td>Produkt energetyczny</td>
-                        <td>Ciepło → ruch mechaniczny</td>
-                        <td>Prąd elektryczny (bezpośrednio)</td>
-                    </tr>
-                    <tr>
-                        <td>Hałas</td>
-                        <td>Wysoki (silnik)</td>
-                        <td style="color: #27ae60;">Niski (reakcja cicha)</td>
-                    </tr>
-                    <tr>
-                        <td>Zastosowanie</td>
-                        <td>Przemysł, turbiny</td>
-                        <td>Transport, zasilanie stacjonarne</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="info-box" style="margin-top: 20px; text-align: center;">
+            <p style="margin: 0; font-size: 12px;"><strong>Wniosek:</strong> Wodór i baterie to <strong>nie konkurenci, lecz uzupełnienie</strong>. Baterie dla małych zastosowań i krótkich tras, wodór dla przemysłu i transportu ciężkiego. Razem umożliwiają pełną dekarbonizację.</p>
         </div>
 
         <div class="slide-footer">
